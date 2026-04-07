@@ -80,7 +80,7 @@ class CfgUserActions
 	{
 		displayName = "Open Main Menu";
 		tooltip = "Open or close the SQF Lab main menu";
-		onActivate = "if (_this) then { [] call SQFLab_fnc_mainMenu }";
+		onActivate = "if (_this) then { [] spawn SQFLab_fnc_mainMenu }";
 		modifierBlocking = 1;
 	};
 };
