@@ -1,0 +1,4 @@
+prefix = "sqflab\\addons\\SQFlab"
+
+[rapify]
+enabled = false
