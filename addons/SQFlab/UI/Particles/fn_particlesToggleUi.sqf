@@ -5,7 +5,10 @@
 #include "ui_particles_controls.hpp"
 
 private _display = uiNamespace getVariable ["SQFLab_particles_display", displayNull];
-if (isNull _display) exitWith { false };
+if (isNull _display) exitWith {
+	diag_log "[SQFLab] SQFLab_ParticlesToggleUi could not find the particles menu";
+	systemChat "SQF Lab particles menu could not be found";
+};
 
 private _hideBtn = _display displayCtrl SQFLAB_IDC_BTN_HIDE_UI;
 private _isHidden = uiNamespace getVariable ["SQFLab_particles_uiHidden", false];

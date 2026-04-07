@@ -4,7 +4,10 @@
 
 #include "ui_particles_controls.hpp"
 private _display = uiNamespace getVariable ["SQFLab_particles_display", displayNull];
-if (isNull _display) exitWith { false };
+if (isNull _display) exitWith {
+	diag_log "[SQFLab] SQFLab_ParticlesOnSlider could not find the particles menu";
+	systemChat "SQF Lab particles menu could not be found";
+};
 
 private _pairs = [
 	[SQFLAB_IDC_SLIDER_SIZE, SQFLAB_IDC_VALUE_SIZE],
@@ -66,9 +69,9 @@ if (!isNull _anchor && !isNull _source) then {
 		};
 	};
 
-	private _colorR = (_baseRGB select 0) * _r;
-	private _colorG = (_baseRGB select 1) * _g;
-	private _colorB = (_baseRGB select 2) * _b;
+	private _colorR = (_baseRGB # 0) * _r;
+	private _colorG = (_baseRGB # 1) * _g;
+	private _colorB = (_baseRGB # 2) * _b;
 	private _sizeMid = _size * 1.25;
 	private _sizeEnd = _size * 1.75;
 

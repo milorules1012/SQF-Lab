@@ -6,8 +6,8 @@
 
 private _display = uiNamespace getVariable ["SQFLab_particles_display", displayNull];
 if (isNull _display) exitWith {
-	hint "Particles menu is not open.";
-	false
+	diag_log "[SQFLab] SQFLab_ParticlesExport could not find the particles menu";
+	systemChat "SQF Lab particles menu could not be found";
 };
 
 private _size = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_SIZE);

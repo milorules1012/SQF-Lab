@@ -2,6 +2,8 @@
 // Author: Milo
 // Description: Initializes the particle effect menu and camera.
 
+#define SQFLAB_PARTICLE_DEFAULT_TYPE "fire"
+
 #include "ui_particles_controls.hpp"
 params [
 	["_event", displayNull, [displayNull, []]]
@@ -16,8 +18,7 @@ if (_event isEqualType displayNull) then {
 if (isNull _display) exitWith { false };
 
 uiNamespace setVariable ["SQFLab_particles_display", _display];
-uiNamespace setVariable ["SQFLab_particles_pipRT", "SQFLAB_PARTICLE_RT"];
-uiNamespace setVariable ["SQFLab_particles_previewType", "fire"];
+uiNamespace setVariable ["SQFLab_particles_previewType", SQFLAB_PARTICLE_DEFAULT_TYPE];
 uiNamespace setVariable ["SQFLab_particles_uiHidden", false];
 
 private _sliderDefaults = createHashMapFromArray [
