@@ -1,0 +1,54 @@
+name: HEMTT
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+env:
+  HEMTT_VERSION: v1.18.3
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: write
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Cache HEMTT
+        id: hemtt-cache
+        uses: actions/cache@v4
+        with:
+          path: hemtt
+          key: hemtt-${{ runner.os }}-x64-${{ env.HEMTT_VERSION }}
+
+      - name: Add HEMTT to PATH (cached)
+        if: steps.hemtt-cache.outputs.cache-hit == 'true'
+        shell: pwsh
+        run: Add-Content -Path $env:GITHUB_PATH -Value (Join-Path $env:GITHUB_WORKSPACE 'hemtt')
+
+      - name: Setup HEMTT
+        if: steps.hemtt-cache.outputs.cache-hit != 'true'
+        uses: arma-actions/hemtt@v1
+        with:
+          version: ${{ env.HEMTT_VERSION }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Adjust PboPrefix
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $addon = Join-Path $env:GITHUB_WORKSPACE 'addons/SQFlab'
+          $mixed = Join-Path $addon 'PboPrefix.txt'
+          if (Test-Path -LiteralPath $mixed) {
+            Copy-Item -LiteralPath $mixed -Destination (Join-Path $addon 'pboprefix.txt') -Force
+            Remove-Item -LiteralPath $mixed -Force
+          }
+
+      - name: Run HEMTT check
+        run: hemtt check --error-on-all
