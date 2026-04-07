@@ -1,0 +1,121 @@
+# SQF lints from https://hemtt.dev/lints/sqf.html
+
+[sqf.required_version]
+enabled = true
+
+[sqf.event_insufficient_version]
+enabled = true
+
+[sqf.event_unknown]
+enabled = true
+
+[sqf.event_incorrect_command]
+enabled = true
+
+[sqf.format_args]
+enabled = true
+
+[sqf.banned_commands]
+enabled = true
+
+[sqf.invalid_comparisons]
+enabled = true
+
+[sqf.bool_static_comparison]
+enabled = true
+
+[sqf.banned_macros]
+enabled = true
+
+[sqf.missing_file]
+enabled = true
+
+[sqf.if_assign]
+enabled = true
+
+[sqf.marker_update_spam]
+enabled = true
+
+[sqf.reimplementing_command]
+enabled = true
+
+[sqf.short_circuit_bool_var]
+enabled = true
+
+[sqf.find_in_str]
+enabled = true
+
+[sqf.static_typename]
+enabled = true
+
+[sqf.select_parse_number]
+enabled = true
+
+[sqf.in_vehicle_check]
+enabled = true
+
+[sqf.count_array_comp]
+enabled = true
+
+[sqf.select_count]
+enabled = true
+
+[sqf.config_of]
+enabled = true
+
+[sqf.count_skipable]
+enabled = true
+
+[sqf.invalid_args]
+enabled = true
+
+[sqf.undefined]
+enabled = true
+
+[sqf.reasign_reserved_variable]
+enabled = true
+
+[sqf.this_call]
+enabled = true
+
+[sqf.var_all_caps]
+enabled = true
+
+[sqf.unused]
+enabled = true
+
+[sqf.extra_not]
+enabled = true
+
+[sqf.command_case]
+enabled = true
+
+[sqf.not_private]
+enabled = true
+
+[sqf.shadowed]
+enabled = true
+
+[sqf.if_not_else]
+enabled = true
+
+[sqf.global_var_in_local]
+enabled = true
+
+# Turned off since weird false positives I don't wanna compensate with getVariable for.
+[sqf.function_undefined]
+enabled = false
+
+
+# No string table yet
+[stringtables.usage]
+options.ignore = [
+    "*",
+]
+options.ignore_unused = true
+
+[stringtables.sorted]
+enabled = false
+
+[stringtables.no_newlines_in_tags]
+enabled = false
