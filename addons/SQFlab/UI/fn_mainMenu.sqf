@@ -18,6 +18,4 @@ if (!isNull _disp) exitWith {
 	true
 };
 
-_uglyAndShouldError = if (alive player) then {true} else {false};
-
 createDialog "SQFLab_MainMenu"

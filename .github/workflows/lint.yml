@@ -2,9 +2,6 @@ name: HEMTT
 
 on:
   pull_request:
-  push:
-    branches:
-      - main
 
 env:
   HEMTT_VERSION: v1.18.3
