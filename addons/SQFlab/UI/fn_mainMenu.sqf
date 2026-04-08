@@ -25,7 +25,7 @@ ctrlEnable [SQFLAB_MM_IDC_BTN_ATTACHTO, false];
 ctrlEnable [SQFLAB_MM_IDC_BTN_CAMERA, false];
 ctrlEnable [SQFLAB_MM_IDC_BTN_DRAWICON3D, false];
 ctrlEnable [SQFLAB_MM_IDC_BTN_LIGHTSOURCES, false];
-ctrlEnable [SQFLAB_MM_IDC_BTN_MARKERS, false];
+ctrlEnable [SQFLAB_MM_IDC_BTN_MARKERS, true];
 ctrlEnable [SQFLAB_MM_IDC_BTN_PARTICLES, true];
 ctrlEnable [SQFLAB_MM_IDC_BTN_SELECTIONVIEWER, false];
 ctrlEnable [SQFLAB_MM_IDC_BTN_TURRET, false];
