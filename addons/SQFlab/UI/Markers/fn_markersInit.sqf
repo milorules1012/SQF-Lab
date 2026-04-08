@@ -106,16 +106,13 @@ if (!isNull _scrollGroup) then {
 	} else {
 		lbClear _list;
 		private _cfgMarkers = configFile >> "CfgMarkers";
-		private _markerNames = [];
-		{
-			if (isClass _x) then {
-				_markerNames pushBack (configName _x);
-			};
-		} forEach (configProperties [_cfgMarkers, "true", true]);
+		private _markerNames = (configProperties [_cfgMarkers, "true", true]) select {
+			(isClass _x && isText (_x >> "texture"))
+		};
 		_markerNames sort true;
 		{
-			private _i = _list lbAdd _x;
-			_list lbSetData [_i, _x];
+			private _i = _list lbAdd (configName _x);
+			_list lbSetData [_i, (configName _x)];
 		} forEach _markerNames;
 		_list lbSetCurSel 0;
 	};
