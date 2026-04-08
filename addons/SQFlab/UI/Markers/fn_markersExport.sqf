@@ -17,9 +17,6 @@ private _wantName = _state get "markerName";
 if (_wantName isEqualTo "") exitWith {
 	systemChat "SQF Lab: marker name is empty; nothing exported.";
 };
-if ((_wantName find ";") >= 0 || (_wantName find "|") >= 0 || (_wantName find toString [10]) >= 0) exitWith {
-	systemChat "SQF Lab: marker name contains invalid characters; nothing exported.";
-};
 
 private _pos = _state get "position";
 private _mkrType = _state get "mkrType";
@@ -36,7 +33,6 @@ private _global = _state get "global";
 
 private _lines = [
 	"// SQF Lab - marker export",
-	"// MP: use *Local for setup, then one global setter at the end to sync (see createMarker wiki).",
 	format ["private _mkr = %1;", str _wantName],
 	format ["private _pos = %1;", str _pos]
 ];

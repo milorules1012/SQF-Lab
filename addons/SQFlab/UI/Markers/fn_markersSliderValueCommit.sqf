@@ -20,18 +20,18 @@ private _sliderIdc = switch (_idc) do {
 };
 if (_sliderIdc < 0) exitWith {};
 
-private _sg = uiNamespace getVariable ["SQFLab_markers_scrollGroup", controlNull];
-private _slider = _sg controlsGroupCtrl _sliderIdc;
-if (isNull _sg || isNull _slider) exitWith {};
+private _scrollGroup = uiNamespace getVariable ["SQFLab_markers_scrollGroup", controlNull];
+private _slider = _scrollGroup controlsGroupCtrl _sliderIdc;
+if (isNull _scrollGroup || isNull _slider) exitWith {};
 
 (sliderRange _slider) params ["_min", "_max"];
-private _n = parseNumber (ctrlText _edit);
-_n = if (finite _n) then {
-	_min max _n min _max;
+private _number = parseNumber (ctrlText _edit);
+_number = if (finite _number) then {
+	_min max _number min _max;
 } else {
 	sliderPosition _slider;
 };
 
-_slider sliderSetPosition _n;
+_slider sliderSetPosition _number;
 [] call SQFLab_fnc_markersOnSlider;
 
