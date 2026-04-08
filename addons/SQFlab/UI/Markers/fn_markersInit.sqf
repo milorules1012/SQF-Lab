@@ -24,25 +24,8 @@ private _scrollGroup = _display displayCtrl SQFLAB_MKR_IDC_GROUP_SCROLL;
 uiNamespace setVariable ["SQFLab_markers_scrollGroup", _scrollGroup];
 
 /* Before sliders / list / combos run: their config events call apply; name must not be empty. */
-// Rework this
-if (!isNull _scrollGroup) then {
-	private _chkPosEarly = _scrollGroup controlsGroupCtrl SQFLAB_MKR_IDC_CHK_POS_OFFSET;
-	if (!isNull _chkPosEarly) then {
-		_chkPosEarly cbSetChecked true;
-	};
-	private _editNameEarly = _scrollGroup controlsGroupCtrl SQFLAB_MKR_IDC_EDIT_NAME;
-	if (!isNull _editNameEarly && (ctrlText _editNameEarly) isEqualTo "") then {
-		_editNameEarly ctrlSetText format ["SQFLab_mkr_%1_%2", clientOwner, floor (diag_tickTime * 1000)];
-	};
-	private _editPosEarly = _scrollGroup controlsGroupCtrl SQFLAB_MKR_IDC_EDIT_POS;
-	if (!isNull _editPosEarly) then {
-		if (isNull _chkPosEarly || { cbChecked _chkPosEarly }) then {
-			_editPosEarly ctrlSetText str (player getPos [SQFLAB_MKR_PREVIEW_OFFSET_METERS, 0]);
-		} else {
-			_editPosEarly ctrlSetText str (getPosATL player);
-		};
-	};
-};
+private _markerEdit = _scrollGroup controlsGroupCtrl SQFLAB_MKR_IDC_EDIT_NAME;
+_markerEdit ctrlSetText format ["SQFLab_mkr_%1", floor (random 999999)];
 
 private _sliderDefaults = createHashMapFromArray [
 	[SQFLAB_MKR_IDC_SLIDER_COLOR_R, 1],
@@ -137,21 +120,24 @@ if (!isNull _scrollGroup) then {
 		_list lbSetCurSel 0;
 	};
 
-	private _chk = _scrollGroup controlsGroupCtrl SQFLAB_MKR_IDC_CHK_GLOBAL;
-	if (!isNull _chk) then {
-		_chk cbSetChecked (uiNamespace getVariable ["SQFLab_markers_global", false]);
+	private _globalCheckbox = _scrollGroup controlsGroupCtrl SQFLAB_MKR_IDC_CHK_GLOBAL;
+	if (!isNull _globalCheckbox) then {
+		_globalCheckbox cbSetChecked (uiNamespace getVariable ["SQFLab_markers_global", false]);
 	};
 };
 
 private _map = _display displayCtrl SQFLAB_MKR_IDC_MAP;
 if (!isNull _map && !isNull _scrollGroup) then {
-	private _chkMap = _scrollGroup controlsGroupCtrl SQFLAB_MKR_IDC_CHK_POS_OFFSET;
-	private _mapFocus = if (isNull _chkMap || { cbChecked _chkMap }) then {
-		player getPos [SQFLAB_MKR_PREVIEW_OFFSET_METERS, 0];
+	private _positionEdit = _scrollGroup controlsGroupCtrl SQFLAB_MKR_IDC_EDIT_POS;
+	private _offsetCheckbox = _scrollGroup controlsGroupCtrl SQFLAB_MKR_IDC_CHK_POS_OFFSET;
+	private _pos = if (cbChecked _offsetCheckbox) then {
+		(player getPos [SQFLAB_MKR_PREVIEW_OFFSET_METERS, 0])
 	} else {
-		getPosATL player;
+		(getPosATL player)
 	};
-	_map ctrlMapAnimAdd [0, 0.22, _mapFocus];
+	_positionEdit ctrlSetText str _pos;
+
+	_map ctrlMapAnimAdd [0, 0.22, _pos];
 	ctrlMapAnimCommit _map;
 };
 

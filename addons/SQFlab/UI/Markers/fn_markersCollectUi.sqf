@@ -17,7 +17,6 @@ if (!isNull _chkPosOff) then {
 	_usePosOffset = cbChecked _chkPosOff;
 };
 
-// No real reason to use getPos here right?
 private _defaultPos = if (_usePosOffset) then {
 	player getPos [SQFLAB_MKR_PREVIEW_OFFSET_METERS, 0];
 } else {
@@ -39,7 +38,6 @@ private _list = _scrollGroup controlsGroupCtrl SQFLAB_MKR_IDC_LIST_TYPES;
 private _mkrType = "hd_dot";
 if (!isNull _list) then {
 	private _i = lbCurSel _list;
-	// Was an if instead- reworked
 	_i = [_i, 0] select (_i < 0);
 	if ((lbSize _list) > 0) then {
 		_mkrType = _list lbData _i;

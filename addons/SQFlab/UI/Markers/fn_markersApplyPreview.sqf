@@ -1,6 +1,6 @@
 // File: fn_markersApplyPreview.sqf
 // Author: Milo
-// Description: Updates the local preview marker from dialog state (*Local create/setters; channel from UI).
+// Description: Updates the local preview marker from dialog state.
 
 #include "ui_markers_controls.hpp"
 
@@ -8,9 +8,7 @@ private _state = call SQFLab_fnc_markersCollectUi;
 if (isNil "_state") exitWith { false };
 
 private _wantName = _state get "markerName";
-if (_wantName isEqualTo "") exitWith {
-	systemChat "SQF Lab: marker name is empty.";
-};
+if (_wantName isEqualTo "") exitWith {};
 
 private _pos = _state get "position";
 if (_state get "positionParsedOk") then {

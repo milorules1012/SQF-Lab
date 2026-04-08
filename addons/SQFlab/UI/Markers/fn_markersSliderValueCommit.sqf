@@ -4,20 +4,7 @@
 
 #include "ui_markers_controls.hpp"
 
-private _edit = controlNull;
-// Rework this garbage
-if (_this isEqualType []) then {
-	if ((count _this) >= 2 && {(typeName (_this select 1)) isEqualTo "CONTROL"}) then {
-		_edit = _this select 1;
-	};
-	if (isNull _edit && { (count _this) >= 1 } && { (typeName (_this select 0)) isEqualTo "CONTROL" }) then {
-		_edit = _this select 0;
-	};
-} else {
-	if ((typeName _this) isEqualTo "CONTROL") then {
-		_edit = _this;
-	};
-};
+private _edit = param [0, controlNull, [controlNull]];
 if (isNull _edit) exitWith {};
 
 private _idc = ctrlIDC _edit;
