@@ -29,9 +29,9 @@ _markerEdit ctrlSetText format ["SQFLab_mkr_%1", floor (random 999999)];
 
 private _sliderDefaults = createHashMapFromArray [
 	[SQFLAB_MKR_IDC_SLIDER_COLOR_R, 1],
-	[SQFLAB_MKR_IDC_SLIDER_COLOR_G, 0.5],
-	[SQFLAB_MKR_IDC_SLIDER_COLOR_B, 0.1],
-	[SQFLAB_MKR_IDC_SLIDER_COLOR_A, 0.9],
+	[SQFLAB_MKR_IDC_SLIDER_COLOR_G, 1],
+	[SQFLAB_MKR_IDC_SLIDER_COLOR_B, 1],
+	[SQFLAB_MKR_IDC_SLIDER_COLOR_A, 1],
 	[SQFLAB_MKR_IDC_SLIDER_SIZE_A, 1],
 	[SQFLAB_MKR_IDC_SLIDER_SIZE_B, 1],
 	[SQFLAB_MKR_IDC_SLIDER_DIR, 0]
@@ -105,14 +105,16 @@ if (!isNull _scrollGroup) then {
 		diag_log "[SQFLab] markersInit: marker type list control missing";
 	} else {
 		lbClear _list;
-		private _cfgMarkers = configFile >> "CfgMarkers";
-		private _markerNames = (configProperties [_cfgMarkers, "true", true]) select {
+		private _markerNames = (configProperties [configFile >> "CfgMarkers", "true", true]) select {
 			(isClass _x && isText (_x >> "texture"))
 		};
 		_markerNames sort true;
 		{
-			private _i = _list lbAdd (configName _x);
-			_list lbSetData [_i, (configName _x)];
+			private _cls = configName _x;
+			private _tex = getText (_x >> "texture");
+			private _i = _list lbAdd _cls;
+			_list lbSetData [_i, _cls];
+			_list lbSetPicture [_i, _tex];
 		} forEach _markerNames;
 		_list lbSetCurSel 0;
 	};

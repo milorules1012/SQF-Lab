@@ -21,7 +21,7 @@
 #define SQFLAB_MKR_ROW_H 0.038
 #define SQFLAB_MKR_ROW_GAP 0.007
 #define SQFLAB_MKR_SECTION_GAP 0.009
-#define SQFLAB_MKR_TYPE_LIST_H 0.13
+#define SQFLAB_MKR_TYPE_LIST_H 0.24
 #define SQFLAB_MKR_BTN_W 0.16
 #define SQFLAB_MKR_BTN_GAP 0.01
 #define SQFLAB_MKR_LABEL_W 0.20
@@ -32,7 +32,6 @@
 #define SQFLAB_MKR_GW (SQFLAB_MKR_PANEL_W - (SQFLAB_MKR_PAD_SIDE * 2))
 #define SQFLAB_MKR_G_ID_LABEL_W 0.14
 #define SQFLAB_MKR_G_EDIT_W (SQFLAB_MKR_GW - SQFLAB_MKR_G_ID_LABEL_W - 0.01)
-#define SQFLAB_MKR_G_GLOBAL_LABEL_W 0.052
 #define SQFLAB_MKR_G_CHK_BOX_W 0.03
 #define SQFLAB_MKR_G_CHK_H 0.028
 #define SQFLAB_MKR_G_SLIDER_X (SQFLAB_MKR_LABEL_W + 0.012)
@@ -244,7 +243,7 @@ class SQFLab_MarkersMenu
 					idc = -1;
 					x = 0;
 					y = SQFLAB_MKR_GS_SCOPE_ROW;
-					w = SQFLAB_MKR_G_GLOBAL_LABEL_W;
+					w = SQFLAB_MKR_LABEL_W;
 					h = SQFLAB_MKR_G_CHK_H;
 					sizeEx = SQFLAB_MKR_LABEL_SIZEEX;
 					style = 0;
@@ -256,7 +255,7 @@ class SQFLab_MarkersMenu
 				class G_ChkGlobal: RscCheckBox
 				{
 					idc = SQFLAB_MKR_IDC_CHK_GLOBAL;
-					x = SQFLAB_MKR_G_GLOBAL_LABEL_W + 0.006;
+					x = SQFLAB_MKR_LABEL_W + 0.006;
 					y = SQFLAB_MKR_GS_SCOPE_ROW;
 					w = SQFLAB_MKR_G_CHK_BOX_W;
 					h = SQFLAB_MKR_G_CHK_H;
@@ -304,7 +303,7 @@ class SQFLab_MarkersMenu
 					w = SQFLAB_MKR_GW;
 					h = SQFLAB_MKR_TYPE_LIST_H;
 					sizeEx = SQFLAB_MKR_LABEL_SIZEEX;
-					rowHeight = 0.034;
+					rowHeight = 0.042;
 					colorBackground[] = {0.05, 0.05, 0.05, 0.92};
 					colorSelect[] = {1, 1, 1, 1};
 					colorSelectBackground[] = SQFLAB_MKR_PROFILE_COLOR(0.55);
