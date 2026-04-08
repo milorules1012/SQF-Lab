@@ -452,7 +452,7 @@ class SQFLab_MarkersMenu
 					colorPressed[] = {1, 1, 1, 1};
 					colorDisabled[] = {1, 1, 1, 0.45};
 					sizeEx = 0.026;
-					checked = 1;
+					checked = 0;
 					onCheckedChanged = "_this call SQFLab_fnc_markersPosOffsetToggle";
 				};
 
