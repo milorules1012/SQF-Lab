@@ -12,7 +12,7 @@ class CfgPatches
 			"A3_Functions_F",
 			"A3_Data_F_AoW_Loadorder"
 		};
-		requiredVersion=2.0799999;
+		requiredVersion=2.20;
 		units[]={};
 		version[]={4,0};
 		versionStr="4.0-Final";
@@ -27,9 +27,13 @@ class RscSlider;
 class RscCombo;
 class RscEdit;
 class RscPicture;
+class RscMapControl;
+class RscListBox;
+class RscCheckBox;
 
 #include "\SQFLab\UI\ui_mainMenu.hpp"
 #include "\SQFLab\UI\Particles\ui_particles.hpp"
+#include "\SQFLab\UI\Markers\ui_markers.hpp"
 
 class CfgFunctions
 {
@@ -58,6 +62,19 @@ class CfgFunctions
 			class particlesOnSlider {};
 			class particlesExport {};
 			class particlesToggleUi {};
+		};
+		class Markers
+		{
+			file = "\SQFLab\UI\Markers";
+			class markersApplyPreview {};
+			class markersCleanup {};
+			class markersCollectUi {};
+			class markersExport {};
+			class markersInit {};
+			class markersMenu {};
+			class markersOnSlider {};
+			class markersPosOffsetToggle {};
+			class markersSliderValueCommit {};
 		};
 		class Config
 		{

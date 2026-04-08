@@ -133,6 +133,7 @@ class SQFLab_MainMenu
 			idc = SQFLAB_MM_IDC_BTN_MARKERS;
 			y = SQFLAB_MM_Y_MARKERS;
 			text = "Markers";
+			action = "[] call SQFLab_fnc_markersMenu";
 		};
 
 		class BtnParticles: BtnAnimations
