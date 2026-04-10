@@ -115,6 +115,27 @@ class CfgUserActions
 		onActivate = "if (_this) then { [] spawn SQFLab_fnc_mainMenu }";
 		modifierBlocking = 1;
 	};
+	class SQFLab_OpenLights
+	{
+		displayName = "Open Light Sources Editor";
+		tooltip = "Open or close the SQF Lab light sources editor";
+		onActivate = "if (_this) then { [] spawn SQFLab_fnc_lightsMenu }";
+		modifierBlocking = 1;
+	};
+	class SQFLab_OpenMarkers
+	{
+		displayName = "Open Markers Editor";
+		tooltip = "Open or close the SQF Lab markers editor";
+		onActivate = "if (_this) then { [] spawn SQFLab_fnc_markersMenu }";
+		modifierBlocking = 1;
+	};
+	class SQFLab_OpenParticles
+	{
+		displayName = "Open Particles Editor";
+		tooltip = "Open or close the SQF Lab particles editor";
+		onActivate = "if (_this) then { [] spawn SQFLab_fnc_particlesMenu }";
+		modifierBlocking = 1;
+	};
 };
 
 class UserActionGroups
@@ -123,6 +144,6 @@ class UserActionGroups
 	{
 		name = "SQF Lab";
 		isAddon = 1;
-		group[] = { "SQFLab_OpenMainMenu" };
+		group[] = { "SQFLab_OpenMainMenu", "SQFLab_OpenLights", "SQFLab_OpenMarkers", "SQFLab_OpenParticles" };
 	};
 };
