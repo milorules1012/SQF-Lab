@@ -7,7 +7,7 @@
 private _cfg = configFile >> "SQFLab_MainMenu";
 if (!isClass _cfg) exitWith {
 	diag_log "[SQFLab] SQFLab_MainMenu display class missing from config";
-	systemChat "SQF Lab main menu display class missing from config";
+	systemChat (localize "STR_SQFLAB_Err_MainMenuDisplayMissing");
 };
 
 private _idd = getNumber (_cfg >> "idd");

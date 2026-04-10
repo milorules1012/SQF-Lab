@@ -79,7 +79,7 @@ class SQFLab_MainMenu
 			y = SQFLAB_MM_PANEL_Y + SQFLAB_MM_PAD_TOP;
 			w = SQFLAB_MM_BTN_W;
 			h = SQFLAB_MM_TITLE_H;
-			text = "SQF Lab";
+			text = $STR_SQFLAB_Main_Title;
 			style = 2;
 			sizeEx = 0.042;
 			colorBackground[] = SQFLAB_MM_PROFILE_COLOR(0.9);
@@ -93,10 +93,9 @@ class SQFLab_MainMenu
 			y = SQFLAB_MM_Y_ANIMATIONS;
 			w = SQFLAB_MM_BTN_W;
 			h = SQFLAB_MM_BTN_H;
-			text = "Animations";
+			text = $STR_SQFLAB_Main_Animations;
 			colorBackground[] = SQFLAB_MM_PROFILE_COLOR(0.9);
 			colorBackgroundFocused[] = SQFLAB_MM_PROFILE_COLOR(1);
-			tooltip = "";
 			action = "";
 		};
 
@@ -104,28 +103,28 @@ class SQFLab_MainMenu
 		{
 			idc = SQFLAB_MM_IDC_BTN_ATTACHTO;
 			y = SQFLAB_MM_Y_ATTACHTO;
-			text = "AttachTo";
+			text = $STR_SQFLAB_Main_AttachTo;
 		};
 
 		class BtnCamera: BtnAnimations
 		{
 			idc = SQFLAB_MM_IDC_BTN_CAMERA;
 			y = SQFLAB_MM_Y_CAMERA;
-			text = "Camera";
+			text = $STR_SQFLAB_Main_Camera;
 		};
 
 		class BtnDrawIcon3D: BtnAnimations
 		{
 			idc = SQFLAB_MM_IDC_BTN_DRAWICON3D;
 			y = SQFLAB_MM_Y_DRAWICON3D;
-			text = "DrawIcon3D";
+			text = $STR_SQFLAB_Main_DrawIcon3D;
 		};
 
 		class BtnLightSources: BtnAnimations
 		{
 			idc = SQFLAB_MM_IDC_BTN_LIGHTSOURCES;
 			y = SQFLAB_MM_Y_LIGHTSOURCES;
-			text = "Light sources";
+			text = $STR_SQFLAB_Main_LightSources;
 			action = "[] call SQFLab_fnc_lightsMenu";
 		};
 
@@ -133,7 +132,7 @@ class SQFLab_MainMenu
 		{
 			idc = SQFLAB_MM_IDC_BTN_MARKERS;
 			y = SQFLAB_MM_Y_MARKERS;
-			text = "Markers";
+			text = $STR_SQFLAB_Main_Markers;
 			action = "[] call SQFLab_fnc_markersMenu";
 		};
 
@@ -141,7 +140,7 @@ class SQFLab_MainMenu
 		{
 			idc = SQFLAB_MM_IDC_BTN_PARTICLES;
 			y = SQFLAB_MM_Y_PARTICLES;
-			text = "Particles";
+			text = $STR_SQFLAB_Main_Particles;
 			action = "[] call SQFLab_fnc_particlesMenu";
 		};
 
@@ -149,28 +148,28 @@ class SQFLab_MainMenu
 		{
 			idc = SQFLAB_MM_IDC_BTN_SELECTIONVIEWER;
 			y = SQFLAB_MM_Y_SELECTIONVIEWER;
-			text = "Selection viewer";
+			text = $STR_SQFLAB_Main_SelectionViewer;
 		};
 
 		class BtnTurret: BtnAnimations
 		{
 			idc = SQFLAB_MM_IDC_BTN_TURRET;
 			y = SQFLAB_MM_Y_TURRET;
-			text = "Turret";
+			text = $STR_SQFLAB_Main_Turret;
 		};
 
 		class BtnUIEditor: BtnAnimations
 		{
 			idc = SQFLAB_MM_IDC_BTN_UIEDITOR;
 			y = SQFLAB_MM_Y_UIEDITOR;
-			text = "UI editor";
+			text = $STR_SQFLAB_Main_UIEditor;
 		};
 
 		class BtnWeather: BtnAnimations
 		{
 			idc = SQFLAB_MM_IDC_BTN_WEATHER;
 			y = SQFLAB_MM_Y_WEATHER;
-			text = "Weather";
+			text = $STR_SQFLAB_Main_Weather;
 		};
 	};
 };

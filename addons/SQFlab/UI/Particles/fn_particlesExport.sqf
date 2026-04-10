@@ -7,7 +7,7 @@
 private _display = uiNamespace getVariable ["SQFLab_particles_display", displayNull];
 if (isNull _display) exitWith {
 	diag_log "[SQFLab] SQFLab_ParticlesExport could not find the particles menu";
-	systemChat "SQF Lab particles menu could not be found";
+	systemChat (localize "STR_SQFLAB_Err_ParticlesMenuNotFound");
 };
 
 private _size = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_SIZE);
@@ -90,10 +90,10 @@ private _text = _lines joinString _nl;
 
 if (isServer) then {
 	copyToClipboard _text;
-	hint "Particle SQF exported to clipboard.";
+	hint (localize "STR_SQFLAB_Hint_ParticleExportClipboard");
 } else {
 	{ diag_log _x } forEach _lines;
-	hint "Particle SQF written to RPT as clipboard is not supported in this environment.";
+	hint (localize "STR_SQFLAB_Hint_ParticleExportRpt");
 };
 
 true

@@ -7,7 +7,7 @@
 private _display = uiNamespace getVariable ["SQFLab_lights_display", displayNull];
 if (isNull _display) exitWith {
 	diag_log "[SQFLab] SQFLab_lightsExport could not find the lights menu";
-	systemChat "SQF Lab lights menu could not be found";
+	systemChat (localize "STR_SQFLAB_Err_LightsMenuNotFound");
 };
 
 private _type = toLower (uiNamespace getVariable ["SQFLab_lights_type", "point"]);
@@ -81,8 +81,8 @@ private _text = _lines joinString _nl;
 
 if (isServer) then {
 	copyToClipboard _text;
-	hint "Light SQF exported to clipboard.";
+	hint (localize "STR_SQFLAB_Hint_LightExportClipboard");
 } else {
 	{ diag_log _x } forEach _lines;
-	hint "Light SQF written to RPT as clipboard is not supported in this environment.";
+	hint (localize "STR_SQFLAB_Hint_LightExportRpt");
 };

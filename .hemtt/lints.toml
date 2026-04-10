@@ -107,11 +107,7 @@ enabled = true
 enabled = false
 
 
-# No string table yet
 [stringtables.usage]
-options.ignore = [
-    "*",
-]
 options.ignore_unused = true
 
 [stringtables.sorted]

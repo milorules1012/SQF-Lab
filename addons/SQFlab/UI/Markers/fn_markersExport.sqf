@@ -7,7 +7,7 @@
 private _display = uiNamespace getVariable ["SQFLab_markers_display", displayNull];
 if (isNull _display) exitWith {
 	diag_log "[SQFLab] markersExport could not find the markers menu";
-	systemChat "SQF Lab markers menu could not be found";
+	systemChat (localize "STR_SQFLAB_Err_MarkersMenuNotFound");
 };
 
 private _state = call SQFLab_fnc_markersCollectUi;
@@ -15,7 +15,7 @@ if (isNil "_state") exitWith {};
 
 private _wantName = _state get "markerName";
 if (_wantName isEqualTo "") exitWith {
-	systemChat "SQF Lab: marker name is empty; nothing exported.";
+	systemChat (localize "STR_SQFLAB_Err_MarkerNameEmpty");
 };
 
 private _pos = _state get "position";
@@ -65,8 +65,8 @@ private _textOut = _lines joinString _nl;
 
 if (isServer) then {
 	copyToClipboard _textOut;
-	hint "Marker SQF exported to clipboard.";
+	hint (localize "STR_SQFLAB_Hint_MarkerExportClipboard");
 } else {
 	{ diag_log _x } forEach _lines;
-	hint "Marker SQF written to RPT as clipboard is not supported in this environment.";
+	hint (localize "STR_SQFLAB_Hint_MarkerExportRpt");
 };

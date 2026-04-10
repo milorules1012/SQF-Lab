@@ -110,29 +110,29 @@ class CfgUserActions
 {
 	class SQFLab_OpenMainMenu
 	{
-		displayName = "Open Main Menu";
-		tooltip = "Open or close the SQF Lab main menu";
+		displayName = $STR_SQFLAB_Keybind_MainMenu;
+		tooltip = $STR_SQFLAB_Keybind_MainMenu_Tooltip;
 		onActivate = "if (_this) then { [] spawn SQFLab_fnc_mainMenu }";
 		modifierBlocking = 1;
 	};
 	class SQFLab_OpenLights
 	{
-		displayName = "Open Light Sources Editor";
-		tooltip = "Open or close the SQF Lab light sources editor";
+		displayName = $STR_SQFLAB_Keybind_Lights;
+		tooltip = $STR_SQFLAB_Keybind_Lights_Tooltip;
 		onActivate = "if (_this) then { [] spawn SQFLab_fnc_lightsMenu }";
 		modifierBlocking = 1;
 	};
 	class SQFLab_OpenMarkers
 	{
-		displayName = "Open Markers Editor";
-		tooltip = "Open or close the SQF Lab markers editor";
+		displayName = $STR_SQFLAB_Keybind_Markers;
+		tooltip = $STR_SQFLAB_Keybind_Markers_Tooltip;
 		onActivate = "if (_this) then { [] spawn SQFLab_fnc_markersMenu }";
 		modifierBlocking = 1;
 	};
 	class SQFLab_OpenParticles
 	{
-		displayName = "Open Particles Editor";
-		tooltip = "Open or close the SQF Lab particles editor";
+		displayName = $STR_SQFLAB_Keybind_Particles;
+		tooltip = $STR_SQFLAB_Keybind_Particles_Tooltip;
 		onActivate = "if (_this) then { [] spawn SQFLab_fnc_particlesMenu }";
 		modifierBlocking = 1;
 	};
@@ -142,7 +142,7 @@ class UserActionGroups
 {
 	class SQFLabSection
 	{
-		name = "SQF Lab";
+		name = $STR_SQFLAB_Keybind_Group;
 		isAddon = 1;
 		group[] = { "SQFLab_OpenMainMenu", "SQFLab_OpenLights", "SQFLab_OpenMarkers", "SQFLab_OpenParticles" };
 	};

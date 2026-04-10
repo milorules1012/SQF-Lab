@@ -6,13 +6,13 @@
 private _display = uiNamespace getVariable ["SQFLab_markers_display", displayNull];
 if (isNull _display) exitWith {
 	diag_log "[SQFLab] SQFLab_MarkersOnSlider could not find the markers menu";
-	systemChat "SQF Lab markers menu could not be found";
+	systemChat (localize "STR_SQFLAB_Err_MarkersMenuNotFound");
 };
 
 private _scrollGroup = uiNamespace getVariable ["SQFLab_markers_scrollGroup", controlNull];
 if (isNull _scrollGroup) exitWith {
 	diag_log "[SQFLab] SQFLab_MarkersOnSlider could not find scroll group";
-	systemChat "SQF Lab markers scroll group could not be found";
+	systemChat (localize "STR_SQFLAB_Err_MarkersScrollMissing");
 };
 
 private _pairs = [

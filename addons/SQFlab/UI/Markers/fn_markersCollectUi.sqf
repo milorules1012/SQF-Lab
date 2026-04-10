@@ -50,7 +50,8 @@ private _shape = "ICON";
 if (!isNull _comboShape && { lbSize _comboShape > 0 }) then {
 	private _selectionIndex = lbCurSel _comboShape;
 	if (_selectionIndex < 0) then { _selectionIndex = 0 };
-	_shape = _comboShape lbText _selectionIndex;
+	_shape = _comboShape lbData _selectionIndex;
+	if (_shape isEqualTo "") then { _shape = _comboShape lbText _selectionIndex };
 };
 
 private _comboBrush = _scrollGroup controlsGroupCtrl SQFLAB_MKR_IDC_COMBO_BRUSH;
@@ -58,10 +59,22 @@ private _brush = "Solid";
 if (!isNull _comboBrush && { lbSize _comboBrush > 0 }) then {
 	private _brushIndex = lbCurSel _comboBrush;
 	if (_brushIndex < 0) then { _brushIndex = 0 };
-	_brush = _comboBrush lbText _brushIndex;
+	_brush = _comboBrush lbData _brushIndex;
+	if (_brush isEqualTo "") then { _brush = _comboBrush lbText _brushIndex };
 };
 
-private _shadow = parseNumber ((lbCurSel (_scrollGroup controlsGroupCtrl SQFLAB_MKR_IDC_COMBO_SHADOW)) > 0);
+private _comboShadowCtrl = _scrollGroup controlsGroupCtrl SQFLAB_MKR_IDC_COMBO_SHADOW;
+private _shadow = 0;
+if (!isNull _comboShadowCtrl && { lbSize _comboShadowCtrl > 0 }) then {
+	private _si = lbCurSel _comboShadowCtrl;
+	if (_si < 0) then { _si = 0 };
+	private _sd = _comboShadowCtrl lbData _si;
+	if (_sd isEqualTo "") then {
+		_shadow = parseNumber (_si > 0);
+	} else {
+		_shadow = round (parseNumber _sd);
+	};
+};
 
 private _comboChannel = _scrollGroup controlsGroupCtrl SQFLAB_MKR_IDC_COMBO_CHANNEL;
 private _channel = 0;
