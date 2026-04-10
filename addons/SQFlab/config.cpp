@@ -34,6 +34,7 @@ class RscCheckBox;
 #include "\SQFLab\UI\ui_mainMenu.hpp"
 #include "\SQFLab\UI\Particles\ui_particles.hpp"
 #include "\SQFLab\UI\Markers\ui_markers.hpp"
+#include "\SQFLab\UI\Lights\ui_lights.hpp"
 
 class CfgFunctions
 {
@@ -75,6 +76,18 @@ class CfgFunctions
 			class markersOnSlider {};
 			class markersPosOffsetToggle {};
 			class markersSliderValueCommit {};
+		};
+		class Lights
+		{
+			file = "\SQFLab\UI\Lights";
+			class lightsCleanup {};
+			class lightsExport {};
+			class lightsInit {};
+			class lightsMenu {};
+			class lightsOnSlider {};
+			class lightsSetTimeDay {};
+			class lightsSetTimeNight {};
+			class lightsToggleUi {};
 		};
 		class Config
 		{

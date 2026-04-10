@@ -126,6 +126,7 @@ class SQFLab_MainMenu
 			idc = SQFLAB_MM_IDC_BTN_LIGHTSOURCES;
 			y = SQFLAB_MM_Y_LIGHTSOURCES;
 			text = "Light sources";
+			action = "[] call SQFLab_fnc_lightsMenu";
 		};
 
 		class BtnMarkers: BtnAnimations
