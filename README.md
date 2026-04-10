@@ -6,7 +6,7 @@ SQF Lab is an Arma 3 addon aimed at making **mission and mod development easier*
 
 ## Light sources editor
 
-Tune point and reflector lights (colour, power, cone, flare, preview time, etc.) and export the setup as SQF.
+Tune point and reflector lights (color, power, cone, flare, preview time, etc.) and export the setup as SQF.
 
 <p align="center">
   <table border="0" cellspacing="0" cellpadding="0">
@@ -17,9 +17,18 @@ Tune point and reflector lights (colour, power, cone, flare, preview time, etc.)
   </table>
 </p>
 
+- **Light type** — switch between point and reflector lights.
+- **Transform** — edit ATL position; tune direction and up with sliders (for aiming reflectors via `setVectorDirAndUp`).
+- **Color** — separate light and ambient RGB; live color preview swatch.
+- **Power** — one control that drives `setLightBrightness` (point) or `setLightIntensity` (reflector).
+- **Flare (point)** — optional flare, size, and max distance (although not visible in camera due to limitations- sorry!).
+- **Preview time** — day / night presets (`setDate`) for the mission clock; affects the world and the picture-in-picture preview; restored when you close the dialog.
+- **Reflector cone** — outer, inner, and coef for `setLightConePars` (ignored for point lights).
+- **Live preview** — dedicated PiP panel next to the editor so you see the light while tweaking values.
+
 ## Markers editor
 
-Configure marker identity, channel, shape, brush, colour (RGBA), position, and related options, with a live map preview and SQF export.
+Configure marker identity, channel, shape, brush, color (RGBA), position, and related options, with a live map preview and SQF export.
 
 <p align="center">
   <table border="0" cellspacing="0" cellpadding="0">
@@ -30,9 +39,19 @@ Configure marker identity, channel, shape, brush, colour (RGBA), position, and r
   </table>
 </p>
 
+- **Map preview** — full map control beside the form; marker updates as you edit.
+- **Identity** — marker name and display text.
+- **Scope** — controls whether exported commands are local or suffix with one global.
+- **Channel** — defines channel (default, global, side, command, group, vehicle, direct).
+- **Type** — pick an icon from `CfgMarkers` (limited by markers with a `texture` property- sorry!).
+- **Color (RGBA)** — sliders for color affect direct RGBA strings for `setMarkerColorLocal`.
+- **Position** — position for `setMarkerPos`; optional north offset so the preview is not drawn on player icon.
+- **Shape** — icon, rectangle, or ellipse; size A/B and direction.
+- **Brush** — `setMarkerBrush` patterns (solid, border, grid, diagonals, cross, DiagGrid).
+
 ## Particles editor
 
-Adjust particle type, colours, motion, and related parameters, then export particle SQF.
+Adjust particle type, colors, motion, and related parameters, then export particle SQF.
 
 <p align="center">
   <table border="0" cellspacing="0" cellpadding="0">
@@ -42,3 +61,8 @@ Adjust particle type, colours, motion, and related parameters, then export parti
     </tr>
   </table>
 </p>
+
+- **Preset** — fire, smoke, or drop modes; each applies different base color and motion defaults.
+- **Color** — RGBA sliders with a live preview swatch (combined with the preset base).
+- **Particle params** — size, lifetime, spawn interval, move velocity, rotation velocity, weight, volume, and rubbing; etc.
+- **Live preview** — picture-in-picture next to the panel so you see the effect while moving sliders.
