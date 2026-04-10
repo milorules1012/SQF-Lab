@@ -94,5 +94,3 @@ private _previewCtrl = _display displayCtrl SQFLAB_LT_IDC_PREVIEW_PICTURE;
 _previewCtrl ctrlSetText "#(argb,512,512,1)r2t(SQFLAB_LIGHT_RT,1.0)";
 
 [] call SQFLab_fnc_lightsOnSlider;
-
-true

@@ -4,25 +4,6 @@
 
 #include "ui_lights_controls.hpp"
 
-private _vecCross = {
-	params ["_u", "_v"];
-	[
-		(_u select 1) * (_v select 2) - (_u select 2) * (_v select 1),
-		(_u select 2) * (_v select 0) - (_u select 0) * (_v select 2),
-		(_u select 0) * (_v select 1) - (_u select 1) * (_v select 0)
-	];
-};
-private _vecNorm = {
-	params ["_v"];
-	private _m = _v distance [0, 0, 0];
-	if (_m < 1e-10) exitWith { [0, 0, 1] };
-	[
-		(_v select 0) / _m,
-		(_v select 1) / _m,
-		(_v select 2) / _m
-	];
-};
-
 private _display = uiNamespace getVariable ["SQFLab_lights_display", displayNull];
 if (isNull _display) exitWith {
 	diag_log "[SQFLab] SQFLab_lightsExport could not find the lights menu";
@@ -56,12 +37,12 @@ private _dirVec = [
 	sin _pitchRad
 ];
 private _worldUp = [0, 0, 1];
-private _right = [_worldUp, _dirVec] call _vecCross;
+private _right = [_worldUp, _dirVec] call SQFLab_fnc_vecCross;
 if ((_right distance [0, 0, 0]) < 1e-4) then {
-	_right = [[0, 1, 0], _dirVec] call _vecCross;
+	_right = [[0, 1, 0], _dirVec] call SQFLab_fnc_vecCross;
 };
-_right = [_right] call _vecNorm;
-private _upVec = [[_dirVec, _right] call _vecCross] call _vecNorm;
+_right = [_right] call SQFLab_fnc_vecNorm;
+private _upVec = [[_dirVec, _right] call SQFLab_fnc_vecCross] call SQFLab_fnc_vecNorm;
 
 private _lines = [
 	"// SQF Lab — local light export (run on client where the light should exist)",
@@ -94,7 +75,6 @@ if (_type isEqualTo "reflector") then {
 
 _lines pushBack "_lt setLightDayLight true;";
 _lines pushBack "_lt setLightIR false;";
-_lines pushBack "// deleteVehicle _lt; // when done";
 
 private _nl = toString [10];
 private _text = _lines joinString _nl;
@@ -106,5 +86,3 @@ if (isServer) then {
 	{ diag_log _x } forEach _lines;
 	hint "Light SQF written to RPT as clipboard is not supported in this environment.";
 };
-
-true

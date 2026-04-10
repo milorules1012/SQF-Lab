@@ -44,6 +44,8 @@ class CfgFunctions
 		class Functions
 		{
 			file = "\SQFLab\Functions";
+			class vecCross {};
+			class vecNorm {};
 		};
 		class Events
 		{

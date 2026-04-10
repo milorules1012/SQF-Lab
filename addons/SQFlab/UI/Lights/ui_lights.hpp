@@ -180,7 +180,7 @@ class SQFLab_LightsMenu
 			y = SQFLAB_LT_Y_POS_EDIT;
 			w = SQFLAB_LT_LABEL_W;
 			h = SQFLAB_LT_ROW_H;
-			text = "Position ATL";
+			text = "Position";
 			sizeEx = SQFLAB_LT_LABEL_SIZEEX;
 			colorBackground[] = {0, 0, 0, 0};
 		};

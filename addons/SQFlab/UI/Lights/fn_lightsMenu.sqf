@@ -14,10 +14,10 @@ if !(isPlayer player) exitWith {
 };
 
 private _idd = getNumber (_cfg >> "idd");
-private _disp = findDisplay _idd;
+private _display = findDisplay _idd;
 
-if (!isNull _disp) exitWith {
-	_disp closeDisplay 2;
+if (!isNull _display) exitWith {
+	_display closeDisplay 2;
 };
 
 createDialog "SQFLab_LightsMenu";
