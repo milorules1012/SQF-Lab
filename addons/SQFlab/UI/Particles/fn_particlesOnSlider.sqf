@@ -6,7 +6,7 @@
 private _display = uiNamespace getVariable ["SQFLab_particles_display", displayNull];
 if (isNull _display) exitWith {
 	diag_log "[SQFLab] SQFLab_ParticlesOnSlider could not find the particles menu";
-	systemChat "SQF Lab particles menu could not be found";
+	systemChat (localize "STR_SQFLAB_Err_ParticlesMenuNotFound");
 };
 
 private _pairs = [

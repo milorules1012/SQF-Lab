@@ -62,22 +62,44 @@ if (!isNull _scrollGroup) then {
 	private _comboShape = _scrollGroup controlsGroupCtrl SQFLAB_MKR_IDC_COMBO_SHAPE;
 	if (!isNull _comboShape) then {
 		lbClear _comboShape;
-		{ _comboShape lbAdd _x } forEach ["ICON", "RECTANGLE", "ELLIPSE"];
+		{
+			_x params ["_strKey", "_data"];
+			private _i = _comboShape lbAdd (localize _strKey);
+			_comboShape lbSetData [_i, _data];
+		} forEach [
+			["STR_SQFLAB_Markers_ShapeIcon", "ICON"],
+			["STR_SQFLAB_Markers_ShapeRectangle", "RECTANGLE"],
+			["STR_SQFLAB_Markers_ShapeEllipse", "ELLIPSE"]
+		];
 		_comboShape lbSetCurSel 0;
 	};
 
 	private _comboBrush = _scrollGroup controlsGroupCtrl SQFLAB_MKR_IDC_COMBO_BRUSH;
 	if (!isNull _comboBrush) then {
 		lbClear _comboBrush;
-		{ _comboBrush lbAdd _x } forEach ["Solid", "Border", "Grid", "FDiagonal", "BDiagonal", "Cross", "DiagGrid"];
+		{
+			_x params ["_strKey", "_data"];
+			private _i = _comboBrush lbAdd (localize _strKey);
+			_comboBrush lbSetData [_i, _data];
+		} forEach [
+			["STR_SQFLAB_Markers_BrushSolid", "Solid"],
+			["STR_SQFLAB_Markers_BrushBorder", "Border"],
+			["STR_SQFLAB_Markers_BrushGrid", "Grid"],
+			["STR_SQFLAB_Markers_BrushFDiagonal", "FDiagonal"],
+			["STR_SQFLAB_Markers_BrushBDiagonal", "BDiagonal"],
+			["STR_SQFLAB_Markers_BrushCross", "Cross"],
+			["STR_SQFLAB_Markers_BrushDiagGrid", "DiagGrid"]
+		];
 		_comboBrush lbSetCurSel 0;
 	};
 
 	private _comboShadow = _scrollGroup controlsGroupCtrl SQFLAB_MKR_IDC_COMBO_SHADOW;
 	if (!isNull _comboShadow) then {
 		lbClear _comboShadow;
-		_comboShadow lbAdd "Off";
-		_comboShadow lbAdd "On";
+		private _iOff = _comboShadow lbAdd (localize "STR_SQFLAB_Markers_ShadowOff");
+		_comboShadow lbSetData [_iOff, "0"];
+		private _iOn = _comboShadow lbAdd (localize "STR_SQFLAB_Markers_ShadowOn");
+		_comboShadow lbSetData [_iOn, "1"];
 		_comboShadow lbSetCurSel 0;
 	};
 
@@ -85,17 +107,17 @@ if (!isNull _scrollGroup) then {
 	if (!isNull _comboChannel) then {
 		lbClear _comboChannel;
 		{
-			_x params ["_label", "_data"];
-			private _i = _comboChannel lbAdd _label;
+			_x params ["_strKey", "_data"];
+			private _i = _comboChannel lbAdd (localize _strKey);
 			_comboChannel lbSetData [_i, _data];
 		} forEach [
-			["Default", "-1"],
-			["Global", "0"],
-			["Side", "1"],
-			["Command", "2"],
-			["Group", "3"],
-			["Vehicle", "4"],
-			["Direct", "5"]
+			["STR_SQFLAB_Markers_ChannelDefault", "-1"],
+			["STR_SQFLAB_Markers_ChannelGlobal", "0"],
+			["STR_SQFLAB_Markers_ChannelSide", "1"],
+			["STR_SQFLAB_Markers_ChannelCommand", "2"],
+			["STR_SQFLAB_Markers_ChannelGroup", "3"],
+			["STR_SQFLAB_Markers_ChannelVehicle", "4"],
+			["STR_SQFLAB_Markers_ChannelDirect", "5"]
 		];
 		_comboChannel lbSetCurSel 0;
 	};

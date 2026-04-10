@@ -17,7 +17,7 @@ if (_state get "positionParsedOk") then {
 
 private _currentName = uiNamespace getVariable ["SQFLab_markers_previewName", ""];
 if (_wantName != _currentName && {_wantName in allMapMarkers}) exitWith {
-	systemChat "SQF Lab: a marker with that name already exists. Choose another name.";
+	systemChat (localize "STR_SQFLAB_Err_MarkerNameDuplicate");
 };
 
 if ((_currentName != "") && _currentName != _wantName && {_currentName in allMapMarkers}) then {

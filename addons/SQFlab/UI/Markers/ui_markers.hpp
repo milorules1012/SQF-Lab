@@ -119,7 +119,7 @@ class SQFLab_MarkersMenu
 			y = SQFLAB_MKR_MAP_Y + SQFLAB_MKR_PAD_TOP;
 			w = SQFLAB_MKR_PANEL_W - (SQFLAB_MKR_PAD_SIDE * 2);
 			h = SQFLAB_MKR_TITLE_H;
-			text = "Map";
+			text = $STR_SQFLAB_Markers_Map;
 			style = 2;
 			sizeEx = 0.042;
 			colorBackground[] = SQFLAB_MKR_PROFILE_COLOR(0.9);
@@ -142,7 +142,7 @@ class SQFLab_MarkersMenu
 			y = SQFLAB_MKR_Y_DIALOG_TITLE;
 			w = SQFLAB_MKR_PANEL_W - (SQFLAB_MKR_PAD_SIDE * 2);
 			h = SQFLAB_MKR_TITLE_H;
-			text = "Markers";
+			text = $STR_SQFLAB_Markers_Title;
 			style = 2;
 			sizeEx = 0.042;
 			colorBackground[] = SQFLAB_MKR_PROFILE_COLOR(0.9);
@@ -192,8 +192,8 @@ class SQFLab_MarkersMenu
 					y = SQFLAB_MKR_GS_IDENTITY;
 					w = SQFLAB_MKR_GW;
 					h = SQFLAB_MKR_SECTION_H;
-					text = "Identity";
-					tooltip = "Marker name and display text.";
+					text = $STR_SQFLAB_Markers_Identity;
+					tooltip = $STR_SQFLAB_Markers_Identity_Tooltip;
 					colorBackground[] = SQFLAB_MKR_PROFILE_COLOR(0.35);
 					sizeEx = SQFLAB_MKR_LABEL_SIZEEX;
 				};
@@ -205,7 +205,7 @@ class SQFLab_MarkersMenu
 					w = SQFLAB_MKR_G_ID_LABEL_W;
 					h = SQFLAB_MKR_ROW_H;
 					sizeEx = SQFLAB_MKR_LABEL_SIZEEX;
-					text = "Name";
+					text = $STR_SQFLAB_Markers_Name;
 					colorBackground[] = {0, 0, 0, 0};
 				};
 				class G_EditName: RscEdit
@@ -222,7 +222,7 @@ class SQFLab_MarkersMenu
 				class G_LabelText: G_LabelName
 				{
 					y = SQFLAB_MKR_GS_TEXT;
-					text = "Text";
+					text = $STR_SQFLAB_Markers_Text;
 				};
 				class G_EditText: G_EditName
 				{
@@ -235,8 +235,8 @@ class SQFLab_MarkersMenu
 				class G_ScopeTitle: G_IdentityTitle
 				{
 					y = SQFLAB_MKR_GS_SCOPE_TITLE;
-					text = "Scope";
-					tooltip = "Global marker APIs vs local (*Local) variants when scripting.";
+					text = $STR_SQFLAB_Markers_Scope;
+					tooltip = $STR_SQFLAB_Markers_Scope_Tooltip;
 				};
 				class G_LabelGlobal: RscText
 				{
@@ -247,8 +247,8 @@ class SQFLab_MarkersMenu
 					h = SQFLAB_MKR_G_CHK_H;
 					sizeEx = SQFLAB_MKR_LABEL_SIZEEX;
 					style = 0;
-					text = "Global";
-					tooltip = "When checked, scripting uses createMarker / setMarker* (global). Unchecked: *Local variants.";
+					text = $STR_SQFLAB_Markers_Global;
+					tooltip = $STR_SQFLAB_Markers_Global_Label_Tooltip;
 					colorBackground[] = {0, 0, 0, 0};
 					colorText[] = {1, 1, 1, 0.95};
 				};
@@ -260,7 +260,7 @@ class SQFLab_MarkersMenu
 					w = SQFLAB_MKR_G_CHK_BOX_W;
 					h = SQFLAB_MKR_G_CHK_H;
 					text = "";
-					tooltip = "Unchecked: createMarkerLocal / setMarker*Local. Checked: createMarker / setMarker*.";
+					tooltip = $STR_SQFLAB_Markers_Global_Chk_Tooltip;
 					color[] = {1, 1, 1, 0.9};
 					colorFocused[] = {1, 1, 1, 1};
 					colorHover[] = {1, 1, 1, 1};
@@ -275,8 +275,8 @@ class SQFLab_MarkersMenu
 				{
 					y = SQFLAB_MKR_GS_CHANNEL_ROW;
 					w = SQFLAB_MKR_LABEL_W;
-					text = "Channel";
-					tooltip = "createMarker / createMarkerLocal channel: who can see the marker (see wiki).";
+					text = $STR_SQFLAB_Markers_Channel;
+					tooltip = $STR_SQFLAB_Markers_Channel_Tooltip;
 				};
 				class G_ComboChannel: RscCombo
 				{
@@ -292,8 +292,7 @@ class SQFLab_MarkersMenu
 				class G_TypeTitle: G_IdentityTitle
 				{
 					y = SQFLAB_MKR_GS_TYPE_TITLE;
-					text = "Marker type (CfgMarkers)";
-					tooltip = "";
+					text = $STR_SQFLAB_Markers_TypeTitle;
 				};
 				class G_ListTypes: RscListBox
 				{
@@ -324,8 +323,8 @@ class SQFLab_MarkersMenu
 				class G_ColorsTitle: G_IdentityTitle
 				{
 					y = SQFLAB_MKR_GS_COLORS_TITLE;
-					text = "Color preview (RGBA)";
-					tooltip = "setMarkerColorLocal with direct RGBA string #(r,g,b,a), values 0..1 (see wiki).";
+					text = $STR_SQFLAB_Markers_ColorsTitle;
+					tooltip = $STR_SQFLAB_Markers_ColorsTitle_Tooltip;
 				};
 				class G_ColorPreview: RscButtonMenu
 				{
@@ -334,7 +333,7 @@ class SQFLab_MarkersMenu
 					y = SQFLAB_MKR_GS_COLOR_PREVIEW;
 					w = SQFLAB_MKR_GW;
 					h = SQFLAB_MKR_ROW_H;
-					text = "Color preview";
+					text = $STR_SQFLAB_Common_ColorPreview;
 					style = 2;
 					action = "";
 					colorBackground[] = SQFLAB_MKR_PROFILE_COLOR(0.9);
@@ -345,7 +344,7 @@ class SQFLab_MarkersMenu
 				{
 					y = SQFLAB_MKR_GS_COLOR_R;
 					w = SQFLAB_MKR_LABEL_W;
-					text = "Color R";
+					text = $STR_SQFLAB_Common_ColorR;
 				};
 				class G_SliderColorR: RscSlider
 				{
@@ -382,34 +381,33 @@ class SQFLab_MarkersMenu
 					style = 1;
 					text = "0";
 					colorBackground[] = {0.06, 0.06, 0.06, 0.9};
-					tooltip = "Type a value and click away (or Tab) to apply to the slider.";
+					tooltip = $STR_SQFLAB_Markers_ValueCommit_Tooltip;
 					onKillFocus = "_this call SQFLab_fnc_markersSliderValueCommit";
 				};
 
-				class G_LabelColorG: G_LabelName { y = SQFLAB_MKR_GS_COLOR_G; w = SQFLAB_MKR_LABEL_W; text = "Color G"; };
+				class G_LabelColorG: G_LabelName { y = SQFLAB_MKR_GS_COLOR_G; w = SQFLAB_MKR_LABEL_W; text = $STR_SQFLAB_Common_ColorG; };
 				class G_SliderColorG: G_SliderColorR { idc = SQFLAB_MKR_IDC_SLIDER_COLOR_G; y = SQFLAB_MKR_GS_COLOR_G; };
 				class G_ValueColorG: G_ValueColorR { idc = SQFLAB_MKR_IDC_VALUE_COLOR_G; y = SQFLAB_MKR_GS_COLOR_G; };
 
-				class G_LabelColorB: G_LabelName { y = SQFLAB_MKR_GS_COLOR_B; w = SQFLAB_MKR_LABEL_W; text = "Color B"; };
+				class G_LabelColorB: G_LabelName { y = SQFLAB_MKR_GS_COLOR_B; w = SQFLAB_MKR_LABEL_W; text = $STR_SQFLAB_Common_ColorB; };
 				class G_SliderColorB: G_SliderColorR { idc = SQFLAB_MKR_IDC_SLIDER_COLOR_B; y = SQFLAB_MKR_GS_COLOR_B; };
 				class G_ValueColorB: G_ValueColorR { idc = SQFLAB_MKR_IDC_VALUE_COLOR_B; y = SQFLAB_MKR_GS_COLOR_B; };
 
-				class G_LabelColorA: G_LabelName { y = SQFLAB_MKR_GS_COLOR_A; w = SQFLAB_MKR_LABEL_W; text = "Color A"; };
+				class G_LabelColorA: G_LabelName { y = SQFLAB_MKR_GS_COLOR_A; w = SQFLAB_MKR_LABEL_W; text = $STR_SQFLAB_Common_ColorA; };
 				class G_SliderColorA: G_SliderColorR { idc = SQFLAB_MKR_IDC_SLIDER_COLOR_A; y = SQFLAB_MKR_GS_COLOR_A; };
 				class G_ValueColorA: G_ValueColorR { idc = SQFLAB_MKR_IDC_VALUE_COLOR_A; y = SQFLAB_MKR_GS_COLOR_A; };
 
 				class G_PosTitle: G_IdentityTitle
 				{
 					y = SQFLAB_MKR_GS_POS_TITLE;
-					text = "Position (setMarkerPos)";
-					tooltip = "";
+					text = $STR_SQFLAB_Markers_PosTitle;
 				};
 				class G_LabelPos: G_LabelName
 				{
 					y = SQFLAB_MKR_GS_POS_ROW;
 					w = SQFLAB_MKR_LABEL_W;
-					text = "Position";
-					tooltip = "World position as an array, e.g. [x, y] or [x, y, z].";
+					text = $STR_SQFLAB_Markers_Position;
+					tooltip = $STR_SQFLAB_Markers_Position_Tooltip;
 				};
 				class G_EditPos: RscEdit
 				{
@@ -432,8 +430,8 @@ class SQFLab_MarkersMenu
 					h = SQFLAB_MKR_G_CHK_H;
 					sizeEx = SQFLAB_MKR_LABEL_SIZEEX;
 					style = 0;
-					text = "North offset";
-					tooltip = "When enabled, the default position is placed north of you so the map marker does not sit on top of your player icon (easier to see the preview).";
+					text = $STR_SQFLAB_Markers_NorthOffset;
+					tooltip = $STR_SQFLAB_Markers_NorthOffset_Tooltip;
 					colorBackground[] = {0, 0, 0, 0};
 					colorText[] = {1, 1, 1, 0.95};
 				};
@@ -445,7 +443,7 @@ class SQFLab_MarkersMenu
 					w = SQFLAB_MKR_G_CHK_BOX_W;
 					h = SQFLAB_MKR_G_CHK_H;
 					text = "";
-					tooltip = "When enabled, the default position is placed north of you so the map marker does not sit on top of your player icon (easier to see the preview).";
+					tooltip = $STR_SQFLAB_Markers_NorthOffset_Tooltip;
 					color[] = {1, 1, 1, 0.9};
 					colorFocused[] = {1, 1, 1, 1};
 					colorHover[] = {1, 1, 1, 1};
@@ -459,14 +457,13 @@ class SQFLab_MarkersMenu
 				class G_ShapeTitle: G_IdentityTitle
 				{
 					y = SQFLAB_MKR_GS_SHAPE_TITLE;
-					text = "Shape, size, direction";
-					tooltip = "";
+					text = $STR_SQFLAB_Markers_ShapeTitle;
 				};
 				class G_LabelShape: G_LabelName
 				{
 					y = SQFLAB_MKR_GS_COMBO_SHAPE;
 					w = SQFLAB_MKR_LABEL_W;
-					text = "Shape";
+					text = $STR_SQFLAB_Markers_Shape;
 				};
 				class G_ComboShape: RscCombo
 				{
@@ -479,29 +476,28 @@ class SQFLab_MarkersMenu
 					onLBSelChanged = "[] call SQFLab_fnc_markersApplyPreview";
 				};
 
-				class G_LabelSizeA: G_LabelName { y = SQFLAB_MKR_GS_SLIDER_SIZE_A; w = SQFLAB_MKR_LABEL_W; text = "Size A"; };
+				class G_LabelSizeA: G_LabelName { y = SQFLAB_MKR_GS_SLIDER_SIZE_A; w = SQFLAB_MKR_LABEL_W; text = $STR_SQFLAB_Markers_SizeA; };
 				class G_SliderSizeA: G_SliderColorR { idc = SQFLAB_MKR_IDC_SLIDER_SIZE_A; y = SQFLAB_MKR_GS_SLIDER_SIZE_A; };
 				class G_ValueSizeA: G_ValueColorR { idc = SQFLAB_MKR_IDC_VALUE_SIZE_A; y = SQFLAB_MKR_GS_SLIDER_SIZE_A; };
 
-				class G_LabelSizeB: G_LabelName { y = SQFLAB_MKR_GS_SLIDER_SIZE_B; w = SQFLAB_MKR_LABEL_W; text = "Size B"; };
+				class G_LabelSizeB: G_LabelName { y = SQFLAB_MKR_GS_SLIDER_SIZE_B; w = SQFLAB_MKR_LABEL_W; text = $STR_SQFLAB_Markers_SizeB; };
 				class G_SliderSizeB: G_SliderColorR { idc = SQFLAB_MKR_IDC_SLIDER_SIZE_B; y = SQFLAB_MKR_GS_SLIDER_SIZE_B; };
 				class G_ValueSizeB: G_ValueColorR { idc = SQFLAB_MKR_IDC_VALUE_SIZE_B; y = SQFLAB_MKR_GS_SLIDER_SIZE_B; };
 
-				class G_LabelDir: G_LabelName { y = SQFLAB_MKR_GS_SLIDER_DIR; w = SQFLAB_MKR_LABEL_W; text = "Direction"; };
+				class G_LabelDir: G_LabelName { y = SQFLAB_MKR_GS_SLIDER_DIR; w = SQFLAB_MKR_LABEL_W; text = $STR_SQFLAB_Markers_Direction; };
 				class G_SliderDir: G_SliderColorR { idc = SQFLAB_MKR_IDC_SLIDER_DIR; y = SQFLAB_MKR_GS_SLIDER_DIR; };
 				class G_ValueDir: G_ValueColorR { idc = SQFLAB_MKR_IDC_VALUE_DIR; y = SQFLAB_MKR_GS_SLIDER_DIR; };
 
 				class G_BrushTitle: G_IdentityTitle
 				{
 					y = SQFLAB_MKR_GS_BRUSH_TITLE;
-					text = "Brush (setMarkerBrush)";
-					tooltip = "";
+					text = $STR_SQFLAB_Markers_BrushTitle;
 				};
 				class G_LabelBrush: G_LabelName
 				{
 					y = SQFLAB_MKR_GS_COMBO_BRUSH;
 					w = SQFLAB_MKR_LABEL_W;
-					text = "Brush";
+					text = $STR_SQFLAB_Markers_Brush;
 				};
 				class G_ComboBrush: G_ComboShape
 				{
@@ -512,15 +508,14 @@ class SQFLab_MarkersMenu
 				class G_ShadowTitle: G_IdentityTitle
 				{
 					y = SQFLAB_MKR_GS_SHADOW_TITLE;
-					text = "Shadow";
-					tooltip = "";
+					text = $STR_SQFLAB_Markers_ShadowTitle;
 				};
 
 				class G_LabelShadow: G_LabelName
 				{
 					y = SQFLAB_MKR_GS_COMBO_SHADOW;
 					w = SQFLAB_MKR_LABEL_W;
-					text = "Shadow";
+					text = $STR_SQFLAB_Markers_Shadow;
 				};
 				class G_ComboShadow: G_ComboShape
 				{
@@ -547,7 +542,7 @@ class SQFLab_MarkersMenu
 			y = SQFLAB_MKR_Y_BOTTOM_BTN;
 			w = SQFLAB_MKR_BTN_W;
 			h = 0.04;
-			text = "Close";
+			text = $STR_SQFLAB_Common_Close;
 			action = "closeDialog 2";
 			colorBackground[] = SQFLAB_MKR_PROFILE_COLOR(0.9);
 			colorBackgroundFocused[] = SQFLAB_MKR_PROFILE_COLOR(1);
@@ -556,9 +551,9 @@ class SQFLab_MarkersMenu
 		{
 			idc = SQFLAB_MKR_IDC_BTN_EXPORT;
 			x = SQFLAB_MKR_PANEL_X + SQFLAB_MKR_PANEL_W - SQFLAB_MKR_PAD_SIDE - (SQFLAB_MKR_BTN_W * 2) - SQFLAB_MKR_BTN_GAP;
-			text = "Export";
+			text = $STR_SQFLAB_Common_Export;
 			action = "[] call SQFLab_fnc_markersExport";
-			tooltip = "Copy marker setup as SQF to clipboard (RPT fallback if unavailable).";
+			tooltip = $STR_SQFLAB_Markers_Export_Tooltip;
 		};
 	};
 };

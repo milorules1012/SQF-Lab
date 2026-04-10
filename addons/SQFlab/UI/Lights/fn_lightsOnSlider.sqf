@@ -7,7 +7,7 @@
 private _display = uiNamespace getVariable ["SQFLab_lights_display", displayNull];
 if (isNull _display) exitWith {
 	diag_log "[SQFLab] SQFLab_lightsOnSlider could not find the lights menu";
-	systemChat "SQF Lab lights menu could not be found";
+	systemChat (localize "STR_SQFLAB_Err_LightsMenuNotFound");
 };
 
 private _pairs = [

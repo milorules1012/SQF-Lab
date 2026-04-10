@@ -106,7 +106,7 @@ class SQFLab_LightsMenu
 			y = SQFLAB_LT_PREVIEW_Y + SQFLAB_LT_PAD_TOP;
 			w = SQFLAB_LT_PANEL_W - (SQFLAB_LT_PAD_SIDE * 2);
 			h = SQFLAB_LT_TITLE_H;
-			text = "Preview";
+			text = $STR_SQFLAB_Common_Preview;
 			style = 2;
 			sizeEx = 0.042;
 			colorBackground[] = SQFLAB_LT_PROFILE_COLOR(0.9);
@@ -129,7 +129,7 @@ class SQFLab_LightsMenu
 			y = SQFLAB_LT_PANEL_Y + SQFLAB_LT_PAD_TOP;
 			w = SQFLAB_LT_PANEL_W - (SQFLAB_LT_PAD_SIDE * 2);
 			h = SQFLAB_LT_TITLE_H;
-			text = "Light sources";
+			text = $STR_SQFLAB_Lights_Title;
 			style = 2;
 			sizeEx = 0.042;
 			colorBackground[] = SQFLAB_LT_PROFILE_COLOR(0.9);
@@ -143,7 +143,7 @@ class SQFLab_LightsMenu
 			y = SQFLAB_LT_Y_TYPE_TITLE;
 			w = SQFLAB_LT_PANEL_W - (SQFLAB_LT_PAD_SIDE * 2);
 			h = SQFLAB_LT_SECTION_H;
-			text = "Light type";
+			text = $STR_SQFLAB_Lights_LightType;
 			colorBackground[] = SQFLAB_LT_PROFILE_COLOR(0.35);
 			sizeEx = SQFLAB_LT_LABEL_SIZEEX;
 		};
@@ -154,7 +154,7 @@ class SQFLab_LightsMenu
 			y = SQFLAB_LT_Y_TYPE_ROW;
 			w = 0.14;
 			h = SQFLAB_LT_BTN_H;
-			text = "Point";
+			text = $STR_SQFLAB_Lights_Point;
 			action = "uiNamespace setVariable ['SQFLab_lights_type','point']; [] call SQFLab_fnc_lightsOnSlider;";
 			colorBackground[] = SQFLAB_LT_PROFILE_COLOR(0.9);
 			colorBackgroundFocused[] = SQFLAB_LT_PROFILE_COLOR(1);
@@ -163,15 +163,15 @@ class SQFLab_LightsMenu
 		{
 			idc = SQFLAB_LT_IDC_BTN_REFLECTOR;
 			x = SQFLAB_LT_PANEL_X + SQFLAB_LT_PAD_SIDE + 0.15;
-			text = "Reflector";
+			text = $STR_SQFLAB_Lights_Reflector;
 			action = "uiNamespace setVariable ['SQFLab_lights_type','reflector']; [] call SQFLab_fnc_lightsOnSlider;";
 		};
 
 		class XformTitle: TypeTitle
 		{
 			y = SQFLAB_LT_Y_XFORM_TITLE;
-			text = "Transform";
-			tooltip = "ATL position; Dir/Up aim the reflector via setVectorDirAndUp.";
+			text = $STR_SQFLAB_Lights_Transform;
+			tooltip = $STR_SQFLAB_Lights_Transform_Tooltip;
 		};
 		class LabelPos: RscText
 		{
@@ -180,7 +180,7 @@ class SQFLab_LightsMenu
 			y = SQFLAB_LT_Y_POS_EDIT;
 			w = SQFLAB_LT_LABEL_W;
 			h = SQFLAB_LT_ROW_H;
-			text = "Position";
+			text = $STR_SQFLAB_Lights_Position;
 			sizeEx = SQFLAB_LT_LABEL_SIZEEX;
 			colorBackground[] = {0, 0, 0, 0};
 		};
@@ -196,7 +196,7 @@ class SQFLab_LightsMenu
 			onKeyUp = "[] call SQFLab_fnc_lightsOnSlider";
 		};
 
-		class LabelDir: LabelPos { y = SQFLAB_LT_Y_DIR; text = "Dir"; };
+		class LabelDir: LabelPos { y = SQFLAB_LT_Y_DIR; text = $STR_SQFLAB_Lights_Dir; };
 		class SliderDir: RscSlider
 		{
 			idc = SQFLAB_LT_IDC_SLIDER_DIR;
@@ -228,7 +228,7 @@ class SQFLab_LightsMenu
 			text = "0";
 		};
 
-		class LabelUp: LabelPos { y = SQFLAB_LT_Y_UP; text = "Up"; };
+		class LabelUp: LabelPos { y = SQFLAB_LT_Y_UP; text = $STR_SQFLAB_Lights_Up; };
 		class SliderUp: SliderDir
 		{
 			idc = SQFLAB_LT_IDC_SLIDER_UP;
@@ -243,7 +243,7 @@ class SQFLab_LightsMenu
 		class ColTitle: TypeTitle
 		{
 			y = SQFLAB_LT_Y_COL_TITLE;
-			text = "Colour";
+			text = $STR_SQFLAB_Lights_Colour;
 		};
 		class ColorPreview: RscButtonMenu
 		{
@@ -252,42 +252,42 @@ class SQFLab_LightsMenu
 			y = SQFLAB_LT_Y_COL_PREVIEW;
 			w = SQFLAB_LT_PANEL_W - (SQFLAB_LT_PAD_SIDE * 2);
 			h = SQFLAB_LT_ROW_H;
-			text = "Light colour preview";
+			text = $STR_SQFLAB_Lights_LightColourPreview;
 			style = 2;
 			action = "";
 			colorBackground[] = SQFLAB_LT_PROFILE_COLOR(0.9);
 			colorBackgroundFocused[] = SQFLAB_LT_PROFILE_COLOR(0.9);
 		};
 
-		class LabelColR: LabelPos { y = SQFLAB_LT_Y_COL_R; text = "Light R"; };
+		class LabelColR: LabelPos { y = SQFLAB_LT_Y_COL_R; text = $STR_SQFLAB_Lights_LightR; };
 		class SliderColR: SliderDir { idc = SQFLAB_LT_IDC_SLIDER_COL_R; y = SQFLAB_LT_Y_COL_R; };
 		class ValueColR: ValueDir { idc = SQFLAB_LT_IDC_VALUE_COL_R; y = SQFLAB_LT_Y_COL_R; };
 
-		class LabelColG: LabelPos { y = SQFLAB_LT_Y_COL_G; text = "Light G"; };
+		class LabelColG: LabelPos { y = SQFLAB_LT_Y_COL_G; text = $STR_SQFLAB_Lights_LightG; };
 		class SliderColG: SliderDir { idc = SQFLAB_LT_IDC_SLIDER_COL_G; y = SQFLAB_LT_Y_COL_G; };
 		class ValueColG: ValueDir { idc = SQFLAB_LT_IDC_VALUE_COL_G; y = SQFLAB_LT_Y_COL_G; };
 
-		class LabelColB: LabelPos { y = SQFLAB_LT_Y_COL_B; text = "Light B"; };
+		class LabelColB: LabelPos { y = SQFLAB_LT_Y_COL_B; text = $STR_SQFLAB_Lights_LightB; };
 		class SliderColB: SliderDir { idc = SQFLAB_LT_IDC_SLIDER_COL_B; y = SQFLAB_LT_Y_COL_B; };
 		class ValueColB: ValueDir { idc = SQFLAB_LT_IDC_VALUE_COL_B; y = SQFLAB_LT_Y_COL_B; };
 
-		class LabelAmbR: LabelPos { y = SQFLAB_LT_Y_AMB_R; text = "Ambient R"; };
+		class LabelAmbR: LabelPos { y = SQFLAB_LT_Y_AMB_R; text = $STR_SQFLAB_Lights_AmbientR; };
 		class SliderAmbR: SliderDir { idc = SQFLAB_LT_IDC_SLIDER_AMB_R; y = SQFLAB_LT_Y_AMB_R; };
 		class ValueAmbR: ValueDir { idc = SQFLAB_LT_IDC_VALUE_AMB_R; y = SQFLAB_LT_Y_AMB_R; };
 
-		class LabelAmbG: LabelPos { y = SQFLAB_LT_Y_AMB_G; text = "Ambient G"; };
+		class LabelAmbG: LabelPos { y = SQFLAB_LT_Y_AMB_G; text = $STR_SQFLAB_Lights_AmbientG; };
 		class SliderAmbG: SliderDir { idc = SQFLAB_LT_IDC_SLIDER_AMB_G; y = SQFLAB_LT_Y_AMB_G; };
 		class ValueAmbG: ValueDir { idc = SQFLAB_LT_IDC_VALUE_AMB_G; y = SQFLAB_LT_Y_AMB_G; };
 
-		class LabelAmbB: LabelPos { y = SQFLAB_LT_Y_AMB_B; text = "Ambient B"; };
+		class LabelAmbB: LabelPos { y = SQFLAB_LT_Y_AMB_B; text = $STR_SQFLAB_Lights_AmbientB; };
 		class SliderAmbB: SliderDir { idc = SQFLAB_LT_IDC_SLIDER_AMB_B; y = SQFLAB_LT_Y_AMB_B; };
 		class ValueAmbB: ValueDir { idc = SQFLAB_LT_IDC_VALUE_AMB_B; y = SQFLAB_LT_Y_AMB_B; };
 
 		class LabelIntensity: LabelPos
 		{
 			y = SQFLAB_LT_Y_INTENSITY;
-			text = "Power";
-			tooltip = "Point: setLightBrightness. Reflector: setLightIntensity.";
+			text = $STR_SQFLAB_Lights_Power;
+			tooltip = $STR_SQFLAB_Lights_Power_Tooltip;
 		};
 		class SliderIntensity: SliderDir
 		{
@@ -303,13 +303,13 @@ class SQFLab_LightsMenu
 		class FlareTitle: TypeTitle
 		{
 			y = SQFLAB_LT_Y_FLARE_TITLE;
-			text = "Flare (point)";
+			text = $STR_SQFLAB_Lights_FlareTitle;
 		};
 		class LabelFlareChk: LabelPos
 		{
 			y = SQFLAB_LT_Y_FLARE_CHK;
 			h = SQFLAB_LT_CHK_H;
-			text = "Use flare";
+			text = $STR_SQFLAB_Lights_UseFlare;
 		};
 		class ChkFlare: RscCheckBox
 		{
@@ -322,19 +322,19 @@ class SQFLab_LightsMenu
 			onCheckedChanged = "[] call SQFLab_fnc_lightsOnSlider";
 		};
 
-		class LabelFlareSize: LabelPos { y = SQFLAB_LT_Y_FLARE_SIZE; text = "Flare size (m)"; };
+		class LabelFlareSize: LabelPos { y = SQFLAB_LT_Y_FLARE_SIZE; text = $STR_SQFLAB_Lights_FlareSize; };
 		class SliderFlareSize: SliderDir { idc = SQFLAB_LT_IDC_SLIDER_FLARE_SIZE; y = SQFLAB_LT_Y_FLARE_SIZE; };
 		class ValueFlareSize: ValueDir { idc = SQFLAB_LT_IDC_VALUE_FLARE_SIZE; y = SQFLAB_LT_Y_FLARE_SIZE; };
 
-		class LabelFlareMax: LabelPos { y = SQFLAB_LT_Y_FLARE_MAX; text = "Flare max dist"; };
+		class LabelFlareMax: LabelPos { y = SQFLAB_LT_Y_FLARE_MAX; text = $STR_SQFLAB_Lights_FlareMaxDist; };
 		class SliderFlareMax: SliderDir { idc = SQFLAB_LT_IDC_SLIDER_FLARE_MAX; y = SQFLAB_LT_Y_FLARE_MAX; };
 		class ValueFlareMax: ValueDir { idc = SQFLAB_LT_IDC_VALUE_FLARE_MAX; y = SQFLAB_LT_Y_FLARE_MAX; };
 
 		class MiscTitle: TypeTitle
 		{
 			y = SQFLAB_LT_Y_MISC_TITLE;
-			text = "Preview time";
-			tooltip = "Sets mission date/time for the world (and PiP). Restored when you close this dialog.";
+			text = $STR_SQFLAB_Lights_PreviewTime;
+			tooltip = $STR_SQFLAB_Lights_PreviewTime_Tooltip;
 		};
 		class BtnPreviewDay: BtnPoint
 		{
@@ -342,34 +342,34 @@ class SQFLab_LightsMenu
 			x = SQFLAB_LT_PANEL_X + SQFLAB_LT_PAD_SIDE;
 			y = SQFLAB_LT_Y_MISC_ROW;
 			w = 0.14;
-			text = "Day";
-			tooltip = "setDate - Morning";
+			text = $STR_SQFLAB_Lights_Day;
+			tooltip = $STR_SQFLAB_Lights_Day_Tooltip;
 			action = "[] call SQFLab_fnc_lightsSetTimeDay";
 		};
 		class BtnPreviewNight: BtnPreviewDay
 		{
 			idc = SQFLAB_LT_IDC_BTN_NIGHT;
 			x = SQFLAB_LT_PANEL_X + SQFLAB_LT_PAD_SIDE + 0.15;
-			text = "Night";
-			tooltip = "setDate - Night";
+			text = $STR_SQFLAB_Lights_Night;
+			tooltip = $STR_SQFLAB_Lights_Night_Tooltip;
 			action = "[] call SQFLab_fnc_lightsSetTimeNight";
 		};
 
 		class ReflectorTitle: TypeTitle
 		{
 			y = SQFLAB_LT_Y_REFLECTOR_TITLE;
-			text = "Reflector cone";
-			tooltip = "setLightConePars [outer, inner, coef]. Ignored for point lights.";
+			text = $STR_SQFLAB_Lights_ReflectorCone;
+			tooltip = $STR_SQFLAB_Lights_ReflectorCone_Tooltip;
 		};
-		class LabelConeOut: LabelPos { y = SQFLAB_LT_Y_CONE_OUT; text = "Cone outer"; };
+		class LabelConeOut: LabelPos { y = SQFLAB_LT_Y_CONE_OUT; text = $STR_SQFLAB_Lights_ConeOuter; };
 		class SliderConeOut: SliderDir { idc = SQFLAB_LT_IDC_SLIDER_CONE_OUT; y = SQFLAB_LT_Y_CONE_OUT; };
 		class ValueConeOut: ValueDir { idc = SQFLAB_LT_IDC_VALUE_CONE_OUT; y = SQFLAB_LT_Y_CONE_OUT; };
 
-		class LabelConeIn: LabelPos { y = SQFLAB_LT_Y_CONE_IN; text = "Cone inner"; };
+		class LabelConeIn: LabelPos { y = SQFLAB_LT_Y_CONE_IN; text = $STR_SQFLAB_Lights_ConeInner; };
 		class SliderConeIn: SliderDir { idc = SQFLAB_LT_IDC_SLIDER_CONE_IN; y = SQFLAB_LT_Y_CONE_IN; };
 		class ValueConeIn: ValueDir { idc = SQFLAB_LT_IDC_VALUE_CONE_IN; y = SQFLAB_LT_Y_CONE_IN; };
 
-		class LabelConeCoef: LabelPos { y = SQFLAB_LT_Y_CONE_COEF; text = "Cone coef"; };
+		class LabelConeCoef: LabelPos { y = SQFLAB_LT_Y_CONE_COEF; text = $STR_SQFLAB_Lights_ConeCoef; };
 		class SliderConeCoef: SliderDir { idc = SQFLAB_LT_IDC_SLIDER_CONE_COEF; y = SQFLAB_LT_Y_CONE_COEF; };
 		class ValueConeCoef: ValueDir { idc = SQFLAB_LT_IDC_VALUE_CONE_COEF; y = SQFLAB_LT_Y_CONE_COEF; };
 
@@ -380,7 +380,7 @@ class SQFLab_LightsMenu
 			y = SQFLAB_LT_Y_BOTTOM_BTN;
 			w = SQFLAB_LT_BTN_W;
 			h = 0.04;
-			text = "Close";
+			text = $STR_SQFLAB_Common_Close;
 			action = "closeDialog 2";
 			colorBackground[] = SQFLAB_LT_PROFILE_COLOR(0.9);
 			colorBackgroundFocused[] = SQFLAB_LT_PROFILE_COLOR(1);
@@ -389,14 +389,14 @@ class SQFLab_LightsMenu
 		{
 			idc = SQFLAB_LT_IDC_BTN_EXPORT;
 			x = SQFLAB_LT_PANEL_X + SQFLAB_LT_PANEL_W - SQFLAB_LT_PAD_SIDE - (SQFLAB_LT_BTN_W * 3) - (SQFLAB_LT_BTN_GAP * 2);
-			text = "Export";
+			text = $STR_SQFLAB_Common_Export;
 			action = "[] call SQFLab_fnc_lightsExport";
 		};
 		class HideUiBtn: CloseBtn
 		{
 			idc = SQFLAB_LT_IDC_BTN_HIDE_UI;
 			x = SQFLAB_LT_PANEL_X + SQFLAB_LT_PANEL_W - SQFLAB_LT_PAD_SIDE - (SQFLAB_LT_BTN_W * 2) - SQFLAB_LT_BTN_GAP;
-			text = "Hide UI";
+			text = $STR_SQFLAB_Common_HideUI;
 			action = "[] call SQFLab_fnc_lightsToggleUi";
 		};
 	};

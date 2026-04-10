@@ -1,0 +1,2537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="SQFLab">
+	<Package name="SQFLab">
+		<Container name="Common">
+			<Key ID="STR_SQFLAB_Common_Preview">
+				<Original>Preview</Original>
+				<English>Preview</English>
+				<Chinesesimp>预览</Chinesesimp>
+				<Chinese>預覽</Chinese>
+				<Czech>Náhled</Czech>
+				<French>Aperçu</French>
+				<German>Vorschau</German>
+				<Italian>Anteprima</Italian>
+				<Japanese>プレビュー</Japanese>
+				<Korean>미리보기</Korean>
+				<Polish>Podgląd</Polish>
+				<Portuguese>Pré-visualização</Portuguese>
+				<Russian>Просмотр</Russian>
+				<Spanish>Vista previa</Spanish>
+				<Turkish>Önizleme</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Common_Close">
+				<Original>Close</Original>
+				<English>Close</English>
+				<Chinesesimp>关闭</Chinesesimp>
+				<Chinese>關閉</Chinese>
+				<Czech>Zavřít</Czech>
+				<French>Fermer</French>
+				<German>Schließen</German>
+				<Italian>Chiudi</Italian>
+				<Japanese>閉じる</Japanese>
+				<Korean>닫기</Korean>
+				<Polish>Zamknij</Polish>
+				<Portuguese>Fechar</Portuguese>
+				<Russian>Закрыть</Russian>
+				<Spanish>Cerrar</Spanish>
+				<Turkish>Kapat</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Common_Export">
+				<Original>Export</Original>
+				<English>Export</English>
+				<Chinesesimp>导出</Chinesesimp>
+				<Chinese>匯出</Chinese>
+				<Czech>Export</Czech>
+				<French>Exporter</French>
+				<German>Exportieren</German>
+				<Italian>Esporta</Italian>
+				<Japanese>エクスポート</Japanese>
+				<Korean>보내기</Korean>
+				<Polish>Eksportuj</Polish>
+				<Portuguese>Exportar</Portuguese>
+				<Russian>Экспорт</Russian>
+				<Spanish>Exportar</Spanish>
+				<Turkish>Dışa aktar</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Common_HideUI">
+				<Original>Hide UI</Original>
+				<English>Hide UI</English>
+				<Chinesesimp>隐藏界面</Chinesesimp>
+				<Chinese>隱藏介面</Chinese>
+				<Czech>Skrýt UI</Czech>
+				<French>Masquer l'interface</French>
+				<German>Oberfläche ausblenden</German>
+				<Italian>Nascondi interfaccia</Italian>
+				<Japanese>UIを非表示</Japanese>
+				<Korean>UI 숨기기</Korean>
+				<Polish>Ukryj interfejs</Polish>
+				<Portuguese>Ocultar interface</Portuguese>
+				<Russian>Скрыть интерфейс</Russian>
+				<Spanish>Ocultar interfaz</Spanish>
+				<Turkish>Arayüzü gizle</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Common_ShowUI">
+				<Original>Show UI</Original>
+				<English>Show UI</English>
+				<Chinesesimp>显示界面</Chinesesimp>
+				<Chinese>顯示介面</Chinese>
+				<Czech>Zobrazit UI</Czech>
+				<French>Afficher l'interface</French>
+				<German>Oberfläche einblenden</German>
+				<Italian>Mostra interfaccia</Italian>
+				<Japanese>UIを表示</Japanese>
+				<Korean>UI 표시</Korean>
+				<Polish>Pokaż interfejs</Polish>
+				<Portuguese>Mostrar interface</Portuguese>
+				<Russian>Показать интерфейс</Russian>
+				<Spanish>Mostrar interfaz</Spanish>
+				<Turkish>Arayüzü göster</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Common_ColorR">
+				<Original>Color R</Original>
+				<English>Color R</English>
+				<Chinesesimp>颜色 R</Chinesesimp>
+				<Chinese>顏色 R</Chinese>
+				<Czech>Barva R</Czech>
+				<French>Couleur R</French>
+				<German>Farbe R</German>
+				<Italian>Colore R</Italian>
+				<Japanese>カラー R</Japanese>
+				<Korean>색 R</Korean>
+				<Polish>Kolor R</Polish>
+				<Portuguese>Cor R</Portuguese>
+				<Russian>Цвет R</Russian>
+				<Spanish>Color R</Spanish>
+				<Turkish>Renk R</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Common_ColorG">
+				<Original>Color G</Original>
+				<English>Color G</English>
+				<Chinesesimp>颜色 G</Chinesesimp>
+				<Chinese>顏色 G</Chinese>
+				<Czech>Barva G</Czech>
+				<French>Couleur G</French>
+				<German>Farbe G</German>
+				<Italian>Colore G</Italian>
+				<Japanese>カラー G</Japanese>
+				<Korean>색 G</Korean>
+				<Polish>Kolor G</Polish>
+				<Portuguese>Cor G</Portuguese>
+				<Russian>Цвет G</Russian>
+				<Spanish>Color G</Spanish>
+				<Turkish>Renk G</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Common_ColorB">
+				<Original>Color B</Original>
+				<English>Color B</English>
+				<Chinesesimp>颜色 B</Chinesesimp>
+				<Chinese>顏色 B</Chinese>
+				<Czech>Barva B</Czech>
+				<French>Couleur B</French>
+				<German>Farbe B</German>
+				<Italian>Colore B</Italian>
+				<Japanese>カラー B</Japanese>
+				<Korean>색 B</Korean>
+				<Polish>Kolor B</Polish>
+				<Portuguese>Cor B</Portuguese>
+				<Russian>Цвет B</Russian>
+				<Spanish>Color B</Spanish>
+				<Turkish>Renk B</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Common_ColorA">
+				<Original>Color A</Original>
+				<English>Color A</English>
+				<Chinesesimp>颜色 A</Chinesesimp>
+				<Chinese>顏色 A</Chinese>
+				<Czech>Barva A</Czech>
+				<French>Couleur A</French>
+				<German>Farbe A</German>
+				<Italian>Colore A</Italian>
+				<Japanese>カラー A</Japanese>
+				<Korean>색 A</Korean>
+				<Polish>Kolor A</Polish>
+				<Portuguese>Cor A</Portuguese>
+				<Russian>Цвет A</Russian>
+				<Spanish>Color A</Spanish>
+				<Turkish>Renk A</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Common_ColorPreview">
+				<Original>Color preview</Original>
+				<English>Color preview</English>
+				<Chinesesimp>颜色预览</Chinesesimp>
+				<Chinese>顏色預覽</Chinese>
+				<Czech>Náhled barvy</Czech>
+				<French>Aperçu de la couleur</French>
+				<German>Farbvorschau</German>
+				<Italian>Anteprima colore</Italian>
+				<Japanese>カラープレビュー</Japanese>
+				<Korean>색 미리보기</Korean>
+				<Polish>Podgląd koloru</Polish>
+				<Portuguese>Pré-visualização da cor</Portuguese>
+				<Russian>Предпросмотр цвета</Russian>
+				<Spanish>Vista previa del color</Spanish>
+				<Turkish>Renk önizlemesi</Turkish>
+			</Key>
+		</Container>
+		<Container name="Keybinds">
+			<Key ID="STR_SQFLAB_Keybind_Group">
+				<Original>SQF Lab</Original>
+				<English>SQF Lab</English>
+				<Chinesesimp>SQF Lab</Chinesesimp>
+				<Chinese>SQF Lab</Chinese>
+				<Czech>SQF Lab</Czech>
+				<French>SQF Lab</French>
+				<German>SQF Lab</German>
+				<Italian>SQF Lab</Italian>
+				<Japanese>SQF Lab</Japanese>
+				<Korean>SQF Lab</Korean>
+				<Polish>SQF Lab</Polish>
+				<Portuguese>SQF Lab</Portuguese>
+				<Russian>SQF Lab</Russian>
+				<Spanish>SQF Lab</Spanish>
+				<Turkish>SQF Lab</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Keybind_MainMenu">
+				<Original>Open Main Menu</Original>
+				<English>Open Main Menu</English>
+				<Chinesesimp>打开主菜单</Chinesesimp>
+				<Chinese>開啟主選單</Chinese>
+				<Czech>Otevřít hlavní nabídku</Czech>
+				<French>Ouvrir le menu principal</French>
+				<German>Hauptmenü öffnen</German>
+				<Italian>Apri menu principale</Italian>
+				<Japanese>メインメニューを開く</Japanese>
+				<Korean>메인 메뉴 열기</Korean>
+				<Polish>Otwórz menu główne</Polish>
+				<Portuguese>Abrir menu principal</Portuguese>
+				<Russian>Открыть главное меню</Russian>
+				<Spanish>Abrir menú principal</Spanish>
+				<Turkish>Ana menüyü aç</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Keybind_MainMenu_Tooltip">
+				<Original>Open or close the SQF Lab main menu</Original>
+				<English>Open or close the SQF Lab main menu</English>
+				<Chinesesimp>打开或关闭 SQF Lab 主菜单</Chinesesimp>
+				<Chinese>開啟或關閉 SQF Lab 主選單</Chinese>
+				<Czech>Otevřít nebo zavřít hlavní nabídku SQF Lab</Czech>
+				<French>Ouvrir ou fermer le menu principal SQF Lab</French>
+				<German>SQF Lab-Hauptmenü öffnen oder schließen</German>
+				<Italian>Apri o chiudi il menu principale di SQF Lab</Italian>
+				<Japanese>SQF Lab のメインメニューを開く／閉じる</Japanese>
+				<Korean>SQF Lab 메인 메뉴를 열거나 닫습니다</Korean>
+				<Polish>Otwórz lub zamknij menu główne SQF Lab</Polish>
+				<Portuguese>Abrir ou fechar o menu principal do SQF Lab</Portuguese>
+				<Russian>Открыть или закрыть главное меню SQF Lab</Russian>
+				<Spanish>Abrir o cerrar el menú principal de SQF Lab</Spanish>
+				<Turkish>SQF Lab ana menüsünü aç veya kapat</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Keybind_Lights">
+				<Original>Open Light Sources Editor</Original>
+				<English>Open Light Sources Editor</English>
+				<Chinesesimp>打开光源编辑器</Chinesesimp>
+				<Chinese>開啟光源編輯器</Chinese>
+				<Czech>Otevřít editor světelných zdrojů</Czech>
+				<French>Ouvrir l'éditeur de sources lumineuses</French>
+				<German>Lichtquellen-Editor öffnen</German>
+				<Italian>Apri editor sorgenti luminose</Italian>
+				<Japanese>光源エディターを開く</Japanese>
+				<Korean>광원 편집기 열기</Korean>
+				<Polish>Otwórz edytor źródeł światła</Polish>
+				<Portuguese>Abrir editor de fontes de luz</Portuguese>
+				<Russian>Открыть редактор источников света</Russian>
+				<Spanish>Abrir editor de fuentes de luz</Spanish>
+				<Turkish>Işık kaynakları düzenleyicisini aç</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Keybind_Lights_Tooltip">
+				<Original>Open or close the SQF Lab light sources editor</Original>
+				<English>Open or close the SQF Lab light sources editor</English>
+				<Chinesesimp>打开或关闭 SQF Lab 光源编辑器</Chinesesimp>
+				<Chinese>開啟或關閉 SQF Lab 光源編輯器</Chinese>
+				<Czech>Otevřít nebo zavřít editor světel SQF Lab</Czech>
+				<French>Ouvrir ou fermer l'éditeur de lumières SQF Lab</French>
+				<German>SQF Lab-Lichteditor öffnen oder schließen</German>
+				<Italian>Apri o chiudi l'editor luci di SQF Lab</Italian>
+				<Japanese>SQF Lab の光源エディターを開く／閉じる</Japanese>
+				<Korean>SQF Lab 조명 편집기를 열거나 닫습니다</Korean>
+				<Polish>Otwórz lub zamknij edytor świateł SQF Lab</Polish>
+				<Portuguese>Abrir ou fechar o editor de luzes do SQF Lab</Portuguese>
+				<Russian>Открыть или закрыть редактор света SQF Lab</Russian>
+				<Spanish>Abrir o cerrar el editor de luces de SQF Lab</Spanish>
+				<Turkish>SQF Lab ışık düzenleyicisini aç veya kapat</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Keybind_Markers">
+				<Original>Open Markers Editor</Original>
+				<English>Open Markers Editor</English>
+				<Chinesesimp>打开标记编辑器</Chinesesimp>
+				<Chinese>開啟標記編輯器</Chinese>
+				<Czech>Otevřít editor značek</Czech>
+				<French>Ouvrir l'éditeur de marqueurs</French>
+				<German>Markierungs-Editor öffnen</German>
+				<Italian>Apri editor marcatori</Italian>
+				<Japanese>マーカーエディターを開く</Japanese>
+				<Korean>마커 편집기 열기</Korean>
+				<Polish>Otwórz edytor znaczników</Polish>
+				<Portuguese>Abrir editor de marcadores</Portuguese>
+				<Russian>Открыть редактор маркеров</Russian>
+				<Spanish>Abrir editor de marcadores</Spanish>
+				<Turkish>İşaretçi düzenleyicisini aç</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Keybind_Markers_Tooltip">
+				<Original>Open or close the SQF Lab markers editor</Original>
+				<English>Open or close the SQF Lab markers editor</English>
+				<Chinesesimp>打开或关闭 SQF Lab 标记编辑器</Chinesesimp>
+				<Chinese>開啟或關閉 SQF Lab 標記編輯器</Chinese>
+				<Czech>Otevřít nebo zavřít editor značek SQF Lab</Czech>
+				<French>Ouvrir ou fermer l'éditeur de marqueurs SQF Lab</French>
+				<German>SQF Lab-Markierungseditor öffnen oder schließen</German>
+				<Italian>Apri o chiudi l'editor marcatori di SQF Lab</Italian>
+				<Japanese>SQF Lab のマーカーエディターを開く／閉じる</Japanese>
+				<Korean>SQF Lab 마커 편집기를 열거나 닫습니다</Korean>
+				<Polish>Otwórz lub zamknij edytor znaczników SQF Lab</Polish>
+				<Portuguese>Abrir ou fechar o editor de marcadores do SQF Lab</Portuguese>
+				<Russian>Открыть или закрыть редактор маркеров SQF Lab</Russian>
+				<Spanish>Abrir o cerrar el editor de marcadores de SQF Lab</Spanish>
+				<Turkish>SQF Lab işaretçi düzenleyicisini aç veya kapat</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Keybind_Particles">
+				<Original>Open Particles Editor</Original>
+				<English>Open Particles Editor</English>
+				<Chinesesimp>打开粒子编辑器</Chinesesimp>
+				<Chinese>開啟粒子編輯器</Chinese>
+				<Czech>Otevřít editor částic</Czech>
+				<French>Ouvrir l'éditeur de particules</French>
+				<German>Partikel-Editor öffnen</German>
+				<Italian>Apri editor particelle</Italian>
+				<Japanese>パーティクルエディターを開く</Japanese>
+				<Korean>파티클 편집기 열기</Korean>
+				<Polish>Otwórz edytor cząstek</Polish>
+				<Portuguese>Abrir editor de partículas</Portuguese>
+				<Russian>Открыть редактор частиц</Russian>
+				<Spanish>Abrir editor de partículas</Spanish>
+				<Turkish>Parçacık düzenleyicisini aç</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Keybind_Particles_Tooltip">
+				<Original>Open or close the SQF Lab particles editor</Original>
+				<English>Open or close the SQF Lab particles editor</English>
+				<Chinesesimp>打开或关闭 SQF Lab 粒子编辑器</Chinesesimp>
+				<Chinese>開啟或關閉 SQF Lab 粒子編輯器</Chinese>
+				<Czech>Otevřít nebo zavřít editor částic SQF Lab</Czech>
+				<French>Ouvrir ou fermer l'éditeur de particules SQF Lab</French>
+				<German>SQF Lab-Partikeleditor öffnen oder schließen</German>
+				<Italian>Apri o chiudi l'editor particelle di SQF Lab</Italian>
+				<Japanese>SQF Lab のパーティクルエディターを開く／閉じる</Japanese>
+				<Korean>SQF Lab 파티클 편집기를 열거나 닫습니다</Korean>
+				<Polish>Otwórz lub zamknij edytor cząstek SQF Lab</Polish>
+				<Portuguese>Abrir ou fechar o editor de partículas do SQF Lab</Portuguese>
+				<Russian>Открыть или закрыть редактор частиц SQF Lab</Russian>
+				<Spanish>Abrir o cerrar el editor de partículas de SQF Lab</Spanish>
+				<Turkish>SQF Lab parçacık düzenleyicisini aç veya kapat</Turkish>
+			</Key>
+		</Container>
+		<Container name="MainMenu">
+			<Key ID="STR_SQFLAB_Main_Title">
+				<Original>SQF Lab</Original>
+				<English>SQF Lab</English>
+				<Chinesesimp>SQF Lab</Chinesesimp>
+				<Chinese>SQF Lab</Chinese>
+				<Czech>SQF Lab</Czech>
+				<French>SQF Lab</French>
+				<German>SQF Lab</German>
+				<Italian>SQF Lab</Italian>
+				<Japanese>SQF Lab</Japanese>
+				<Korean>SQF Lab</Korean>
+				<Polish>SQF Lab</Polish>
+				<Portuguese>SQF Lab</Portuguese>
+				<Russian>SQF Lab</Russian>
+				<Spanish>SQF Lab</Spanish>
+				<Turkish>SQF Lab</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Main_Animations">
+				<Original>Animations</Original>
+				<English>Animations</English>
+				<Chinesesimp>动画</Chinesesimp>
+				<Chinese>動畫</Chinese>
+				<Czech>Animace</Czech>
+				<French>Animations</French>
+				<German>Animationen</German>
+				<Italian>Animazioni</Italian>
+				<Japanese>アニメーション</Japanese>
+				<Korean>애니메이션</Korean>
+				<Polish>Animacje</Polish>
+				<Portuguese>Animações</Portuguese>
+				<Russian>Анимации</Russian>
+				<Spanish>Animaciones</Spanish>
+				<Turkish>Animasyonlar</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Main_AttachTo">
+				<Original>AttachTo</Original>
+				<English>AttachTo</English>
+				<Chinesesimp>AttachTo</Chinesesimp>
+				<Chinese>AttachTo</Chinese>
+				<Czech>AttachTo</Czech>
+				<French>AttachTo</French>
+				<German>AttachTo</German>
+				<Italian>AttachTo</Italian>
+				<Japanese>AttachTo</Japanese>
+				<Korean>AttachTo</Korean>
+				<Polish>AttachTo</Polish>
+				<Portuguese>AttachTo</Portuguese>
+				<Russian>AttachTo</Russian>
+				<Spanish>AttachTo</Spanish>
+				<Turkish>AttachTo</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Main_Camera">
+				<Original>Camera</Original>
+				<English>Camera</English>
+				<Chinesesimp>摄像机</Chinesesimp>
+				<Chinese>攝影機</Chinese>
+				<Czech>Kamera</Czech>
+				<French>Caméra</French>
+				<German>Kamera</German>
+				<Italian>Telecamera</Italian>
+				<Japanese>カメラ</Japanese>
+				<Korean>카메라</Korean>
+				<Polish>Kamera</Polish>
+				<Portuguese>Câmera</Portuguese>
+				<Russian>Камера</Russian>
+				<Spanish>Cámara</Spanish>
+				<Turkish>Kamera</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Main_DrawIcon3D">
+				<Original>DrawIcon3D</Original>
+				<English>DrawIcon3D</English>
+				<Chinesesimp>DrawIcon3D</Chinesesimp>
+				<Chinese>DrawIcon3D</Chinese>
+				<Czech>DrawIcon3D</Czech>
+				<French>DrawIcon3D</French>
+				<German>DrawIcon3D</German>
+				<Italian>DrawIcon3D</Italian>
+				<Japanese>DrawIcon3D</Japanese>
+				<Korean>DrawIcon3D</Korean>
+				<Polish>DrawIcon3D</Polish>
+				<Portuguese>DrawIcon3D</Portuguese>
+				<Russian>DrawIcon3D</Russian>
+				<Spanish>DrawIcon3D</Spanish>
+				<Turkish>DrawIcon3D</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Main_LightSources">
+				<Original>Light sources</Original>
+				<English>Light sources</English>
+				<Chinesesimp>光源</Chinesesimp>
+				<Chinese>光源</Chinese>
+				<Czech>Světelné zdroje</Czech>
+				<French>Sources lumineuses</French>
+				<German>Lichtquellen</German>
+				<Italian>Sorgenti luminose</Italian>
+				<Japanese>光源</Japanese>
+				<Korean>광원</Korean>
+				<Polish>Źródła światła</Polish>
+				<Portuguese>Fontes de luz</Portuguese>
+				<Russian>Источники света</Russian>
+				<Spanish>Fuentes de luz</Spanish>
+				<Turkish>Işık kaynakları</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Main_Markers">
+				<Original>Markers</Original>
+				<English>Markers</English>
+				<Chinesesimp>标记</Chinesesimp>
+				<Chinese>標記</Chinese>
+				<Czech>Značky</Czech>
+				<French>Marqueurs</French>
+				<German>Markierungen</German>
+				<Italian>Marcatori</Italian>
+				<Japanese>マーカー</Japanese>
+				<Korean>마커</Korean>
+				<Polish>Znaczniki</Polish>
+				<Portuguese>Marcadores</Portuguese>
+				<Russian>Маркеры</Russian>
+				<Spanish>Marcadores</Spanish>
+				<Turkish>İşaretçiler</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Main_Particles">
+				<Original>Particles</Original>
+				<English>Particles</English>
+				<Chinesesimp>粒子</Chinesesimp>
+				<Chinese>粒子</Chinese>
+				<Czech>Částice</Czech>
+				<French>Particules</French>
+				<German>Partikel</German>
+				<Italian>Particelle</Italian>
+				<Japanese>パーティクル</Japanese>
+				<Korean>파티클</Korean>
+				<Polish>Cząstki</Polish>
+				<Portuguese>Partículas</Portuguese>
+				<Russian>Частицы</Russian>
+				<Spanish>Partículas</Spanish>
+				<Turkish>Parçacıklar</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Main_SelectionViewer">
+				<Original>Selection viewer</Original>
+				<English>Selection viewer</English>
+				<Chinesesimp>选择查看器</Chinesesimp>
+				<Chinese>選擇檢視器</Chinese>
+				<Czech>Prohlížeč výběru</Czech>
+				<French>Visionneuse de sélection</French>
+				<German>Auswahlansicht</German>
+				<Italian>Visualizzatore selezione</Italian>
+				<Japanese>選択ビューア</Japanese>
+				<Korean>선택 뷰어</Korean>
+				<Polish>Przeglądarka zaznaczenia</Polish>
+				<Portuguese>Visualizador de seleção</Portuguese>
+				<Russian>Просмотр выделения</Russian>
+				<Spanish>Visor de selección</Spanish>
+				<Turkish>Seçim görüntüleyici</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Main_Turret">
+				<Original>Turret</Original>
+				<English>Turret</English>
+				<Chinesesimp>炮塔</Chinesesimp>
+				<Chinese>砲塔</Chinese>
+				<Czech>Věž</Czech>
+				<French>Tourelle</French>
+				<German>Turm</German>
+				<Italian>Torretta</Italian>
+				<Japanese>タレット</Japanese>
+				<Korean>포탑</Korean>
+				<Polish>Wieżyczka</Polish>
+				<Portuguese>Torre</Portuguese>
+				<Russian>Башня</Russian>
+				<Spanish>Torreta</Spanish>
+				<Turkish>Taret</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Main_UIEditor">
+				<Original>UI editor</Original>
+				<English>UI editor</English>
+				<Chinesesimp>UI 编辑器</Chinesesimp>
+				<Chinese>UI 編輯器</Chinese>
+				<Czech>Editor UI</Czech>
+				<French>Éditeur d'interface</French>
+				<German>UI-Editor</German>
+				<Italian>Editor UI</Italian>
+				<Japanese>UIエディター</Japanese>
+				<Korean>UI 편집기</Korean>
+				<Polish>Edytor UI</Polish>
+				<Portuguese>Editor de UI</Portuguese>
+				<Russian>Редактор UI</Russian>
+				<Spanish>Editor de IU</Spanish>
+				<Turkish>Arayüz düzenleyici</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Main_Weather">
+				<Original>Weather</Original>
+				<English>Weather</English>
+				<Chinesesimp>天气</Chinesesimp>
+				<Chinese>天氣</Chinese>
+				<Czech>Počasí</Czech>
+				<French>Météo</French>
+				<German>Wetter</German>
+				<Italian>Meteo</Italian>
+				<Japanese>天候</Japanese>
+				<Korean>날씨</Korean>
+				<Polish>Pogoda</Polish>
+				<Portuguese>Clima</Portuguese>
+				<Russian>Погода</Russian>
+				<Spanish>Clima</Spanish>
+				<Turkish>Hava</Turkish>
+			</Key>
+		</Container>
+		<Container name="Particles">
+			<Key ID="STR_SQFLAB_Particles_Title">
+				<Original>Particles</Original>
+				<English>Particles</English>
+				<Chinesesimp>粒子</Chinesesimp>
+				<Chinese>粒子</Chinese>
+				<Czech>Částice</Czech>
+				<French>Particules</French>
+				<German>Partikel</German>
+				<Italian>Particelle</Italian>
+				<Japanese>パーティクル</Japanese>
+				<Korean>파티클</Korean>
+				<Polish>Cząstki</Polish>
+				<Portuguese>Partículas</Portuguese>
+				<Russian>Частицы</Russian>
+				<Spanish>Partículas</Spanish>
+				<Turkish>Parçacıklar</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_Fire">
+				<Original>Fire</Original>
+				<English>Fire</English>
+				<Chinesesimp>火焰</Chinesesimp>
+				<Chinese>火焰</Chinese>
+				<Czech>Oheň</Czech>
+				<French>Feu</French>
+				<German>Feuer</German>
+				<Italian>Fuoco</Italian>
+				<Japanese>炎</Japanese>
+				<Korean>불</Korean>
+				<Polish>Ogień</Polish>
+				<Portuguese>Fogo</Portuguese>
+				<Russian>Огонь</Russian>
+				<Spanish>Fuego</Spanish>
+				<Turkish>Ateş</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_Smoke">
+				<Original>Smoke</Original>
+				<English>Smoke</English>
+				<Chinesesimp>烟雾</Chinesesimp>
+				<Chinese>煙霧</Chinese>
+				<Czech>Kouř</Czech>
+				<French>Fumée</French>
+				<German>Rauch</German>
+				<Italian>Fumo</Italian>
+				<Japanese>煙</Japanese>
+				<Korean>연기</Korean>
+				<Polish>Dym</Polish>
+				<Portuguese>Fumaça</Portuguese>
+				<Russian>Дым</Russian>
+				<Spanish>Humo</Spanish>
+				<Turkish>Duman</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_Drop">
+				<Original>Drop</Original>
+				<English>Drop</English>
+				<Chinesesimp>液滴</Chinesesimp>
+				<Chinese>液滴</Chinese>
+				<Czech>Kapka</Czech>
+				<French>Goutte</French>
+				<German>Tropfen</German>
+				<Italian>Goccia</Italian>
+				<Japanese>滴</Japanese>
+				<Korean>방울</Korean>
+				<Polish>Kropla</Polish>
+				<Portuguese>Gota</Portuguese>
+				<Russian>Капля</Russian>
+				<Spanish>Gota</Spanish>
+				<Turkish>Damla</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_TypeTitle">
+				<Original>Particle Type</Original>
+				<English>Particle Type</English>
+				<Chinesesimp>粒子类型</Chinesesimp>
+				<Chinese>粒子類型</Chinese>
+				<Czech>Typ částice</Czech>
+				<French>Type de particule</French>
+				<German>Partikeltyp</German>
+				<Italian>Tipo particella</Italian>
+				<Japanese>パーティクル種別</Japanese>
+				<Korean>파티클 유형</Korean>
+				<Polish>Typ cząstki</Polish>
+				<Portuguese>Tipo de partícula</Portuguese>
+				<Russian>Тип частицы</Russian>
+				<Spanish>Tipo de partícula</Spanish>
+				<Turkish>Parçacık türü</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_ParamsTitle">
+				<Original>Particle Params</Original>
+				<English>Particle Params</English>
+				<Chinesesimp>粒子参数</Chinesesimp>
+				<Chinese>粒子參數</Chinese>
+				<Czech>Parametry částic</Czech>
+				<French>Paramètres des particules</French>
+				<German>Partikelparameter</German>
+				<Italian>Parametri particelle</Italian>
+				<Japanese>パーティクルパラメータ</Japanese>
+				<Korean>파티클 매개변수</Korean>
+				<Polish>Parametry cząstek</Polish>
+				<Portuguese>Parâmetros de partículas</Portuguese>
+				<Russian>Параметры частиц</Russian>
+				<Spanish>Parámetros de partículas</Spanish>
+				<Turkish>Parçacık parametreleri</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_ColorsTitle">
+				<Original>Particle Colors</Original>
+				<English>Particle Colors</English>
+				<Chinesesimp>粒子颜色</Chinesesimp>
+				<Chinese>粒子顏色</Chinese>
+				<Czech>Barvy částic</Czech>
+				<French>Couleurs des particules</French>
+				<German>Partikelfarben</German>
+				<Italian>Colori particelle</Italian>
+				<Japanese>パーティクル色</Japanese>
+				<Korean>파티클 색</Korean>
+				<Polish>Kolory cząstek</Polish>
+				<Portuguese>Cores das partículas</Portuguese>
+				<Russian>Цвета частиц</Russian>
+				<Spanish>Colores de partículas</Spanish>
+				<Turkish>Parçacık renkleri</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_Size">
+				<Original>Particle size</Original>
+				<English>Particle size</English>
+				<Chinesesimp>粒子大小</Chinesesimp>
+				<Chinese>粒子大小</Chinese>
+				<Czech>Velikost částice</Czech>
+				<French>Taille des particules</French>
+				<German>Partikelgröße</German>
+				<Italian>Dimensione particella</Italian>
+				<Japanese>パーティクルサイズ</Japanese>
+				<Korean>파티클 크기</Korean>
+				<Polish>Rozmiar cząstki</Polish>
+				<Portuguese>Tamanho da partícula</Portuguese>
+				<Russian>Размер частицы</Russian>
+				<Spanish>Tamaño de partícula</Spanish>
+				<Turkish>Parçacık boyutu</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_LifeTime">
+				<Original>Life time</Original>
+				<English>Life time</English>
+				<Chinesesimp>生命周期</Chinesesimp>
+				<Chinese>生命週期</Chinese>
+				<Czech>Životnost</Czech>
+				<French>Durée de vie</French>
+				<German>Lebensdauer</German>
+				<Italian>Durata vita</Italian>
+				<Japanese>寿命</Japanese>
+				<Korean>수명</Korean>
+				<Polish>Czas życia</Polish>
+				<Portuguese>Tempo de vida</Portuguese>
+				<Russian>Время жизни</Russian>
+				<Spanish>Tiempo de vida</Spanish>
+				<Turkish>Ömür süresi</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_SpawnInterval">
+				<Original>Spawn interval</Original>
+				<English>Spawn interval</English>
+				<Chinesesimp>生成间隔</Chinesesimp>
+				<Chinese>生成間隔</Chinese>
+				<Czech>Interval generování</Czech>
+				<French>Intervalle d'apparition</French>
+				<German>Spawn-Intervall</German>
+				<Italian>Intervallo spawn</Italian>
+				<Japanese>生成間隔</Japanese>
+				<Korean>생성 간격</Korean>
+				<Polish>Interwał tworzenia</Polish>
+				<Portuguese>Intervalo de surgimento</Portuguese>
+				<Russian>Интервал появления</Russian>
+				<Spanish>Intervalo de aparición</Spanish>
+				<Turkish>Oluşum aralığı</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_MoveVelocity">
+				<Original>Move velocity</Original>
+				<English>Move velocity</English>
+				<Chinesesimp>移动速度</Chinesesimp>
+				<Chinese>移動速度</Chinese>
+				<Czech>Rychlost pohybu</Czech>
+				<French>Vélocité</French>
+				<German>Bewegungsgeschwindigkeit</German>
+				<Italian>Velocità movimento</Italian>
+				<Japanese>移動速度</Japanese>
+				<Korean>이동 속도</Korean>
+				<Polish>Prędkość ruchu</Polish>
+				<Portuguese>Velocidade de movimento</Portuguese>
+				<Russian>Скорость движения</Russian>
+				<Spanish>Velocidad de movimiento</Spanish>
+				<Turkish>Hareket hızı</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_RotationVelocity">
+				<Original>Rotation velocity</Original>
+				<English>Rotation velocity</English>
+				<Chinesesimp>旋转速度</Chinesesimp>
+				<Chinese>旋轉速度</Chinese>
+				<Czech>Rychlost rotace</Czech>
+				<French>Vitesse de rotation</French>
+				<German>Rotationsgeschwindigkeit</German>
+				<Italian>Velocità rotazione</Italian>
+				<Japanese>回転速度</Japanese>
+				<Korean>회전 속도</Korean>
+				<Polish>Prędkość obrotu</Polish>
+				<Portuguese>Velocidade de rotação</Portuguese>
+				<Russian>Скорость вращения</Russian>
+				<Spanish>Velocidad de rotación</Spanish>
+				<Turkish>Dönüş hızı</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_Weight">
+				<Original>Weight</Original>
+				<English>Weight</English>
+				<Chinesesimp>重量</Chinesesimp>
+				<Chinese>重量</Chinese>
+				<Czech>Hmotnost</Czech>
+				<French>Poids</French>
+				<German>Gewicht</German>
+				<Italian>Peso</Italian>
+				<Japanese>重量</Japanese>
+				<Korean>무게</Korean>
+				<Polish>Waga</Polish>
+				<Portuguese>Peso</Portuguese>
+				<Russian>Вес</Russian>
+				<Spanish>Peso</Spanish>
+				<Turkish>Ağırlık</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_Volume">
+				<Original>Volume</Original>
+				<English>Volume</English>
+				<Chinesesimp>体积</Chinesesimp>
+				<Chinese>體積</Chinese>
+				<Czech>Objem</Czech>
+				<French>Volume</French>
+				<German>Volumen</German>
+				<Italian>Volume</Italian>
+				<Japanese>ボリューム</Japanese>
+				<Korean>부피</Korean>
+				<Polish>Objętość</Polish>
+				<Portuguese>Volume</Portuguese>
+				<Russian>Объём</Russian>
+				<Spanish>Volumen</Spanish>
+				<Turkish>Hacim</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_Rubbing">
+				<Original>Rubbing</Original>
+				<English>Rubbing</English>
+				<Chinesesimp>摩擦</Chinesesimp>
+				<Chinese>摩擦</Chinese>
+				<Czech>Tření</Czech>
+				<French>Frottement</French>
+				<German>Reibung</German>
+				<Italian>Attrito</Italian>
+				<Japanese>摩擦</Japanese>
+				<Korean>마찰</Korean>
+				<Polish>Tarcie</Polish>
+				<Portuguese>Atrito</Portuguese>
+				<Russian>Трение</Russian>
+				<Spanish>Rozamiento</Spanish>
+				<Turkish>Sürtünme</Turkish>
+			</Key>
+		</Container>
+		<Container name="Lights">
+			<Key ID="STR_SQFLAB_Lights_Title">
+				<Original>Light sources</Original>
+				<English>Light sources</English>
+				<Chinesesimp>光源</Chinesesimp>
+				<Chinese>光源</Chinese>
+				<Czech>Světelné zdroje</Czech>
+				<French>Sources lumineuses</French>
+				<German>Lichtquellen</German>
+				<Italian>Sorgenti luminose</Italian>
+				<Japanese>光源</Japanese>
+				<Korean>광원</Korean>
+				<Polish>Źródła światła</Polish>
+				<Portuguese>Fontes de luz</Portuguese>
+				<Russian>Источники света</Russian>
+				<Spanish>Fuentes de luz</Spanish>
+				<Turkish>Işık kaynakları</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_LightType">
+				<Original>Light type</Original>
+				<English>Light type</English>
+				<Chinesesimp>光源类型</Chinesesimp>
+				<Chinese>光源類型</Chinese>
+				<Czech>Typ světla</Czech>
+				<French>Type de lumière</French>
+				<German>Lichttyp</German>
+				<Italian>Tipo di luce</Italian>
+				<Japanese>光源タイプ</Japanese>
+				<Korean>광원 유형</Korean>
+				<Polish>Typ światła</Polish>
+				<Portuguese>Tipo de luz</Portuguese>
+				<Russian>Тип света</Russian>
+				<Spanish>Tipo de luz</Spanish>
+				<Turkish>Işık türü</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_Point">
+				<Original>Point</Original>
+				<English>Point</English>
+				<Chinesesimp>点光</Chinesesimp>
+				<Chinese>點光</Chinese>
+				<Czech>Bod</Czech>
+				<French>Point</French>
+				<German>Punkt</German>
+				<Italian>Punto</Italian>
+				<Japanese>ポイント</Japanese>
+				<Korean>포인트</Korean>
+				<Polish>Punkt</Polish>
+				<Portuguese>Ponto</Portuguese>
+				<Russian>Точка</Russian>
+				<Spanish>Punto</Spanish>
+				<Turkish>Nokta</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_Reflector">
+				<Original>Reflector</Original>
+				<English>Reflector</English>
+				<Chinesesimp>聚光灯</Chinesesimp>
+				<Chinese>聚光燈</Chinese>
+				<Czech>Reflektor</Czech>
+				<French>Projecteur</French>
+				<German>Scheinwerfer</German>
+				<Italian>Riflettore</Italian>
+				<Japanese>リフレクター</Japanese>
+				<Korean>반사광</Korean>
+				<Polish>Reflektor</Polish>
+				<Portuguese>Refletor</Portuguese>
+				<Russian>Прожектор</Russian>
+				<Spanish>Reflector</Spanish>
+				<Turkish>Reflektör</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_Transform">
+				<Original>Transform</Original>
+				<English>Transform</English>
+				<Chinesesimp>变换</Chinesesimp>
+				<Chinese>變換</Chinese>
+				<Czech>Transformace</Czech>
+				<French>Transformation</French>
+				<German>Transformation</German>
+				<Italian>Trasformazione</Italian>
+				<Japanese>トランスフォーム</Japanese>
+				<Korean>변환</Korean>
+				<Polish>Transformacja</Polish>
+				<Portuguese>Transformação</Portuguese>
+				<Russian>Преобразование</Russian>
+				<Spanish>Transformación</Spanish>
+				<Turkish>Dönüşüm</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_Transform_Tooltip">
+				<Original>ATL position; Dir/Up aim the reflector via setVectorDirAndUp.</Original>
+				<English>ATL position; Dir/Up aim the reflector via setVectorDirAndUp.</English>
+				<Chinesesimp>ATL 位置；通过 setVectorDirAndUp 用 Dir/Up 对准聚光灯。</Chinesesimp>
+				<Chinese>ATL 位置；透過 setVectorDirAndUp 以 Dir/Up 對準聚光燈。</Chinese>
+				<Czech>Pozice ATL; Dir/Up namíří reflektor přes setVectorDirAndUp.</Czech>
+				<French>Position ATL ; Dir/Up orientent le projecteur via setVectorDirAndUp.</French>
+				<German>ATL-Position; Dir/Up richten den Reflektor über setVectorDirAndUp aus.</German>
+				<Italian>Posizione ATL; Dir/Up puntano il riflettore con setVectorDirAndUp.</Italian>
+				<Japanese>ATL 位置。Dir/Up で setVectorDirAndUp によりリフレクターを向けます。</Japanese>
+				<Korean>ATL 위치. setVectorDirAndUp로 Dir/Up을 사용해 반사광을 조준합니다.</Korean>
+				<Polish>Pozycja ATL; Dir/Up celuje reflektor przez setVectorDirAndUp.</Polish>
+				<Portuguese>Posição ATL; Dir/Up apontam o refletor via setVectorDirAndUp.</Portuguese>
+				<Russian>Позиция ATL; Dir/Up наводят прожектор через setVectorDirAndUp.</Russian>
+				<Spanish>Posición ATL; Dir/Up orientan el reflector con setVectorDirAndUp.</Spanish>
+				<Turkish>ATL konumu; Dir/Up reflektörü setVectorDirAndUp ile hizalar.</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_Position">
+				<Original>Position</Original>
+				<English>Position</English>
+				<Chinesesimp>位置</Chinesesimp>
+				<Chinese>位置</Chinese>
+				<Czech>Pozice</Czech>
+				<French>Position</French>
+				<German>Position</German>
+				<Italian>Posizione</Italian>
+				<Japanese>位置</Japanese>
+				<Korean>위치</Korean>
+				<Polish>Pozycja</Polish>
+				<Portuguese>Posição</Portuguese>
+				<Russian>Позиция</Russian>
+				<Spanish>Posición</Spanish>
+				<Turkish>Konum</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_Dir">
+				<Original>Dir</Original>
+				<English>Dir</English>
+				<Chinesesimp>方向</Chinesesimp>
+				<Chinese>方向</Chinese>
+				<Czech>Směr</Czech>
+				<French>Dir</French>
+				<German>Dir</German>
+				<Italian>Dir</Italian>
+				<Japanese>方向</Japanese>
+				<Korean>방향</Korean>
+				<Polish>Kierunek</Polish>
+				<Portuguese>Dir</Portuguese>
+				<Russian>Направление</Russian>
+				<Spanish>Dir</Spanish>
+				<Turkish>Yön</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_Up">
+				<Original>Up</Original>
+				<English>Up</English>
+				<Chinesesimp>向上</Chinesesimp>
+				<Chinese>向上</Chinese>
+				<Czech>Up</Czech>
+				<French>Haut</French>
+				<German>Up</German>
+				<Italian>Up</Italian>
+				<Japanese>上方向</Japanese>
+				<Korean>위쪽</Korean>
+				<Polish>Góra</Polish>
+				<Portuguese>Cima</Portuguese>
+				<Russian>Вверх</Russian>
+				<Spanish>Arriba</Spanish>
+				<Turkish>Yukarı</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_Colour">
+				<Original>Colour</Original>
+				<English>Colour</English>
+				<Chinesesimp>颜色</Chinesesimp>
+				<Chinese>顏色</Chinese>
+				<Czech>Barva</Czech>
+				<French>Couleur</French>
+				<German>Farbe</German>
+				<Italian>Colore</Italian>
+				<Japanese>色</Japanese>
+				<Korean>색</Korean>
+				<Polish>Kolor</Polish>
+				<Portuguese>Cor</Portuguese>
+				<Russian>Цвет</Russian>
+				<Spanish>Color</Spanish>
+				<Turkish>Renk</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_LightColourPreview">
+				<Original>Light colour preview</Original>
+				<English>Light colour preview</English>
+				<Chinesesimp>灯光颜色预览</Chinesesimp>
+				<Chinese>燈光顏色預覽</Chinese>
+				<Czech>Náhled barvy světla</Czech>
+				<French>Aperçu couleur de la lumière</French>
+				<German>Lichtfarben-Vorschau</German>
+				<Italian>Anteprima colore luce</Italian>
+				<Japanese>光の色プレビュー</Japanese>
+				<Korean>조명 색 미리보기</Korean>
+				<Polish>Podgląd koloru światła</Polish>
+				<Portuguese>Pré-visualização da cor da luz</Portuguese>
+				<Russian>Предпросмотр цвета света</Russian>
+				<Spanish>Vista previa del color de la luz</Spanish>
+				<Turkish>Işık rengi önizlemesi</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_LightR">
+				<Original>Light R</Original>
+				<English>Light R</English>
+				<Chinesesimp>光 R</Chinesesimp>
+				<Chinese>光 R</Chinese>
+				<Czech>Světlo R</Czech>
+				<French>Lumière R</French>
+				<German>Licht R</German>
+				<Italian>Luce R</Italian>
+				<Japanese>光 R</Japanese>
+				<Korean>광 R</Korean>
+				<Polish>Światło R</Polish>
+				<Portuguese>Luz R</Portuguese>
+				<Russian>Свет R</Russian>
+				<Spanish>Luz R</Spanish>
+				<Turkish>Işık R</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_LightG">
+				<Original>Light G</Original>
+				<English>Light G</English>
+				<Chinesesimp>光 G</Chinesesimp>
+				<Chinese>光 G</Chinese>
+				<Czech>Světlo G</Czech>
+				<French>Lumière G</French>
+				<German>Licht G</German>
+				<Italian>Luce G</Italian>
+				<Japanese>光 G</Japanese>
+				<Korean>광 G</Korean>
+				<Polish>Światło G</Polish>
+				<Portuguese>Luz G</Portuguese>
+				<Russian>Свет G</Russian>
+				<Spanish>Luz G</Spanish>
+				<Turkish>Işık G</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_LightB">
+				<Original>Light B</Original>
+				<English>Light B</English>
+				<Chinesesimp>光 B</Chinesesimp>
+				<Chinese>光 B</Chinese>
+				<Czech>Světlo B</Czech>
+				<French>Lumière B</French>
+				<German>Licht B</German>
+				<Italian>Luce B</Italian>
+				<Japanese>光 B</Japanese>
+				<Korean>광 B</Korean>
+				<Polish>Światło B</Polish>
+				<Portuguese>Luz B</Portuguese>
+				<Russian>Свет B</Russian>
+				<Spanish>Luz B</Spanish>
+				<Turkish>Işık B</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_AmbientR">
+				<Original>Ambient R</Original>
+				<English>Ambient R</English>
+				<Chinesesimp>环境光 R</Chinesesimp>
+				<Chinese>環境光 R</Chinese>
+				<Czech>Okolní R</Czech>
+				<French>Ambiant R</French>
+				<German>Umgebung R</German>
+				<Italian>Ambiente R</Italian>
+				<Japanese>環境光 R</Japanese>
+				<Korean>주변광 R</Korean>
+				<Polish>Otoczenie R</Polish>
+				<Portuguese>Ambiente R</Portuguese>
+				<Russian>Окружение R</Russian>
+				<Spanish>Ambiente R</Spanish>
+				<Turkish>Ortam R</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_AmbientG">
+				<Original>Ambient G</Original>
+				<English>Ambient G</English>
+				<Chinesesimp>环境光 G</Chinesesimp>
+				<Chinese>環境光 G</Chinese>
+				<Czech>Okolní G</Czech>
+				<French>Ambiant G</French>
+				<German>Umgebung G</German>
+				<Italian>Ambiente G</Italian>
+				<Japanese>環境光 G</Japanese>
+				<Korean>주변광 G</Korean>
+				<Polish>Otoczenie G</Polish>
+				<Portuguese>Ambiente G</Portuguese>
+				<Russian>Окружение G</Russian>
+				<Spanish>Ambiente G</Spanish>
+				<Turkish>Ortam G</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_AmbientB">
+				<Original>Ambient B</Original>
+				<English>Ambient B</English>
+				<Chinesesimp>环境光 B</Chinesesimp>
+				<Chinese>環境光 B</Chinese>
+				<Czech>Okolní B</Czech>
+				<French>Ambiant B</French>
+				<German>Umgebung B</German>
+				<Italian>Ambiente B</Italian>
+				<Japanese>環境光 B</Japanese>
+				<Korean>주변광 B</Korean>
+				<Polish>Otoczenie B</Polish>
+				<Portuguese>Ambiente B</Portuguese>
+				<Russian>Окружение B</Russian>
+				<Spanish>Ambiente B</Spanish>
+				<Turkish>Ortam B</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_Power">
+				<Original>Power</Original>
+				<English>Power</English>
+				<Chinesesimp>强度</Chinesesimp>
+				<Chinese>強度</Chinese>
+				<Czech>Síla</Czech>
+				<French>Puissance</French>
+				<German>Leistung</German>
+				<Italian>Potenza</Italian>
+				<Japanese>強度</Japanese>
+				<Korean>세기</Korean>
+				<Polish>Moc</Polish>
+				<Portuguese>Potência</Portuguese>
+				<Russian>Мощность</Russian>
+				<Spanish>Potencia</Spanish>
+				<Turkish>Güç</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_Power_Tooltip">
+				<Original>Point: setLightBrightness. Reflector: setLightIntensity.</Original>
+				<English>Point: setLightBrightness. Reflector: setLightIntensity.</English>
+				<Chinesesimp>点光：setLightBrightness。聚光灯：setLightIntensity。</Chinesesimp>
+				<Chinese>點光：setLightBrightness。聚光燈：setLightIntensity。</Chinese>
+				<Czech>Bod: setLightBrightness. Reflektor: setLightIntensity.</Czech>
+				<French>Point : setLightBrightness. Projecteur : setLightIntensity.</French>
+				<German>Punkt: setLightBrightness. Reflektor: setLightIntensity.</German>
+				<Italian>Punto: setLightBrightness. Riflettore: setLightIntensity.</Italian>
+				<Japanese>ポイント: setLightBrightness。リフレクター: setLightIntensity。</Japanese>
+				<Korean>포인트: setLightBrightness. 반사광: setLightIntensity.</Korean>
+				<Polish>Punkt: setLightBrightness. Reflektor: setLightIntensity.</Polish>
+				<Portuguese>Ponto: setLightBrightness. Refletor: setLightIntensity.</Portuguese>
+				<Russian>Точка: setLightBrightness. Прожектор: setLightIntensity.</Russian>
+				<Spanish>Punto: setLightBrightness. Reflector: setLightIntensity.</Spanish>
+				<Turkish>Nokta: setLightBrightness. Reflektör: setLightIntensity.</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_FlareTitle">
+				<Original>Flare (point)</Original>
+				<English>Flare (point)</English>
+				<Chinesesimp>光晕（点光）</Chinesesimp>
+				<Chinese>光暈（點光）</Chinese>
+				<Czech>Odlesk (bod)</Czech>
+				<French>Halos (point)</French>
+				<German>Blendung (Punkt)</German>
+				<Italian>Flare (punto)</Italian>
+				<Japanese>フレア（ポイント）</Japanese>
+				<Korean>플레어(포인트)</Korean>
+				<Polish>Poświata (punkt)</Polish>
+				<Portuguese>Flare (ponto)</Portuguese>
+				<Russian>Блик (точка)</Russian>
+				<Spanish>Destello (punto)</Spanish>
+				<Turkish>Parlama (nokta)</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_UseFlare">
+				<Original>Use flare</Original>
+				<English>Use flare</English>
+				<Chinesesimp>使用光晕</Chinesesimp>
+				<Chinese>使用光暈</Chinese>
+				<Czech>Použít odlesk</Czech>
+				<French>Utiliser le halo</French>
+				<German>Blendung nutzen</German>
+				<Italian>Usa flare</Italian>
+				<Japanese>フレアを使う</Japanese>
+				<Korean>플레어 사용</Korean>
+				<Polish>Użyj poświaty</Polish>
+				<Portuguese>Usar flare</Portuguese>
+				<Russian>Использовать блик</Russian>
+				<Spanish>Usar destello</Spanish>
+				<Turkish>Parlama kullan</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_FlareSize">
+				<Original>Flare size (m)</Original>
+				<English>Flare size (m)</English>
+				<Chinesesimp>光晕大小（米）</Chinesesimp>
+				<Chinese>光暈大小（公尺）</Chinese>
+				<Czech>Velikost odlesku (m)</Czech>
+				<French>Taille du halo (m)</French>
+				<German>Blendungsgröße (m)</German>
+				<Italian>Dimensione flare (m)</Italian>
+				<Japanese>フレアサイズ（m）</Japanese>
+				<Korean>플레어 크기(m)</Korean>
+				<Polish>Rozmiar poświaty (m)</Polish>
+				<Portuguese>Tamanho do flare (m)</Portuguese>
+				<Russian>Размер блика (м)</Russian>
+				<Spanish>Tamaño del destello (m)</Spanish>
+				<Turkish>Parlama boyutu (m)</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_FlareMaxDist">
+				<Original>Flare max dist</Original>
+				<English>Flare max dist</English>
+				<Chinesesimp>光晕最大距离</Chinesesimp>
+				<Chinese>光暈最大距離</Chinese>
+				<Czech>Max. vzdálenost odlesku</Czech>
+				<French>Distance max du halo</French>
+				<German>Max. Blendungsdistanz</German>
+				<Italian>Distanza max flare</Italian>
+				<Japanese>フレア最大距離</Japanese>
+				<Korean>플레어 최대 거리</Korean>
+				<Polish>Maks. zasięg poświaty</Polish>
+				<Portuguese>Dist. máx. do flare</Portuguese>
+				<Russian>Макс. дистанция блика</Russian>
+				<Spanish>Dist. máx. destello</Spanish>
+				<Turkish>Maks. parlama mesafesi</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_PreviewTime">
+				<Original>Preview time</Original>
+				<English>Preview time</English>
+				<Chinesesimp>预览时间</Chinesesimp>
+				<Chinese>預覽時間</Chinese>
+				<Czech>Čas náhledu</Czech>
+				<French>Heure de prévisualisation</French>
+				<German>Vorschauzeit</German>
+				<Italian>Orario anteprima</Italian>
+				<Japanese>プレビュー時刻</Japanese>
+				<Korean>미리보기 시간</Korean>
+				<Polish>Czas podglądu</Polish>
+				<Portuguese>Hora da pré-visualização</Portuguese>
+				<Russian>Время предпросмотра</Russian>
+				<Spanish>Hora de vista previa</Spanish>
+				<Turkish>Önizleme zamanı</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_PreviewTime_Tooltip">
+				<Original>Sets mission date/time for the world (and PiP). Restored when you close this dialog.</Original>
+				<English>Sets mission date/time for the world (and PiP). Restored when you close this dialog.</English>
+				<Chinesesimp>设置任务世界日期/时间（含 PiP）。关闭此对话框后恢复。</Chinesesimp>
+				<Chinese>設定任務世界日期／時間（含 PiP）。關閉此對話框後還原。</Chinese>
+				<Czech>Nastaví datum/čas mise pro svět (a PiP). Po zavření dialogu obnoveno.</Czech>
+				<French>Règle la date/heure du monde de la mission (et PiP). Rétabli à la fermeture.</French>
+				<German>Setzt Missionsdatum/-zeit für die Welt (und PiP). Wird beim Schließen wiederhergestellt.</German>
+				<Italian>Imposta data/ora missione per il mondo (e PiP). Ripristinato alla chiusura.</Italian>
+				<Japanese>ミッション世界の日時（PiP 含む）を設定。閉じると元に戻ります。</Japanese>
+				<Korean>미션 세계 날짜/시간(PiP 포함)을 설정합니다. 닫으면 복원됩니다.</Korean>
+				<Polish>Ustawia datę/czas misji dla świata (i PiP). Przywracane po zamknięciu.</Polish>
+				<Portuguese>Define data/hora da missão para o mundo (e PiP). Restaurado ao fechar.</Portuguese>
+				<Russian>Задаёт дату/время миссии для мира (и PiP). Восстанавливается при закрытии.</Russian>
+				<Spanish>Establece fecha/hora de la misión para el mundo (y PiP). Se restaura al cerrar.</Spanish>
+				<Turkish>Görev dünyası tarih/saatini (ve PiP) ayarlar. Kapatınca geri yüklenir.</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_Day">
+				<Original>Day</Original>
+				<English>Day</English>
+				<Chinesesimp>白天</Chinesesimp>
+				<Chinese>白天</Chinese>
+				<Czech>Den</Czech>
+				<French>Jour</French>
+				<German>Tag</German>
+				<Italian>Giorno</Italian>
+				<Japanese>昼</Japanese>
+				<Korean>낮</Korean>
+				<Polish>Dzień</Polish>
+				<Portuguese>Dia</Portuguese>
+				<Russian>День</Russian>
+				<Spanish>Día</Spanish>
+				<Turkish>Gündüz</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_Day_Tooltip">
+				<Original>setDate - Morning</Original>
+				<English>setDate - Morning</English>
+				<Chinesesimp>setDate - 早晨</Chinesesimp>
+				<Chinese>setDate - 早晨</Chinese>
+				<Czech>setDate - ráno</Czech>
+				<French>setDate - Matin</French>
+				<German>setDate - Morgen</German>
+				<Italian>setDate - Mattina</Italian>
+				<Japanese>setDate - 朝</Japanese>
+				<Korean>setDate - 아침</Korean>
+				<Polish>setDate - poranek</Polish>
+				<Portuguese>setDate - Manhã</Portuguese>
+				<Russian>setDate - утро</Russian>
+				<Spanish>setDate - Mañana</Spanish>
+				<Turkish>setDate - Sabah</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_Night">
+				<Original>Night</Original>
+				<English>Night</English>
+				<Chinesesimp>夜晚</Chinesesimp>
+				<Chinese>夜晚</Chinese>
+				<Czech>Noc</Czech>
+				<French>Nuit</French>
+				<German>Nacht</German>
+				<Italian>Notte</Italian>
+				<Japanese>夜</Japanese>
+				<Korean>밤</Korean>
+				<Polish>Noc</Polish>
+				<Portuguese>Noite</Portuguese>
+				<Russian>Ночь</Russian>
+				<Spanish>Noche</Spanish>
+				<Turkish>Gece</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_Night_Tooltip">
+				<Original>setDate - Night</Original>
+				<English>setDate - Night</English>
+				<Chinesesimp>setDate - 夜晚</Chinesesimp>
+				<Chinese>setDate - 夜晚</Chinese>
+				<Czech>setDate - noc</Czech>
+				<French>setDate - Nuit</French>
+				<German>setDate - Nacht</German>
+				<Italian>setDate - Notte</Italian>
+				<Japanese>setDate - 夜</Japanese>
+				<Korean>setDate - 밤</Korean>
+				<Polish>setDate - noc</Polish>
+				<Portuguese>setDate - Noite</Portuguese>
+				<Russian>setDate - ночь</Russian>
+				<Spanish>setDate - Noche</Spanish>
+				<Turkish>setDate - Gece</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_ReflectorCone">
+				<Original>Reflector cone</Original>
+				<English>Reflector cone</English>
+				<Chinesesimp>聚光锥</Chinesesimp>
+				<Chinese>聚光錐</Chinese>
+				<Czech>Kužel reflektoru</Czech>
+				<French>Cône du projecteur</French>
+				<German>Reflektorkegel</German>
+				<Italian>Cono riflettore</Italian>
+				<Japanese>リフレクターコーン</Japanese>
+				<Korean>반사광 원뿔</Korean>
+				<Polish>Stożek reflektora</Polish>
+				<Portuguese>Cone do refletor</Portuguese>
+				<Russian>Конус прожектора</Russian>
+				<Spanish>Cono del reflector</Spanish>
+				<Turkish>Reflektör konisi</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_ReflectorCone_Tooltip">
+				<Original>setLightConePars [outer, inner, coef]. Ignored for point lights.</Original>
+				<English>setLightConePars [outer, inner, coef]. Ignored for point lights.</English>
+				<Chinesesimp>setLightConePars [outer, inner, coef]。点光忽略。</Chinesesimp>
+				<Chinese>setLightConePars [outer, inner, coef]。點光忽略。</Chinese>
+				<Czech>setLightConePars [outer, inner, coef]. U bodového světla ignorováno.</Czech>
+				<French>setLightConePars [outer, inner, coef]. Ignoré pour les points.</French>
+				<German>setLightConePars [outer, inner, coef]. Bei Punktlicht ignoriert.</German>
+				<Italian>setLightConePars [outer, inner, coef]. Ignorato per luce puntiforme.</Italian>
+				<Japanese>setLightConePars [outer, inner, coef]。ポイントでは無視。</Japanese>
+				<Korean>setLightConePars [outer, inner, coef]. 포인트에서는 무시.</Korean>
+				<Polish>setLightConePars [outer, inner, coef]. Ignorowane dla światła punktowego.</Polish>
+				<Portuguese>setLightConePars [outer, inner, coef]. Ignorado em luz pontual.</Portuguese>
+				<Russian>setLightConePars [outer, inner, coef]. Для точечного света не используется.</Russian>
+				<Spanish>setLightConePars [outer, inner, coef]. Ignorado en luz puntual.</Spanish>
+				<Turkish>setLightConePars [outer, inner, coef]. Nokta ışığında yok sayılır.</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_ConeOuter">
+				<Original>Cone outer</Original>
+				<English>Cone outer</English>
+				<Chinesesimp>锥体外角</Chinesesimp>
+				<Chinese>錐體外角</Chinese>
+				<Czech>Vnější kužel</Czech>
+				<French>Cône extérieur</French>
+				<German>Äußerer Kegel</German>
+				<Italian>Cono esterno</Italian>
+				<Japanese>コーン外側</Japanese>
+				<Korean>원뿔 바깥각</Korean>
+				<Polish>Stożek zewnętrzny</Polish>
+				<Portuguese>Cone externo</Portuguese>
+				<Russian>Внешний конус</Russian>
+				<Spanish>Cono exterior</Spanish>
+				<Turkish>Dış konu</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_ConeInner">
+				<Original>Cone inner</Original>
+				<English>Cone inner</English>
+				<Chinesesimp>锥体内角</Chinesesimp>
+				<Chinese>錐體內角</Chinese>
+				<Czech>Vnitřní kužel</Czech>
+				<French>Cône intérieur</French>
+				<German>Innerer Kegel</German>
+				<Italian>Cono interno</Italian>
+				<Japanese>コーン内側</Japanese>
+				<Korean>원뿔 안쪽각</Korean>
+				<Polish>Stożek wewnętrzny</Polish>
+				<Portuguese>Cone interno</Portuguese>
+				<Russian>Внутренний конус</Russian>
+				<Spanish>Cono interior</Spanish>
+				<Turkish>İç konu</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Lights_ConeCoef">
+				<Original>Cone coef</Original>
+				<English>Cone coef</English>
+				<Chinesesimp>锥体系数</Chinesesimp>
+				<Chinese>錐體係數</Chinese>
+				<Czech>Koeficient kužele</Czech>
+				<French>Coeff. du cône</French>
+				<German>Kegelkoeff.</German>
+				<Italian>Coeff. cono</Italian>
+				<Japanese>コーン係数</Japanese>
+				<Korean>원뿔 계수</Korean>
+				<Polish>Współcz. stożka</Polish>
+				<Portuguese>Coef. do cone</Portuguese>
+				<Russian>Коэфф. конуса</Russian>
+				<Spanish>Coef. del cono</Spanish>
+				<Turkish>Konu katsayısı</Turkish>
+			</Key>
+		</Container>
+		<Container name="Markers">
+			<Key ID="STR_SQFLAB_Markers_Map">
+				<Original>Map</Original>
+				<English>Map</English>
+				<Chinesesimp>地图</Chinesesimp>
+				<Chinese>地圖</Chinese>
+				<Czech>Mapa</Czech>
+				<French>Carte</French>
+				<German>Karte</German>
+				<Italian>Mappa</Italian>
+				<Japanese>マップ</Japanese>
+				<Korean>맵</Korean>
+				<Polish>Mapa</Polish>
+				<Portuguese>Mapa</Portuguese>
+				<Russian>Карта</Russian>
+				<Spanish>Mapa</Spanish>
+				<Turkish>Harita</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_Title">
+				<Original>Markers</Original>
+				<English>Markers</English>
+				<Chinesesimp>标记</Chinesesimp>
+				<Chinese>標記</Chinese>
+				<Czech>Značky</Czech>
+				<French>Marqueurs</French>
+				<German>Markierungen</German>
+				<Italian>Marcatori</Italian>
+				<Japanese>マーカー</Japanese>
+				<Korean>마커</Korean>
+				<Polish>Znaczniki</Polish>
+				<Portuguese>Marcadores</Portuguese>
+				<Russian>Маркеры</Russian>
+				<Spanish>Marcadores</Spanish>
+				<Turkish>İşaretçiler</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_Identity">
+				<Original>Identity</Original>
+				<English>Identity</English>
+				<Chinesesimp>标识</Chinesesimp>
+				<Chinese>識別</Chinese>
+				<Czech>Identita</Czech>
+				<French>Identité</French>
+				<German>Identität</German>
+				<Italian>Identità</Italian>
+				<Japanese>識別</Japanese>
+				<Korean>식별</Korean>
+				<Polish>Tożsamość</Polish>
+				<Portuguese>Identidade</Portuguese>
+				<Russian>Идентификация</Russian>
+				<Spanish>Identidad</Spanish>
+				<Turkish>Kimlik</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_Identity_Tooltip">
+				<Original>Marker name and display text.</Original>
+				<English>Marker name and display text.</English>
+				<Chinesesimp>标记名称与显示文本。</Chinesesimp>
+				<Chinese>標記名稱與顯示文字。</Chinese>
+				<Czech>Název značky a zobrazovaný text.</Czech>
+				<French>Nom du marqueur et texte affiché.</French>
+				<German>Markierungsname und Anzeigetext.</German>
+				<Italian>Nome marcatore e testo visualizzato.</Italian>
+				<Japanese>マーカー名と表示テキスト。</Japanese>
+				<Korean>마커 이름과 표시 텍스트.</Korean>
+				<Polish>Nazwa znacznika i wyświetlany tekst.</Polish>
+				<Portuguese>Nome do marcador e texto exibido.</Portuguese>
+				<Russian>Имя маркера и отображаемый текст.</Russian>
+				<Spanish>Nombre del marcador y texto mostrado.</Spanish>
+				<Turkish>İşaretçi adı ve görünen metin.</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_Name">
+				<Original>Name</Original>
+				<English>Name</English>
+				<Chinesesimp>名称</Chinesesimp>
+				<Chinese>名稱</Chinese>
+				<Czech>Název</Czech>
+				<French>Nom</French>
+				<German>Name</German>
+				<Italian>Nome</Italian>
+				<Japanese>名前</Japanese>
+				<Korean>이름</Korean>
+				<Polish>Nazwa</Polish>
+				<Portuguese>Nome</Portuguese>
+				<Russian>Имя</Russian>
+				<Spanish>Nombre</Spanish>
+				<Turkish>Ad</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_Text">
+				<Original>Text</Original>
+				<English>Text</English>
+				<Chinesesimp>文本</Chinesesimp>
+				<Chinese>文字</Chinese>
+				<Czech>Text</Czech>
+				<French>Texte</French>
+				<German>Text</German>
+				<Italian>Testo</Italian>
+				<Japanese>テキスト</Japanese>
+				<Korean>텍스트</Korean>
+				<Polish>Tekst</Polish>
+				<Portuguese>Texto</Portuguese>
+				<Russian>Текст</Russian>
+				<Spanish>Texto</Spanish>
+				<Turkish>Metin</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_Scope">
+				<Original>Scope</Original>
+				<English>Scope</English>
+				<Chinesesimp>范围</Chinesesimp>
+				<Chinese>範圍</Chinese>
+				<Czech>Rozsah</Czech>
+				<French>Portée</French>
+				<German>Bereich</German>
+				<Italian>Ambito</Italian>
+				<Japanese>範囲</Japanese>
+				<Korean>범위</Korean>
+				<Polish>Zakres</Polish>
+				<Portuguese>Escopo</Portuguese>
+				<Russian>Область</Russian>
+				<Spanish>Ámbito</Spanish>
+				<Turkish>Kapsam</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_Scope_Tooltip">
+				<Original>Global marker APIs vs local (*Local) variants when scripting.</Original>
+				<English>Global marker APIs vs local (*Local) variants when scripting.</English>
+				<Chinesesimp>脚本中：全局标记 API 与本地（*Local）变体。</Chinesesimp>
+				<Chinese>腳本中：全域標記 API 與本機（*Local）變體。</Chinese>
+				<Czech>Globální API značek vs. lokální varianty (*Local) ve skriptu.</Czech>
+				<French>API globales des marqueurs vs variantes locales (*Local) en script.</French>
+				<German>Globale Marker-APIs vs. lokale (*Local)-Varianten im Skript.</German>
+				<Italian>API marcatori globali vs varianti locali (*Local) negli script.</Italian>
+				<Japanese>スクリプトではグローバル API とローカル（*Local）版の違い。</Japanese>
+				<Korean>스크립트에서 전역 마커 API와 로컬(*Local) 변형.</Korean>
+				<Polish>Globalne API znaczników vs warianty lokalne (*Local) w skryptach.</Polish>
+				<Portuguese>APIs globais de marcador vs variantes locais (*Local) em script.</Portuguese>
+				<Russian>Глобальные API маркеров и локальные варианты (*Local) в скриптах.</Russian>
+				<Spanish>API globales de marcador frente a variantes locales (*Local) al scriptear.</Spanish>
+				<Turkish>Betikte genel işaretçi API&apos;leri ile yerel (*Local) sürümler.</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_Global">
+				<Original>Global</Original>
+				<English>Global</English>
+				<Chinesesimp>全局</Chinesesimp>
+				<Chinese>全域</Chinese>
+				<Czech>Globální</Czech>
+				<French>Global</French>
+				<German>Global</German>
+				<Italian>Globale</Italian>
+				<Japanese>グローバル</Japanese>
+				<Korean>전역</Korean>
+				<Polish>Globalny</Polish>
+				<Portuguese>Global</Portuguese>
+				<Russian>Глобальный</Russian>
+				<Spanish>Global</Spanish>
+				<Turkish>Küresel</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_Global_Label_Tooltip">
+				<Original>When checked, scripting uses createMarker / setMarker* (global). Unchecked: *Local variants.</Original>
+				<English>When checked, scripting uses createMarker / setMarker* (global). Unchecked: *Local variants.</English>
+				<Chinesesimp>勾选：脚本使用 createMarker / setMarker*（全局）。未勾选：*Local 变体。</Chinesesimp>
+				<Chinese>勾選：腳本使用 createMarker / setMarker*（全域）。未勾選：*Local 變體。</Chinese>
+				<Czech>Zaškrtnuto: skript používá createMarker / setMarker* (globální). Nezaškrtnuto: varianty *Local.</Czech>
+				<French>Coché : createMarker / setMarker* (global). Décoché : variantes *Local.</French>
+				<German>Aktiviert: createMarker / setMarker* (global). Deaktiviert: *Local-Varianten.</German>
+				<Italian>Spuntato: createMarker / setMarker* (globale). No: varianti *Local.</Italian>
+				<Japanese>オン: createMarker / setMarker*（グローバル）。オフ: *Local 系。</Japanese>
+				<Korean>체크: createMarker / setMarker*(전역). 해제: *Local 변형.</Korean>
+				<Polish>Zaznaczone: createMarker / setMarker* (globalne). Bez: warianty *Local.</Polish>
+				<Portuguese>Marcado: createMarker / setMarker* (global). Desmarcado: *Local.</Portuguese>
+				<Russian>Вкл.: createMarker / setMarker* (глобально). Выкл.: варианты *Local.</Russian>
+				<Spanish>Marcado: createMarker / setMarker* (global). Sin marcar: *Local.</Spanish>
+				<Turkish>İşaretli: createMarker / setMarker* (genel). Değil: *Local sürümleri.</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_Global_Chk_Tooltip">
+				<Original>Unchecked: createMarkerLocal / setMarker*Local. Checked: createMarker / setMarker*.</Original>
+				<English>Unchecked: createMarkerLocal / setMarker*Local. Checked: createMarker / setMarker*.</English>
+				<Chinesesimp>未勾选：createMarkerLocal / setMarker*Local。勾选：createMarker / setMarker*。</Chinesesimp>
+				<Chinese>未勾選：createMarkerLocal / setMarker*Local。勾選：createMarker / setMarker*。</Chinese>
+				<Czech>Nezaškrtnuto: createMarkerLocal / setMarker*Local. Zaškrtnuto: createMarker / setMarker*.</Czech>
+				<French>Décoché : createMarkerLocal / setMarker*Local. Coché : createMarker / setMarker*.</French>
+				<German>Deaktiviert: createMarkerLocal / setMarker*Local. Aktiviert: createMarker / setMarker*.</German>
+				<Italian>Non spuntato: createMarkerLocal / setMarker*Local. Spuntato: createMarker / setMarker*.</Italian>
+				<Japanese>オフ: createMarkerLocal / setMarker*Local。オン: createMarker / setMarker*。</Japanese>
+				<Korean>해제: createMarkerLocal / setMarker*Local. 체크: createMarker / setMarker*.</Korean>
+				<Polish>Bez znaku: createMarkerLocal / setMarker*Local. Zaznaczone: createMarker / setMarker*.</Polish>
+				<Portuguese>Desmarcado: createMarkerLocal / setMarker*Local. Marcado: createMarker / setMarker*.</Portuguese>
+				<Russian>Выкл.: createMarkerLocal / setMarker*Local. Вкл.: createMarker / setMarker*.</Russian>
+				<Spanish>Sin marcar: createMarkerLocal / setMarker*Local. Marcado: createMarker / setMarker*.</Spanish>
+				<Turkish>İşaretsiz: createMarkerLocal / setMarker*Local. İşaretli: createMarker / setMarker*.</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_Channel">
+				<Original>Channel</Original>
+				<English>Channel</English>
+				<Chinesesimp>频道</Chinesesimp>
+				<Chinese>頻道</Chinese>
+				<Czech>Kanál</Czech>
+				<French>Canal</French>
+				<German>Kanal</German>
+				<Italian>Canale</Italian>
+				<Japanese>チャンネル</Japanese>
+				<Korean>채널</Korean>
+				<Polish>Kanał</Polish>
+				<Portuguese>Canal</Portuguese>
+				<Russian>Канал</Russian>
+				<Spanish>Canal</Spanish>
+				<Turkish>Kanal</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_Channel_Tooltip">
+				<Original>createMarker / createMarkerLocal channel: who can see the marker (see wiki).</Original>
+				<English>createMarker / createMarkerLocal channel: who can see the marker (see wiki).</English>
+				<Chinesesimp>createMarker / createMarkerLocal 频道：谁能看到标记（见 wiki）。</Chinesesimp>
+				<Chinese>createMarker / createMarkerLocal 頻道：誰能看到標記（見 wiki）。</Chinese>
+				<Czech>Kanál createMarker / createMarkerLocal: kdo značku uvidí (viz wiki).</Czech>
+				<French>Canal createMarker / createMarkerLocal : qui voit le marqueur (voir wiki).</French>
+				<German>Kanal von createMarker / createMarkerLocal: wer den Marker sieht (siehe Wiki).</German>
+				<Italian>Canale createMarker / createMarkerLocal: chi vede il marcatore (vedi wiki).</Italian>
+				<Japanese>createMarker / createMarkerLocal のチャンネル：誰が見られるか（wiki 参照）。</Japanese>
+				<Korean>createMarker / createMarkerLocal 채널: 누가 마커를 보는지(wiki 참고).</Korean>
+				<Polish>Kanał createMarker / createMarkerLocal: kto widzi znacznik (wiki).</Polish>
+				<Portuguese>Canal createMarker / createMarkerLocal: quem vê o marcador (veja wiki).</Portuguese>
+				<Russian>Канал createMarker / createMarkerLocal: кто видит маркер (см. wiki).</Russian>
+				<Spanish>Canal createMarker / createMarkerLocal: quién ve el marcador (ver wiki).</Spanish>
+				<Turkish>createMarker / createMarkerLocal kanalı: işaretçiyi kim görür (wiki).</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_ChannelDefault">
+				<Original>Default</Original>
+				<English>Default</English>
+				<Chinesesimp>默认</Chinesesimp>
+				<Chinese>預設</Chinese>
+				<Czech>Výchozí</Czech>
+				<French>Par défaut</French>
+				<German>Standard</German>
+				<Italian>Predefinito</Italian>
+				<Japanese>既定</Japanese>
+				<Korean>기본값</Korean>
+				<Polish>Domyślny</Polish>
+				<Portuguese>Padrão</Portuguese>
+				<Russian>По умолчанию</Russian>
+				<Spanish>Predeterminado</Spanish>
+				<Turkish>Varsayılan</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_ChannelGlobal">
+				<Original>Global</Original>
+				<English>Global</English>
+				<Chinesesimp>全局</Chinesesimp>
+				<Chinese>全域</Chinese>
+				<Czech>Globální</Czech>
+				<French>Global</French>
+				<German>Global</German>
+				<Italian>Globale</Italian>
+				<Japanese>グローバル</Japanese>
+				<Korean>전역</Korean>
+				<Polish>Globalny</Polish>
+				<Portuguese>Global</Portuguese>
+				<Russian>Глобальный</Russian>
+				<Spanish>Global</Spanish>
+				<Turkish>Küresel</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_ChannelSide">
+				<Original>Side</Original>
+				<English>Side</English>
+				<Chinesesimp>阵营</Chinesesimp>
+				<Chinese>陣營</Chinese>
+				<Czech>Strana</Czech>
+				<French>Côté</French>
+				<German>Seite</German>
+				<Italian>Lato</Italian>
+				<Japanese>陣営</Japanese>
+				<Korean>진영</Korean>
+				<Polish>Strona</Polish>
+				<Portuguese>Lado</Portuguese>
+				<Russian>Сторона</Russian>
+				<Spanish>Lado</Spanish>
+				<Turkish>Taraf</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_ChannelCommand">
+				<Original>Command</Original>
+				<English>Command</English>
+				<Chinesesimp>指挥</Chinesesimp>
+				<Chinese>指揮</Chinese>
+				<Czech>Velení</Czech>
+				<French>Commandement</French>
+				<German>Befehl</German>
+				<Italian>Comando</Italian>
+				<Japanese>指揮</Japanese>
+				<Korean>지휘</Korean>
+				<Polish>Dowództwo</Polish>
+				<Portuguese>Comando</Portuguese>
+				<Russian>Командование</Russian>
+				<Spanish>Mando</Spanish>
+				<Turkish>Komuta</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_ChannelGroup">
+				<Original>Group</Original>
+				<English>Group</English>
+				<Chinesesimp>小队</Chinesesimp>
+				<Chinese>小隊</Chinese>
+				<Czech>Skupina</Czech>
+				<French>Groupe</French>
+				<German>Gruppe</German>
+				<Italian>Gruppo</Italian>
+				<Japanese>グループ</Japanese>
+				<Korean>그룹</Korean>
+				<Polish>Grupa</Polish>
+				<Portuguese>Grupo</Portuguese>
+				<Russian>Группа</Russian>
+				<Spanish>Grupo</Spanish>
+				<Turkish>Grup</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_ChannelVehicle">
+				<Original>Vehicle</Original>
+				<English>Vehicle</English>
+				<Chinesesimp>载具</Chinesesimp>
+				<Chinese>載具</Chinese>
+				<Czech>Vozidlo</Czech>
+				<French>Véhicule</French>
+				<German>Fahrzeug</German>
+				<Italian>Veicolo</Italian>
+				<Japanese>車両</Japanese>
+				<Korean>차량</Korean>
+				<Polish>Pojazd</Polish>
+				<Portuguese>Veículo</Portuguese>
+				<Russian>Транспорт</Russian>
+				<Spanish>Vehículo</Spanish>
+				<Turkish>Araç</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_ChannelDirect">
+				<Original>Direct</Original>
+				<English>Direct</English>
+				<Chinesesimp>直连</Chinesesimp>
+				<Chinese>直連</Chinese>
+				<Czech>Přímý</Czech>
+				<French>Direct</French>
+				<German>Direkt</German>
+				<Italian>Diretto</Italian>
+				<Japanese>直接</Japanese>
+				<Korean>직접</Korean>
+				<Polish>Bezpośredni</Polish>
+				<Portuguese>Direto</Portuguese>
+				<Russian>Прямой</Russian>
+				<Spanish>Directo</Spanish>
+				<Turkish>Doğrudan</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_TypeTitle">
+				<Original>Marker type (CfgMarkers)</Original>
+				<English>Marker type (CfgMarkers)</English>
+				<Chinesesimp>标记类型（CfgMarkers）</Chinesesimp>
+				<Chinese>標記類型（CfgMarkers）</Chinese>
+				<Czech>Typ značky (CfgMarkers)</Czech>
+				<French>Type de marqueur (CfgMarkers)</French>
+				<German>Markierungstyp (CfgMarkers)</German>
+				<Italian>Tipo marcatore (CfgMarkers)</Italian>
+				<Japanese>マーカー種別（CfgMarkers）</Japanese>
+				<Korean>마커 유형(CfgMarkers)</Korean>
+				<Polish>Typ znacznika (CfgMarkers)</Polish>
+				<Portuguese>Tipo de marcador (CfgMarkers)</Portuguese>
+				<Russian>Тип маркера (CfgMarkers)</Russian>
+				<Spanish>Tipo de marcador (CfgMarkers)</Spanish>
+				<Turkish>İşaretçi türü (CfgMarkers)</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_ColorsTitle">
+				<Original>Color preview (RGBA)</Original>
+				<English>Color preview (RGBA)</English>
+				<Chinesesimp>颜色预览（RGBA）</Chinesesimp>
+				<Chinese>顏色預覽（RGBA）</Chinese>
+				<Czech>Náhled barvy (RGBA)</Czech>
+				<French>Aperçu couleur (RGBA)</French>
+				<German>Farbvorschau (RGBA)</German>
+				<Italian>Anteprima colore (RGBA)</Italian>
+				<Japanese>色プレビュー（RGBA）</Japanese>
+				<Korean>색 미리보기(RGBA)</Korean>
+				<Polish>Podgląd koloru (RGBA)</Polish>
+				<Portuguese>Pré-visualização de cor (RGBA)</Portuguese>
+				<Russian>Предпросмотр цвета (RGBA)</Russian>
+				<Spanish>Vista previa de color (RGBA)</Spanish>
+				<Turkish>Renk önizlemesi (RGBA)</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_ColorsTitle_Tooltip">
+				<Original>setMarkerColorLocal with direct RGBA string #(r,g,b,a), values 0..1 (see wiki).</Original>
+				<English>setMarkerColorLocal with direct RGBA string #(r,g,b,a), values 0..1 (see wiki).</English>
+				<Chinesesimp>setMarkerColorLocal 与直接 RGBA 字符串 #(r,g,b,a)，值 0..1（见 wiki）。</Chinesesimp>
+				<Chinese>setMarkerColorLocal 與直接 RGBA 字串 #(r,g,b,a)，值 0..1（見 wiki）。</Chinese>
+				<Czech>setMarkerColorLocal s přímým RGBA řetězcem #(r,g,b,a), hodnoty 0..1 (viz wiki).</Czech>
+				<French>setMarkerColorLocal avec chaîne RGBA directe #(r,g,b,a), valeurs 0..1 (voir wiki).</French>
+				<German>setMarkerColorLocal mit direktem RGBA-String #(r,g,b,a), Werte 0..1 (siehe Wiki).</German>
+				<Italian>setMarkerColorLocal con stringa RGBA diretta #(r,g,b,a), valori 0..1 (vedi wiki).</Italian>
+				<Japanese>setMarkerColorLocal と RGBA 文字列 #(r,g,b,a)、値 0..1（wiki 参照）。</Japanese>
+				<Korean>setMarkerColorLocal과 RGBA 문자열 #(r,g,b,a), 값 0..1(wiki 참고).</Korean>
+				<Polish>setMarkerColorLocal z bezpośrednim łańcuchem RGBA #(r,g,b,a), wartości 0..1 (wiki).</Polish>
+				<Portuguese>setMarkerColorLocal com string RGBA direta #(r,g,b,a), valores 0..1 (veja wiki).</Portuguese>
+				<Russian>setMarkerColorLocal со строкой RGBA #(r,g,b,a), значения 0..1 (см. wiki).</Russian>
+				<Spanish>setMarkerColorLocal con cadena RGBA directa #(r,g,b,a), valores 0..1 (ver wiki).</Spanish>
+				<Turkish>setMarkerColorLocal ve doğrudan RGBA #(r,g,b,a), 0..1 değerleri (wiki).</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_PosTitle">
+				<Original>Position (setMarkerPos)</Original>
+				<English>Position (setMarkerPos)</English>
+				<Chinesesimp>位置（setMarkerPos）</Chinesesimp>
+				<Chinese>位置（setMarkerPos）</Chinese>
+				<Czech>Pozice (setMarkerPos)</Czech>
+				<French>Position (setMarkerPos)</French>
+				<German>Position (setMarkerPos)</German>
+				<Italian>Posizione (setMarkerPos)</Italian>
+				<Japanese>位置（setMarkerPos）</Japanese>
+				<Korean>위치(setMarkerPos)</Korean>
+				<Polish>Pozycja (setMarkerPos)</Polish>
+				<Portuguese>Posição (setMarkerPos)</Portuguese>
+				<Russian>Позиция (setMarkerPos)</Russian>
+				<Spanish>Posición (setMarkerPos)</Spanish>
+				<Turkish>Konum (setMarkerPos)</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_Position">
+				<Original>Position</Original>
+				<English>Position</English>
+				<Chinesesimp>位置</Chinesesimp>
+				<Chinese>位置</Chinese>
+				<Czech>Pozice</Czech>
+				<French>Position</French>
+				<German>Position</German>
+				<Italian>Posizione</Italian>
+				<Japanese>位置</Japanese>
+				<Korean>위치</Korean>
+				<Polish>Pozycja</Polish>
+				<Portuguese>Posição</Portuguese>
+				<Russian>Позиция</Russian>
+				<Spanish>Posición</Spanish>
+				<Turkish>Konum</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_Position_Tooltip">
+				<Original>World position as an array, e.g. [x, y] or [x, y, z].</Original>
+				<English>World position as an array, e.g. [x, y] or [x, y, z].</English>
+				<Chinesesimp>世界坐标为数组，例如 [x, y] 或 [x, y, z]。</Chinesesimp>
+				<Chinese>世界座標為陣列，例如 [x, y] 或 [x, y, z]。</Chinese>
+				<Czech>Světová pozice jako pole, např. [x, y] nebo [x, y, z].</Czech>
+				<French>Position monde sous forme de tableau, ex. [x, y] ou [x, y, z].</French>
+				<German>Weltposition als Array, z. B. [x, y] oder [x, y, z].</German>
+				<Italian>Posizione mondo come array, es. [x, y] o [x, y, z].</Italian>
+				<Japanese>ワールド位置を配列で、[x, y] または [x, y, z] など。</Japanese>
+				<Korean>월드 위치를 배열로, 예: [x, y] 또는 [x, y, z].</Korean>
+				<Polish>Pozycja świata jako tablica, np. [x, y] lub [x, y, z].</Polish>
+				<Portuguese>Posição mundial como array, ex. [x, y] ou [x, y, z].</Portuguese>
+				<Russian>Мировая позиция массивом, напр. [x, y] или [x, y, z].</Russian>
+				<Spanish>Posición mundial como matriz, p. ej. [x, y] o [x, y, z].</Spanish>
+				<Turkish>Dünya konumu dizi olarak, örn. [x, y] veya [x, y, z].</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_NorthOffset">
+				<Original>North offset</Original>
+				<English>North offset</English>
+				<Chinesesimp>向北偏移</Chinesesimp>
+				<Chinese>向北偏移</Chinese>
+				<Czech>Posun na sever</Czech>
+				<French>Décalage nord</French>
+				<German>Nordversatz</German>
+				<Italian>Offset nord</Italian>
+				<Japanese>北オフセット</Japanese>
+				<Korean>북쪽 오프셋</Korean>
+				<Polish>Przesunięcie na północ</Polish>
+				<Portuguese>Deslocamento norte</Portuguese>
+				<Russian>Смещение на север</Russian>
+				<Spanish>Desplazamiento norte</Spanish>
+				<Turkish>Kuzey ofseti</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_NorthOffset_Tooltip">
+				<Original>When enabled, the default position is placed north of you so the map marker does not sit on top of your player icon (easier to see the preview).</Original>
+				<English>When enabled, the default position is placed north of you so the map marker does not sit on top of your player icon (easier to see the preview).</English>
+				<Chinesesimp>启用后，默认位置放在你北侧，避免地图标记盖住玩家图标（更易预览）。</Chinesesimp>
+				<Chinese>啟用後，預設位置放在你北方，避免地圖標記蓋住玩家圖示（較易預覽）。</Chinese>
+				<Czech>Zapnuto: výchozí pozice severně od vás, aby značka nepřekrývala ikonu hráče.</Czech>
+				<French>Activé : position par défaut au nord pour éviter que le marqueur recouvre votre icône.</French>
+				<German>Aktiviert: Standardposition nördlich von Ihnen, damit der Marker nicht auf dem Spielersymbol liegt.</German>
+				<Italian>Attivo: posizione predefinita a nord così il marcatore non copre l&apos;icona giocatore.</Italian>
+				<Japanese>オン：初期位置を北にずらし、マーカーがプレイヤーアイコンと重ならないようにします。</Japanese>
+				<Korean>켜면 기본 위치가 북쪽에 배치되어 마커가 플레이어 아이콘을 가리지 않습니다.</Korean>
+				<Polish>Włączone: domyślna pozycja na północ, by znacznik nie zasłaniał ikony gracza.</Polish>
+				<Portuguese>Ativo: posição padrão ao norte para o marcador não cobrir seu ícone.</Portuguese>
+				<Russian>Вкл.: позиция по умолчанию севернее вас, чтобы маркер не перекрывал иконку игрока.</Russian>
+				<Spanish>Activo: la posición por defecto queda al norte para no tapar tu icono.</Spanish>
+				<Turkish>Açık: varsayılan konum kuzeyde; işaretçi oyuncu simgenin üstüne binmez.</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_ShapeTitle">
+				<Original>Shape, size, direction</Original>
+				<English>Shape, size, direction</English>
+				<Chinesesimp>形状、大小、方向</Chinesesimp>
+				<Chinese>形狀、大小、方向</Chinese>
+				<Czech>Tvar, velikost, směr</Czech>
+				<French>Forme, taille, direction</French>
+				<German>Form, Größe, Richtung</German>
+				<Italian>Forma, dimensione, direzione</Italian>
+				<Japanese>形状、サイズ、向き</Japanese>
+				<Korean>형태, 크기, 방향</Korean>
+				<Polish>Kształt, rozmiar, kierunek</Polish>
+				<Portuguese>Forma, tamanho, direção</Portuguese>
+				<Russian>Форма, размер, направление</Russian>
+				<Spanish>Forma, tamaño, dirección</Spanish>
+				<Turkish>Şekil, boyut, yön</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_Shape">
+				<Original>Shape</Original>
+				<English>Shape</English>
+				<Chinesesimp>形状</Chinesesimp>
+				<Chinese>形狀</Chinese>
+				<Czech>Tvar</Czech>
+				<French>Forme</French>
+				<German>Form</German>
+				<Italian>Forma</Italian>
+				<Japanese>形状</Japanese>
+				<Korean>형태</Korean>
+				<Polish>Kształt</Polish>
+				<Portuguese>Forma</Portuguese>
+				<Russian>Форма</Russian>
+				<Spanish>Forma</Spanish>
+				<Turkish>Şekil</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_ShapeIcon">
+				<Original>Icon</Original>
+				<English>Icon</English>
+				<Chinesesimp>图标</Chinesesimp>
+				<Chinese>圖示</Chinese>
+				<Czech>Ikona</Czech>
+				<French>Icône</French>
+				<German>Symbol</German>
+				<Italian>Icona</Italian>
+				<Japanese>アイコン</Japanese>
+				<Korean>아이콘</Korean>
+				<Polish>Ikona</Polish>
+				<Portuguese>Ícone</Portuguese>
+				<Russian>Значок</Russian>
+				<Spanish>Icono</Spanish>
+				<Turkish>Simge</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_ShapeRectangle">
+				<Original>Rectangle</Original>
+				<English>Rectangle</English>
+				<Chinesesimp>矩形</Chinesesimp>
+				<Chinese>矩形</Chinese>
+				<Czech>Obdélník</Czech>
+				<French>Rectangle</French>
+				<German>Rechteck</German>
+				<Italian>Rettangolo</Italian>
+				<Japanese>長方形</Japanese>
+				<Korean>직사각형</Korean>
+				<Polish>Prostokąt</Polish>
+				<Portuguese>Retângulo</Portuguese>
+				<Russian>Прямоугольник</Russian>
+				<Spanish>Rectángulo</Spanish>
+				<Turkish>Dikdörtgen</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_ShapeEllipse">
+				<Original>Ellipse</Original>
+				<English>Ellipse</English>
+				<Chinesesimp>椭圆</Chinesesimp>
+				<Chinese>橢圓</Chinese>
+				<Czech>Elipsa</Czech>
+				<French>Ellipse</French>
+				<German>Ellipse</German>
+				<Italian>Ellisse</Italian>
+				<Japanese>楕円</Japanese>
+				<Korean>타원</Korean>
+				<Polish>Elipsa</Polish>
+				<Portuguese>Elipse</Portuguese>
+				<Russian>Эллипс</Russian>
+				<Spanish>Elipse</Spanish>
+				<Turkish>Elips</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_SizeA">
+				<Original>Size A</Original>
+				<English>Size A</English>
+				<Chinesesimp>尺寸 A</Chinesesimp>
+				<Chinese>尺寸 A</Chinese>
+				<Czech>Velikost A</Czech>
+				<French>Taille A</French>
+				<German>Größe A</German>
+				<Italian>Dimensione A</Italian>
+				<Japanese>サイズ A</Japanese>
+				<Korean>크기 A</Korean>
+				<Polish>Rozmiar A</Polish>
+				<Portuguese>Tamanho A</Portuguese>
+				<Russian>Размер A</Russian>
+				<Spanish>Tamaño A</Spanish>
+				<Turkish>Boyut A</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_SizeB">
+				<Original>Size B</Original>
+				<English>Size B</English>
+				<Chinesesimp>尺寸 B</Chinesesimp>
+				<Chinese>尺寸 B</Chinese>
+				<Czech>Velikost B</Czech>
+				<French>Taille B</French>
+				<German>Größe B</German>
+				<Italian>Dimensione B</Italian>
+				<Japanese>サイズ B</Japanese>
+				<Korean>크기 B</Korean>
+				<Polish>Rozmiar B</Polish>
+				<Portuguese>Tamanho B</Portuguese>
+				<Russian>Размер B</Russian>
+				<Spanish>Tamaño B</Spanish>
+				<Turkish>Boyut B</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_Direction">
+				<Original>Direction</Original>
+				<English>Direction</English>
+				<Chinesesimp>方向</Chinesesimp>
+				<Chinese>方向</Chinese>
+				<Czech>Směr</Czech>
+				<French>Direction</French>
+				<German>Richtung</German>
+				<Italian>Direzione</Italian>
+				<Japanese>方向</Japanese>
+				<Korean>방향</Korean>
+				<Polish>Kierunek</Polish>
+				<Portuguese>Direção</Portuguese>
+				<Russian>Направление</Russian>
+				<Spanish>Dirección</Spanish>
+				<Turkish>Yön</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_BrushTitle">
+				<Original>Brush (setMarkerBrush)</Original>
+				<English>Brush (setMarkerBrush)</English>
+				<Chinesesimp>填充样式（setMarkerBrush）</Chinesesimp>
+				<Chinese>填充樣式（setMarkerBrush）</Chinese>
+				<Czech>Výplň (setMarkerBrush)</Czech>
+				<French>Brosse (setMarkerBrush)</French>
+				<German>Füllung (setMarkerBrush)</German>
+				<Italian>Riempimento (setMarkerBrush)</Italian>
+				<Japanese>ブラシ（setMarkerBrush）</Japanese>
+				<Korean>브러시(setMarkerBrush)</Korean>
+				<Polish>Wypełnienie (setMarkerBrush)</Polish>
+				<Portuguese>Pincel (setMarkerBrush)</Portuguese>
+				<Russian>Заливка (setMarkerBrush)</Russian>
+				<Spanish>Relleno (setMarkerBrush)</Spanish>
+				<Turkish>Fırça (setMarkerBrush)</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_Brush">
+				<Original>Brush</Original>
+				<English>Brush</English>
+				<Chinesesimp>填充</Chinesesimp>
+				<Chinese>填充</Chinese>
+				<Czech>Výplň</Czech>
+				<French>Brosse</French>
+				<German>Füllung</German>
+				<Italian>Riempimento</Italian>
+				<Japanese>ブラシ</Japanese>
+				<Korean>브러시</Korean>
+				<Polish>Wypełnienie</Polish>
+				<Portuguese>Pincel</Portuguese>
+				<Russian>Заливка</Russian>
+				<Spanish>Relleno</Spanish>
+				<Turkish>Fırça</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_BrushSolid">
+				<Original>Solid</Original>
+				<English>Solid</English>
+				<Chinesesimp>实心</Chinesesimp>
+				<Chinese>實心</Chinese>
+				<Czech>Plná</Czech>
+				<French>Plein</French>
+				<German>Voll</German>
+				<Italian>Pieno</Italian>
+				<Japanese>ソリッド</Japanese>
+				<Korean>솔리드</Korean>
+				<Polish>Pełny</Polish>
+				<Portuguese>Sólido</Portuguese>
+				<Russian>Сплошная</Russian>
+				<Spanish>Sólido</Spanish>
+				<Turkish>Dolu</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_BrushBorder">
+				<Original>Border</Original>
+				<English>Border</English>
+				<Chinesesimp>边框</Chinesesimp>
+				<Chinese>邊框</Chinese>
+				<Czech>Okraj</Czech>
+				<French>Bordure</French>
+				<German>Rand</German>
+				<Italian>Bordo</Italian>
+				<Japanese>境界</Japanese>
+				<Korean>테두리</Korean>
+				<Polish>Obramowanie</Polish>
+				<Portuguese>Borda</Portuguese>
+				<Russian>Контур</Russian>
+				<Spanish>Borde</Spanish>
+				<Turkish>Kenar</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_BrushGrid">
+				<Original>Grid</Original>
+				<English>Grid</English>
+				<Chinesesimp>网格</Chinesesimp>
+				<Chinese>網格</Chinese>
+				<Czech>Mřížka</Czech>
+				<French>Grille</French>
+				<German>Raster</German>
+				<Italian>Griglia</Italian>
+				<Japanese>グリッド</Japanese>
+				<Korean>격자</Korean>
+				<Polish>Siatka</Polish>
+				<Portuguese>Grade</Portuguese>
+				<Russian>Сетка</Russian>
+				<Spanish>Cuadrícula</Spanish>
+				<Turkish>Izgara</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_BrushFDiagonal">
+				<Original>FDiagonal</Original>
+				<English>FDiagonal</English>
+				<Chinesesimp>FDiagonal</Chinesesimp>
+				<Chinese>FDiagonal</Chinese>
+				<Czech>FDiagonal</Czech>
+				<French>FDiagonal</French>
+				<German>FDiagonal</German>
+				<Italian>FDiagonal</Italian>
+				<Japanese>FDiagonal</Japanese>
+				<Korean>FDiagonal</Korean>
+				<Polish>FDiagonal</Polish>
+				<Portuguese>FDiagonal</Portuguese>
+				<Russian>FDiagonal</Russian>
+				<Spanish>FDiagonal</Spanish>
+				<Turkish>FDiagonal</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_BrushBDiagonal">
+				<Original>BDiagonal</Original>
+				<English>BDiagonal</English>
+				<Chinesesimp>BDiagonal</Chinesesimp>
+				<Chinese>BDiagonal</Chinese>
+				<Czech>BDiagonal</Czech>
+				<French>BDiagonal</French>
+				<German>BDiagonal</German>
+				<Italian>BDiagonal</Italian>
+				<Japanese>BDiagonal</Japanese>
+				<Korean>BDiagonal</Korean>
+				<Polish>BDiagonal</Polish>
+				<Portuguese>BDiagonal</Portuguese>
+				<Russian>BDiagonal</Russian>
+				<Spanish>BDiagonal</Spanish>
+				<Turkish>BDiagonal</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_BrushCross">
+				<Original>Cross</Original>
+				<English>Cross</English>
+				<Chinesesimp>十字</Chinesesimp>
+				<Chinese>十字</Chinese>
+				<Czech>Kříž</Czech>
+				<French>Croix</French>
+				<German>Kreuz</German>
+				<Italian>Croce</Italian>
+				<Japanese>十字</Japanese>
+				<Korean>십자</Korean>
+				<Polish>Krzyż</Polish>
+				<Portuguese>Cruz</Portuguese>
+				<Russian>Крест</Russian>
+				<Spanish>Cruz</Spanish>
+				<Turkish>Çapraz</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_BrushDiagGrid">
+				<Original>DiagGrid</Original>
+				<English>DiagGrid</English>
+				<Chinesesimp>DiagGrid</Chinesesimp>
+				<Chinese>DiagGrid</Chinese>
+				<Czech>DiagGrid</Czech>
+				<French>DiagGrid</French>
+				<German>DiagGrid</German>
+				<Italian>DiagGrid</Italian>
+				<Japanese>DiagGrid</Japanese>
+				<Korean>DiagGrid</Korean>
+				<Polish>DiagGrid</Polish>
+				<Portuguese>DiagGrid</Portuguese>
+				<Russian>DiagGrid</Russian>
+				<Spanish>DiagGrid</Spanish>
+				<Turkish>DiagGrid</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_ShadowTitle">
+				<Original>Shadow</Original>
+				<English>Shadow</English>
+				<Chinesesimp>阴影</Chinesesimp>
+				<Chinese>陰影</Chinese>
+				<Czech>Stín</Czech>
+				<French>Ombre</French>
+				<German>Schatten</German>
+				<Italian>Ombra</Italian>
+				<Japanese>影</Japanese>
+				<Korean>그림자</Korean>
+				<Polish>Cień</Polish>
+				<Portuguese>Sombra</Portuguese>
+				<Russian>Тень</Russian>
+				<Spanish>Sombra</Spanish>
+				<Turkish>Gölge</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_Shadow">
+				<Original>Shadow</Original>
+				<English>Shadow</English>
+				<Chinesesimp>阴影</Chinesesimp>
+				<Chinese>陰影</Chinese>
+				<Czech>Stín</Czech>
+				<French>Ombre</French>
+				<German>Schatten</German>
+				<Italian>Ombra</Italian>
+				<Japanese>影</Japanese>
+				<Korean>그림자</Korean>
+				<Polish>Cień</Polish>
+				<Portuguese>Sombra</Portuguese>
+				<Russian>Тень</Russian>
+				<Spanish>Sombra</Spanish>
+				<Turkish>Gölge</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_ShadowOff">
+				<Original>Off</Original>
+				<English>Off</English>
+				<Chinesesimp>关</Chinesesimp>
+				<Chinese>關</Chinese>
+				<Czech>Vypnuto</Czech>
+				<French>Désactivé</French>
+				<German>Aus</German>
+				<Italian>Spento</Italian>
+				<Japanese>オフ</Japanese>
+				<Korean>끔</Korean>
+				<Polish>Wył.</Polish>
+				<Portuguese>Desligado</Portuguese>
+				<Russian>Выкл.</Russian>
+				<Spanish>Apagado</Spanish>
+				<Turkish>Kapalı</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_ShadowOn">
+				<Original>On</Original>
+				<English>On</English>
+				<Chinesesimp>开</Chinesesimp>
+				<Chinese>開</Chinese>
+				<Czech>Zapnuto</Czech>
+				<French>Activé</French>
+				<German>An</German>
+				<Italian>Acceso</Italian>
+				<Japanese>オン</Japanese>
+				<Korean>켬</Korean>
+				<Polish>Wł.</Polish>
+				<Portuguese>Ligado</Portuguese>
+				<Russian>Вкл.</Russian>
+				<Spanish>Encendido</Spanish>
+				<Turkish>Açık</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_Export_Tooltip">
+				<Original>Copy marker setup as SQF to clipboard (RPT fallback if unavailable).</Original>
+				<English>Copy marker setup as SQF to clipboard (RPT fallback if unavailable).</English>
+				<Chinesesimp>将标记配置以 SQF 复制到剪贴板（不可用时写入 RPT）。</Chinesesimp>
+				<Chinese>將標記設定以 SQF 複製到剪貼簿（不可用時寫入 RPT）。</Chinese>
+				<Czech>Zkopírovat nastavení značky jako SQF do schránky (jinak RPT).</Czech>
+				<French>Copier la config marqueur en SQF dans le presse-papiers (sinon RPT).</French>
+				<German>Markierung als SQF in die Zwischenablage (sonst RPT).</German>
+				<Italian>Copia setup marcatore come SQF negli appunti (altrimenti RPT).</Italian>
+				<Japanese>マーカー設定を SQF でクリップボードへ（不可なら RPT）。</Japanese>
+				<Korean>마커 설정을 SQF로 클립보드에 복사(불가 시 RPT).</Korean>
+				<Polish>Kopiuj konfigurację znacznika jako SQF (w razie braku RPT).</Polish>
+				<Portuguese>Copiar configuração do marcador como SQF (fallback RPT).</Portuguese>
+				<Russian>Копировать настройки маркера как SQF в буфер (иначе RPT).</Russian>
+				<Spanish>Copiar configuración del marcador como SQF al portapapeles (si no, RPT).</Spanish>
+				<Turkish>İşaretçi kurulumunu SQF olarak panoya kopyala (yoksa RPT).</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Markers_ValueCommit_Tooltip">
+				<Original>Type a value and click away (or Tab) to apply to the slider.</Original>
+				<English>Type a value and click away (or Tab) to apply to the slider.</English>
+				<Chinesesimp>输入数值后点击别处（或 Tab）以应用到滑块。</Chinesesimp>
+				<Chinese>輸入數值後點擊別處（或 Tab）以套用到滑桿。</Chinese>
+				<Czech>Zadejte hodnotu a klikněte mimo (nebo Tab) pro použití na posuvník.</Czech>
+				<French>Saisissez une valeur et cliquez ailleurs (ou Tab) pour appliquer au curseur.</French>
+				<German>Wert eingeben und woanders klicken (oder Tab), um den Schieberegler zu setzen.</German>
+				<Italian>Inserisci un valore e clicca fuori (o Tab) per applicare allo slider.</Italian>
+				<Japanese>値を入力し、外をクリック（または Tab）でスライダーに反映。</Japanese>
+				<Korean>값을 입력한 뒤 다른 곳을 클릭하거나 Tab으로 슬라이더에 적용.</Korean>
+				<Polish>Wpisz wartość i kliknij poza polem (lub Tab), by zastosować do suwaka.</Polish>
+				<Portuguese>Digite um valor e clique fora (ou Tab) para aplicar ao controle deslizante.</Portuguese>
+				<Russian>Введите значение и кликните в сторону (или Tab), чтобы применить к ползунку.</Russian>
+				<Spanish>Escribe un valor y haz clic fuera (o Tab) para aplicar al deslizador.</Spanish>
+				<Turkish>Değer yazıp başka yere tıklayın (veya Tab) kaydırmaya uygulayın.</Turkish>
+			</Key>
+		</Container>
+		<Container name="Errors">
+			<Key ID="STR_SQFLAB_Err_MainMenuDisplayMissing">
+				<Original>SQF Lab main menu display class missing from config</Original>
+				<English>SQF Lab main menu display class missing from config</English>
+				<Chinesesimp>SQF Lab 主菜单显示类在配置中缺失</Chinesesimp>
+				<Chinese>SQF Lab 主選單顯示類別在設定中遺失</Chinese>
+				<Czech>Chybí třída zobrazení hlavní nabídky SQF Lab v konfiguraci</Czech>
+				<French>Classe d&apos;affichage du menu principal SQF Lab absente de la config</French>
+				<German>SQF Lab-Hauptmenü-Anzeigeklasse fehlt in der Konfiguration</German>
+				<Italian>Classe display menu principale SQF Lab mancante nella config</Italian>
+				<Japanese>SQF Lab メインメニュー表示クラスが config にありません</Japanese>
+				<Korean>SQF Lab 메인 메뉴 표시 클래스가 설정에 없습니다</Korean>
+				<Polish>Brak klasy wyświetlania menu głównego SQF Lab w konfiguracji</Polish>
+				<Portuguese>Classe de exibição do menu principal SQF Lab ausente na config</Portuguese>
+				<Russian>Класс отображения главного меню SQF Lab отсутствует в конфиге</Russian>
+				<Spanish>Falta la clase de visualización del menú principal de SQF Lab en la config</Spanish>
+				<Turkish>SQF Lab ana menü görüntü sınıfı yapılandırmada yok</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Err_FeatureRequiresPlayer">
+				<Original>This feature does not work where you are not a player</Original>
+				<English>This feature does not work where you are not a player</English>
+				<Chinesesimp>非玩家时此功能不可用</Chinesesimp>
+				<Chinese>非玩家時此功能無法使用</Chinese>
+				<Czech>Tato funkce nefunguje, pokud nejste hráč</Czech>
+				<French>Cette fonction ne fonctionne pas si vous n&apos;êtes pas un joueur</French>
+				<German>Diese Funktion funktioniert nicht, wenn Sie kein Spieler sind</German>
+				<Italian>Questa funzione non funziona se non sei un giocatore</Italian>
+				<Japanese>プレイヤーでない場合はこの機能は使えません</Japanese>
+				<Korean>플레이어가 아니면 이 기능을 사용할 수 없습니다</Korean>
+				<Polish>Ta funkcja nie działa, gdy nie jesteś graczem</Polish>
+				<Portuguese>Este recurso não funciona quando você não é um jogador</Portuguese>
+				<Russian>Эта функция не работает, если вы не игрок</Russian>
+				<Spanish>Esta función no funciona si no eres un jugador</Spanish>
+				<Turkish>Oyuncu değilseniz bu özellik çalışmaz</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Err_LightsDisplayMissing">
+				<Original>SQF Lab light sources display missing from config</Original>
+				<English>SQF Lab light sources display missing from config</English>
+				<Chinesesimp>SQF Lab 光源显示在配置中缺失</Chinesesimp>
+				<Chinese>SQF Lab 光源顯示在設定中遺失</Chinese>
+				<Czech>Chybí zobrazení světel SQF Lab v konfiguraci</Czech>
+				<French>Affichage des sources lumineuses SQF Lab absent de la config</French>
+				<German>SQF Lab-Lichtquellen-Anzeige fehlt in der Konfiguration</German>
+				<Italian>Display sorgenti luminose SQF Lab mancante nella config</Italian>
+				<Japanese>SQF Lab 光源表示が config にありません</Japanese>
+				<Korean>SQF Lab 광원 표시가 설정에 없습니다</Korean>
+				<Polish>Brak wyświetlania źródeł światła SQF Lab w konfiguracji</Polish>
+				<Portuguese>Exibição de fontes de luz do SQF Lab ausente na config</Portuguese>
+				<Russian>Отображение источников света SQF Lab отсутствует в конфиге</Russian>
+				<Spanish>Falta la visualización de fuentes de luz de SQF Lab en la config</Spanish>
+				<Turkish>SQF Lab ışık kaynağı görüntüsü yapılandırmada yok</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Err_ParticlesDisplayMissing">
+				<Original>SQF Lab particles menu display class missing from config</Original>
+				<English>SQF Lab particles menu display class missing from config</English>
+				<Chinesesimp>SQF Lab 粒子菜单显示类在配置中缺失</Chinesesimp>
+				<Chinese>SQF Lab 粒子選單顯示類別在設定中遺失</Chinese>
+				<Czech>Chybí třída zobrazení menu částic SQF Lab v konfiguraci</Czech>
+				<French>Classe d&apos;affichage du menu particules SQF Lab absente de la config</French>
+				<German>SQF Lab-Partikelmenü-Anzeigeklasse fehlt in der Konfiguration</German>
+				<Italian>Classe display menu particelle SQF Lab mancante nella config</Italian>
+				<Japanese>SQF Lab パーティクルメニュー表示クラスが config にありません</Japanese>
+				<Korean>SQF Lab 파티클 메뉴 표시 클래스가 설정에 없습니다</Korean>
+				<Polish>Brak klasy wyświetlania menu cząstek SQF Lab w konfiguracji</Polish>
+				<Portuguese>Classe de exibição do menu de partículas SQF Lab ausente na config</Portuguese>
+				<Russian>Класс отображения меню частиц SQF Lab отсутствует в конфиге</Russian>
+				<Spanish>Falta la clase de visualización del menú de partículas de SQF Lab en la config</Spanish>
+				<Turkish>SQF Lab parçacık menüsü görüntü sınıfı yapılandırmada yok</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Err_MarkersDisplayMissing">
+				<Original>SQF Lab markers menu display class missing from config</Original>
+				<English>SQF Lab markers menu display class missing from config</English>
+				<Chinesesimp>SQF Lab 标记菜单显示类在配置中缺失</Chinesesimp>
+				<Chinese>SQF Lab 標記選單顯示類別在設定中遺失</Chinese>
+				<Czech>Chybí třída zobrazení menu značek SQF Lab v konfiguraci</Czech>
+				<French>Classe d&apos;affichage du menu marqueurs SQF Lab absente de la config</French>
+				<German>SQF Lab-Markierungsmenü-Anzeigeklasse fehlt in der Konfiguration</German>
+				<Italian>Classe display menu marcatori SQF Lab mancante nella config</Italian>
+				<Japanese>SQF Lab マーカーメニュー表示クラスが config にありません</Japanese>
+				<Korean>SQF Lab 마커 메뉴 표시 클래스가 설정에 없습니다</Korean>
+				<Polish>Brak klasy wyświetlania menu znaczników SQF Lab w konfiguracji</Polish>
+				<Portuguese>Classe de exibição do menu de marcadores SQF Lab ausente na config</Portuguese>
+				<Russian>Класс отображения меню маркеров SQF Lab отсутствует в конфиге</Russian>
+				<Spanish>Falta la clase de visualización del menú de marcadores de SQF Lab en la config</Spanish>
+				<Turkish>SQF Lab işaretçi menüsü görüntü sınıfı yapılandırmada yok</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Err_ParticlesMenuNotFound">
+				<Original>SQF Lab particles menu could not be found</Original>
+				<English>SQF Lab particles menu could not be found</English>
+				<Chinesesimp>找不到 SQF Lab 粒子菜单</Chinesesimp>
+				<Chinese>找不到 SQF Lab 粒子選單</Chinese>
+				<Czech>Menu částic SQF Lab nebylo nalezeno</Czech>
+				<French>Menu particules SQF Lab introuvable</French>
+				<German>SQF Lab-Partikelmenü nicht gefunden</German>
+				<Italian>Menu particelle SQF Lab non trovato</Italian>
+				<Japanese>SQF Lab パーティクルメニューが見つかりません</Japanese>
+				<Korean>SQF Lab 파티클 메뉴를 찾을 수 없습니다</Korean>
+				<Polish>Nie znaleziono menu cząstek SQF Lab</Polish>
+				<Portuguese>Menu de partículas do SQF Lab não encontrado</Portuguese>
+				<Russian>Меню частиц SQF Lab не найдено</Russian>
+				<Spanish>No se encontró el menú de partículas de SQF Lab</Spanish>
+				<Turkish>SQF Lab parçacık menüsü bulunamadı</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Err_MarkersMenuNotFound">
+				<Original>SQF Lab markers menu could not be found</Original>
+				<English>SQF Lab markers menu could not be found</English>
+				<Chinesesimp>找不到 SQF Lab 标记菜单</Chinesesimp>
+				<Chinese>找不到 SQF Lab 標記選單</Chinese>
+				<Czech>Menu značek SQF Lab nebylo nalezeno</Czech>
+				<French>Menu marqueurs SQF Lab introuvable</French>
+				<German>SQF Lab-Markierungsmenü nicht gefunden</German>
+				<Italian>Menu marcatori SQF Lab non trovato</Italian>
+				<Japanese>SQF Lab マーカーメニューが見つかりません</Japanese>
+				<Korean>SQF Lab 마커 메뉴를 찾을 수 없습니다</Korean>
+				<Polish>Nie znaleziono menu znaczników SQF Lab</Polish>
+				<Portuguese>Menu de marcadores do SQF Lab não encontrado</Portuguese>
+				<Russian>Меню маркеров SQF Lab не найдено</Russian>
+				<Spanish>No se encontró el menú de marcadores de SQF Lab</Spanish>
+				<Turkish>SQF Lab işaretçi menüsü bulunamadı</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Err_MarkersScrollMissing">
+				<Original>SQF Lab markers scroll group could not be found</Original>
+				<English>SQF Lab markers scroll group could not be found</English>
+				<Chinesesimp>找不到 SQF Lab 标记滚动组</Chinesesimp>
+				<Chinese>找不到 SQF Lab 標記捲動群組</Chinese>
+				<Czech>Skupina posuvníku značek SQF Lab nebyla nalezena</Czech>
+				<French>Groupe de défilement marqueurs SQF Lab introuvable</French>
+				<German>SQF Lab-Markierungs-Scrollgruppe nicht gefunden</German>
+				<Italian>Gruppo scorrimento marcatori SQF Lab non trovato</Italian>
+				<Japanese>SQF Lab マーカースクロールグループが見つかりません</Japanese>
+				<Korean>SQF Lab 마커 스크롤 그룹을 찾을 수 없습니다</Korean>
+				<Polish>Nie znaleziono grupy przewijania znaczników SQF Lab</Polish>
+				<Portuguese>Grupo de rolagem de marcadores do SQF Lab não encontrado</Portuguese>
+				<Russian>Группа прокрутки маркеров SQF Lab не найдена</Russian>
+				<Spanish>No se encontró el grupo de desplazamiento de marcadores de SQF Lab</Spanish>
+				<Turkish>SQF Lab işaretçi kaydırma grubu bulunamadı</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Err_LightsMenuNotFound">
+				<Original>SQF Lab lights menu could not be found</Original>
+				<English>SQF Lab lights menu could not be found</English>
+				<Chinesesimp>找不到 SQF Lab 光源菜单</Chinesesimp>
+				<Chinese>找不到 SQF Lab 光源選單</Chinese>
+				<Czech>Menu světel SQF Lab nebylo nalezeno</Czech>
+				<French>Menu lumières SQF Lab introuvable</French>
+				<German>SQF Lab-Lichtmenü nicht gefunden</German>
+				<Italian>Menu luci SQF Lab non trovato</Italian>
+				<Japanese>SQF Lab 光源メニューが見つかりません</Japanese>
+				<Korean>SQF Lab 조명 메뉴를 찾을 수 없습니다</Korean>
+				<Polish>Nie znaleziono menu świateł SQF Lab</Polish>
+				<Portuguese>Menu de luzes do SQF Lab não encontrado</Portuguese>
+				<Russian>Меню света SQF Lab не найдено</Russian>
+				<Spanish>No se encontró el menú de luces de SQF Lab</Spanish>
+				<Turkish>SQF Lab ışık menüsü bulunamadı</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Err_MarkerNameDuplicate">
+				<Original>SQF Lab: a marker with that name already exists. Choose another name.</Original>
+				<English>SQF Lab: a marker with that name already exists. Choose another name.</English>
+				<Chinesesimp>SQF Lab：已存在同名标记。请另选名称。</Chinesesimp>
+				<Chinese>SQF Lab：已有相同名稱的標記。請換一個名稱。</Chinese>
+				<Czech>SQF Lab: značka s tímto názvem již existuje. Zvolte jiný název.</Czech>
+				<French>SQF Lab : un marqueur porte déjà ce nom. Choisissez un autre nom.</French>
+				<German>SQF Lab: Ein Marker mit diesem Namen existiert bereits. Wählen Sie einen anderen Namen.</German>
+				<Italian>SQF Lab: esiste già un marcatore con questo nome. Scegli un altro nome.</Italian>
+				<Japanese>SQF Lab：その名前のマーカーは既にあります。別の名前にしてください。</Japanese>
+				<Korean>SQF Lab: 같은 이름의 마커가 이미 있습니다. 다른 이름을 선택하세요.</Korean>
+				<Polish>SQF Lab: znacznik o tej nazwie już istnieje. Wybierz inną nazwę.</Polish>
+				<Portuguese>SQF Lab: já existe um marcador com esse nome. Escolha outro.</Portuguese>
+				<Russian>SQF Lab: маркер с таким именем уже есть. Выберите другое имя.</Russian>
+				<Spanish>SQF Lab: ya existe un marcador con ese nombre. Elija otro.</Spanish>
+				<Turkish>SQF Lab: bu isimde bir işaretçi zaten var. Başka bir ad seçin.</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Err_MarkerNameEmpty">
+				<Original>SQF Lab: marker name is empty; nothing exported.</Original>
+				<English>SQF Lab: marker name is empty; nothing exported.</English>
+				<Chinesesimp>SQF Lab：标记名称为空；未导出任何内容。</Chinesesimp>
+				<Chinese>SQF Lab：標記名稱為空；未匯出任何內容。</Chinese>
+				<Czech>SQF Lab: název značky je prázdný; nic neexportováno.</Czech>
+				<French>SQF Lab : nom du marqueur vide ; rien n&apos;a été exporté.</French>
+				<German>SQF Lab: Markierungsname ist leer; nichts exportiert.</German>
+				<Italian>SQF Lab: nome marcatore vuoto; nulla esportato.</Italian>
+				<Japanese>SQF Lab：マーカー名が空です。エクスポートされませんでした。</Japanese>
+				<Korean>SQF Lab: 마커 이름이 비어 있어보내지 않았습니다.</Korean>
+				<Polish>SQF Lab: nazwa znacznika jest pusta; nic nie wyeksportowano.</Polish>
+				<Portuguese>SQF Lab: nome do marcador vazio; nada exportado.</Portuguese>
+				<Russian>SQF Lab: имя маркера пусто; экспорт не выполнен.</Russian>
+				<Spanish>SQF Lab: el nombre del marcador está vacío; no se exportó nada.</Spanish>
+				<Turkish>SQF Lab: işaretçi adı boş; dışa aktarılmadı.</Turkish>
+			</Key>
+		</Container>
+		<Container name="Hints">
+			<Key ID="STR_SQFLAB_Hint_MarkerExportClipboard">
+				<Original>Marker SQF exported to clipboard.</Original>
+				<English>Marker SQF exported to clipboard.</English>
+				<Chinesesimp>标记 SQF 已导出到剪贴板。</Chinesesimp>
+				<Chinese>標記 SQF 已匯出到剪貼簿。</Chinese>
+				<Czech>SQF značky exportováno do schránky.</Czech>
+				<French>SQF du marqueur exporté dans le presse-papiers.</French>
+				<German>Marker-SQF in die Zwischenablage exportiert.</German>
+				<Italian>SQF marcatore esportato negli appunti.</Italian>
+				<Japanese>マーカー SQF をクリップボードにエクスポートしました。</Japanese>
+				<Korean>마커 SQF가 클립보드로 보내졌습니다.</Korean>
+				<Polish>SQF znacznika wyeksportowano do schowka.</Polish>
+				<Portuguese>SQF do marcador exportado para a área de transferência.</Portuguese>
+				<Russian>SQF маркера экспортирован в буфер обмена.</Russian>
+				<Spanish>SQF del marcador exportado al portapapeles.</Spanish>
+				<Turkish>İşaretçi SQF panoya aktarıldı.</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Hint_MarkerExportRpt">
+				<Original>Marker SQF written to RPT as clipboard is not supported in this environment.</Original>
+				<English>Marker SQF written to RPT as clipboard is not supported in this environment.</English>
+				<Chinesesimp>此环境不支持剪贴板，标记 SQF 已写入 RPT。</Chinesesimp>
+				<Chinese>此環境不支援剪貼簿，標記 SQF 已寫入 RPT。</Chinese>
+				<Czech>SQF značky zapsáno do RPT – schránka v tomto prostředí není podporována.</Czech>
+				<French>SQF du marqueur écrit dans le RPT : presse-papiers non pris en charge ici.</French>
+				<German>Marker-SQF in RPT geschrieben – Zwischenablage wird hier nicht unterstützt.</German>
+				<Italian>SQF marcatore scritto in RPT: appunti non supportati in questo ambiente.</Italian>
+				<Japanese>環境がクリップボード非対応のため、マーカー SQF を RPT に書き込みました。</Japanese>
+				<Korean>이 환경에서는 클립보드를 지원하지 않아 마커 SQF가 RPT에 기록되었습니다.</Korean>
+				<Polish>SQF znacznika zapisano w RPT – schowek niedostępny w tym środowisku.</Polish>
+				<Portuguese>SQF do marcador gravado no RPT; área de transferência indisponível neste ambiente.</Portuguese>
+				<Russian>SQF маркера записан в RPT: буфер обмена здесь не поддерживается.</Russian>
+				<Spanish>SQF del marcador escrito en RPT; el portapapeles no está disponible aquí.</Spanish>
+				<Turkish>İşaretçi SQF RPT&apos;ye yazıldı; bu ortamda pano desteklenmiyor.</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Hint_ParticleExportClipboard">
+				<Original>Particle SQF exported to clipboard.</Original>
+				<English>Particle SQF exported to clipboard.</English>
+				<Chinesesimp>粒子 SQF 已导出到剪贴板。</Chinesesimp>
+				<Chinese>粒子 SQF 已匯出到剪貼簿。</Chinese>
+				<Czech>SQF částic exportováno do schránky.</Czech>
+				<French>SQF des particules exporté dans le presse-papiers.</French>
+				<German>Partikel-SQF in die Zwischenablage exportiert.</German>
+				<Italian>SQF particelle esportato negli appunti.</Italian>
+				<Japanese>パーティクル SQF をクリップボードにエクスポートしました。</Japanese>
+				<Korean>파티클 SQF가 클립보드로 보내졌습니다.</Korean>
+				<Polish>SQF cząstek wyeksportowano do schowka.</Polish>
+				<Portuguese>SQF de partículas exportado para a área de transferência.</Portuguese>
+				<Russian>SQF частиц экспортирован в буфер обмена.</Russian>
+				<Spanish>SQF de partículas exportado al portapapeles.</Spanish>
+				<Turkish>Parçacık SQF panoya aktarıldı.</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Hint_ParticleExportRpt">
+				<Original>Particle SQF written to RPT as clipboard is not supported in this environment.</Original>
+				<English>Particle SQF written to RPT as clipboard is not supported in this environment.</English>
+				<Chinesesimp>此环境不支持剪贴板，粒子 SQF 已写入 RPT。</Chinesesimp>
+				<Chinese>此環境不支援剪貼簿，粒子 SQF 已寫入 RPT。</Chinese>
+				<Czech>SQF částic zapsáno do RPT – schránka zde není podporována.</Czech>
+				<French>SQF des particules écrit dans le RPT : presse-papiers non pris en charge.</French>
+				<German>Partikel-SQF in RPT geschrieben – Zwischenablage nicht unterstützt.</German>
+				<Italian>SQF particelle scritto in RPT: appunti non supportati.</Italian>
+				<Japanese>クリップボード非対応のため、パーティクル SQF を RPT に書き込みました。</Japanese>
+				<Korean>클립보드를 지원하지 않아 파티클 SQF가 RPT에 기록되었습니다.</Korean>
+				<Polish>SQF cząstek zapisano w RPT – brak schowka.</Polish>
+				<Portuguese>SQF de partículas gravado no RPT; área de transferência indisponível.</Portuguese>
+				<Russian>SQF частиц записан в RPT: буфер обмена не поддерживается.</Russian>
+				<Spanish>SQF de partículas escrito en RPT; portapapeles no disponible.</Spanish>
+				<Turkish>Parçacık SQF RPT&apos;ye yazıldı; pano desteklenmiyor.</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Hint_LightExportClipboard">
+				<Original>Light SQF exported to clipboard.</Original>
+				<English>Light SQF exported to clipboard.</English>
+				<Chinesesimp>光源 SQF 已导出到剪贴板。</Chinesesimp>
+				<Chinese>光源 SQF 已匯出到剪貼簿。</Chinese>
+				<Czech>SQF světla exportováno do schránky.</Czech>
+				<French>SQF de la lumière exporté dans le presse-papiers.</French>
+				<German>Licht-SQF in die Zwischenablage exportiert.</German>
+				<Italian>SQF luce esportato negli appunti.</Italian>
+				<Japanese>光 SQF をクリップボードにエクスポートしました。</Japanese>
+				<Korean>조명 SQF가 클립보드로 보내졌습니다.</Korean>
+				<Polish>SQF światła wyeksportowano do schowka.</Polish>
+				<Portuguese>SQF de luz exportado para a área de transferência.</Portuguese>
+				<Russian>SQF света экспортирован в буфер обмена.</Russian>
+				<Spanish>SQF de luz exportado al portapapeles.</Spanish>
+				<Turkish>Işık SQF panoya aktarıldı.</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Hint_LightExportRpt">
+				<Original>Light SQF written to RPT as clipboard is not supported in this environment.</Original>
+				<English>Light SQF written to RPT as clipboard is not supported in this environment.</English>
+				<Chinesesimp>此环境不支持剪贴板，光源 SQF 已写入 RPT。</Chinesesimp>
+				<Chinese>此環境不支援剪貼簿，光源 SQF 已寫入 RPT。</Chinese>
+				<Czech>SQF světla zapsáno do RPT – schránka zde není podporována.</Czech>
+				<French>SQF de la lumière écrit dans le RPT : presse-papiers non pris en charge.</French>
+				<German>Licht-SQF in RPT geschrieben – Zwischenablage nicht unterstützt.</German>
+				<Italian>SQF luce scritto in RPT: appunti non supportati.</Italian>
+				<Japanese>クリップボード非対応のため、光 SQF を RPT に書き込みました。</Japanese>
+				<Korean>클립보드를 지원하지 않아 조명 SQF가 RPT에 기록되었습니다.</Korean>
+				<Polish>SQF światła zapisano w RPT – brak schowka.</Polish>
+				<Portuguese>SQF de luz gravado no RPT; área de transferência indisponível.</Portuguese>
+				<Russian>SQF света записан в RPT: буфер обмена не поддерживается.</Russian>
+				<Spanish>SQF de luz escrito en RPT; portapapeles no disponible.</Spanish>
+				<Turkish>Işık SQF RPT&apos;ye yazıldı; pano desteklenmiyor.</Turkish>
+			</Key>
+		</Container>
+	</Package>
+</Project>

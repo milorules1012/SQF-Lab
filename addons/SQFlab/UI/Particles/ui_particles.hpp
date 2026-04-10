@@ -98,7 +98,7 @@ class SQFLab_ParticlesMenu
 			y = SQFLAB_PREVIEW_Y + SQFLAB_PAD_TOP;
 			w = SQFLAB_PANEL_W - (SQFLAB_PAD_SIDE * 2);
 			h = SQFLAB_TITLE_H;
-			text = "Preview";
+			text = $STR_SQFLAB_Common_Preview;
 			style = 2;
 			sizeEx = 0.042;
 			colorBackground[] = SQFLAB_PROFILE_COLOR(0.9);
@@ -121,7 +121,7 @@ class SQFLab_ParticlesMenu
 			y = SQFLAB_PANEL_Y + SQFLAB_PAD_TOP;
 			w = SQFLAB_PANEL_W - (SQFLAB_PAD_SIDE * 2);
 			h = SQFLAB_TITLE_H;
-			text = "Particles";
+			text = $STR_SQFLAB_Particles_Title;
 			style = 2;
 			sizeEx = 0.042;
 			colorBackground[] = SQFLAB_PROFILE_COLOR(0.9);
@@ -135,7 +135,7 @@ class SQFLab_ParticlesMenu
 			y = SQFLAB_Y_TYPE_ROW;
 			w = 0.12;
 			h = 0.036;
-			text = "Fire";
+			text = $STR_SQFLAB_Particles_Fire;
 			action = "uiNamespace setVariable ['SQFLab_particles_previewType','fire']; [] call SQFLab_fnc_particlesOnSlider;";
 			colorBackground[] = SQFLAB_PROFILE_COLOR(0.9);
 			colorBackgroundFocused[] = SQFLAB_PROFILE_COLOR(1);
@@ -144,14 +144,14 @@ class SQFLab_ParticlesMenu
 		{
 			idc = SQFLAB_IDC_BTN_SMOKE;
 			x = SQFLAB_PANEL_X + SQFLAB_PAD_SIDE + 0.13;
-			text = "Smoke";
+			text = $STR_SQFLAB_Particles_Smoke;
 			action = "uiNamespace setVariable ['SQFLab_particles_previewType','smoke']; [] call SQFLab_fnc_particlesOnSlider;";
 		};
 		class BtnDrop: BtnFire
 		{
 			idc = SQFLAB_IDC_BTN_DROP;
 			x = SQFLAB_PANEL_X + SQFLAB_PAD_SIDE + 0.26;
-			text = "Drop";
+			text = $STR_SQFLAB_Particles_Drop;
 			action = "uiNamespace setVariable ['SQFLab_particles_previewType','drop']; [] call SQFLab_fnc_particlesOnSlider;";
 		};
 
@@ -162,7 +162,7 @@ class SQFLab_ParticlesMenu
 			y = SQFLAB_Y_TYPE_TITLE;
 			w = SQFLAB_PANEL_W - (SQFLAB_PAD_SIDE * 2);
 			h = SQFLAB_SECTION_H;
-			text = "Particle Type";
+			text = $STR_SQFLAB_Particles_TypeTitle;
 			colorBackground[] = SQFLAB_PROFILE_COLOR(0.35);
 		};
 
@@ -173,7 +173,7 @@ class SQFLab_ParticlesMenu
 			y = SQFLAB_Y_PARAMS_TITLE;
 			w = SQFLAB_PANEL_W - (SQFLAB_PAD_SIDE * 2);
 			h = SQFLAB_SECTION_H;
-			text = "Particle Params";
+			text = $STR_SQFLAB_Particles_ParamsTitle;
 			colorBackground[] = SQFLAB_PROFILE_COLOR(0.35);
 		};
 
@@ -184,7 +184,7 @@ class SQFLab_ParticlesMenu
 			y = SQFLAB_Y_COLORS_TITLE;
 			w = SQFLAB_PANEL_W - (SQFLAB_PAD_SIDE * 2);
 			h = SQFLAB_SECTION_H;
-			text = "Particle Colors";
+			text = $STR_SQFLAB_Particles_ColorsTitle;
 			colorBackground[] = SQFLAB_PROFILE_COLOR(0.35);
 		};
 
@@ -195,7 +195,7 @@ class SQFLab_ParticlesMenu
 			y = SQFLAB_Y_SIZE;
 			w = SQFLAB_LABEL_W;
 			h = SQFLAB_ROW_H;
-			text = "Particle size";
+			text = $STR_SQFLAB_Particles_Size;
 			colorBackground[] = {0, 0, 0, 0};
 		};
 		class SliderSize: RscSlider
@@ -231,47 +231,47 @@ class SQFLab_ParticlesMenu
 			text = "0";
 		};
 
-		class LabelLifeTime: LabelSize { y = SQFLAB_Y_LIFETIME; text = "Life time"; };
+		class LabelLifeTime: LabelSize { y = SQFLAB_Y_LIFETIME; text = $STR_SQFLAB_Particles_LifeTime; };
 		class SliderLifeTime: SliderSize { idc = SQFLAB_IDC_SLIDER_LIFETIME; y = SQFLAB_Y_LIFETIME; };
 		class ValueLifeTime: ValueSize { idc = SQFLAB_IDC_VALUE_LIFETIME; y = SQFLAB_Y_LIFETIME; };
 
-		class LabelInterval: LabelSize { y = SQFLAB_Y_INTERVAL; text = "Spawn interval"; };
+		class LabelInterval: LabelSize { y = SQFLAB_Y_INTERVAL; text = $STR_SQFLAB_Particles_SpawnInterval; };
 		class SliderInterval: SliderSize { idc = SQFLAB_IDC_SLIDER_INTERVAL; y = SQFLAB_Y_INTERVAL; };
 		class ValueInterval: ValueSize { idc = SQFLAB_IDC_VALUE_INTERVAL; y = SQFLAB_Y_INTERVAL; };
 
-		class LabelMoveVel: LabelSize { y = SQFLAB_Y_MOVEVEL; text = "Move velocity"; };
+		class LabelMoveVel: LabelSize { y = SQFLAB_Y_MOVEVEL; text = $STR_SQFLAB_Particles_MoveVelocity; };
 		class SliderMoveVel: SliderSize { idc = SQFLAB_IDC_SLIDER_MOVEVEL; y = SQFLAB_Y_MOVEVEL; };
 		class ValueMoveVel: ValueSize { idc = SQFLAB_IDC_VALUE_MOVEVEL; y = SQFLAB_Y_MOVEVEL; };
 
-		class LabelRotVel: LabelSize { y = SQFLAB_Y_ROTVEL; text = "Rotation velocity"; };
+		class LabelRotVel: LabelSize { y = SQFLAB_Y_ROTVEL; text = $STR_SQFLAB_Particles_RotationVelocity; };
 		class SliderRotVel: SliderSize { idc = SQFLAB_IDC_SLIDER_ROTVEL; y = SQFLAB_Y_ROTVEL; };
 		class ValueRotVel: ValueSize { idc = SQFLAB_IDC_VALUE_ROTVEL; y = SQFLAB_Y_ROTVEL; };
 
-		class LabelWeight: LabelSize { y = SQFLAB_Y_WEIGHT; text = "Weight"; };
+		class LabelWeight: LabelSize { y = SQFLAB_Y_WEIGHT; text = $STR_SQFLAB_Particles_Weight; };
 		class SliderWeight: SliderSize { idc = SQFLAB_IDC_SLIDER_WEIGHT; y = SQFLAB_Y_WEIGHT; };
 		class ValueWeight: ValueSize { idc = SQFLAB_IDC_VALUE_WEIGHT; y = SQFLAB_Y_WEIGHT; };
 
-		class LabelVolume: LabelSize { y = SQFLAB_Y_VOLUME; text = "Volume"; };
+		class LabelVolume: LabelSize { y = SQFLAB_Y_VOLUME; text = $STR_SQFLAB_Particles_Volume; };
 		class SliderVolume: SliderSize { idc = SQFLAB_IDC_SLIDER_VOLUME; y = SQFLAB_Y_VOLUME; };
 		class ValueVolume: ValueSize { idc = SQFLAB_IDC_VALUE_VOLUME; y = SQFLAB_Y_VOLUME; };
 
-		class LabelRubbing: LabelSize { y = SQFLAB_Y_RUBBING; text = "Rubbing"; };
+		class LabelRubbing: LabelSize { y = SQFLAB_Y_RUBBING; text = $STR_SQFLAB_Particles_Rubbing; };
 		class SliderRubbing: SliderSize { idc = SQFLAB_IDC_SLIDER_RUBBING; y = SQFLAB_Y_RUBBING; };
 		class ValueRubbing: ValueSize { idc = SQFLAB_IDC_VALUE_RUBBING; y = SQFLAB_Y_RUBBING; };
 
-		class LabelColorR: LabelSize { y = SQFLAB_Y_COLOR_R; text = "Color R"; };
+		class LabelColorR: LabelSize { y = SQFLAB_Y_COLOR_R; text = $STR_SQFLAB_Common_ColorR; };
 		class SliderColorR: SliderSize { idc = SQFLAB_IDC_SLIDER_COLOR_R; y = SQFLAB_Y_COLOR_R; };
 		class ValueColorR: ValueSize { idc = SQFLAB_IDC_VALUE_COLOR_R; y = SQFLAB_Y_COLOR_R; };
 
-		class LabelColorG: LabelSize { y = SQFLAB_Y_COLOR_G; text = "Color G"; };
+		class LabelColorG: LabelSize { y = SQFLAB_Y_COLOR_G; text = $STR_SQFLAB_Common_ColorG; };
 		class SliderColorG: SliderSize { idc = SQFLAB_IDC_SLIDER_COLOR_G; y = SQFLAB_Y_COLOR_G; };
 		class ValueColorG: ValueSize { idc = SQFLAB_IDC_VALUE_COLOR_G; y = SQFLAB_Y_COLOR_G; };
 
-		class LabelColorB: LabelSize { y = SQFLAB_Y_COLOR_B; text = "Color B"; };
+		class LabelColorB: LabelSize { y = SQFLAB_Y_COLOR_B; text = $STR_SQFLAB_Common_ColorB; };
 		class SliderColorB: SliderSize { idc = SQFLAB_IDC_SLIDER_COLOR_B; y = SQFLAB_Y_COLOR_B; };
 		class ValueColorB: ValueSize { idc = SQFLAB_IDC_VALUE_COLOR_B; y = SQFLAB_Y_COLOR_B; };
 
-		class LabelColorA: LabelSize { y = SQFLAB_Y_COLOR_A; text = "Color A"; };
+		class LabelColorA: LabelSize { y = SQFLAB_Y_COLOR_A; text = $STR_SQFLAB_Common_ColorA; };
 		class SliderColorA: SliderSize { idc = SQFLAB_IDC_SLIDER_COLOR_A; y = SQFLAB_Y_COLOR_A; };
 		class ValueColorA: ValueSize { idc = SQFLAB_IDC_VALUE_COLOR_A; y = SQFLAB_Y_COLOR_A; };
 
@@ -282,7 +282,7 @@ class SQFLab_ParticlesMenu
 			y = SQFLAB_Y_COLOR_PREVIEW;
 			w = SQFLAB_PANEL_W - (SQFLAB_PAD_SIDE * 2);
 			h = SQFLAB_ROW_H;
-			text = "Color Preview";
+			text = $STR_SQFLAB_Common_ColorPreview;
 			style = 2;
 			action = "";
 			colorBackground[] = SQFLAB_PROFILE_COLOR(0.9);
@@ -296,7 +296,7 @@ class SQFLab_ParticlesMenu
 			y = SQFLAB_Y_BOTTOM_BTN;
 			w = SQFLAB_BTN_W;
 			h = 0.04;
-			text = "Close";
+			text = $STR_SQFLAB_Common_Close;
 			action = "closeDialog 2";
 			colorBackground[] = SQFLAB_PROFILE_COLOR(0.9);
 			colorBackgroundFocused[] = SQFLAB_PROFILE_COLOR(1);
@@ -306,7 +306,7 @@ class SQFLab_ParticlesMenu
 			idc = SQFLAB_IDC_BTN_EXPORT;
 			x = SQFLAB_PANEL_X + SQFLAB_PANEL_W - SQFLAB_PAD_SIDE - (SQFLAB_BTN_W * 3) - (SQFLAB_BTN_GAP * 2);
 			w = SQFLAB_BTN_W;
-			text = "Export";
+			text = $STR_SQFLAB_Common_Export;
 			action = "[] call SQFLab_fnc_particlesExport";
 		};
 		class HideUiBtn: CloseBtn
@@ -314,7 +314,7 @@ class SQFLab_ParticlesMenu
 			idc = SQFLAB_IDC_BTN_HIDE_UI;
 			x = SQFLAB_PANEL_X + SQFLAB_PANEL_W - SQFLAB_PAD_SIDE - (SQFLAB_BTN_W * 2) - SQFLAB_BTN_GAP;
 			w = SQFLAB_BTN_W;
-			text = "Hide UI";
+			text = $STR_SQFLAB_Common_HideUI;
 			action = "[] call SQFLab_fnc_particlesToggleUi";
 		};
 	};
