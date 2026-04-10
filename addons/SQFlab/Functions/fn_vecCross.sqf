@@ -4,7 +4,7 @@
 
 params ["_u", "_v"];
 [
-	(_u select 1) * (_v select 2) - (_u select 2) * (_v select 1),
-	(_u select 2) * (_v select 0) - (_u select 0) * (_v select 2),
-	(_u select 0) * (_v select 1) - (_u select 1) * (_v select 0)
+	(_u # 1) * (_v # 2) - (_u # 2) * (_v # 1),
+	(_u # 2) * (_v # 0) - (_u # 0) * (_v # 2),
+	(_u # 0) * (_v # 1) - (_u # 1) * (_v # 0)
 ]
