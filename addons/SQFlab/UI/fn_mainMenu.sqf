@@ -18,16 +18,3 @@ if (!isNull _display) exitWith {
 };
 
 createDialog "SQFLab_MainMenu";
-
-// Feature flagging
-ctrlEnable [SQFLAB_MM_IDC_BTN_ANIMATIONS, false];
-ctrlEnable [SQFLAB_MM_IDC_BTN_ATTACHTO, false];
-ctrlEnable [SQFLAB_MM_IDC_BTN_CAMERA, false];
-ctrlEnable [SQFLAB_MM_IDC_BTN_DRAWICON3D, false];
-ctrlEnable [SQFLAB_MM_IDC_BTN_LIGHTSOURCES, true];
-ctrlEnable [SQFLAB_MM_IDC_BTN_MARKERS, true];
-ctrlEnable [SQFLAB_MM_IDC_BTN_PARTICLES, true];
-ctrlEnable [SQFLAB_MM_IDC_BTN_SELECTIONVIEWER, false];
-ctrlEnable [SQFLAB_MM_IDC_BTN_TURRET, false];
-ctrlEnable [SQFLAB_MM_IDC_BTN_UIEDITOR, false];
-ctrlEnable [SQFLAB_MM_IDC_BTN_WEATHER, false];
