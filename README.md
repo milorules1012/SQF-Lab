@@ -1,6 +1,6 @@
 # SQF Lab
 
-SQF Lab is an Arma 3 addon aimed at making **mission and mod development easier**. The addon provides multiple previews like the **3D scene**, the **map** where relevant, and **picture-in-picture** for features that use it—so you can judge colors, placement, and behaviour before exporting. Exporting produces ready-to-paste SQF code. Output goes to the clipboard when supported; otherwise it is written to the RPT log so you can still recover the text.
+SQF Lab is an Arma 3 addon aimed at making **mission and mod development easier**. The addon provides multiple previews like the **3D scene**, the **map** where relevant, and **picture-in-picture** for features that use it—so you can judge colors, placement, and behaviour before exporting. Exporting produces ready-to-paste SQF code. Output goes to the clipboard when supported; otherwise it is written to the RPT log so you can still copy it with convenience.
 
 # Features
 
@@ -56,8 +56,8 @@ Adjust particle type, colors, motion, and related parameters, then export partic
 <p align="center">
   <table border="0" cellspacing="0" cellpadding="0">
     <tr>
-      <td align="center" valign="top"><img src="https://i.gyazo.com/5402dd088445317fdcb81015a6b5da69.jpg" alt="Particles editor — in-world preview" width="470" /></td>
-      <td align="center" valign="top"><img src="https://i.gyazo.com/3adf326855144aa35ba3df10fa444832.jpg" alt="Particles editor — UI panel" width="470" /></td>
+      <td align="center" valign="top"><img src="https://i.gyazo.com/ea994531cd1b218a8b6ab82e07d99e87.jpg" alt="Particles editor — in-world preview" width="470" /></td>
+      <td align="center" valign="top"><img src="https://i.gyazo.com/a169ce9cf7132f942fc00f1a337781df.jpg" alt="Particles editor — UI panel" width="470" /></td>
     </tr>
   </table>
 </p>
@@ -66,3 +66,10 @@ Adjust particle type, colors, motion, and related parameters, then export partic
 - **Color** — RGBA sliders with a live preview swatch (combined with the preset base).
 - **Particle params** — size, lifetime, spawn interval, move velocity, rotation velocity, weight, volume, and rubbing; etc.
 - **Live preview** — picture-in-picture next to the panel so you see the effect while moving sliders.
+
+# Usage
+Bind the menu in your Arma 3 Settings.
+
+![SQF Lab usage binding menu](https://i.gyazo.com/4808ad88a5aae47a5dc6a7986a38bf82.jpg)
+
+
