@@ -1114,21 +1114,21 @@
 				<Turkish>Boyut değişkeni</Turkish>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_RandomColorVar">
-				<Original>Color var</Original>
-				<English>Color var</English>
-				<Chinesesimp>颜色变量</Chinesesimp>
-				<Chinese>顏色變量</Chinese>
-				<Czech>Proměnná barvy</Czech>
-				<French>Variable couleur</French>
-				<German>Farb-Var</German>
-				<Italian>Variabile colore</Italian>
-				<Japanese>色変数</Japanese>
-				<Korean>색상 변수</Korean>
-				<Polish>Zmienna koloru</Polish>
-				<Portuguese>Variável de cor</Portuguese>
-				<Russian>Переменная цвета</Russian>
-				<Spanish>Variable de color</Spanish>
-				<Turkish>Renk değişkeni</Turkish>
+				<Original>Emissive colors</Original>
+				<English>Emissive colors</English>
+				<Chinesesimp>发光颜色</Chinesesimp>
+				<Chinese>發光顏色</Chinese>
+				<Czech>Emisivní barvy</Czech>
+				<French>Couleurs émissives</French>
+				<German>Emissive Farben</German>
+				<Italian>Colori emissivi</Italian>
+				<Japanese>発光色</Japanese>
+				<Korean>발광 색상</Korean>
+				<Polish>Kolory emisyjne</Polish>
+				<Portuguese>Cores emissivas</Portuguese>
+				<Russian>Эмиссивные цвета</Russian>
+				<Spanish>Colores emisivos</Spanish>
+				<Turkish>Işıma renkleri</Turkish>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_RandomDirPeriodVar">
 				<Original>Direction period var</Original>

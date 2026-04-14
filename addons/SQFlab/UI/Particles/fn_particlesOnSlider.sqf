@@ -21,7 +21,11 @@ private _pairs = [
 	[SQFLAB_IDC_SLIDER_COLOR_R, SQFLAB_IDC_VALUE_COLOR_R],
 	[SQFLAB_IDC_SLIDER_COLOR_G, SQFLAB_IDC_VALUE_COLOR_G],
 	[SQFLAB_IDC_SLIDER_COLOR_B, SQFLAB_IDC_VALUE_COLOR_B],
-	[SQFLAB_IDC_SLIDER_COLOR_A, SQFLAB_IDC_VALUE_COLOR_A]
+	[SQFLAB_IDC_SLIDER_COLOR_A, SQFLAB_IDC_VALUE_COLOR_A],
+	[SQFLAB_IDC_SLIDER_RANDOM_COLOR_R, SQFLAB_IDC_VALUE_RANDOM_COLOR_R],
+	[SQFLAB_IDC_SLIDER_RANDOM_COLOR_G, SQFLAB_IDC_VALUE_RANDOM_COLOR_G],
+	[SQFLAB_IDC_SLIDER_RANDOM_COLOR_B, SQFLAB_IDC_VALUE_RANDOM_COLOR_B],
+	[SQFLAB_IDC_SLIDER_RANDOM_COLOR_A, SQFLAB_IDC_VALUE_RANDOM_COLOR_A]
 ];
 {
 	_x params ["_sliderIdc", "_valueIdc"];
@@ -35,6 +39,13 @@ private _g = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_COLOR_G);
 private _b = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_COLOR_B);
 private _a = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_COLOR_A);
 _preview ctrlSetBackgroundColor [_r, _g, _b, _a];
+
+private _randomPreview = _display displayCtrl SQFLAB_IDC_RANDOM_COLOR_PREVIEW;
+private _randomR = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_RANDOM_COLOR_R);
+private _randomG = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_RANDOM_COLOR_G);
+private _randomB = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_RANDOM_COLOR_B);
+private _randomA = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_RANDOM_COLOR_A);
+_randomPreview ctrlSetBackgroundColor [_randomR, _randomG, _randomB, _randomA];
 
 private _source = uiNamespace getVariable ["SQFLab_particles_previewSource", objNull];
 private _anchor = uiNamespace getVariable ["SQFLab_particles_previewAnchor", objNull];
@@ -110,7 +121,7 @@ if (!isNull _anchor && !isNull _source) then {
 	private _randomMoveVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_MOVE_VELOCITY_VAR), [_moveVel * 0.15, _moveVel * 0.15, _moveVel * 0.15]] call SQFLab_fnc_parseArrayOrFallback;
 	private _randomRotVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_ROTATION_VELOCITY_VAR), _rotVel * 0.1] call SQFLab_fnc_parseNumberOrFallback;
 	private _randomSizeVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_SIZE_VAR), 0.05] call SQFLab_fnc_parseNumberOrFallback;
-	private _randomColorVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_COLOR_VAR), [0, 0, 0, 0]] call SQFLab_fnc_parseArrayOrFallback;
+	private _randomColorVar = [_randomR, _randomG, _randomB, _randomA];
 	private _randomDirPeriodVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_DIR_PERIOD_VAR), 0.05] call SQFLab_fnc_parseNumberOrFallback;
 	private _randomDirIntensityVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_DIR_INTENSITY_VAR), 0] call SQFLab_fnc_parseNumberOrFallback;
 	private _randomAngleVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_ANGLE_VAR), 0] call SQFLab_fnc_parseNumberOrFallback;
