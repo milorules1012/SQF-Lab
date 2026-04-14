@@ -654,6 +654,652 @@
 				<Spanish>Rozamiento</Spanish>
 				<Turkish>Sürtünme</Turkish>
 			</Key>
+			<Key ID="STR_SQFLAB_Particles_ParticleShape">
+				<Original>Particle shape</Original>
+				<English>Particle shape</English>
+				<Chinesesimp>粒子形状</Chinesesimp>
+				<Chinese>粒子形狀</Chinese>
+				<Czech>Tvar částice</Czech>
+				<French>Forme de particule</French>
+				<German>Partikelform</German>
+				<Italian>Forma particella</Italian>
+				<Japanese>パーティクル形状</Japanese>
+				<Korean>파티클 형태</Korean>
+				<Polish>Kształt cząstki</Polish>
+				<Portuguese>Forma da partícula</Portuguese>
+				<Russian>Форма частицы</Russian>
+				<Spanish>Forma de partícula</Spanish>
+				<Turkish>Parçacık şekli</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_ParticleType">
+				<Original>Particle type</Original>
+				<English>Particle type</English>
+				<Chinesesimp>粒子类型</Chinesesimp>
+				<Chinese>粒子類型</Chinese>
+				<Czech>Typ částice</Czech>
+				<French>Type de particule</French>
+				<German>Partikeltyp</German>
+				<Italian>Tipo particella</Italian>
+				<Japanese>パーティクルタイプ</Japanese>
+				<Korean>파티클 유형</Korean>
+				<Polish>Typ cząstki</Polish>
+				<Portuguese>Tipo de partícula</Portuguese>
+				<Russian>Тип частицы</Russian>
+				<Spanish>Tipo de partícula</Spanish>
+				<Turkish>Parçacık türü</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_AnimationName">
+				<Original>Animation name</Original>
+				<English>Animation name</English>
+				<Chinesesimp>动画名称</Chinesesimp>
+				<Chinese>動畫名稱</Chinese>
+				<Czech>Název animace</Czech>
+				<French>Nom de l'animation</French>
+				<German>Animationsname</German>
+				<Italian>Nome animazione</Italian>
+				<Japanese>アニメーション名</Japanese>
+				<Korean>애니메이션 이름</Korean>
+				<Polish>Nazwa animacji</Polish>
+				<Portuguese>Nome da animação</Portuguese>
+				<Russian>Имя анимации</Russian>
+				<Spanish>Nombre de animación</Spanish>
+				<Turkish>Animasyon adı</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_TimerPeriod">
+				<Original>Timer period</Original>
+				<English>Timer period</English>
+				<Chinesesimp>计时周期</Chinesesimp>
+				<Chinese>計時週期</Chinese>
+				<Czech>Perioda časovače</Czech>
+				<French>Période du minuteur</French>
+				<German>Timer-Periode</German>
+				<Italian>Periodo timer</Italian>
+				<Japanese>タイマー周期</Japanese>
+				<Korean>타이머 주기</Korean>
+				<Polish>Okres timera</Polish>
+				<Portuguese>Período do temporizador</Portuguese>
+				<Russian>Период таймера</Russian>
+				<Spanish>Período del temporizador</Spanish>
+				<Turkish>Zamanlayıcı periyodu</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_ParticleFSNtieth">
+				<Original>FS ntieth</Original>
+				<English>FS ntieth</English>
+				<Chinesesimp>FS 第N块</Chinesesimp>
+				<Chinese>FS 第N塊</Chinese>
+				<Czech>FS n-tina</Czech>
+				<French>FS n-ième</French>
+				<German>FS n-teilig</German>
+				<Italian>FS ennesimo</Italian>
+				<Japanese>FS n分割</Japanese>
+				<Korean>FS n분할</Korean>
+				<Polish>FS n-ta część</Polish>
+				<Portuguese>FS n-ésimo</Portuguese>
+				<Russian>FS n-часть</Russian>
+				<Spanish>FS n-ésimo</Spanish>
+				<Turkish>FS n'inci</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_ParticleFSIndex">
+				<Original>FS index</Original>
+				<English>FS index</English>
+				<Chinesesimp>FS 索引</Chinesesimp>
+				<Chinese>FS 索引</Chinese>
+				<Czech>FS index</Czech>
+				<French>Indice FS</French>
+				<German>FS-Index</German>
+				<Italian>Indice FS</Italian>
+				<Japanese>FS インデックス</Japanese>
+				<Korean>FS 인덱스</Korean>
+				<Polish>Indeks FS</Polish>
+				<Portuguese>Índice FS</Portuguese>
+				<Russian>Индекс FS</Russian>
+				<Spanish>Índice FS</Spanish>
+				<Turkish>FS indeksi</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_ParticleFSFrameCount">
+				<Original>FS frame count</Original>
+				<English>FS frame count</English>
+				<Chinesesimp>FS 帧数</Chinesesimp>
+				<Chinese>FS 幀數</Chinese>
+				<Czech>Počet snímků FS</Czech>
+				<French>Nombre d'images FS</French>
+				<German>FS-Bildanzahl</German>
+				<Italian>Numero frame FS</Italian>
+				<Japanese>FS フレーム数</Japanese>
+				<Korean>FS 프레임 수</Korean>
+				<Polish>Liczba klatek FS</Polish>
+				<Portuguese>Número de frames FS</Portuguese>
+				<Russian>Количество кадров FS</Russian>
+				<Spanish>Cantidad de fotogramas FS</Spanish>
+				<Turkish>FS kare sayısı</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_ParticleFSLoop">
+				<Original>FS loop</Original>
+				<English>FS loop</English>
+				<Chinesesimp>FS 循环</Chinesesimp>
+				<Chinese>FS 循環</Chinese>
+				<Czech>FS smyčka</Czech>
+				<French>Boucle FS</French>
+				<German>FS-Schleife</German>
+				<Italian>Ciclo FS</Italian>
+				<Japanese>FS ループ</Japanese>
+				<Korean>FS 루프</Korean>
+				<Polish>Pętla FS</Polish>
+				<Portuguese>Loop FS</Portuguese>
+				<Russian>Цикл FS</Russian>
+				<Spanish>Bucle FS</Spanish>
+				<Turkish>FS döngüsü</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_Pos3D">
+				<Original>Position 3D</Original>
+				<English>Position 3D</English>
+				<Chinesesimp>3D 位置</Chinesesimp>
+				<Chinese>3D 位置</Chinese>
+				<Czech>Pozice 3D</Czech>
+				<French>Position 3D</French>
+				<German>3D-Position</German>
+				<Italian>Posizione 3D</Italian>
+				<Japanese>3D位置</Japanese>
+				<Korean>3D 위치</Korean>
+				<Polish>Pozycja 3D</Polish>
+				<Portuguese>Posição 3D</Portuguese>
+				<Russian>Позиция 3D</Russian>
+				<Spanish>Posición 3D</Spanish>
+				<Turkish>3B konum</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_MoveVelocityVec">
+				<Original>Move velocity (vec)</Original>
+				<English>Move velocity (vec)</English>
+				<Chinesesimp>移动速度（向量）</Chinesesimp>
+				<Chinese>移動速度（向量）</Chinese>
+				<Czech>Rychlost pohybu (vektor)</Czech>
+				<French>Vitesse de déplacement (vecteur)</French>
+				<German>Bewegungsgeschwindigkeit (Vektor)</German>
+				<Italian>Velocità movimento (vettore)</Italian>
+				<Japanese>移動速度（ベクトル）</Japanese>
+				<Korean>이동 속도(벡터)</Korean>
+				<Polish>Prędkość ruchu (wektor)</Polish>
+				<Portuguese>Velocidade de movimento (vetor)</Portuguese>
+				<Russian>Скорость движения (вектор)</Russian>
+				<Spanish>Velocidad de movimiento (vector)</Spanish>
+				<Turkish>Hareket hızı (vektör)</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_SizeOverLifetime">
+				<Original>Size over lifetime</Original>
+				<English>Size over lifetime</English>
+				<Chinesesimp>生命周期内大小</Chinesesimp>
+				<Chinese>生命週期內大小</Chinese>
+				<Czech>Velikost během života</Czech>
+				<French>Taille sur la durée de vie</French>
+				<German>Größe über Lebensdauer</German>
+				<Italian>Dimensione nel tempo di vita</Italian>
+				<Japanese>寿命に対するサイズ</Japanese>
+				<Korean>수명 동안 크기</Korean>
+				<Polish>Rozmiar w czasie życia</Polish>
+				<Portuguese>Tamanho ao longo da vida</Portuguese>
+				<Russian>Размер в течение жизни</Russian>
+				<Spanish>Tamaño durante la vida</Spanish>
+				<Turkish>Ömür boyunca boyut</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_ColorStages">
+				<Original>Color stages</Original>
+				<English>Color stages</English>
+				<Chinesesimp>颜色阶段</Chinesesimp>
+				<Chinese>顏色階段</Chinese>
+				<Czech>Barevné fáze</Czech>
+				<French>Étapes de couleur</French>
+				<German>Farbstufen</German>
+				<Italian>Fasi colore</Italian>
+				<Japanese>色ステージ</Japanese>
+				<Korean>색상 단계</Korean>
+				<Polish>Etapy koloru</Polish>
+				<Portuguese>Estágios de cor</Portuguese>
+				<Russian>Этапы цвета</Russian>
+				<Spanish>Etapas de color</Spanish>
+				<Turkish>Renk aşamaları</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_AnimationSpeed">
+				<Original>Animation speed</Original>
+				<English>Animation speed</English>
+				<Chinesesimp>动画速度</Chinesesimp>
+				<Chinese>動畫速度</Chinese>
+				<Czech>Rychlost animace</Czech>
+				<French>Vitesse d'animation</French>
+				<German>Animationsgeschwindigkeit</German>
+				<Italian>Velocità animazione</Italian>
+				<Japanese>アニメーション速度</Japanese>
+				<Korean>애니메이션 속도</Korean>
+				<Polish>Prędkość animacji</Polish>
+				<Portuguese>Velocidade da animação</Portuguese>
+				<Russian>Скорость анимации</Russian>
+				<Spanish>Velocidad de animación</Spanish>
+				<Turkish>Animasyon hızı</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_RandomDirectionPeriod">
+				<Original>Random dir period</Original>
+				<English>Random dir period</English>
+				<Chinesesimp>随机方向周期</Chinesesimp>
+				<Chinese>隨機方向週期</Chinese>
+				<Czech>Perioda náhodného směru</Czech>
+				<French>Période direction aléatoire</French>
+				<German>Zufallsrichtungsperiode</German>
+				<Italian>Periodo direzione casuale</Italian>
+				<Japanese>ランダム方向周期</Japanese>
+				<Korean>무작위 방향 주기</Korean>
+				<Polish>Okres losowego kierunku</Polish>
+				<Portuguese>Período da direção aleatória</Portuguese>
+				<Russian>Период случайного направления</Russian>
+				<Spanish>Período de dirección aleatoria</Spanish>
+				<Turkish>Rastgele yön periyodu</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_RandomDirectionIntensity">
+				<Original>Random dir intensity</Original>
+				<English>Random dir intensity</English>
+				<Chinesesimp>随机方向强度</Chinesesimp>
+				<Chinese>隨機方向強度</Chinese>
+				<Czech>Intenzita náhodného směru</Czech>
+				<French>Intensité direction aléatoire</French>
+				<German>Zufallsrichtungsintensität</German>
+				<Italian>Intensità direzione casuale</Italian>
+				<Japanese>ランダム方向強度</Japanese>
+				<Korean>무작위 방향 강도</Korean>
+				<Polish>Intensywność losowego kierunku</Polish>
+				<Portuguese>Intensidade da direção aleatória</Portuguese>
+				<Russian>Интенсивность случайного направления</Russian>
+				<Spanish>Intensidad de dirección aleatoria</Spanish>
+				<Turkish>Rastgele yön yoğunluğu</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_CoreSliders">
+				<Original>Core sliders</Original>
+				<English>Core sliders</English>
+				<Chinesesimp>核心滑块</Chinesesimp>
+				<Chinese>核心滑桿</Chinese>
+				<Czech>Základní posuvníky</Czech>
+				<French>Curseurs principaux</French>
+				<German>Kernregler</German>
+				<Italian>Slider principali</Italian>
+				<Japanese>主要スライダー</Japanese>
+				<Korean>핵심 슬라이더</Korean>
+				<Polish>Główne suwaki</Polish>
+				<Portuguese>Controles principais</Portuguese>
+				<Russian>Основные ползунки</Russian>
+				<Spanish>Deslizadores principales</Spanish>
+				<Turkish>Ana kaydırıcılar</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_OptionalTitle">
+				<Original>Optional params</Original>
+				<English>Optional params</English>
+				<Chinesesimp>可选参数</Chinesesimp>
+				<Chinese>可選參數</Chinese>
+				<Czech>Volitelné parametry</Czech>
+				<French>Paramètres optionnels</French>
+				<German>Optionale Parameter</German>
+				<Italian>Parametri opzionali</Italian>
+				<Japanese>オプションパラメータ</Japanese>
+				<Korean>선택 매개변수</Korean>
+				<Polish>Parametry opcjonalne</Polish>
+				<Portuguese>Parâmetros opcionais</Portuguese>
+				<Russian>Дополнительные параметры</Russian>
+				<Spanish>Parámetros opcionales</Spanish>
+				<Turkish>İsteğe bağlı parametreler</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_OnTimerScript">
+				<Original>On timer script</Original>
+				<English>On timer script</English>
+				<Chinesesimp>计时脚本</Chinesesimp>
+				<Chinese>計時腳本</Chinese>
+				<Czech>Skript při časovači</Czech>
+				<French>Script de minuterie</French>
+				<German>Beim-Timer-Skript</German>
+				<Italian>Script su timer</Italian>
+				<Japanese>タイマースクリプト</Japanese>
+				<Korean>타이머 스크립트</Korean>
+				<Polish>Skrypt timera</Polish>
+				<Portuguese>Script no temporizador</Portuguese>
+				<Russian>Скрипт по таймеру</Russian>
+				<Spanish>Script en temporizador</Spanish>
+				<Turkish>Zamanlayıcı komutu</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_BeforeDestroyScript">
+				<Original>Before destroy script</Original>
+				<English>Before destroy script</English>
+				<Chinesesimp>销毁前脚本</Chinesesimp>
+				<Chinese>銷毀前腳本</Chinese>
+				<Czech>Skript před zničením</Czech>
+				<French>Script avant destruction</French>
+				<German>Skript vor Zerstörung</German>
+				<Italian>Script prima della distruzione</Italian>
+				<Japanese>破棄前スクリプト</Japanese>
+				<Korean>파괴 전 스크립트</Korean>
+				<Polish>Skrypt przed zniszczeniem</Polish>
+				<Portuguese>Script antes de destruir</Portuguese>
+				<Russian>Скрипт перед удалением</Russian>
+				<Spanish>Script antes de destruir</Spanish>
+				<Turkish>Yok etmeden önce komut</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_Angle">
+				<Original>Angle</Original>
+				<English>Angle</English>
+				<Chinesesimp>角度</Chinesesimp>
+				<Chinese>角度</Chinese>
+				<Czech>Úhel</Czech>
+				<French>Angle</French>
+				<German>Winkel</German>
+				<Italian>Angolo</Italian>
+				<Japanese>角度</Japanese>
+				<Korean>각도</Korean>
+				<Polish>Kąt</Polish>
+				<Portuguese>Ângulo</Portuguese>
+				<Russian>Угол</Russian>
+				<Spanish>Ángulo</Spanish>
+				<Turkish>Açı</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_OnSurface">
+				<Original>On surface</Original>
+				<English>On surface</English>
+				<Chinesesimp>在表面上</Chinesesimp>
+				<Chinese>在表面上</Chinese>
+				<Czech>Na povrchu</Czech>
+				<French>Sur surface</French>
+				<German>Auf Oberfläche</German>
+				<Italian>Su superficie</Italian>
+				<Japanese>表面上</Japanese>
+				<Korean>표면 위</Korean>
+				<Polish>Na powierzchni</Polish>
+				<Portuguese>Na superfície</Portuguese>
+				<Russian>На поверхности</Russian>
+				<Spanish>En superficie</Spanish>
+				<Turkish>Yüzeyde</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_BounceOnSurface">
+				<Original>Bounce on surface</Original>
+				<English>Bounce on surface</English>
+				<Chinesesimp>表面反弹</Chinesesimp>
+				<Chinese>表面彈跳</Chinese>
+				<Czech>Odraz na povrchu</Czech>
+				<French>Rebond sur surface</French>
+				<German>Abprallen auf Oberfläche</German>
+				<Italian>Rimbalzo su superficie</Italian>
+				<Japanese>表面で反射</Japanese>
+				<Korean>표면 반사</Korean>
+				<Polish>Odbicie na powierzchni</Polish>
+				<Portuguese>Rebote na superfície</Portuguese>
+				<Russian>Отскок от поверхности</Russian>
+				<Spanish>Rebote en superficie</Spanish>
+				<Turkish>Yüzeyde sekme</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_EmissiveColor">
+				<Original>Emissive color</Original>
+				<English>Emissive color</English>
+				<Chinesesimp>自发光颜色</Chinesesimp>
+				<Chinese>自發光顏色</Chinese>
+				<Czech>Emisivní barva</Czech>
+				<French>Couleur émissive</French>
+				<German>Emissionsfarbe</German>
+				<Italian>Colore emissivo</Italian>
+				<Japanese>発光色</Japanese>
+				<Korean>발광 색상</Korean>
+				<Polish>Kolor emisyjny</Polish>
+				<Portuguese>Cor emissiva</Portuguese>
+				<Russian>Эмиссивный цвет</Russian>
+				<Spanish>Color emisivo</Spanish>
+				<Turkish>Işınım rengi</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_VectorDirOrUp">
+				<Original>Vector dir/up</Original>
+				<English>Vector dir/up</English>
+				<Chinesesimp>向量方向/上向</Chinesesimp>
+				<Chinese>向量方向/上向</Chinese>
+				<Czech>Vektor směr/nahoru</Czech>
+				<French>Vecteur direction/haut</French>
+				<German>Vektor Richtung/Oben</German>
+				<Italian>Vettore direzione/su</Italian>
+				<Japanese>ベクトル方向/上</Japanese>
+				<Korean>벡터 방향/위</Korean>
+				<Polish>Wektor kierunek/góra</Polish>
+				<Portuguese>Vetor direção/cima</Portuguese>
+				<Russian>Вектор напр./вверх</Russian>
+				<Spanish>Vector dirección/arriba</Spanish>
+				<Turkish>Vektör yön/yukarı</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_CircleTitle">
+				<Original>Particle circle</Original>
+				<English>Particle circle</English>
+				<Chinesesimp>粒子圆环</Chinesesimp>
+				<Chinese>粒子圓環</Chinese>
+				<Czech>Kruh částic</Czech>
+				<French>Cercle de particules</French>
+				<German>Partikelkreis</German>
+				<Italian>Cerchio particelle</Italian>
+				<Japanese>パーティクル円</Japanese>
+				<Korean>파티클 원형</Korean>
+				<Polish>Okrąg cząstek</Polish>
+				<Portuguese>Círculo de partículas</Portuguese>
+				<Russian>Круг частиц</Russian>
+				<Spanish>Círculo de partículas</Spanish>
+				<Turkish>Parçacık çemberi</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_CircleRadius">
+				<Original>Circle radius</Original>
+				<English>Circle radius</English>
+				<Chinesesimp>圆环半径</Chinesesimp>
+				<Chinese>圓環半徑</Chinese>
+				<Czech>Poloměr kruhu</Czech>
+				<French>Rayon du cercle</French>
+				<German>Kreisradius</German>
+				<Italian>Raggio cerchio</Italian>
+				<Japanese>円半径</Japanese>
+				<Korean>원 반경</Korean>
+				<Polish>Promień okręgu</Polish>
+				<Portuguese>Raio do círculo</Portuguese>
+				<Russian>Радиус круга</Russian>
+				<Spanish>Radio del círculo</Spanish>
+				<Turkish>Çember yarıçapı</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_CircleVelocity">
+				<Original>Circle velocity</Original>
+				<English>Circle velocity</English>
+				<Chinesesimp>圆环速度</Chinesesimp>
+				<Chinese>圓環速度</Chinese>
+				<Czech>Rychlost kruhu</Czech>
+				<French>Vitesse du cercle</French>
+				<German>Kreisgeschwindigkeit</German>
+				<Italian>Velocità cerchio</Italian>
+				<Japanese>円速度</Japanese>
+				<Korean>원 속도</Korean>
+				<Polish>Prędkość okręgu</Polish>
+				<Portuguese>Velocidade do círculo</Portuguese>
+				<Russian>Скорость круга</Russian>
+				<Spanish>Velocidad del círculo</Spanish>
+				<Turkish>Çember hızı</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_RandomTitle">
+				<Original>Particle random</Original>
+				<English>Particle random</English>
+				<Chinesesimp>粒子随机</Chinesesimp>
+				<Chinese>粒子隨機</Chinese>
+				<Czech>Náhodnost částic</Czech>
+				<French>Aléatoire des particules</French>
+				<German>Partikel-Zufall</German>
+				<Italian>Random particelle</Italian>
+				<Japanese>パーティクル乱数</Japanese>
+				<Korean>파티클 랜덤</Korean>
+				<Polish>Losowość cząstek</Polish>
+				<Portuguese>Aleatoriedade de partículas</Portuguese>
+				<Russian>Случайность частиц</Russian>
+				<Spanish>Aleatoriedad de partículas</Spanish>
+				<Turkish>Parçacık rastgelelik</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_RandomLifetimeVar">
+				<Original>Lifetime var</Original>
+				<English>Lifetime var</English>
+				<Chinesesimp>生命周期变量</Chinesesimp>
+				<Chinese>生命週期變量</Chinese>
+				<Czech>Proměnná životnosti</Czech>
+				<French>Variable durée de vie</French>
+				<German>Lebensdauer-Var</German>
+				<Italian>Variabile durata vita</Italian>
+				<Japanese>寿命変数</Japanese>
+				<Korean>수명 변수</Korean>
+				<Polish>Zmienna czasu życia</Polish>
+				<Portuguese>Variável de tempo de vida</Portuguese>
+				<Russian>Переменная времени жизни</Russian>
+				<Spanish>Variable de tiempo de vida</Spanish>
+				<Turkish>Ömür değişkeni</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_RandomPositionVar">
+				<Original>Position var</Original>
+				<English>Position var</English>
+				<Chinesesimp>位置变量</Chinesesimp>
+				<Chinese>位置變量</Chinese>
+				<Czech>Proměnná pozice</Czech>
+				<French>Variable position</French>
+				<German>Positions-Var</German>
+				<Italian>Variabile posizione</Italian>
+				<Japanese>位置変数</Japanese>
+				<Korean>위치 변수</Korean>
+				<Polish>Zmienna pozycji</Polish>
+				<Portuguese>Variável de posição</Portuguese>
+				<Russian>Переменная позиции</Russian>
+				<Spanish>Variable de posición</Spanish>
+				<Turkish>Konum değişkeni</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_RandomMoveVelocityVar">
+				<Original>Move velocity var</Original>
+				<English>Move velocity var</English>
+				<Chinesesimp>移动速度变量</Chinesesimp>
+				<Chinese>移動速度變量</Chinese>
+				<Czech>Proměnná rychlosti pohybu</Czech>
+				<French>Variable vitesse de déplacement</French>
+				<German>Bewegungsgeschw.-Var</German>
+				<Italian>Variabile velocità movimento</Italian>
+				<Japanese>移動速度変数</Japanese>
+				<Korean>이동 속도 변수</Korean>
+				<Polish>Zmienna prędkości ruchu</Polish>
+				<Portuguese>Variável de velocidade de movimento</Portuguese>
+				<Russian>Переменная скорости движения</Russian>
+				<Spanish>Variable de velocidad de movimiento</Spanish>
+				<Turkish>Hareket hızı değişkeni</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_RandomRotationVelocityVar">
+				<Original>Rotation velocity var</Original>
+				<English>Rotation velocity var</English>
+				<Chinesesimp>旋转速度变量</Chinesesimp>
+				<Chinese>旋轉速度變量</Chinese>
+				<Czech>Proměnná rotační rychlosti</Czech>
+				<French>Variable vitesse de rotation</French>
+				<German>Rotationsgeschw.-Var</German>
+				<Italian>Variabile velocità rotazione</Italian>
+				<Japanese>回転速度変数</Japanese>
+				<Korean>회전 속도 변수</Korean>
+				<Polish>Zmienna prędkości obrotu</Polish>
+				<Portuguese>Variável de velocidade de rotação</Portuguese>
+				<Russian>Переменная скорости вращения</Russian>
+				<Spanish>Variable de velocidad de rotación</Spanish>
+				<Turkish>Dönüş hızı değişkeni</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_RandomSizeVar">
+				<Original>Size var</Original>
+				<English>Size var</English>
+				<Chinesesimp>大小变量</Chinesesimp>
+				<Chinese>大小變量</Chinese>
+				<Czech>Proměnná velikosti</Czech>
+				<French>Variable taille</French>
+				<German>Größen-Var</German>
+				<Italian>Variabile dimensione</Italian>
+				<Japanese>サイズ変数</Japanese>
+				<Korean>크기 변수</Korean>
+				<Polish>Zmienna rozmiaru</Polish>
+				<Portuguese>Variável de tamanho</Portuguese>
+				<Russian>Переменная размера</Russian>
+				<Spanish>Variable de tamaño</Spanish>
+				<Turkish>Boyut değişkeni</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_RandomColorVar">
+				<Original>Color var</Original>
+				<English>Color var</English>
+				<Chinesesimp>颜色变量</Chinesesimp>
+				<Chinese>顏色變量</Chinese>
+				<Czech>Proměnná barvy</Czech>
+				<French>Variable couleur</French>
+				<German>Farb-Var</German>
+				<Italian>Variabile colore</Italian>
+				<Japanese>色変数</Japanese>
+				<Korean>색상 변수</Korean>
+				<Polish>Zmienna koloru</Polish>
+				<Portuguese>Variável de cor</Portuguese>
+				<Russian>Переменная цвета</Russian>
+				<Spanish>Variable de color</Spanish>
+				<Turkish>Renk değişkeni</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_RandomDirPeriodVar">
+				<Original>Direction period var</Original>
+				<English>Direction period var</English>
+				<Chinesesimp>方向周期变量</Chinesesimp>
+				<Chinese>方向週期變量</Chinese>
+				<Czech>Proměnná periody směru</Czech>
+				<French>Variable période direction</French>
+				<German>Richtungsperioden-Var</German>
+				<Italian>Variabile periodo direzione</Italian>
+				<Japanese>方向周期変数</Japanese>
+				<Korean>방향 주기 변수</Korean>
+				<Polish>Zmienna okresu kierunku</Polish>
+				<Portuguese>Variável de período da direção</Portuguese>
+				<Russian>Переменная периода направления</Russian>
+				<Spanish>Variable de período de dirección</Spanish>
+				<Turkish>Yön periyodu değişkeni</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_RandomDirIntensityVar">
+				<Original>Direction intensity var</Original>
+				<English>Direction intensity var</English>
+				<Chinesesimp>方向强度变量</Chinesesimp>
+				<Chinese>方向強度變量</Chinese>
+				<Czech>Proměnná intenzity směru</Czech>
+				<French>Variable intensité direction</French>
+				<German>Richtungsintensitäts-Var</German>
+				<Italian>Variabile intensità direzione</Italian>
+				<Japanese>方向強度変数</Japanese>
+				<Korean>방향 강도 변수</Korean>
+				<Polish>Zmienna intensywności kierunku</Polish>
+				<Portuguese>Variável de intensidade da direção</Portuguese>
+				<Russian>Переменная интенсивности направления</Russian>
+				<Spanish>Variable de intensidad de dirección</Spanish>
+				<Turkish>Yön yoğunluğu değişkeni</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_RandomAngleVar">
+				<Original>Angle var</Original>
+				<English>Angle var</English>
+				<Chinesesimp>角度变量</Chinesesimp>
+				<Chinese>角度變量</Chinese>
+				<Czech>Proměnná úhlu</Czech>
+				<French>Variable angle</French>
+				<German>Winkel-Var</German>
+				<Italian>Variabile angolo</Italian>
+				<Japanese>角度変数</Japanese>
+				<Korean>각도 변수</Korean>
+				<Polish>Zmienna kąta</Polish>
+				<Portuguese>Variável de ângulo</Portuguese>
+				<Russian>Переменная угла</Russian>
+				<Spanish>Variable de ángulo</Spanish>
+				<Turkish>Açı değişkeni</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_RandomBounceOnSurfaceVar">
+				<Original>Bounce var</Original>
+				<English>Bounce var</English>
+				<Chinesesimp>反弹变量</Chinesesimp>
+				<Chinese>彈跳變量</Chinese>
+				<Czech>Proměnná odrazu</Czech>
+				<French>Variable rebond</French>
+				<German>Abprall-Var</German>
+				<Italian>Variabile rimbalzo</Italian>
+				<Japanese>反射変数</Japanese>
+				<Korean>반사 변수</Korean>
+				<Polish>Zmienna odbicia</Polish>
+				<Portuguese>Variável de rebote</Portuguese>
+				<Russian>Переменная отскока</Russian>
+				<Spanish>Variable de rebote</Spanish>
+				<Turkish>Sekme değişkeni</Turkish>
+			</Key>
 		</Container>
 		<Container name="Lights">
 			<Key ID="STR_SQFLAB_Lights_Title">

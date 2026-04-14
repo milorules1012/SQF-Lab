@@ -28,26 +28,19 @@
 #define SQFLAB_SLIDER_W (SQFLAB_PANEL_W - (SQFLAB_PAD_SIDE * 2) - SQFLAB_LABEL_W - SQFLAB_VALUE_W - 0.02)
 #define SQFLAB_SLIDER_X (SQFLAB_PANEL_X + SQFLAB_PAD_SIDE + SQFLAB_LABEL_W + 0.012)
 #define SQFLAB_VALUE_X (SQFLAB_SLIDER_X + SQFLAB_SLIDER_W + 0.008)
-
-#define SQFLAB_Y_TYPE_TITLE (SQFLAB_PANEL_Y + SQFLAB_PAD_TOP + SQFLAB_TITLE_H + SQFLAB_SECTION_GAP)
-#define SQFLAB_Y_TYPE_ROW (SQFLAB_Y_TYPE_TITLE + SQFLAB_SECTION_H + 0.006)
-#define SQFLAB_Y_COLORS_TITLE (SQFLAB_Y_TYPE_ROW + SQFLAB_ROW_H + SQFLAB_SECTION_GAP)
-#define SQFLAB_Y_COLOR_PREVIEW (SQFLAB_Y_COLORS_TITLE + SQFLAB_SECTION_H + 0.006)
-#define SQFLAB_Y_COLOR_R (SQFLAB_Y_COLOR_PREVIEW + SQFLAB_ROW_H + SQFLAB_ROW_GAP)
-#define SQFLAB_Y_COLOR_G (SQFLAB_Y_COLOR_R + SQFLAB_ROW_H + SQFLAB_ROW_GAP)
-#define SQFLAB_Y_COLOR_B (SQFLAB_Y_COLOR_G + SQFLAB_ROW_H + SQFLAB_ROW_GAP)
-#define SQFLAB_Y_COLOR_A (SQFLAB_Y_COLOR_B + SQFLAB_ROW_H + SQFLAB_ROW_GAP)
-#define SQFLAB_Y_PARAMS_TITLE (SQFLAB_Y_COLOR_A + SQFLAB_ROW_H + SQFLAB_SECTION_GAP)
-
-#define SQFLAB_Y_FIRST (SQFLAB_Y_PARAMS_TITLE + SQFLAB_SECTION_H + 0.006)
-#define SQFLAB_Y_SIZE SQFLAB_Y_FIRST
-#define SQFLAB_Y_LIFETIME (SQFLAB_Y_SIZE + SQFLAB_ROW_H + SQFLAB_ROW_GAP)
-#define SQFLAB_Y_INTERVAL (SQFLAB_Y_LIFETIME + SQFLAB_ROW_H + SQFLAB_ROW_GAP)
-#define SQFLAB_Y_MOVEVEL (SQFLAB_Y_INTERVAL + SQFLAB_ROW_H + SQFLAB_ROW_GAP)
-#define SQFLAB_Y_ROTVEL (SQFLAB_Y_MOVEVEL + SQFLAB_ROW_H + SQFLAB_ROW_GAP)
-#define SQFLAB_Y_WEIGHT (SQFLAB_Y_ROTVEL + SQFLAB_ROW_H + SQFLAB_ROW_GAP)
-#define SQFLAB_Y_VOLUME (SQFLAB_Y_WEIGHT + SQFLAB_ROW_H + SQFLAB_ROW_GAP)
-#define SQFLAB_Y_RUBBING (SQFLAB_Y_VOLUME + SQFLAB_ROW_H + SQFLAB_ROW_GAP)
+#define SQFLAB_FORM_X (SQFLAB_PANEL_X + SQFLAB_PAD_SIDE)
+#define SQFLAB_FORM_Y (SQFLAB_PANEL_Y + SQFLAB_PAD_TOP + SQFLAB_TITLE_H + SQFLAB_SECTION_GAP)
+#define SQFLAB_FORM_W (SQFLAB_PANEL_W - (SQFLAB_PAD_SIDE * 2))
+#define SQFLAB_FORM_H (SQFLAB_PANEL_H - (SQFLAB_PAD_TOP * 2) - SQFLAB_TITLE_H - 0.11)
+#define SQFLAB_G_LABEL_W 0.22
+#define SQFLAB_G_EDIT_X (SQFLAB_G_LABEL_W + 0.01)
+#define SQFLAB_G_EDIT_W (SQFLAB_FORM_W - SQFLAB_G_EDIT_X)
+#define SQFLAB_G_SLIDER_X (SQFLAB_G_LABEL_W + 0.012)
+#define SQFLAB_G_SLIDER_W (SQFLAB_FORM_W - SQFLAB_G_SLIDER_X - SQFLAB_VALUE_W - 0.01)
+#define SQFLAB_G_VALUE_X (SQFLAB_G_SLIDER_X + SQFLAB_G_SLIDER_W + 0.008)
+#define SQFLAB_G_ROW(y) y
+#define SQFLAB_G_SECTION(y) y
+#define SQFLAB_SCROLL_CONTENT_H 2.85
 #define SQFLAB_BTN_W 0.16
 #define SQFLAB_BTN_GAP 0.01
 #define SQFLAB_Y_BOTTOM_BTN (SQFLAB_PANEL_Y + SQFLAB_PANEL_H - SQFLAB_PAD_TOP - 0.04)
@@ -132,7 +125,7 @@ class SQFLab_ParticlesMenu
 		{
 			idc = SQFLAB_IDC_BTN_FIRE;
 			x = SQFLAB_PANEL_X + SQFLAB_PAD_SIDE;
-			y = SQFLAB_Y_TYPE_ROW;
+			y = SQFLAB_FORM_Y;
 			w = 0.12;
 			h = 0.036;
 			text = $STR_SQFLAB_Particles_Fire;
@@ -154,139 +147,183 @@ class SQFLab_ParticlesMenu
 			text = $STR_SQFLAB_Particles_Drop;
 			action = "uiNamespace setVariable ['SQFLab_particles_previewType','drop']; [] call SQFLab_fnc_particlesOnSlider;";
 		};
-
-		class TypeTitle: RscText
+		class GroupScroll: RscControlsGroup
 		{
-			idc = -1;
-			x = SQFLAB_PANEL_X + SQFLAB_PAD_SIDE;
-			y = SQFLAB_Y_TYPE_TITLE;
-			w = SQFLAB_PANEL_W - (SQFLAB_PAD_SIDE * 2);
-			h = SQFLAB_SECTION_H;
-			text = $STR_SQFLAB_Particles_TypeTitle;
-			colorBackground[] = SQFLAB_PROFILE_COLOR(0.35);
-		};
+			idc = SQFLAB_IDC_GROUP_SCROLL;
+			x = SQFLAB_FORM_X;
+			y = SQFLAB_FORM_Y + SQFLAB_ROW_H + SQFLAB_ROW_GAP;
+			w = SQFLAB_FORM_W;
+			h = SQFLAB_FORM_H - SQFLAB_ROW_H - SQFLAB_ROW_GAP;
+			class VScrollbar
+			{
+				width = 0;
+				height = 0;
+				scrollSpeed = 0.15;
+				autoScrollEnabled = 1;
+				autoScrollSpeed = -1;
+				autoScrollDelay = 5;
+				autoScrollRewind = 0;
+				shadow = 0;
+				color[] = {1, 1, 1, 0};
+				colorActive[] = {1, 1, 1, 0};
+				colorDisabled[] = {1, 1, 1, 0};
+				thumb = "\A3\ui_f\data\gui\cfg\scrollbar\thumb_ca.paa";
+				arrowEmpty = "\A3\ui_f\data\gui\cfg\scrollbar\arrowEmpty_ca.paa";
+				arrowFull = "\A3\ui_f\data\gui\cfg\scrollbar\arrowFull_ca.paa";
+				border = "\A3\ui_f\data\gui\cfg\scrollbar\border_ca.paa";
+			};
+			class HScrollbar
+			{
+				height = 0;
+				width = 0;
+				color[] = {1, 1, 1, 0};
+				colorActive[] = {1, 1, 1, 0};
+				colorDisabled[] = {1, 1, 1, 0};
+			};
+			class controls
+			{
+				class G_SectionType: RscText { idc = -1; x = 0; y = SQFLAB_G_SECTION(0.00); w = SQFLAB_FORM_W; h = SQFLAB_SECTION_H; text = $STR_SQFLAB_Particles_TypeTitle; colorBackground[] = SQFLAB_PROFILE_COLOR(0.35); };
+				class G_LabelShape: RscText { idc = -1; x = 0; y = SQFLAB_G_ROW(0.04); w = SQFLAB_G_LABEL_W; h = SQFLAB_ROW_H; text = $STR_SQFLAB_Particles_ParticleShape; colorBackground[] = {0,0,0,0}; };
+				class G_EditShape: RscEdit { idc = SQFLAB_IDC_EDIT_PARTICLE_SHAPE; x = SQFLAB_G_EDIT_X; y = SQFLAB_G_ROW(0.04); w = SQFLAB_G_EDIT_W; h = SQFLAB_ROW_H; onKillFocus = "[] call SQFLab_fnc_particlesOnSlider"; };
+				class G_LabelType: G_LabelShape { y = SQFLAB_G_ROW(0.088); text = $STR_SQFLAB_Particles_ParticleType; };
+				class G_EditType: G_EditShape { idc = SQFLAB_IDC_EDIT_PARTICLE_TYPE; y = SQFLAB_G_ROW(0.088); };
+				class G_LabelAnim: G_LabelShape { y = SQFLAB_G_ROW(0.136); text = $STR_SQFLAB_Particles_AnimationName; };
+				class G_EditAnim: G_EditShape { idc = SQFLAB_IDC_EDIT_ANIM_NAME; y = SQFLAB_G_ROW(0.136); };
+				class G_LabelTimer: G_LabelShape { y = SQFLAB_G_ROW(0.184); text = $STR_SQFLAB_Particles_TimerPeriod; };
+				class G_EditTimer: G_EditShape { idc = SQFLAB_IDC_EDIT_TIMER_PERIOD; y = SQFLAB_G_ROW(0.184); };
+				class G_LabelFsNtieth: G_LabelShape { y = SQFLAB_G_ROW(0.232); text = $STR_SQFLAB_Particles_ParticleFSNtieth; };
+				class G_EditFsNtieth: G_EditShape { idc = SQFLAB_IDC_EDIT_FS_NTIETH; y = SQFLAB_G_ROW(0.232); };
+				class G_LabelFsIndex: G_LabelShape { y = SQFLAB_G_ROW(0.280); text = $STR_SQFLAB_Particles_ParticleFSIndex; };
+				class G_EditFsIndex: G_EditShape { idc = SQFLAB_IDC_EDIT_FS_INDEX; y = SQFLAB_G_ROW(0.280); };
+				class G_LabelFsFrameCount: G_LabelShape { y = SQFLAB_G_ROW(0.328); text = $STR_SQFLAB_Particles_ParticleFSFrameCount; };
+				class G_EditFsFrameCount: G_EditShape { idc = SQFLAB_IDC_EDIT_FS_FRAMECOUNT; y = SQFLAB_G_ROW(0.328); };
+				class G_LabelFsLoop: G_LabelShape { y = SQFLAB_G_ROW(0.376); text = $STR_SQFLAB_Particles_ParticleFSLoop; };
+				class G_EditFsLoop: G_EditShape { idc = SQFLAB_IDC_EDIT_FS_LOOP; y = SQFLAB_G_ROW(0.376); };
 
-		class ParamsTitle: RscText
-		{
-			idc = -1;
-			x = SQFLAB_PANEL_X + SQFLAB_PAD_SIDE;
-			y = SQFLAB_Y_PARAMS_TITLE;
-			w = SQFLAB_PANEL_W - (SQFLAB_PAD_SIDE * 2);
-			h = SQFLAB_SECTION_H;
-			text = $STR_SQFLAB_Particles_ParamsTitle;
-			colorBackground[] = SQFLAB_PROFILE_COLOR(0.35);
-		};
+				class G_SectionParams: G_SectionType { y = SQFLAB_G_SECTION(0.43); text = $STR_SQFLAB_Particles_ParamsTitle; };
+				class G_LabelPos: G_LabelShape { y = SQFLAB_G_ROW(0.47); text = $STR_SQFLAB_Particles_Pos3D; };
+				class G_EditPos: G_EditShape { idc = SQFLAB_IDC_EDIT_POS3D; y = SQFLAB_G_ROW(0.47); };
+				class G_LabelMove: G_LabelShape { y = SQFLAB_G_ROW(0.518); text = $STR_SQFLAB_Particles_MoveVelocityVec; };
+				class G_EditMove: G_EditShape { idc = SQFLAB_IDC_EDIT_MOVE_VELOCITY; y = SQFLAB_G_ROW(0.518); };
+				class G_LabelSizeOverLife: G_LabelShape { y = SQFLAB_G_ROW(0.566); text = $STR_SQFLAB_Particles_SizeOverLifetime; };
+				class G_EditSizeOverLife: G_EditShape { idc = SQFLAB_IDC_EDIT_SIZE_OVER_LIFE; y = SQFLAB_G_ROW(0.566); };
+				class G_LabelColorStages: G_LabelShape { y = SQFLAB_G_ROW(0.614); text = $STR_SQFLAB_Particles_ColorStages; };
+				class G_EditColorStages: G_EditShape { idc = SQFLAB_IDC_EDIT_COLOR_STAGES; y = SQFLAB_G_ROW(0.614); };
+				class G_LabelAnimSpeed: G_LabelShape { y = SQFLAB_G_ROW(0.662); text = $STR_SQFLAB_Particles_AnimationSpeed; };
+				class G_EditAnimSpeed: G_EditShape { idc = SQFLAB_IDC_EDIT_ANIM_SPEED; y = SQFLAB_G_ROW(0.662); };
+				class G_LabelDirPeriod: G_LabelShape { y = SQFLAB_G_ROW(0.710); text = $STR_SQFLAB_Particles_RandomDirectionPeriod; };
+				class G_EditDirPeriod: G_EditShape { idc = SQFLAB_IDC_EDIT_RANDOM_DIR_PERIOD; y = SQFLAB_G_ROW(0.710); };
+				class G_LabelDirIntensity: G_LabelShape { y = SQFLAB_G_ROW(0.758); text = $STR_SQFLAB_Particles_RandomDirectionIntensity; };
+				class G_EditDirIntensity: G_EditShape { idc = SQFLAB_IDC_EDIT_RANDOM_DIR_INTENSITY; y = SQFLAB_G_ROW(0.758); };
 
-		class ColorsTitle: RscText
-		{
-			idc = -1;
-			x = SQFLAB_PANEL_X + SQFLAB_PAD_SIDE;
-			y = SQFLAB_Y_COLORS_TITLE;
-			w = SQFLAB_PANEL_W - (SQFLAB_PAD_SIDE * 2);
-			h = SQFLAB_SECTION_H;
-			text = $STR_SQFLAB_Particles_ColorsTitle;
-			colorBackground[] = SQFLAB_PROFILE_COLOR(0.35);
-		};
+				class G_SectionSliders: G_SectionType { y = SQFLAB_G_SECTION(0.81); text = $STR_SQFLAB_Particles_CoreSliders; };
+				class G_LabelSize: G_LabelShape { y = SQFLAB_G_ROW(0.85); text = $STR_SQFLAB_Particles_Size; };
+				class G_SliderSize: RscSlider
+				{
+					idc = SQFLAB_IDC_SLIDER_SIZE;
+					x = SQFLAB_G_SLIDER_X;
+					y = SQFLAB_G_ROW(0.85);
+					w = SQFLAB_G_SLIDER_W;
+					h = SQFLAB_ROW_H;
+					type = 43; // CT_XSLIDER
+					style = 1024; // SL_HORZ + SL_TEXTURES
+					color[] = {1, 1, 1, 0.6};
+					colorActive[] = {1, 1, 1, 1};
+					colorDisable[] = {1, 1, 1, 0.4};
+					colorDisabled[] = {1, 1, 1, 0.2};
+					shadow = 0;
+					lineSize = 0.1;
+					arrowEmpty = "\A3\ui_f\data\gui\cfg\slider\arrowEmpty_ca.paa";
+					arrowFull = "\A3\ui_f\data\gui\cfg\slider\arrowFull_ca.paa";
+					border = "\A3\ui_f\data\gui\cfg\slider\border_ca.paa";
+					thumb = "\a3\3DEN\Data\Controls\CtrlXSlider\thumb_ca.paa";
+					tooltipColorText[] = {1, 1, 1, 1};
+					tooltipColorBox[] = {1, 1, 1, 1};
+					tooltipColorShade[] = {0, 0, 0, 0.65};
+					onSliderPosChanged = "_this call SQFLab_fnc_particlesOnSlider";
+				};
+				class G_ValueSize: RscText { idc = SQFLAB_IDC_VALUE_SIZE; x = SQFLAB_G_VALUE_X; y = SQFLAB_G_ROW(0.85); w = SQFLAB_VALUE_W; h = SQFLAB_ROW_H; style = 1; text = "0"; colorBackground[] = {0,0,0,0}; };
+				class G_LabelLife: G_LabelSize { y = SQFLAB_G_ROW(0.898); text = $STR_SQFLAB_Particles_LifeTime; };
+				class G_SliderLife: G_SliderSize { idc = SQFLAB_IDC_SLIDER_LIFETIME; y = SQFLAB_G_ROW(0.898); };
+				class G_ValueLife: G_ValueSize { idc = SQFLAB_IDC_VALUE_LIFETIME; y = SQFLAB_G_ROW(0.898); };
+				class G_LabelInterval: G_LabelSize { y = SQFLAB_G_ROW(0.946); text = $STR_SQFLAB_Particles_SpawnInterval; };
+				class G_SliderInterval: G_SliderSize { idc = SQFLAB_IDC_SLIDER_INTERVAL; y = SQFLAB_G_ROW(0.946); };
+				class G_ValueInterval: G_ValueSize { idc = SQFLAB_IDC_VALUE_INTERVAL; y = SQFLAB_G_ROW(0.946); };
+				class G_LabelMoveVel: G_LabelSize { y = SQFLAB_G_ROW(0.994); text = $STR_SQFLAB_Particles_MoveVelocity; };
+				class G_SliderMoveVel: G_SliderSize { idc = SQFLAB_IDC_SLIDER_MOVEVEL; y = SQFLAB_G_ROW(0.994); };
+				class G_ValueMoveVel: G_ValueSize { idc = SQFLAB_IDC_VALUE_MOVEVEL; y = SQFLAB_G_ROW(0.994); };
+				class G_LabelRotVel: G_LabelSize { y = SQFLAB_G_ROW(1.042); text = $STR_SQFLAB_Particles_RotationVelocity; };
+				class G_SliderRotVel: G_SliderSize { idc = SQFLAB_IDC_SLIDER_ROTVEL; y = SQFLAB_G_ROW(1.042); };
+				class G_ValueRotVel: G_ValueSize { idc = SQFLAB_IDC_VALUE_ROTVEL; y = SQFLAB_G_ROW(1.042); };
+				class G_LabelWeight: G_LabelSize { y = SQFLAB_G_ROW(1.090); text = $STR_SQFLAB_Particles_Weight; };
+				class G_SliderWeight: G_SliderSize { idc = SQFLAB_IDC_SLIDER_WEIGHT; y = SQFLAB_G_ROW(1.090); };
+				class G_ValueWeight: G_ValueSize { idc = SQFLAB_IDC_VALUE_WEIGHT; y = SQFLAB_G_ROW(1.090); };
+				class G_LabelVolume: G_LabelSize { y = SQFLAB_G_ROW(1.138); text = $STR_SQFLAB_Particles_Volume; };
+				class G_SliderVolume: G_SliderSize { idc = SQFLAB_IDC_SLIDER_VOLUME; y = SQFLAB_G_ROW(1.138); };
+				class G_ValueVolume: G_ValueSize { idc = SQFLAB_IDC_VALUE_VOLUME; y = SQFLAB_G_ROW(1.138); };
+				class G_LabelRubbing: G_LabelSize { y = SQFLAB_G_ROW(1.186); text = $STR_SQFLAB_Particles_Rubbing; };
+				class G_SliderRubbing: G_SliderSize { idc = SQFLAB_IDC_SLIDER_RUBBING; y = SQFLAB_G_ROW(1.186); };
+				class G_ValueRubbing: G_ValueSize { idc = SQFLAB_IDC_VALUE_RUBBING; y = SQFLAB_G_ROW(1.186); };
 
-		class LabelSize: RscText
-		{
-			idc = -1;
-			x = SQFLAB_PANEL_X + SQFLAB_PAD_SIDE;
-			y = SQFLAB_Y_SIZE;
-			w = SQFLAB_LABEL_W;
-			h = SQFLAB_ROW_H;
-			text = $STR_SQFLAB_Particles_Size;
-			colorBackground[] = {0, 0, 0, 0};
-		};
-		class SliderSize: RscSlider
-		{
-			idc = SQFLAB_IDC_SLIDER_SIZE;
-			x = SQFLAB_SLIDER_X;
-			y = SQFLAB_Y_SIZE;
-			w = SQFLAB_SLIDER_W;
-			h = SQFLAB_ROW_H;
-			type = 43; // CT_XSLIDER
-			style = 1024; // SL_HORZ + SL_TEXTURES
-			color[] = {1, 1, 1, 0.6};
-			colorActive[] = {1, 1, 1, 1};
-			colorDisable[] = {1, 1, 1, 0.4};
-			colorDisabled[] = {1, 1, 1, 0.2};
-			shadow = 0;
-			lineSize = 0.1;
-			arrowEmpty = "\A3\ui_f\data\gui\cfg\slider\arrowEmpty_ca.paa";
-			arrowFull = "\A3\ui_f\data\gui\cfg\slider\arrowFull_ca.paa";
-			border = "\A3\ui_f\data\gui\cfg\slider\border_ca.paa";
-			thumb = "\a3\3DEN\Data\Controls\CtrlXSlider\thumb_ca.paa";
-			tooltipColorText[] = {1, 1, 1, 1};
-			tooltipColorBox[] = {1, 1, 1, 1};
-			tooltipColorShade[] = {0, 0, 0, 0.65};
-			onSliderPosChanged = "_this call SQFLab_fnc_particlesOnSlider";
-		};
-		class ValueSize: LabelSize
-		{
-			idc = SQFLAB_IDC_VALUE_SIZE;
-			x = SQFLAB_VALUE_X;
-			w = SQFLAB_VALUE_W;
-			style = 1;
-			text = "0";
-		};
+				class G_SectionColors: G_SectionType { y = SQFLAB_G_SECTION(1.24); text = $STR_SQFLAB_Particles_ColorsTitle; };
+				class G_ColorPreview: RscButtonMenu { idc = SQFLAB_IDC_COLOR_PREVIEW; x = 0; y = SQFLAB_G_ROW(1.28); w = SQFLAB_FORM_W; h = SQFLAB_ROW_H; text = $STR_SQFLAB_Common_ColorPreview; style = 2; action = ""; colorBackground[] = SQFLAB_PROFILE_COLOR(0.9); colorBackgroundFocused[] = SQFLAB_PROFILE_COLOR(0.9); };
+				class G_LabelColorR: G_LabelSize { y = SQFLAB_G_ROW(1.328); text = $STR_SQFLAB_Common_ColorR; };
+				class G_SliderColorR: G_SliderSize { idc = SQFLAB_IDC_SLIDER_COLOR_R; y = SQFLAB_G_ROW(1.328); };
+				class G_ValueColorR: G_ValueSize { idc = SQFLAB_IDC_VALUE_COLOR_R; y = SQFLAB_G_ROW(1.328); };
+				class G_LabelColorG: G_LabelSize { y = SQFLAB_G_ROW(1.376); text = $STR_SQFLAB_Common_ColorG; };
+				class G_SliderColorG: G_SliderSize { idc = SQFLAB_IDC_SLIDER_COLOR_G; y = SQFLAB_G_ROW(1.376); };
+				class G_ValueColorG: G_ValueSize { idc = SQFLAB_IDC_VALUE_COLOR_G; y = SQFLAB_G_ROW(1.376); };
+				class G_LabelColorB: G_LabelSize { y = SQFLAB_G_ROW(1.424); text = $STR_SQFLAB_Common_ColorB; };
+				class G_SliderColorB: G_SliderSize { idc = SQFLAB_IDC_SLIDER_COLOR_B; y = SQFLAB_G_ROW(1.424); };
+				class G_ValueColorB: G_ValueSize { idc = SQFLAB_IDC_VALUE_COLOR_B; y = SQFLAB_G_ROW(1.424); };
+				class G_LabelColorA: G_LabelSize { y = SQFLAB_G_ROW(1.472); text = $STR_SQFLAB_Common_ColorA; };
+				class G_SliderColorA: G_SliderSize { idc = SQFLAB_IDC_SLIDER_COLOR_A; y = SQFLAB_G_ROW(1.472); };
+				class G_ValueColorA: G_ValueSize { idc = SQFLAB_IDC_VALUE_COLOR_A; y = SQFLAB_G_ROW(1.472); };
 
-		class LabelLifeTime: LabelSize { y = SQFLAB_Y_LIFETIME; text = $STR_SQFLAB_Particles_LifeTime; };
-		class SliderLifeTime: SliderSize { idc = SQFLAB_IDC_SLIDER_LIFETIME; y = SQFLAB_Y_LIFETIME; };
-		class ValueLifeTime: ValueSize { idc = SQFLAB_IDC_VALUE_LIFETIME; y = SQFLAB_Y_LIFETIME; };
+				class G_SectionOptional: G_SectionType { y = SQFLAB_G_SECTION(1.53); text = $STR_SQFLAB_Particles_OptionalTitle; };
+				class G_LabelOnTimer: G_LabelShape { y = SQFLAB_G_ROW(1.57); text = $STR_SQFLAB_Particles_OnTimerScript; };
+				class G_EditOnTimer: G_EditShape { idc = SQFLAB_IDC_EDIT_ON_TIMER_SCRIPT; y = SQFLAB_G_ROW(1.57); };
+				class G_LabelBeforeDestroy: G_LabelShape { y = SQFLAB_G_ROW(1.618); text = $STR_SQFLAB_Particles_BeforeDestroyScript; };
+				class G_EditBeforeDestroy: G_EditShape { idc = SQFLAB_IDC_EDIT_BEFORE_DESTROY_SCRIPT; y = SQFLAB_G_ROW(1.618); };
+				class G_LabelAngle: G_LabelShape { y = SQFLAB_G_ROW(1.666); text = $STR_SQFLAB_Particles_Angle; };
+				class G_EditAngle: G_EditShape { idc = SQFLAB_IDC_EDIT_ANGLE; y = SQFLAB_G_ROW(1.666); };
+				class G_LabelOnSurface: G_LabelShape { y = SQFLAB_G_ROW(1.714); text = $STR_SQFLAB_Particles_OnSurface; };
+				class G_CheckOnSurface: RscCheckBox { idc = SQFLAB_IDC_CHK_ON_SURFACE; x = SQFLAB_G_EDIT_X; y = SQFLAB_G_ROW(1.714); w = 0.03; h = SQFLAB_ROW_H; onCheckedChanged = "[] call SQFLab_fnc_particlesOnSlider"; };
+				class G_LabelBounce: G_LabelShape { y = SQFLAB_G_ROW(1.762); text = $STR_SQFLAB_Particles_BounceOnSurface; };
+				class G_EditBounce: G_EditShape { idc = SQFLAB_IDC_EDIT_BOUNCE_ON_SURFACE; y = SQFLAB_G_ROW(1.762); };
+				class G_LabelEmissive: G_LabelShape { y = SQFLAB_G_ROW(1.810); text = $STR_SQFLAB_Particles_EmissiveColor; };
+				class G_EditEmissive: G_EditShape { idc = SQFLAB_IDC_EDIT_EMISSIVE_COLOR; y = SQFLAB_G_ROW(1.810); };
+				class G_LabelVectorDir: G_LabelShape { y = SQFLAB_G_ROW(1.858); text = $STR_SQFLAB_Particles_VectorDirOrUp; };
+				class G_EditVectorDir: G_EditShape { idc = SQFLAB_IDC_EDIT_VECTOR_DIR; y = SQFLAB_G_ROW(1.858); };
 
-		class LabelInterval: LabelSize { y = SQFLAB_Y_INTERVAL; text = $STR_SQFLAB_Particles_SpawnInterval; };
-		class SliderInterval: SliderSize { idc = SQFLAB_IDC_SLIDER_INTERVAL; y = SQFLAB_Y_INTERVAL; };
-		class ValueInterval: ValueSize { idc = SQFLAB_IDC_VALUE_INTERVAL; y = SQFLAB_Y_INTERVAL; };
+				class G_SectionCircle: G_SectionType { y = SQFLAB_G_SECTION(1.92); text = $STR_SQFLAB_Particles_CircleTitle; };
+				class G_LabelCircleRadius: G_LabelShape { y = SQFLAB_G_ROW(1.96); text = $STR_SQFLAB_Particles_CircleRadius; };
+				class G_EditCircleRadius: G_EditShape { idc = SQFLAB_IDC_EDIT_CIRCLE_RADIUS; y = SQFLAB_G_ROW(1.96); };
+				class G_LabelCircleVelocity: G_LabelShape { y = SQFLAB_G_ROW(2.008); text = $STR_SQFLAB_Particles_CircleVelocity; };
+				class G_EditCircleVelocity: G_EditShape { idc = SQFLAB_IDC_EDIT_CIRCLE_VELOCITY; y = SQFLAB_G_ROW(2.008); };
 
-		class LabelMoveVel: LabelSize { y = SQFLAB_Y_MOVEVEL; text = $STR_SQFLAB_Particles_MoveVelocity; };
-		class SliderMoveVel: SliderSize { idc = SQFLAB_IDC_SLIDER_MOVEVEL; y = SQFLAB_Y_MOVEVEL; };
-		class ValueMoveVel: ValueSize { idc = SQFLAB_IDC_VALUE_MOVEVEL; y = SQFLAB_Y_MOVEVEL; };
-
-		class LabelRotVel: LabelSize { y = SQFLAB_Y_ROTVEL; text = $STR_SQFLAB_Particles_RotationVelocity; };
-		class SliderRotVel: SliderSize { idc = SQFLAB_IDC_SLIDER_ROTVEL; y = SQFLAB_Y_ROTVEL; };
-		class ValueRotVel: ValueSize { idc = SQFLAB_IDC_VALUE_ROTVEL; y = SQFLAB_Y_ROTVEL; };
-
-		class LabelWeight: LabelSize { y = SQFLAB_Y_WEIGHT; text = $STR_SQFLAB_Particles_Weight; };
-		class SliderWeight: SliderSize { idc = SQFLAB_IDC_SLIDER_WEIGHT; y = SQFLAB_Y_WEIGHT; };
-		class ValueWeight: ValueSize { idc = SQFLAB_IDC_VALUE_WEIGHT; y = SQFLAB_Y_WEIGHT; };
-
-		class LabelVolume: LabelSize { y = SQFLAB_Y_VOLUME; text = $STR_SQFLAB_Particles_Volume; };
-		class SliderVolume: SliderSize { idc = SQFLAB_IDC_SLIDER_VOLUME; y = SQFLAB_Y_VOLUME; };
-		class ValueVolume: ValueSize { idc = SQFLAB_IDC_VALUE_VOLUME; y = SQFLAB_Y_VOLUME; };
-
-		class LabelRubbing: LabelSize { y = SQFLAB_Y_RUBBING; text = $STR_SQFLAB_Particles_Rubbing; };
-		class SliderRubbing: SliderSize { idc = SQFLAB_IDC_SLIDER_RUBBING; y = SQFLAB_Y_RUBBING; };
-		class ValueRubbing: ValueSize { idc = SQFLAB_IDC_VALUE_RUBBING; y = SQFLAB_Y_RUBBING; };
-
-		class LabelColorR: LabelSize { y = SQFLAB_Y_COLOR_R; text = $STR_SQFLAB_Common_ColorR; };
-		class SliderColorR: SliderSize { idc = SQFLAB_IDC_SLIDER_COLOR_R; y = SQFLAB_Y_COLOR_R; };
-		class ValueColorR: ValueSize { idc = SQFLAB_IDC_VALUE_COLOR_R; y = SQFLAB_Y_COLOR_R; };
-
-		class LabelColorG: LabelSize { y = SQFLAB_Y_COLOR_G; text = $STR_SQFLAB_Common_ColorG; };
-		class SliderColorG: SliderSize { idc = SQFLAB_IDC_SLIDER_COLOR_G; y = SQFLAB_Y_COLOR_G; };
-		class ValueColorG: ValueSize { idc = SQFLAB_IDC_VALUE_COLOR_G; y = SQFLAB_Y_COLOR_G; };
-
-		class LabelColorB: LabelSize { y = SQFLAB_Y_COLOR_B; text = $STR_SQFLAB_Common_ColorB; };
-		class SliderColorB: SliderSize { idc = SQFLAB_IDC_SLIDER_COLOR_B; y = SQFLAB_Y_COLOR_B; };
-		class ValueColorB: ValueSize { idc = SQFLAB_IDC_VALUE_COLOR_B; y = SQFLAB_Y_COLOR_B; };
-
-		class LabelColorA: LabelSize { y = SQFLAB_Y_COLOR_A; text = $STR_SQFLAB_Common_ColorA; };
-		class SliderColorA: SliderSize { idc = SQFLAB_IDC_SLIDER_COLOR_A; y = SQFLAB_Y_COLOR_A; };
-		class ValueColorA: ValueSize { idc = SQFLAB_IDC_VALUE_COLOR_A; y = SQFLAB_Y_COLOR_A; };
-
-		class ColorPreview: RscButtonMenu
-		{
-			idc = SQFLAB_IDC_COLOR_PREVIEW;
-			x = SQFLAB_PANEL_X + SQFLAB_PAD_SIDE;
-			y = SQFLAB_Y_COLOR_PREVIEW;
-			w = SQFLAB_PANEL_W - (SQFLAB_PAD_SIDE * 2);
-			h = SQFLAB_ROW_H;
-			text = $STR_SQFLAB_Common_ColorPreview;
-			style = 2;
-			action = "";
-			colorBackground[] = SQFLAB_PROFILE_COLOR(0.9);
-			colorBackgroundFocused[] = SQFLAB_PROFILE_COLOR(0.9);
+				class G_SectionRandom: G_SectionType { y = SQFLAB_G_SECTION(2.07); text = $STR_SQFLAB_Particles_RandomTitle; };
+				class G_LabelRandomLife: G_LabelShape { y = SQFLAB_G_ROW(2.11); text = $STR_SQFLAB_Particles_RandomLifetimeVar; };
+				class G_EditRandomLife: G_EditShape { idc = SQFLAB_IDC_EDIT_RANDOM_LIFETIME_VAR; y = SQFLAB_G_ROW(2.11); };
+				class G_LabelRandomPos: G_LabelShape { y = SQFLAB_G_ROW(2.158); text = $STR_SQFLAB_Particles_RandomPositionVar; };
+				class G_EditRandomPos: G_EditShape { idc = SQFLAB_IDC_EDIT_RANDOM_POSITION_VAR; y = SQFLAB_G_ROW(2.158); };
+				class G_LabelRandomMove: G_LabelShape { y = SQFLAB_G_ROW(2.206); text = $STR_SQFLAB_Particles_RandomMoveVelocityVar; };
+				class G_EditRandomMove: G_EditShape { idc = SQFLAB_IDC_EDIT_RANDOM_MOVE_VELOCITY_VAR; y = SQFLAB_G_ROW(2.206); };
+				class G_LabelRandomRot: G_LabelShape { y = SQFLAB_G_ROW(2.254); text = $STR_SQFLAB_Particles_RandomRotationVelocityVar; };
+				class G_EditRandomRot: G_EditShape { idc = SQFLAB_IDC_EDIT_RANDOM_ROTATION_VELOCITY_VAR; y = SQFLAB_G_ROW(2.254); };
+				class G_LabelRandomSize: G_LabelShape { y = SQFLAB_G_ROW(2.302); text = $STR_SQFLAB_Particles_RandomSizeVar; };
+				class G_EditRandomSize: G_EditShape { idc = SQFLAB_IDC_EDIT_RANDOM_SIZE_VAR; y = SQFLAB_G_ROW(2.302); };
+				class G_LabelRandomColor: G_LabelShape { y = SQFLAB_G_ROW(2.350); text = $STR_SQFLAB_Particles_RandomColorVar; };
+				class G_EditRandomColor: G_EditShape { idc = SQFLAB_IDC_EDIT_RANDOM_COLOR_VAR; y = SQFLAB_G_ROW(2.350); };
+				class G_LabelRandomDirPeriod: G_LabelShape { y = SQFLAB_G_ROW(2.398); text = $STR_SQFLAB_Particles_RandomDirPeriodVar; };
+				class G_EditRandomDirPeriod: G_EditShape { idc = SQFLAB_IDC_EDIT_RANDOM_DIR_PERIOD_VAR; y = SQFLAB_G_ROW(2.398); };
+				class G_LabelRandomDirIntensity: G_LabelShape { y = SQFLAB_G_ROW(2.446); text = $STR_SQFLAB_Particles_RandomDirIntensityVar; };
+				class G_EditRandomDirIntensity: G_EditShape { idc = SQFLAB_IDC_EDIT_RANDOM_DIR_INTENSITY_VAR; y = SQFLAB_G_ROW(2.446); };
+				class G_LabelRandomAngle: G_LabelShape { y = SQFLAB_G_ROW(2.494); text = $STR_SQFLAB_Particles_RandomAngleVar; };
+				class G_EditRandomAngle: G_EditShape { idc = SQFLAB_IDC_EDIT_RANDOM_ANGLE_VAR; y = SQFLAB_G_ROW(2.494); };
+				class G_LabelRandomBounce: G_LabelShape { y = SQFLAB_G_ROW(2.542); text = $STR_SQFLAB_Particles_RandomBounceOnSurfaceVar; };
+				class G_EditRandomBounce: G_EditShape { idc = SQFLAB_IDC_EDIT_RANDOM_BOUNCE_VAR; y = SQFLAB_G_ROW(2.542); };
+			};
 		};
 
 		class CloseBtn: RscButtonMenu

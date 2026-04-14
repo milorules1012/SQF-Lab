@@ -35,6 +35,41 @@ private _sliderDefaults = createHashMapFromArray [
 	[SQFLAB_IDC_SLIDER_COLOR_B, 0.2],
 	[SQFLAB_IDC_SLIDER_COLOR_A, 0.9]
 ];
+private _editDefaults = createHashMapFromArray [
+	[SQFLAB_IDC_EDIT_PARTICLE_SHAPE, "\A3\data_f\ParticleEffects\Universal\Universal"],
+	[SQFLAB_IDC_EDIT_PARTICLE_TYPE, "Billboard"],
+	[SQFLAB_IDC_EDIT_ANIM_NAME, ""],
+	[SQFLAB_IDC_EDIT_TIMER_PERIOD, "1"],
+	[SQFLAB_IDC_EDIT_FS_NTIETH, "16"],
+	[SQFLAB_IDC_EDIT_FS_INDEX, "12"],
+	[SQFLAB_IDC_EDIT_FS_FRAMECOUNT, "8"],
+	[SQFLAB_IDC_EDIT_FS_LOOP, "0"],
+	[SQFLAB_IDC_EDIT_POS3D, "[0,0,0]"],
+	[SQFLAB_IDC_EDIT_MOVE_VELOCITY, "[0,0,1]"],
+	[SQFLAB_IDC_EDIT_SIZE_OVER_LIFE, "[0.6,0.75,1.05]"],
+	[SQFLAB_IDC_EDIT_COLOR_STAGES, "[]"],
+	[SQFLAB_IDC_EDIT_ANIM_SPEED, "[0.08]"],
+	[SQFLAB_IDC_EDIT_RANDOM_DIR_PERIOD, "0.1"],
+	[SQFLAB_IDC_EDIT_RANDOM_DIR_INTENSITY, "0.05"],
+	[SQFLAB_IDC_EDIT_ON_TIMER_SCRIPT, ""],
+	[SQFLAB_IDC_EDIT_BEFORE_DESTROY_SCRIPT, ""],
+	[SQFLAB_IDC_EDIT_ANGLE, ""],
+	[SQFLAB_IDC_EDIT_BOUNCE_ON_SURFACE, ""],
+	[SQFLAB_IDC_EDIT_EMISSIVE_COLOR, ""],
+	[SQFLAB_IDC_EDIT_VECTOR_DIR, ""],
+	[SQFLAB_IDC_EDIT_CIRCLE_RADIUS, "0"],
+	[SQFLAB_IDC_EDIT_CIRCLE_VELOCITY, "[0,0,0]"],
+	[SQFLAB_IDC_EDIT_RANDOM_LIFETIME_VAR, "0"],
+	[SQFLAB_IDC_EDIT_RANDOM_POSITION_VAR, "[0.03,0.03,0.02]"],
+	[SQFLAB_IDC_EDIT_RANDOM_MOVE_VELOCITY_VAR, "[0.3,0.3,0.3]"],
+	[SQFLAB_IDC_EDIT_RANDOM_ROTATION_VELOCITY_VAR, "0.4"],
+	[SQFLAB_IDC_EDIT_RANDOM_SIZE_VAR, "0.05"],
+	[SQFLAB_IDC_EDIT_RANDOM_COLOR_VAR, "[0,0,0,0]"],
+	[SQFLAB_IDC_EDIT_RANDOM_DIR_PERIOD_VAR, "0.05"],
+	[SQFLAB_IDC_EDIT_RANDOM_DIR_INTENSITY_VAR, "0"],
+	[SQFLAB_IDC_EDIT_RANDOM_ANGLE_VAR, "0"],
+	[SQFLAB_IDC_EDIT_RANDOM_BOUNCE_VAR, "0"]
+];
 private _sliderRanges = [
 	[SQFLAB_IDC_SLIDER_SIZE, 0.01, 5],
 	[SQFLAB_IDC_SLIDER_LIFETIME, 0.01, 15],
@@ -57,6 +92,19 @@ private _sliderRanges = [
 	_ctrl sliderSetSpeed [((_max) - (_min)) / 100, ((_max) - (_min)) / 10];
 	_ctrl sliderSetPosition (_sliderDefaults get _idc);
 } forEach _sliderRanges;
+
+{
+	private _ctrl = _display displayCtrl _x;
+	if (!isNull _ctrl) then {
+		_ctrl ctrlSetText (_editDefaults get _x);
+		_ctrl ctrlAddEventHandler ["KillFocus", { [] call SQFLab_fnc_particlesOnSlider; }];
+	};
+} forEach (keys _editDefaults);
+
+private _checkOnSurface = _display displayCtrl SQFLAB_IDC_CHK_ON_SURFACE;
+if (!isNull _checkOnSurface) then {
+	_checkOnSurface cbSetChecked false;
+};
 
 private _previewAnchor = "Sign_Sphere10cm_F" createVehicleLocal [0, 0, 0];
 private _anchorPos = player modelToWorld [0, 3, 1.8];
