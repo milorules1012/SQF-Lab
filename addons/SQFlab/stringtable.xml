@@ -1353,9 +1353,9 @@
 				<Spanish>Arriba</Spanish>
 				<Turkish>Yukarı</Turkish>
 			</Key>
-			<Key ID="STR_SQFLAB_Lights_Colour">
-				<Original>Colour</Original>
-				<English>Colour</English>
+			<Key ID="STR_SQFLAB_Lights_Color">
+				<Original>Color</Original>
+				<English>Color</English>
 				<Chinesesimp>颜色</Chinesesimp>
 				<Chinese>顏色</Chinese>
 				<Czech>Barva</Czech>
@@ -1370,9 +1370,9 @@
 				<Spanish>Color</Spanish>
 				<Turkish>Renk</Turkish>
 			</Key>
-			<Key ID="STR_SQFLAB_Lights_LightColourPreview">
-				<Original>Light colour preview</Original>
-				<English>Light colour preview</English>
+			<Key ID="STR_SQFLAB_Lights_LightColorPreview">
+				<Original>Light color preview</Original>
+				<English>Light color preview</English>
 				<Chinesesimp>灯光颜色预览</Chinesesimp>
 				<Chinese>燈光顏色預覽</Chinese>
 				<Czech>Náhled barvy světla</Czech>
