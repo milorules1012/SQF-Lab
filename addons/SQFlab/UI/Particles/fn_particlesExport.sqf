@@ -56,7 +56,12 @@ private _pos3D = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_POS3D), [0, 0, 
 private _moveVelocity = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_MOVE_VELOCITY), _defaultMove] call _toArray;
 private _sizeMid = _size * 1.25;
 private _sizeEnd = _size * 1.75;
-private _sizeOverLife = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_SIZE_OVER_LIFE), [_size, _sizeMid, _sizeEnd]] call _toArray;
+private _sizeOverLife = [_size, _sizeMid, _sizeEnd];
+private _sizeOverLifeText = ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_SIZE_OVER_LIFE);
+private _sizeOverLifeTrimmed = [_sizeOverLifeText] call _trimmed;
+if (_sizeOverLifeTrimmed != "" && {_sizeOverLifeTrimmed != "[]"} && {_sizeOverLifeTrimmed != "[0.6,0.75,1.05]"}) then {
+	_sizeOverLife = [_sizeOverLifeText, _sizeOverLife] call _toArray;
+};
 
 private _baseRGB = [1, 0.5, 0.1];
 switch (toLower _preset) do {
