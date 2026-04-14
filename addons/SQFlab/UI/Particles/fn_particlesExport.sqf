@@ -151,4 +151,3 @@ if (isServer) then {
 	hint (localize "STR_SQFLAB_Hint_ParticleExportRpt");
 };
 
-true

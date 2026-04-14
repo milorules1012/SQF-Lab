@@ -243,7 +243,7 @@ class SQFLab_LightsMenu
 		class ColTitle: TypeTitle
 		{
 			y = SQFLAB_LT_Y_COL_TITLE;
-			text = $STR_SQFLAB_Lights_Colour;
+			text = $STR_SQFLAB_Lights_Color;
 		};
 		class ColorPreview: RscButtonMenu
 		{
@@ -252,7 +252,7 @@ class SQFLab_LightsMenu
 			y = SQFLAB_LT_Y_COL_PREVIEW;
 			w = SQFLAB_LT_PANEL_W - (SQFLAB_LT_PAD_SIDE * 2);
 			h = SQFLAB_LT_ROW_H;
-			text = $STR_SQFLAB_Lights_LightColourPreview;
+			text = $STR_SQFLAB_Lights_LightColorPreview;
 			style = 2;
 			action = "";
 			colorBackground[] = SQFLAB_LT_PROFILE_COLOR(0.9);

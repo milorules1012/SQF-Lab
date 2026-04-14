@@ -166,4 +166,3 @@ if (!isNull _anchor && !isNull _source) then {
 	_source setDropInterval _interval;
 };
 
-true
