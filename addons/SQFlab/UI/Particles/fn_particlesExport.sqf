@@ -41,26 +41,26 @@ if (_shape isEqualTo "") then { _shape = "\A3\data_f\ParticleEffects\Universal\U
 private _type = ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_PARTICLE_TYPE);
 if (_type isEqualTo "") then { _type = "Billboard"; };
 private _animName = ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_ANIM_NAME);
-private _timerPeriod = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_TIMER_PERIOD), 1] call _toNum;
-private _fsNtieth = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_FS_NTIETH), 16] call _toNum;
-private _fsIndex = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_FS_INDEX), 12] call _toNum;
-private _fsFrameCount = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_FS_FRAMECOUNT), 8] call _toNum;
-private _fsLoop = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_FS_LOOP), 0] call _toNum;
+private _timerPeriod = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_TIMER_PERIOD), 1] call SQFLab_fnc_parseNumberOrFallback;
+private _fsNtieth = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_FS_NTIETH), 16] call SQFLab_fnc_parseNumberOrFallback;
+private _fsIndex = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_FS_INDEX), 12] call SQFLab_fnc_parseNumberOrFallback;
+private _fsFrameCount = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_FS_FRAMECOUNT), 8] call SQFLab_fnc_parseNumberOrFallback;
+private _fsLoop = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_FS_LOOP), 0] call SQFLab_fnc_parseNumberOrFallback;
 
 private _defaultMove = [0, 0, _moveVel];
 switch (toLower _preset) do {
 	case "smoke": { _defaultMove = [0, 0, _moveVel * 0.45]; };
 	case "drop": { _defaultMove = [0, 0, -(_moveVel max 0.01)]; };
 };
-private _pos3D = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_POS3D), [0, 0, 0]] call _toArray;
-private _moveVelocity = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_MOVE_VELOCITY), _defaultMove] call _toArray;
+private _pos3D = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_POS3D), [0, 0, 0]] call SQFLab_fnc_parseArrayOrFallback;
+private _moveVelocity = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_MOVE_VELOCITY), _defaultMove] call SQFLab_fnc_parseArrayOrFallback;
 private _sizeMid = _size * 1.25;
 private _sizeEnd = _size * 1.75;
 private _sizeOverLife = [_size, _sizeMid, _sizeEnd];
 private _sizeOverLifeText = ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_SIZE_OVER_LIFE);
-private _sizeOverLifeTrimmed = [_sizeOverLifeText] call _trimmed;
+private _sizeOverLifeTrimmed = [_sizeOverLifeText] call SQFLab_fnc_trimSpaces;
 if (_sizeOverLifeTrimmed != "" && {_sizeOverLifeTrimmed != "[]"} && {_sizeOverLifeTrimmed != "[0.6,0.75,1.05]"}) then {
-	_sizeOverLife = [_sizeOverLifeText, _sizeOverLife] call _toArray;
+	_sizeOverLife = [_sizeOverLifeText, _sizeOverLife] call SQFLab_fnc_parseArrayOrFallback;
 };
 
 private _baseRGB = [1, 0.5, 0.1];
@@ -78,28 +78,28 @@ private _defaultColors = [
 ];
 private _colorStagesText = ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_COLOR_STAGES);
 private _colorStages = _defaultColors;
-if (([_colorStagesText] call _trimmed) != "[]" && {_colorStagesText != ""}) then {
-	_colorStages = [_colorStagesText, _defaultColors] call _toArray;
+if (([_colorStagesText] call SQFLab_fnc_trimSpaces) != "[]" && {_colorStagesText != ""}) then {
+	_colorStages = [_colorStagesText, _defaultColors] call SQFLab_fnc_parseArrayOrFallback;
 };
-private _animationSpeed = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_ANIM_SPEED), [0.08]] call _toArray;
-private _randomDirectionPeriod = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_DIR_PERIOD), 0.1] call _toNum;
-private _randomDirectionIntensity = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_DIR_INTENSITY), 0.05] call _toNum;
+private _animationSpeed = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_ANIM_SPEED), [0.08]] call SQFLab_fnc_parseArrayOrFallback;
+private _randomDirectionPeriod = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_DIR_PERIOD), 0.1] call SQFLab_fnc_parseNumberOrFallback;
+private _randomDirectionIntensity = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_DIR_INTENSITY), 0.05] call SQFLab_fnc_parseNumberOrFallback;
 private _onTimerScript = ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_ON_TIMER_SCRIPT);
 private _beforeDestroyScript = ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_BEFORE_DESTROY_SCRIPT);
 
-private _circleRadius = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_CIRCLE_RADIUS), 0] call _toNum;
-private _circleVelocity = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_CIRCLE_VELOCITY), [0, 0, 0]] call _toArray;
+private _circleRadius = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_CIRCLE_RADIUS), 0] call SQFLab_fnc_parseNumberOrFallback;
+private _circleVelocity = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_CIRCLE_VELOCITY), [0, 0, 0]] call SQFLab_fnc_parseArrayOrFallback;
 
-private _randomLifeVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_LIFETIME_VAR), 0] call _toNum;
-private _randomPosVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_POSITION_VAR), [_size * 0.05, _size * 0.05, _size * 0.03]] call _toArray;
-private _randomMoveVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_MOVE_VELOCITY_VAR), [_moveVel * 0.15, _moveVel * 0.15, _moveVel * 0.15]] call _toArray;
-private _randomRotVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_ROTATION_VELOCITY_VAR), _rotVel * 0.1] call _toNum;
-private _randomSizeVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_SIZE_VAR), 0.05] call _toNum;
-private _randomColorVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_COLOR_VAR), [0, 0, 0, 0]] call _toArray;
-private _randomDirPeriodVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_DIR_PERIOD_VAR), 0.05] call _toNum;
-private _randomDirIntensityVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_DIR_INTENSITY_VAR), 0] call _toNum;
-private _randomAngleVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_ANGLE_VAR), 0] call _toNum;
-private _randomBounceVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_BOUNCE_VAR), 0] call _toNum;
+private _randomLifeVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_LIFETIME_VAR), 0] call SQFLab_fnc_parseNumberOrFallback;
+private _randomPosVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_POSITION_VAR), [_size * 0.05, _size * 0.05, _size * 0.03]] call SQFLab_fnc_parseArrayOrFallback;
+private _randomMoveVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_MOVE_VELOCITY_VAR), [_moveVel * 0.15, _moveVel * 0.15, _moveVel * 0.15]] call SQFLab_fnc_parseArrayOrFallback;
+private _randomRotVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_ROTATION_VELOCITY_VAR), _rotVel * 0.1] call SQFLab_fnc_parseNumberOrFallback;
+private _randomSizeVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_SIZE_VAR), 0.05] call SQFLab_fnc_parseNumberOrFallback;
+private _randomColorVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_COLOR_VAR), [0, 0, 0, 0]] call SQFLab_fnc_parseArrayOrFallback;
+private _randomDirPeriodVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_DIR_PERIOD_VAR), 0.05] call SQFLab_fnc_parseNumberOrFallback;
+private _randomDirIntensityVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_DIR_INTENSITY_VAR), 0] call SQFLab_fnc_parseNumberOrFallback;
+private _randomAngleVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_ANGLE_VAR), 0] call SQFLab_fnc_parseNumberOrFallback;
+private _randomBounceVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_BOUNCE_VAR), 0] call SQFLab_fnc_parseNumberOrFallback;
 
 private _lines = [
 	"// SQF Lab - particle effect export",
