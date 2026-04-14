@@ -100,8 +100,6 @@ if (!isNull _anchor && !isNull _source) then {
 	private _animationSpeed = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_ANIM_SPEED), [0.08]] call SQFLab_fnc_parseArrayOrFallback;
 	private _randomDirectionPeriod = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_DIR_PERIOD), 0.1] call SQFLab_fnc_parseNumberOrFallback;
 	private _randomDirectionIntensity = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_DIR_INTENSITY), 0.05] call SQFLab_fnc_parseNumberOrFallback;
-	private _onTimerScript = ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_ON_TIMER_SCRIPT);
-	private _beforeDestroyScript = ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_BEFORE_DESTROY_SCRIPT);
 
 	private _circleRadius = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_CIRCLE_RADIUS), 0] call SQFLab_fnc_parseNumberOrFallback;
 	private _circleVelocity = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_CIRCLE_VELOCITY), [0, 0, 0]] call SQFLab_fnc_parseArrayOrFallback;
@@ -148,28 +146,10 @@ if (!isNull _anchor && !isNull _source) then {
 		_animationSpeed,
 		_randomDirectionPeriod,
 		_randomDirectionIntensity,
-		_onTimerScript,
-		_beforeDestroyScript,
+		"",
+		"",
 		_anchor
 	];
-
-	private _angleText = ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_ANGLE);
-	if (_angleText != "") then {
-		_params pushBack ([_angleText, 0] call SQFLab_fnc_parseNumberOrFallback);
-		_params pushBack (cbChecked (_display displayCtrl SQFLAB_IDC_CHK_ON_SURFACE));
-		private _bounceText = ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_BOUNCE_ON_SURFACE);
-		if (_bounceText != "") then {
-			_params pushBack ([_bounceText, 0] call SQFLab_fnc_parseNumberOrFallback);
-			private _emissiveText = ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_EMISSIVE_COLOR);
-			if (_emissiveText != "") then {
-				_params pushBack ([_emissiveText, []] call SQFLab_fnc_parseArrayOrFallback);
-				private _vectorText = ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_VECTOR_DIR);
-				if (_vectorText != "") then {
-					_params pushBack ([_vectorText, [0, 0, 1]] call SQFLab_fnc_parseArrayOrFallback);
-				};
-			};
-		};
-	};
 
 	_source setParticleParams _params;
 	_source setDropInterval _interval;

@@ -468,8 +468,8 @@
 				<Turkish>Damla</Turkish>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_TypeTitle">
-				<Original>Particle Type</Original>
-				<English>Particle Type</English>
+				<Original>Particle type</Original>
+				<English>Particle type</English>
 				<Chinesesimp>粒子类型</Chinesesimp>
 				<Chinese>粒子類型</Chinese>
 				<Czech>Typ částice</Czech>
@@ -485,8 +485,8 @@
 				<Turkish>Parçacık türü</Turkish>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_ParamsTitle">
-				<Original>Particle Params</Original>
-				<English>Particle Params</English>
+				<Original>Particle params</Original>
+				<English>Particle params</English>
 				<Chinesesimp>粒子参数</Chinesesimp>
 				<Chinese>粒子參數</Chinese>
 				<Czech>Parametry částic</Czech>
@@ -502,8 +502,8 @@
 				<Turkish>Parçacık parametreleri</Turkish>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_ColorsTitle">
-				<Original>Particle Colors</Original>
-				<English>Particle Colors</English>
+				<Original>Particle colors</Original>
+				<English>Particle colors</English>
 				<Chinesesimp>粒子颜色</Chinesesimp>
 				<Chinese>粒子顏色</Chinese>
 				<Czech>Barvy částic</Czech>
@@ -926,23 +926,6 @@
 				<Spanish>Deslizadores principales</Spanish>
 				<Turkish>Ana kaydırıcılar</Turkish>
 			</Key>
-			<Key ID="STR_SQFLAB_Particles_OptionalTitle">
-				<Original>Optional params</Original>
-				<English>Optional params</English>
-				<Chinesesimp>可选参数</Chinesesimp>
-				<Chinese>可選參數</Chinese>
-				<Czech>Volitelné parametry</Czech>
-				<French>Paramètres optionnels</French>
-				<German>Optionale Parameter</German>
-				<Italian>Parametri opzionali</Italian>
-				<Japanese>オプションパラメータ</Japanese>
-				<Korean>선택 매개변수</Korean>
-				<Polish>Parametry opcjonalne</Polish>
-				<Portuguese>Parâmetros opcionais</Portuguese>
-				<Russian>Дополнительные параметры</Russian>
-				<Spanish>Parámetros opcionales</Spanish>
-				<Turkish>İsteğe bağlı parametreler</Turkish>
-			</Key>
 			<Key ID="STR_SQFLAB_Particles_OnTimerScript">
 				<Original>On timer script</Original>
 				<English>On timer script</English>
@@ -976,91 +959,6 @@
 				<Russian>Скрипт перед удалением</Russian>
 				<Spanish>Script antes de destruir</Spanish>
 				<Turkish>Yok etmeden önce komut</Turkish>
-			</Key>
-			<Key ID="STR_SQFLAB_Particles_Angle">
-				<Original>Angle</Original>
-				<English>Angle</English>
-				<Chinesesimp>角度</Chinesesimp>
-				<Chinese>角度</Chinese>
-				<Czech>Úhel</Czech>
-				<French>Angle</French>
-				<German>Winkel</German>
-				<Italian>Angolo</Italian>
-				<Japanese>角度</Japanese>
-				<Korean>각도</Korean>
-				<Polish>Kąt</Polish>
-				<Portuguese>Ângulo</Portuguese>
-				<Russian>Угол</Russian>
-				<Spanish>Ángulo</Spanish>
-				<Turkish>Açı</Turkish>
-			</Key>
-			<Key ID="STR_SQFLAB_Particles_OnSurface">
-				<Original>On surface</Original>
-				<English>On surface</English>
-				<Chinesesimp>在表面上</Chinesesimp>
-				<Chinese>在表面上</Chinese>
-				<Czech>Na povrchu</Czech>
-				<French>Sur surface</French>
-				<German>Auf Oberfläche</German>
-				<Italian>Su superficie</Italian>
-				<Japanese>表面上</Japanese>
-				<Korean>표면 위</Korean>
-				<Polish>Na powierzchni</Polish>
-				<Portuguese>Na superfície</Portuguese>
-				<Russian>На поверхности</Russian>
-				<Spanish>En superficie</Spanish>
-				<Turkish>Yüzeyde</Turkish>
-			</Key>
-			<Key ID="STR_SQFLAB_Particles_BounceOnSurface">
-				<Original>Bounce on surface</Original>
-				<English>Bounce on surface</English>
-				<Chinesesimp>表面反弹</Chinesesimp>
-				<Chinese>表面彈跳</Chinese>
-				<Czech>Odraz na povrchu</Czech>
-				<French>Rebond sur surface</French>
-				<German>Abprallen auf Oberfläche</German>
-				<Italian>Rimbalzo su superficie</Italian>
-				<Japanese>表面で反射</Japanese>
-				<Korean>표면 반사</Korean>
-				<Polish>Odbicie na powierzchni</Polish>
-				<Portuguese>Rebote na superfície</Portuguese>
-				<Russian>Отскок от поверхности</Russian>
-				<Spanish>Rebote en superficie</Spanish>
-				<Turkish>Yüzeyde sekme</Turkish>
-			</Key>
-			<Key ID="STR_SQFLAB_Particles_EmissiveColor">
-				<Original>Emissive color</Original>
-				<English>Emissive color</English>
-				<Chinesesimp>自发光颜色</Chinesesimp>
-				<Chinese>自發光顏色</Chinese>
-				<Czech>Emisivní barva</Czech>
-				<French>Couleur émissive</French>
-				<German>Emissionsfarbe</German>
-				<Italian>Colore emissivo</Italian>
-				<Japanese>発光色</Japanese>
-				<Korean>발광 색상</Korean>
-				<Polish>Kolor emisyjny</Polish>
-				<Portuguese>Cor emissiva</Portuguese>
-				<Russian>Эмиссивный цвет</Russian>
-				<Spanish>Color emisivo</Spanish>
-				<Turkish>Işınım rengi</Turkish>
-			</Key>
-			<Key ID="STR_SQFLAB_Particles_VectorDirOrUp">
-				<Original>Vector dir/up</Original>
-				<English>Vector dir/up</English>
-				<Chinesesimp>向量方向/上向</Chinesesimp>
-				<Chinese>向量方向/上向</Chinese>
-				<Czech>Vektor směr/nahoru</Czech>
-				<French>Vecteur direction/haut</French>
-				<German>Vektor Richtung/Oben</German>
-				<Italian>Vettore direzione/su</Italian>
-				<Japanese>ベクトル方向/上</Japanese>
-				<Korean>벡터 방향/위</Korean>
-				<Polish>Wektor kierunek/góra</Polish>
-				<Portuguese>Vetor direção/cima</Portuguese>
-				<Russian>Вектор напр./вверх</Russian>
-				<Spanish>Vector dirección/arriba</Spanish>
-				<Turkish>Vektör yön/yukarı</Turkish>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_CircleTitle">
 				<Original>Particle circle</Original>

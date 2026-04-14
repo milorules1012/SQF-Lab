@@ -51,12 +51,6 @@ private _editDefaults = createHashMapFromArray [
 	[SQFLAB_IDC_EDIT_ANIM_SPEED, "[0.08]"],
 	[SQFLAB_IDC_EDIT_RANDOM_DIR_PERIOD, "0.1"],
 	[SQFLAB_IDC_EDIT_RANDOM_DIR_INTENSITY, "0.05"],
-	[SQFLAB_IDC_EDIT_ON_TIMER_SCRIPT, ""],
-	[SQFLAB_IDC_EDIT_BEFORE_DESTROY_SCRIPT, ""],
-	[SQFLAB_IDC_EDIT_ANGLE, ""],
-	[SQFLAB_IDC_EDIT_BOUNCE_ON_SURFACE, ""],
-	[SQFLAB_IDC_EDIT_EMISSIVE_COLOR, ""],
-	[SQFLAB_IDC_EDIT_VECTOR_DIR, ""],
 	[SQFLAB_IDC_EDIT_CIRCLE_RADIUS, "0"],
 	[SQFLAB_IDC_EDIT_CIRCLE_VELOCITY, "[0,0,0]"],
 	[SQFLAB_IDC_EDIT_RANDOM_LIFETIME_VAR, "0"],
@@ -100,11 +94,6 @@ private _sliderRanges = [
 		_ctrl ctrlAddEventHandler ["KillFocus", { [] call SQFLab_fnc_particlesOnSlider; }];
 	};
 } forEach (keys _editDefaults);
-
-private _checkOnSurface = _display displayCtrl SQFLAB_IDC_CHK_ON_SURFACE;
-if (!isNull _checkOnSurface) then {
-	_checkOnSurface cbSetChecked false;
-};
 
 private _previewAnchor = "Sign_Sphere10cm_F" createVehicleLocal [0, 0, 0];
 private _anchorPos = player modelToWorld [0, 3, 1.8];

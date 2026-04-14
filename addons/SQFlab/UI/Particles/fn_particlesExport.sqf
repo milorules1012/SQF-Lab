@@ -72,8 +72,6 @@ if (([_colorStagesText] call SQFLab_fnc_trimSpaces) != "[]" && {_colorStagesText
 private _animationSpeed = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_ANIM_SPEED), [0.08]] call SQFLab_fnc_parseArrayOrFallback;
 private _randomDirectionPeriod = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_DIR_PERIOD), 0.1] call SQFLab_fnc_parseNumberOrFallback;
 private _randomDirectionIntensity = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_DIR_INTENSITY), 0.05] call SQFLab_fnc_parseNumberOrFallback;
-private _onTimerScript = ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_ON_TIMER_SCRIPT);
-private _beforeDestroyScript = ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_BEFORE_DESTROY_SCRIPT);
 
 private _circleRadius = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_CIRCLE_RADIUS), 0] call SQFLab_fnc_parseNumberOrFallback;
 private _circleVelocity = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_CIRCLE_VELOCITY), [0, 0, 0]] call SQFLab_fnc_parseArrayOrFallback;
@@ -88,6 +86,8 @@ private _randomDirPeriodVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RA
 private _randomDirIntensityVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_DIR_INTENSITY_VAR), 0] call SQFLab_fnc_parseNumberOrFallback;
 private _randomAngleVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_ANGLE_VAR), 0] call SQFLab_fnc_parseNumberOrFallback;
 private _randomBounceVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_BOUNCE_VAR), 0] call SQFLab_fnc_parseNumberOrFallback;
+private _onTimerScript = "";
+private _beforeDestroyScript = "";
 
 private _lines = [
 	"// SQF Lab - particle effect export",
@@ -132,7 +132,6 @@ private _lines = [
 		str _onTimerScript,
 		str _beforeDestroyScript
 	],
-	format ["// Optional values (append as needed): angle=%1, onSurface=%2, bounce=%3, emissive=%4, vectorDirOrUp=%5", ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_ANGLE), cbChecked (_display displayCtrl SQFLAB_IDC_CHK_ON_SURFACE), ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_BOUNCE_ON_SURFACE), ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_EMISSIVE_COLOR), ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_VECTOR_DIR)],
 	format ["_ps setDropInterval %1;", _interval],
 	"// deleteVehicle _ps; // when done"
 ];
