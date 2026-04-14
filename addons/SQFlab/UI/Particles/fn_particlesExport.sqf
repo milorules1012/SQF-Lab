@@ -23,18 +23,6 @@ private _g = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_COLOR_G);
 private _b = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_COLOR_B);
 private _a = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_COLOR_A);
 private _preset = uiNamespace getVariable ["SQFLab_particles_previewType", "fire"];
-private _toNum = {
-	params ["_text", "_fallback"];
-	private _v = parseNumber _text;
-	if (_v isEqualTo 0 && {_text != "0" && {_text != "0.0"}}) exitWith { _fallback };
-	_v
-};
-private _toArray = {
-	params ["_text", "_fallback"];
-	private _parsed = call compile format ["%1", _text];
-	[_fallback, _parsed] select (_parsed isEqualType [])
-};
-private _trimmed = { params ["_text"]; (_text splitString " ") joinString "" };
 
 private _shape = ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_PARTICLE_SHAPE);
 if (_shape isEqualTo "") then { _shape = "\A3\data_f\ParticleEffects\Universal\Universal"; };
