@@ -44,6 +44,9 @@ class CfgFunctions
 		class Functions
 		{
 			file = "\SQFLab\Functions";
+			class parseArrayOrFallback {};
+			class parseNumberOrFallback {};
+			class trimSpaces {};
 			class vecCross {};
 			class vecNorm {};
 		};
