@@ -10,6 +10,10 @@ if (isNull _display) exitWith {
 	systemChat (localize "STR_SQFLAB_Err_ParticlesMenuNotFound");
 };
 
+private _applyParticleColor = cbChecked (_display displayCtrl SQFLAB_IDC_CHK_APPLY_PARTICLE_COLOR);
+private _applyEmissive = cbChecked (_display displayCtrl SQFLAB_IDC_CHK_APPLY_EMISSIVE);
+private _applyRandomColor = cbChecked (_display displayCtrl SQFLAB_IDC_CHK_APPLY_RANDOM_COLOR);
+
 private _size = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_SIZE);
 private _lifeTime = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_LIFETIME);
 private _interval = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_INTERVAL);
@@ -105,6 +109,10 @@ private _randomBounceVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDO
 private _onTimerScript = "";
 private _beforeDestroyScript = "";
 
+private _colorExportStr = if (_applyParticleColor) then { str _colorStages } else { str [[1, 1, 1, 1]] };
+private _emissiveExportStr = if (_applyEmissive) then { str _emissiveStages } else { str [[0, 0, 0, 0]] };
+private _randomColorExportStr = if (_applyRandomColor) then { str _randomColorVar } else { str [0, 0, 0, 0] };
+
 private _lines = [
 	"// SQF Lab - particle effect export",
 	format ["// Preset: %1", _preset],
@@ -120,7 +128,7 @@ private _lines = [
 		str _randomMoveVar,
 		_randomRotVar,
 		_randomSizeVar,
-		str _randomColorVar,
+		_randomColorExportStr,
 		_randomDirPeriodVar,
 		_randomDirIntensityVar,
 		_randomAngleVar,
@@ -141,13 +149,13 @@ private _lines = [
 		_volume,
 		_rubbing,
 		str _sizeOverLife,
-		str _colorStages,
+		_colorExportStr,
 		str _animationSpeed,
 		_randomDirectionPeriod,
 		_randomDirectionIntensity,
 		str _onTimerScript,
 		str _beforeDestroyScript,
-		str _emissiveStages
+		_emissiveExportStr
 	],
 	format ["_ps setDropInterval %1;", _interval],
 	"// deleteVehicle _ps; // when done"

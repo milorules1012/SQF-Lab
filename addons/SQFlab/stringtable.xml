@@ -535,6 +535,18 @@
 				<Spanish>Color emisivo</Spanish>
 				<Turkish>Emisif renk</Turkish>
 			</Key>
+			<Key ID="STR_SQFLAB_Particles_ApplyColorChk_Tooltip">
+				<Original>When checked, applies color[] via setParticleParams. When unchecked, uses [[1,1,1,1]] (neutral tint; commands reject nil).</Original>
+				<English>When checked, applies color[] via setParticleParams. When unchecked, uses [[1,1,1,1]] (neutral tint; commands reject nil).</English>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_ApplyEmissiveChk_Tooltip">
+				<Original>When checked, applies emissiveColor via setParticleParams. When unchecked, uses [[0,0,0,0]] (no emissive; BIS ParticleArray example).</Original>
+				<English>When checked, applies emissiveColor via setParticleParams. When unchecked, uses [[0,0,0,0]] (no emissive; BIS ParticleArray example).</English>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_ApplyRandomColorChk_Tooltip">
+				<Original>When checked, applies color variance (6th arg) via setParticleRandom. When unchecked, uses [0,0,0,0] (no variance; BIS example).</Original>
+				<English>When checked, applies color variance (6th arg) via setParticleRandom. When unchecked, uses [0,0,0,0] (no variance; BIS example).</English>
+			</Key>
 			<Key ID="STR_SQFLAB_Particles_Size">
 				<Original>Particle size</Original>
 				<English>Particle size</English>

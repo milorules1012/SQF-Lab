@@ -38,6 +38,9 @@
 #define SQFLAB_G_SLIDER_X (SQFLAB_G_LABEL_W + 0.012)
 #define SQFLAB_G_SLIDER_W (SQFLAB_FORM_W - SQFLAB_G_SLIDER_X - SQFLAB_VALUE_W - 0.01)
 #define SQFLAB_G_VALUE_X (SQFLAB_G_SLIDER_X + SQFLAB_G_SLIDER_W + 0.008)
+#define SQFLAB_G_COLOR_CHK_W 0.034
+#define SQFLAB_G_COLOR_PREVIEW_W (SQFLAB_FORM_W - SQFLAB_G_COLOR_CHK_W - 0.008)
+#define SQFLAB_G_COLOR_CHK_X (SQFLAB_G_COLOR_PREVIEW_W + 0.008)
 #define SQFLAB_G_ROW(y) y
 #define SQFLAB_G_SECTION(y) y
 #define SQFLAB_SCROLL_CONTENT_H 3.11
@@ -266,7 +269,8 @@ class SQFLab_ParticlesMenu
 				class G_ValueRubbing: G_ValueSize { idc = SQFLAB_IDC_VALUE_RUBBING; y = SQFLAB_G_ROW(1.186); };
 
 				class G_SectionColors: G_SectionType { y = SQFLAB_G_SECTION(1.24); text = $STR_SQFLAB_Particles_ColorsTitle; };
-				class G_ColorPreview: RscButtonMenu { idc = SQFLAB_IDC_COLOR_PREVIEW; x = 0; y = SQFLAB_G_ROW(1.28); w = SQFLAB_FORM_W; h = SQFLAB_ROW_H; text = $STR_SQFLAB_Common_ColorPreview; style = 2; action = ""; colorBackground[] = SQFLAB_PROFILE_COLOR(0.9); colorBackgroundFocused[] = SQFLAB_PROFILE_COLOR(0.9); };
+				class G_ColorPreview: RscButtonMenu { idc = SQFLAB_IDC_COLOR_PREVIEW; x = 0; y = SQFLAB_G_ROW(1.28); w = SQFLAB_G_COLOR_PREVIEW_W; h = SQFLAB_ROW_H; text = $STR_SQFLAB_Common_ColorPreview; style = 2; action = ""; colorBackground[] = SQFLAB_PROFILE_COLOR(0.9); colorBackgroundFocused[] = SQFLAB_PROFILE_COLOR(0.9); };
+				class G_ChkApplyParticleColor: RscCheckBox { idc = SQFLAB_IDC_CHK_APPLY_PARTICLE_COLOR; x = SQFLAB_G_COLOR_CHK_X; y = SQFLAB_G_ROW(1.28); w = SQFLAB_G_COLOR_CHK_W; h = SQFLAB_ROW_H; text = ""; tooltip = $STR_SQFLAB_Particles_ApplyColorChk_Tooltip; color[] = {1, 1, 1, 0.9}; colorFocused[] = {1, 1, 1, 1}; colorHover[] = {1, 1, 1, 1}; colorPressed[] = {1, 1, 1, 1}; colorDisabled[] = {1, 1, 1, 0.45}; checked = 1; onCheckedChanged = "[] call SQFLab_fnc_particlesOnSlider"; };
 				class G_LabelColorR: G_LabelSize { y = SQFLAB_G_ROW(1.328); text = $STR_SQFLAB_Common_ColorR; };
 				class G_SliderColorR: G_SliderSize { idc = SQFLAB_IDC_SLIDER_COLOR_R; y = SQFLAB_G_ROW(1.328); };
 				class G_ValueColorR: G_ValueSize { idc = SQFLAB_IDC_VALUE_COLOR_R; y = SQFLAB_G_ROW(1.328); };
@@ -281,7 +285,8 @@ class SQFLab_ParticlesMenu
 				class G_ValueColorA: G_ValueSize { idc = SQFLAB_IDC_VALUE_COLOR_A; y = SQFLAB_G_ROW(1.472); };
 
 				class G_SectionEmissive: G_SectionType { y = SQFLAB_G_SECTION(1.52); text = $STR_SQFLAB_Particles_EmissiveTitle; };
-				class G_EmissivePreview: RscButtonMenu { idc = SQFLAB_IDC_EMISSIVE_COLOR_PREVIEW; x = 0; y = SQFLAB_G_ROW(1.56); w = SQFLAB_FORM_W; h = SQFLAB_ROW_H; text = $STR_SQFLAB_Common_ColorPreview; style = 2; action = ""; colorBackground[] = SQFLAB_PROFILE_COLOR(0.9); colorBackgroundFocused[] = SQFLAB_PROFILE_COLOR(0.9); };
+				class G_EmissivePreview: RscButtonMenu { idc = SQFLAB_IDC_EMISSIVE_COLOR_PREVIEW; x = 0; y = SQFLAB_G_ROW(1.56); w = SQFLAB_G_COLOR_PREVIEW_W; h = SQFLAB_ROW_H; text = $STR_SQFLAB_Common_ColorPreview; style = 2; action = ""; colorBackground[] = SQFLAB_PROFILE_COLOR(0.9); colorBackgroundFocused[] = SQFLAB_PROFILE_COLOR(0.9); };
+				class G_ChkApplyEmissive: G_ChkApplyParticleColor { idc = SQFLAB_IDC_CHK_APPLY_EMISSIVE; y = SQFLAB_G_ROW(1.56); tooltip = $STR_SQFLAB_Particles_ApplyEmissiveChk_Tooltip; };
 				class G_LabelEmissiveR: G_LabelSize { y = SQFLAB_G_ROW(1.608); text = $STR_SQFLAB_Common_ColorR; };
 				class G_SliderEmissiveR: G_SliderSize { idc = SQFLAB_IDC_SLIDER_EMISSIVE_R; y = SQFLAB_G_ROW(1.608); };
 				class G_ValueEmissiveR: G_ValueSize { idc = SQFLAB_IDC_VALUE_EMISSIVE_R; y = SQFLAB_G_ROW(1.608); };
@@ -313,7 +318,8 @@ class SQFLab_ParticlesMenu
 				class G_LabelRandomSize: G_LabelShape { y = SQFLAB_G_ROW(2.182); text = $STR_SQFLAB_Particles_RandomSizeVar; };
 				class G_EditRandomSize: G_EditShape { idc = SQFLAB_IDC_EDIT_RANDOM_SIZE_VAR; y = SQFLAB_G_ROW(2.182); };
 				class G_SectionRandomColor: G_SectionType { y = SQFLAB_G_SECTION(2.23); text = $STR_SQFLAB_Particles_RandomColorVar; };
-				class G_RandomColorPreview: RscButtonMenu { idc = SQFLAB_IDC_RANDOM_COLOR_PREVIEW; x = 0; y = SQFLAB_G_ROW(2.27); w = SQFLAB_FORM_W; h = SQFLAB_ROW_H; text = $STR_SQFLAB_Common_ColorPreview; style = 2; action = ""; colorBackground[] = SQFLAB_PROFILE_COLOR(0.9); colorBackgroundFocused[] = SQFLAB_PROFILE_COLOR(0.9); };
+				class G_RandomColorPreview: RscButtonMenu { idc = SQFLAB_IDC_RANDOM_COLOR_PREVIEW; x = 0; y = SQFLAB_G_ROW(2.27); w = SQFLAB_G_COLOR_PREVIEW_W; h = SQFLAB_ROW_H; text = $STR_SQFLAB_Common_ColorPreview; style = 2; action = ""; colorBackground[] = SQFLAB_PROFILE_COLOR(0.9); colorBackgroundFocused[] = SQFLAB_PROFILE_COLOR(0.9); };
+				class G_ChkApplyRandomColor: G_ChkApplyParticleColor { idc = SQFLAB_IDC_CHK_APPLY_RANDOM_COLOR; y = SQFLAB_G_ROW(2.27); tooltip = $STR_SQFLAB_Particles_ApplyRandomColorChk_Tooltip; };
 				class G_LabelRandomColorR: G_LabelShape { y = SQFLAB_G_ROW(2.318); text = $STR_SQFLAB_Common_ColorR; };
 				class G_SliderRandomColorR: G_SliderSize { idc = SQFLAB_IDC_SLIDER_RANDOM_COLOR_R; y = SQFLAB_G_ROW(2.318); };
 				class G_ValueRandomColorR: G_ValueSize { idc = SQFLAB_IDC_VALUE_RANDOM_COLOR_R; y = SQFLAB_G_ROW(2.318); };

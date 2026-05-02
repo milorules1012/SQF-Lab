@@ -1,6 +1,13 @@
 #ifndef SQFLAB_UI_PARTICLES_CONTROLS_HPP
 #define SQFLAB_UI_PARTICLES_CONTROLS_HPP
 
+/*
+	When "apply color" toggles are off, setParticle* rejects nil. Use type-valid neutrals from BIS docs:
+	- setParticleRandom color (RGBA): [0,0,0,0] — wiki example, no colour variance.
+	- setParticleParams emissiveColor: [[0,0,0,0]] — ParticleArray Mass Grave Flies example.
+	- setParticleParams color: [[1,1,1,1]] — neutral multiply (see ParticleArray Thunderbolt / examples).
+*/
+
 #define SQFLAB_IDD 86600
 
 #define SQFLAB_IDC_BTN_EXPORT 86595
@@ -85,5 +92,9 @@
 #define SQFLAB_IDC_VALUE_EMISSIVE_G 86689
 #define SQFLAB_IDC_VALUE_EMISSIVE_B 86690
 #define SQFLAB_IDC_VALUE_EMISSIVE_A 86691
+
+#define SQFLAB_IDC_CHK_APPLY_PARTICLE_COLOR 86692
+#define SQFLAB_IDC_CHK_APPLY_EMISSIVE 86693
+#define SQFLAB_IDC_CHK_APPLY_RANDOM_COLOR 86694
 
 #endif
