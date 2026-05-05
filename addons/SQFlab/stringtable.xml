@@ -580,38 +580,710 @@
 			</Key>
 		</Container>
 		<Container name="DrawIcon3D">
-			<Key ID="STR_SQFLAB_DrawIcon3D_Title"><Original>DrawIcon3D</Original><English>DrawIcon3D</English><Chinesesimp>DrawIcon3D</Chinesesimp><Chinese>DrawIcon3D</Chinese><Czech>DrawIcon3D</Czech><French>DrawIcon3D</French><German>DrawIcon3D</German><Italian>DrawIcon3D</Italian><Japanese>DrawIcon3D</Japanese><Korean>DrawIcon3D</Korean><Polish>DrawIcon3D</Polish><Portuguese>DrawIcon3D</Portuguese><Russian>DrawIcon3D</Russian><Spanish>DrawIcon3D</Spanish><Turkish>DrawIcon3D</Turkish><Bulgarian>DrawIcon3D</Bulgarian><Hungarian>DrawIcon3D</Hungarian><Ukrainian>DrawIcon3D</Ukrainian><Slovak>DrawIcon3D</Slovak><Latin>DrawIcon3D</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Preview"><Original>Preview</Original><English>Preview</English><Chinesesimp>预览</Chinesesimp><Chinese>預覽</Chinese><Czech>Náhled</Czech><French>Aperçu</French><German>Vorschau</German><Italian>Anteprima</Italian><Japanese>プレビュー</Japanese><Korean>미리보기</Korean><Polish>Podgląd</Polish><Portuguese>Pré-visualização</Portuguese><Russian>Предпросмотр</Russian><Spanish>Vista previa</Spanish><Turkish>Önizleme</Turkish><Bulgarian>Преглед</Bulgarian><Hungarian>Előnézet</Hungarian><Ukrainian>Перегляд</Ukrainian><Slovak>Náhľad</Slovak><Latin>Praevisio</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_PositionTitle"><Original>Position</Original><English>Position</English><Chinesesimp>位置</Chinesesimp><Chinese>位置</Chinese><Czech>Pozice</Czech><French>Position</French><German>Position</German><Italian>Posizione</Italian><Japanese>位置</Japanese><Korean>위치</Korean><Polish>Pozycja</Polish><Portuguese>Posição</Portuguese><Russian>Позиция</Russian><Spanish>Posición</Spanish><Turkish>Konum</Turkish><Bulgarian>Позиция</Bulgarian><Hungarian>Pozíció</Hungarian><Ukrainian>Позиція</Ukrainian><Slovak>Pozícia</Slovak><Latin>Positio</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_CoreTitle"><Original>Core Icon</Original><English>Core Icon</English><Chinesesimp>核心图标</Chinesesimp><Chinese>核心圖示</Chinese><Czech>Jádro ikony</Czech><French>Icône principale</French><German>Kernsymbol</German><Italian>Icona principale</Italian><Japanese>コアアイコン</Japanese><Korean>핵심 아이콘</Korean><Polish>Główna ikona</Polish><Portuguese>Ícone principal</Portuguese><Russian>Основная иконка</Russian><Spanish>Icono principal</Spanish><Turkish>Ana simge</Turkish><Bulgarian>Основна икона</Bulgarian><Hungarian>Alap ikon</Hungarian><Ukrainian>Основна іконка</Ukrainian><Slovak>Hlavná ikona</Slovak><Latin>Icon nucleus</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_ArrowsTitle"><Original>Arrows</Original><English>Arrows</English><Chinesesimp>箭头</Chinesesimp><Chinese>箭頭</Chinese><Czech>Šipky</Czech><French>Flèches</French><German>Pfeile</German><Italian>Frecce</Italian><Japanese>矢印</Japanese><Korean>화살표</Korean><Polish>Strzałki</Polish><Portuguese>Setas</Portuguese><Russian>Стрелки</Russian><Spanish>Flechas</Spanish><Turkish>Oklar</Turkish><Bulgarian>Стрелки</Bulgarian><Hungarian>Nyilak</Hungarian><Ukrainian>Стрілки</Ukrainian><Slovak>Šípky</Slovak><Latin>Sagittae</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_ArrowColor"><Original>Arrow Color</Original><English>Arrow Color</English><Chinesesimp>箭头颜色</Chinesesimp><Chinese>箭頭顏色</Chinese><Czech>Barva šipky</Czech><French>Couleur des flèches</French><German>Pfeilfarbe</German><Italian>Colore freccia</Italian><Japanese>矢印の色</Japanese><Korean>화살표 색상</Korean><Polish>Kolor strzałki</Polish><Portuguese>Cor da seta</Portuguese><Russian>Цвет стрелки</Russian><Spanish>Color de flecha</Spanish><Turkish>Ok rengi</Turkish><Bulgarian>Цвят на стрелка</Bulgarian><Hungarian>Nyíl színe</Hungarian><Ukrainian>Колір стрілки</Ukrainian><Slovak>Farba šípky</Slovak><Latin>Color sagittae</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_ArrowTextColor"><Original>Arrow Text Color</Original><English>Arrow Text Color</English><Chinesesimp>箭头文本颜色</Chinesesimp><Chinese>箭頭文字顏色</Chinese><Czech>Barva textu šipky</Czech><French>Couleur du texte des flèches</French><German>Pfeiltextfarbe</German><Italian>Colore testo freccia</Italian><Japanese>矢印テキスト色</Japanese><Korean>화살표 텍스트 색상</Korean><Polish>Kolor tekstu strzałki</Polish><Portuguese>Cor do texto da seta</Portuguese><Russian>Цвет текста стрелки</Russian><Spanish>Color de texto de flecha</Spanish><Turkish>Ok metin rengi</Turkish><Bulgarian>Цвят на текста на стрелка</Bulgarian><Hungarian>Nyílszöveg színe</Hungarian><Ukrainian>Колір тексту стрілки</Ukrainian><Slovak>Farba textu šípky</Slovak><Latin>Color textus sagittae</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_TextsTitle"><Original>Texts</Original><English>Texts</English><Chinesesimp>文本</Chinesesimp><Chinese>文字</Chinese><Czech>Texty</Czech><French>Textes</French><German>Texte</German><Italian>Testi</Italian><Japanese>テキスト</Japanese><Korean>텍스트</Korean><Polish>Teksty</Polish><Portuguese>Textos</Portuguese><Russian>Тексты</Russian><Spanish>Textos</Spanish><Turkish>Metinler</Turkish><Bulgarian>Текстове</Bulgarian><Hungarian>Szövegek</Hungarian><Ukrainian>Тексти</Ukrainian><Slovak>Texty</Slovak><Latin>Textus</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_ProgressTitle"><Original>Progress</Original><English>Progress</English><Chinesesimp>进度</Chinesesimp><Chinese>進度</Chinese><Czech>Průběh</Czech><French>Progression</French><German>Fortschritt</German><Italian>Progresso</Italian><Japanese>進行</Japanese><Korean>진행</Korean><Polish>Postęp</Polish><Portuguese>Progresso</Portuguese><Russian>Прогресс</Russian><Spanish>Progreso</Spanish><Turkish>İlerleme</Turkish><Bulgarian>Напредък</Bulgarian><Hungarian>Haladás</Hungarian><Ukrainian>Прогрес</Ukrainian><Slovak>Priebeh</Slovak><Latin>Progressus</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_PosMode"><Original>Position Mode</Original><English>Position Mode</English><Chinesesimp>位置模式</Chinesesimp><Chinese>位置模式</Chinese><Czech>Režim pozice</Czech><French>Mode de position</French><German>Positionsmodus</German><Italian>Modalità posizione</Italian><Japanese>位置モード</Japanese><Korean>위치 모드</Korean><Polish>Tryb pozycji</Polish><Portuguese>Modo de posição</Portuguese><Russian>Режим позиции</Russian><Spanish>Modo de posición</Spanish><Turkish>Konum modu</Turkish><Bulgarian>Режим позиция</Bulgarian><Hungarian>Pozíció mód</Hungarian><Ukrainian>Режим позиції</Ukrainian><Slovak>Režim pozície</Slovak><Latin>Modus positionis</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_PosVector"><Original>Vector [x,y,z]</Original><English>Vector [x,y,z]</English><Chinesesimp>向量 [x,y,z]</Chinesesimp><Chinese>向量 [x,y,z]</Chinese><Czech>Vektor [x,y,z]</Czech><French>Vecteur [x,y,z]</French><German>Vektor [x,y,z]</German><Italian>Vettore [x,y,z]</Italian><Japanese>ベクトル [x,y,z]</Japanese><Korean>벡터 [x,y,z]</Korean><Polish>Wektor [x,y,z]</Polish><Portuguese>Vetor [x,y,z]</Portuguese><Russian>Вектор [x,y,z]</Russian><Spanish>Vector [x,y,z]</Spanish><Turkish>Vektör [x,y,z]</Turkish><Bulgarian>Вектор [x,y,z]</Bulgarian><Hungarian>Vektor [x,y,z]</Hungarian><Ukrainian>Вектор [x,y,z]</Ukrainian><Slovak>Vektor [x,y,z]</Slovak><Latin>Vector [x,y,z]</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_Object"><Original>Object</Original><English>Object</English><Chinesesimp>对象</Chinesesimp><Chinese>物件</Chinese><Czech>Objekt</Czech><French>Objet</French><German>Objekt</German><Italian>Oggetto</Italian><Japanese>オブジェクト</Japanese><Korean>오브젝트</Korean><Polish>Obiekt</Polish><Portuguese>Objeto</Portuguese><Russian>Объект</Russian><Spanish>Objeto</Spanish><Turkish>Nesne</Turkish><Bulgarian>Обект</Bulgarian><Hungarian>Objektum</Hungarian><Ukrainian>Об&apos;єкт</Ukrainian><Slovak>Objekt</Slovak><Latin>Objectum</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_Selection"><Original>Selection</Original><English>Selection</English><Chinesesimp>选择集</Chinesesimp><Chinese>選擇集</Chinese><Czech>Výběr</Czech><French>Sélection</French><German>Selektion</German><Italian>Selezione</Italian><Japanese>セレクション</Japanese><Korean>선택</Korean><Polish>Selekcja</Polish><Portuguese>Seleção</Portuguese><Russian>Селекция</Russian><Spanish>Selección</Spanish><Turkish>Seçim</Turkish><Bulgarian>Селекция</Bulgarian><Hungarian>Kiválasztás</Hungarian><Ukrainian>Селекція</Ukrainian><Slovak>Výber</Slovak><Latin>Selectio</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_OffsetZ"><Original>Offset Z</Original><English>Offset Z</English><Chinesesimp>Z 偏移</Chinesesimp><Chinese>Z 偏移</Chinese><Czech>Posun Z</Czech><French>Décalage Z</French><German>Offset Z</German><Italian>Offset Z</Italian><Japanese>Z オフセット</Japanese><Korean>Z 오프셋</Korean><Polish>Przesunięcie Z</Polish><Portuguese>Offset Z</Portuguese><Russian>Смещение Z</Russian><Spanish>Desplazamiento Z</Spanish><Turkish>Z ofseti</Turkish><Bulgarian>Отместване Z</Bulgarian><Hungarian>Z eltolás</Hungarian><Ukrainian>Зсув Z</Ukrainian><Slovak>Posun Z</Slovak><Latin>Offset Z</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_Lod"><Original>LOD</Original><English>LOD</English><Chinesesimp>LOD</Chinesesimp><Chinese>LOD</Chinese><Czech>LOD</Czech><French>LOD</French><German>LOD</German><Italian>LOD</Italian><Japanese>LOD</Japanese><Korean>LOD</Korean><Polish>LOD</Polish><Portuguese>LOD</Portuguese><Russian>LOD</Russian><Spanish>LOD</Spanish><Turkish>LOD</Turkish><Bulgarian>LOD</Bulgarian><Hungarian>LOD</Hungarian><Ukrainian>LOD</Ukrainian><Slovak>LOD</Slovak><Latin>LOD</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_Texture"><Original>Texture</Original><English>Texture</English><Chinesesimp>纹理</Chinesesimp><Chinese>材質</Chinese><Czech>Textura</Czech><French>Texture</French><German>Textur</German><Italian>Texture</Italian><Japanese>テクスチャ</Japanese><Korean>텍스처</Korean><Polish>Tekstura</Polish><Portuguese>Textura</Portuguese><Russian>Текстура</Russian><Spanish>Textura</Spanish><Turkish>Doku</Turkish><Bulgarian>Текстура</Bulgarian><Hungarian>Textúra</Hungarian><Ukrainian>Текстура</Ukrainian><Slovak>Textúra</Slovak><Latin>Textura</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_Size"><Original>Size</Original><English>Size</English><Chinesesimp>大小</Chinesesimp><Chinese>大小</Chinese><Czech>Velikost</Czech><French>Taille</French><German>Größe</German><Italian>Dimensione</Italian><Japanese>サイズ</Japanese><Korean>크기</Korean><Polish>Rozmiar</Polish><Portuguese>Tamanho</Portuguese><Russian>Размер</Russian><Spanish>Tamaño</Spanish><Turkish>Boyut</Turkish><Bulgarian>Размер</Bulgarian><Hungarian>Méret</Hungarian><Ukrainian>Розмір</Ukrainian><Slovak>Veľkosť</Slovak><Latin>Magnitudo</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_Font"><Original>Font</Original><English>Font</English><Chinesesimp>字体</Chinesesimp><Chinese>字型</Chinese><Czech>Písmo</Czech><French>Police</French><German>Schriftart</German><Italian>Font</Italian><Japanese>フォント</Japanese><Korean>글꼴</Korean><Polish>Czcionka</Polish><Portuguese>Fonte</Portuguese><Russian>Шрифт</Russian><Spanish>Fuente</Spanish><Turkish>Yazı tipi</Turkish><Bulgarian>Шрифт</Bulgarian><Hungarian>Betűtípus</Hungarian><Ukrainian>Шрифт</Ukrainian><Slovak>Písmo</Slovak><Latin>Forma litterarum</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_Shadow"><Original>Shadow</Original><English>Shadow</English><Chinesesimp>阴影</Chinesesimp><Chinese>陰影</Chinese><Czech>Stín</Czech><French>Ombre</French><German>Schatten</German><Italian>Ombra</Italian><Japanese>影</Japanese><Korean>그림자</Korean><Polish>Cień</Polish><Portuguese>Sombra</Portuguese><Russian>Тень</Russian><Spanish>Sombra</Spanish><Turkish>Gölge</Turkish><Bulgarian>Сянка</Bulgarian><Hungarian>Árnyék</Hungarian><Ukrainian>Тінь</Ukrainian><Slovak>Tieň</Slovak><Latin>Umbra</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_Fade"><Original>Fade [min,max]</Original><English>Fade [min,max]</English><Chinesesimp>淡化 [最小,最大]</Chinesesimp><Chinese>淡化 [最小,最大]</Chinese><Czech>Útlum [min,max]</Czech><French>Fondu [min,max]</French><German>Ausblenden [min,max]</German><Italian>Dissolvenza [min,max]</Italian><Japanese>フェード [min,max]</Japanese><Korean>페이드 [min,max]</Korean><Polish>Zanikanie [min,max]</Polish><Portuguese>Fade [min,max]</Portuguese><Russian>Затухание [min,max]</Russian><Spanish>Desvanecer [min,max]</Spanish><Turkish>Sönme [min,max]</Turkish><Bulgarian>Затихване [min,max]</Bulgarian><Hungarian>Halványítás [min,max]</Hungarian><Ukrainian>Згасання [min,max]</Ukrainian><Slovak>Útlm [min,max]</Slovak><Latin>Exstinctio [min,max]</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_Dynamic"><Original>Dynamic</Original><English>Dynamic</English><Chinesesimp>动态</Chinesesimp><Chinese>動態</Chinese><Czech>Dynamické</Czech><French>Dynamique</French><German>Dynamisch</German><Italian>Dinamico</Italian><Japanese>動的</Japanese><Korean>동적</Korean><Polish>Dynamiczne</Polish><Portuguese>Dinâmico</Portuguese><Russian>Динамический</Russian><Spanish>Dinámico</Spanish><Turkish>Dinamik</Turkish><Bulgarian>Динамично</Bulgarian><Hungarian>Dinamikus</Hungarian><Ukrainian>Динамічний</Ukrainian><Slovak>Dynamické</Slovak><Latin>Dynamicus</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_CheckVisibility"><Original>Check Visibility</Original><English>Check Visibility</English><Chinesesimp>检测可见性</Chinesesimp><Chinese>檢查可見性</Chinese><Czech>Kontrola viditelnosti</Czech><French>Vérifier la visibilité</French><German>Sichtbarkeit prüfen</German><Italian>Controlla visibilità</Italian><Japanese>視認性チェック</Japanese><Korean>가시성 확인</Korean><Polish>Sprawdź widoczność</Polish><Portuguese>Verificar visibilidade</Portuguese><Russian>Проверять видимость</Russian><Spanish>Comprobar visibilidad</Spanish><Turkish>Görünürlüğü kontrol et</Turkish><Bulgarian>Провери видимост</Bulgarian><Hungarian>Láthatóság ellenőrzése</Hungarian><Ukrainian>Перевіряти видимість</Ukrainian><Slovak>Kontrola viditeľnosti</Slovak><Latin>Visibilitatem probare</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_OffsetX"><Original>Offset X</Original><English>Offset X</English><Chinesesimp>X 偏移</Chinesesimp><Chinese>X 偏移</Chinese><Czech>Posun X</Czech><French>Décalage X</French><German>Offset X</German><Italian>Offset X</Italian><Japanese>X オフセット</Japanese><Korean>X 오프셋</Korean><Polish>Przesunięcie X</Polish><Portuguese>Offset X</Portuguese><Russian>Смещение X</Russian><Spanish>Desplazamiento X</Spanish><Turkish>X ofseti</Turkish><Bulgarian>Отместване X</Bulgarian><Hungarian>X eltolás</Hungarian><Ukrainian>Зсув X</Ukrainian><Slovak>Posun X</Slovak><Latin>Offset X</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_OffsetY"><Original>Offset Y</Original><English>Offset Y</English><Chinesesimp>Y 偏移</Chinesesimp><Chinese>Y 偏移</Chinese><Czech>Posun Y</Czech><French>Décalage Y</French><German>Offset Y</German><Italian>Offset Y</Italian><Japanese>Y オフセット</Japanese><Korean>Y 오프셋</Korean><Polish>Przesunięcie Y</Polish><Portuguese>Offset Y</Portuguese><Russian>Смещение Y</Russian><Spanish>Desplazamiento Y</Spanish><Turkish>Y ofseti</Turkish><Bulgarian>Отместване Y</Bulgarian><Hungarian>Y eltolás</Hungarian><Ukrainian>Зсув Y</Ukrainian><Slovak>Posun Y</Slovak><Latin>Offset Y</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_HardAlpha"><Original>Hard Alpha</Original><English>Hard Alpha</English><Chinesesimp>硬 Alpha</Chinesesimp><Chinese>硬 Alpha</Chinese><Czech>Tvrdá alfa</Czech><French>Alpha forcé</French><German>Harte Alpha</German><Italian>Alpha rigido</Italian><Japanese>ハードアルファ</Japanese><Korean>하드 알파</Korean><Polish>Twarda alfa</Polish><Portuguese>Alfa rígido</Portuguese><Russian>Жесткая альфа</Russian><Spanish>Alfa fijo</Spanish><Turkish>Sabit alfa</Turkish><Bulgarian>Твърда алфа</Bulgarian><Hungarian>Fix alfa</Hungarian><Ukrainian>Жорстка альфа</Ukrainian><Slovak>Tvrdá alfa</Slovak><Latin>Alpha dura</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_DrawArrows"><Original>Draw Arrows</Original><English>Draw Arrows</English><Chinesesimp>绘制箭头</Chinesesimp><Chinese>繪製箭頭</Chinese><Czech>Vykreslit šipky</Czech><French>Dessiner les flèches</French><German>Pfeile zeichnen</German><Italian>Disegna frecce</Italian><Japanese>矢印を描画</Japanese><Korean>화살표 그리기</Korean><Polish>Rysuj strzałki</Polish><Portuguese>Desenhar setas</Portuguese><Russian>Рисовать стрелки</Russian><Spanish>Dibujar flechas</Spanish><Turkish>Okları çiz</Turkish><Bulgarian>Рисувай стрелки</Bulgarian><Hungarian>Nyilak rajzolása</Hungarian><Ukrainian>Малювати стрілки</Ukrainian><Slovak>Vykresliť šípky</Slovak><Latin>Sagittas depingere</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_ArrowSize"><Original>Arrow Size</Original><English>Arrow Size</English><Chinesesimp>箭头大小</Chinesesimp><Chinese>箭頭大小</Chinese><Czech>Velikost šipky</Czech><French>Taille des flèches</French><German>Pfeilgröße</German><Italian>Dimensione freccia</Italian><Japanese>矢印サイズ</Japanese><Korean>화살표 크기</Korean><Polish>Rozmiar strzałki</Polish><Portuguese>Tamanho da seta</Portuguese><Russian>Размер стрелки</Russian><Spanish>Tamaño de flecha</Spanish><Turkish>Ok boyutu</Turkish><Bulgarian>Размер на стрелка</Bulgarian><Hungarian>Nyíl mérete</Hungarian><Ukrainian>Розмір стрілки</Ukrainian><Slovak>Veľkosť šípky</Slovak><Latin>Magnitudo sagittae</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_ArrowText"><Original>Arrow Text</Original><English>Arrow Text</English><Chinesesimp>箭头文本</Chinesesimp><Chinese>箭頭文字</Chinese><Czech>Text šipky</Czech><French>Texte des flèches</French><German>Pfeiltext</German><Italian>Testo freccia</Italian><Japanese>矢印テキスト</Japanese><Korean>화살표 텍스트</Korean><Polish>Tekst strzałki</Polish><Portuguese>Texto da seta</Portuguese><Russian>Текст стрелки</Russian><Spanish>Texto de flecha</Spanish><Turkish>Ok metni</Turkish><Bulgarian>Текст на стрелка</Bulgarian><Hungarian>Nyílszöveg</Hungarian><Ukrainian>Текст стрілки</Ukrainian><Slovak>Text šípky</Slovak><Latin>Textus sagittae</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_ArrowTextParams"><Original>Text size / X / Y</Original><English>Text size / X / Y</English><Chinesesimp>文本大小 / X / Y</Chinesesimp><Chinese>文字大小 / X / Y</Chinese><Czech>Velikost textu / X / Y</Czech><French>Taille texte / X / Y</French><German>Textgröße / X / Y</German><Italian>Dimensione testo / X / Y</Italian><Japanese>テキストサイズ / X / Y</Japanese><Korean>텍스트 크기 / X / Y</Korean><Polish>Rozmiar tekstu / X / Y</Polish><Portuguese>Tamanho texto / X / Y</Portuguese><Russian>Размер текста / X / Y</Russian><Spanish>Tamaño texto / X / Y</Spanish><Turkish>Metin boyutu / X / Y</Turkish><Bulgarian>Размер текст / X / Y</Bulgarian><Hungarian>Szövegméret / X / Y</Hungarian><Ukrainian>Розмір тексту / X / Y</Ukrainian><Slovak>Veľkosť textu / X / Y</Slovak><Latin>Magnitudo textus / X / Y</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_TextsArray"><Original>Texts Array</Original><English>Texts Array</English><Chinesesimp>文本数组</Chinesesimp><Chinese>文字陣列</Chinese><Czech>Pole textů</Czech><French>Tableau de textes</French><German>Text-Array</German><Italian>Array testi</Italian><Japanese>テキスト配列</Japanese><Korean>텍스트 배열</Korean><Polish>Tablica tekstów</Polish><Portuguese>Array de textos</Portuguese><Russian>Массив текстов</Russian><Spanish>Arreglo de textos</Spanish><Turkish>Metin dizisi</Turkish><Bulgarian>Масив от текстове</Bulgarian><Hungarian>Szöveg tömb</Hungarian><Ukrainian>Масив текстів</Ukrainian><Slovak>Pole textov</Slovak><Latin>Series textuum</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_ProgressArray"><Original>Progress Array</Original><English>Progress Array</English><Chinesesimp>进度数组</Chinesesimp><Chinese>進度陣列</Chinese><Czech>Pole průběhu</Czech><French>Tableau de progression</French><German>Fortschritts-Array</German><Italian>Array progresso</Italian><Japanese>進捗配列</Japanese><Korean>진행 배열</Korean><Polish>Tablica postępu</Polish><Portuguese>Array de progresso</Portuguese><Russian>Массив прогресса</Russian><Spanish>Arreglo de progreso</Spanish><Turkish>İlerleme dizisi</Turkish><Bulgarian>Масив за напредък</Bulgarian><Hungarian>Haladás tömb</Hungarian><Ukrainian>Масив прогресу</Ukrainian><Slovak>Pole priebehu</Slovak><Latin>Series progressus</Latin></Key>
-			<Key ID="STR_SQFLAB_DrawIcon3D_Label_ProgressValue"><Original>Progress Value</Original><English>Progress Value</English><Chinesesimp>进度值</Chinesesimp><Chinese>進度值</Chinese><Czech>Hodnota průběhu</Czech><French>Valeur de progression</French><German>Fortschrittswert</German><Italian>Valore progresso</Italian><Japanese>進捗値</Japanese><Korean>진행 값</Korean><Polish>Wartość postępu</Polish><Portuguese>Valor de progresso</Portuguese><Russian>Значение прогресса</Russian><Spanish>Valor de progreso</Spanish><Turkish>İlerleme değeri</Turkish><Bulgarian>Стойност на напредък</Bulgarian><Hungarian>Haladás értéke</Hungarian><Ukrainian>Значення прогресу</Ukrainian><Slovak>Hodnota priebehu</Slovak><Latin>Valor progressus</Latin></Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Title">
+				<Original>DrawIcon3D</Original>
+				<English>DrawIcon3D</English>
+				<Chinesesimp>DrawIcon3D</Chinesesimp>
+				<Chinese>DrawIcon3D</Chinese>
+				<Czech>DrawIcon3D</Czech>
+				<French>DrawIcon3D</French>
+				<German>DrawIcon3D</German>
+				<Italian>DrawIcon3D</Italian>
+				<Japanese>DrawIcon3D</Japanese>
+				<Korean>DrawIcon3D</Korean>
+				<Polish>DrawIcon3D</Polish>
+				<Portuguese>DrawIcon3D</Portuguese>
+				<Russian>DrawIcon3D</Russian>
+				<Spanish>DrawIcon3D</Spanish>
+				<Turkish>DrawIcon3D</Turkish>
+				<Bulgarian>DrawIcon3D</Bulgarian>
+				<Hungarian>DrawIcon3D</Hungarian>
+				<Ukrainian>DrawIcon3D</Ukrainian>
+				<Slovak>DrawIcon3D</Slovak>
+				<Latin>DrawIcon3D</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Preview">
+				<Original>Preview</Original>
+				<English>Preview</English>
+				<Chinesesimp>预览</Chinesesimp>
+				<Chinese>預覽</Chinese>
+				<Czech>Náhled</Czech>
+				<French>Aperçu</French>
+				<German>Vorschau</German>
+				<Italian>Anteprima</Italian>
+				<Japanese>プレビュー</Japanese>
+				<Korean>미리보기</Korean>
+				<Polish>Podgląd</Polish>
+				<Portuguese>Pré-visualização</Portuguese>
+				<Russian>Предпросмотр</Russian>
+				<Spanish>Vista previa</Spanish>
+				<Turkish>Önizleme</Turkish>
+				<Bulgarian>Преглед</Bulgarian>
+				<Hungarian>Előnézet</Hungarian>
+				<Ukrainian>Перегляд</Ukrainian>
+				<Slovak>Náhľad</Slovak>
+				<Latin>Praevisio</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_PositionTitle">
+				<Original>Position</Original>
+				<English>Position</English>
+				<Chinesesimp>位置</Chinesesimp>
+				<Chinese>位置</Chinese>
+				<Czech>Pozice</Czech>
+				<French>Position</French>
+				<German>Position</German>
+				<Italian>Posizione</Italian>
+				<Japanese>位置</Japanese>
+				<Korean>위치</Korean>
+				<Polish>Pozycja</Polish>
+				<Portuguese>Posição</Portuguese>
+				<Russian>Позиция</Russian>
+				<Spanish>Posición</Spanish>
+				<Turkish>Konum</Turkish>
+				<Bulgarian>Позиция</Bulgarian>
+				<Hungarian>Pozíció</Hungarian>
+				<Ukrainian>Позиція</Ukrainian>
+				<Slovak>Pozícia</Slovak>
+				<Latin>Positio</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_CoreTitle">
+				<Original>Core Icon</Original>
+				<English>Core Icon</English>
+				<Chinesesimp>核心图标</Chinesesimp>
+				<Chinese>核心圖示</Chinese>
+				<Czech>Jádro ikony</Czech>
+				<French>Icône principale</French>
+				<German>Kernsymbol</German>
+				<Italian>Icona principale</Italian>
+				<Japanese>コアアイコン</Japanese>
+				<Korean>핵심 아이콘</Korean>
+				<Polish>Główna ikona</Polish>
+				<Portuguese>Ícone principal</Portuguese>
+				<Russian>Основная иконка</Russian>
+				<Spanish>Icono principal</Spanish>
+				<Turkish>Ana simge</Turkish>
+				<Bulgarian>Основна икона</Bulgarian>
+				<Hungarian>Alap ikon</Hungarian>
+				<Ukrainian>Основна іконка</Ukrainian>
+				<Slovak>Hlavná ikona</Slovak>
+				<Latin>Icon nucleus</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_ArrowsTitle">
+				<Original>Arrows</Original>
+				<English>Arrows</English>
+				<Chinesesimp>箭头</Chinesesimp>
+				<Chinese>箭頭</Chinese>
+				<Czech>Šipky</Czech>
+				<French>Flèches</French>
+				<German>Pfeile</German>
+				<Italian>Frecce</Italian>
+				<Japanese>矢印</Japanese>
+				<Korean>화살표</Korean>
+				<Polish>Strzałki</Polish>
+				<Portuguese>Setas</Portuguese>
+				<Russian>Стрелки</Russian>
+				<Spanish>Flechas</Spanish>
+				<Turkish>Oklar</Turkish>
+				<Bulgarian>Стрелки</Bulgarian>
+				<Hungarian>Nyilak</Hungarian>
+				<Ukrainian>Стрілки</Ukrainian>
+				<Slovak>Šípky</Slovak>
+				<Latin>Sagittae</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_ArrowColor">
+				<Original>Arrow Color</Original>
+				<English>Arrow Color</English>
+				<Chinesesimp>箭头颜色</Chinesesimp>
+				<Chinese>箭頭顏色</Chinese>
+				<Czech>Barva šipky</Czech>
+				<French>Couleur des flèches</French>
+				<German>Pfeilfarbe</German>
+				<Italian>Colore freccia</Italian>
+				<Japanese>矢印の色</Japanese>
+				<Korean>화살표 색상</Korean>
+				<Polish>Kolor strzałki</Polish>
+				<Portuguese>Cor da seta</Portuguese>
+				<Russian>Цвет стрелки</Russian>
+				<Spanish>Color de flecha</Spanish>
+				<Turkish>Ok rengi</Turkish>
+				<Bulgarian>Цвят на стрелка</Bulgarian>
+				<Hungarian>Nyíl színe</Hungarian>
+				<Ukrainian>Колір стрілки</Ukrainian>
+				<Slovak>Farba šípky</Slovak>
+				<Latin>Color sagittae</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_ArrowTextColor">
+				<Original>Arrow Text Color</Original>
+				<English>Arrow Text Color</English>
+				<Chinesesimp>箭头文本颜色</Chinesesimp>
+				<Chinese>箭頭文字顏色</Chinese>
+				<Czech>Barva textu šipky</Czech>
+				<French>Couleur du texte des flèches</French>
+				<German>Pfeiltextfarbe</German>
+				<Italian>Colore testo freccia</Italian>
+				<Japanese>矢印テキスト色</Japanese>
+				<Korean>화살표 텍스트 색상</Korean>
+				<Polish>Kolor tekstu strzałki</Polish>
+				<Portuguese>Cor do texto da seta</Portuguese>
+				<Russian>Цвет текста стрелки</Russian>
+				<Spanish>Color de texto de flecha</Spanish>
+				<Turkish>Ok metin rengi</Turkish>
+				<Bulgarian>Цвят на текста на стрелка</Bulgarian>
+				<Hungarian>Nyílszöveg színe</Hungarian>
+				<Ukrainian>Колір тексту стрілки</Ukrainian>
+				<Slovak>Farba textu šípky</Slovak>
+				<Latin>Color textus sagittae</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_TextsTitle">
+				<Original>Texts</Original>
+				<English>Texts</English>
+				<Chinesesimp>文本</Chinesesimp>
+				<Chinese>文字</Chinese>
+				<Czech>Texty</Czech>
+				<French>Textes</French>
+				<German>Texte</German>
+				<Italian>Testi</Italian>
+				<Japanese>テキスト</Japanese>
+				<Korean>텍스트</Korean>
+				<Polish>Teksty</Polish>
+				<Portuguese>Textos</Portuguese>
+				<Russian>Тексты</Russian>
+				<Spanish>Textos</Spanish>
+				<Turkish>Metinler</Turkish>
+				<Bulgarian>Текстове</Bulgarian>
+				<Hungarian>Szövegek</Hungarian>
+				<Ukrainian>Тексти</Ukrainian>
+				<Slovak>Texty</Slovak>
+				<Latin>Textus</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_ProgressTitle">
+				<Original>Progress</Original>
+				<English>Progress</English>
+				<Chinesesimp>进度</Chinesesimp>
+				<Chinese>進度</Chinese>
+				<Czech>Průběh</Czech>
+				<French>Progression</French>
+				<German>Fortschritt</German>
+				<Italian>Progresso</Italian>
+				<Japanese>進行</Japanese>
+				<Korean>진행</Korean>
+				<Polish>Postęp</Polish>
+				<Portuguese>Progresso</Portuguese>
+				<Russian>Прогресс</Russian>
+				<Spanish>Progreso</Spanish>
+				<Turkish>İlerleme</Turkish>
+				<Bulgarian>Напредък</Bulgarian>
+				<Hungarian>Haladás</Hungarian>
+				<Ukrainian>Прогрес</Ukrainian>
+				<Slovak>Priebeh</Slovak>
+				<Latin>Progressus</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_PosMode">
+				<Original>Position Mode</Original>
+				<English>Position Mode</English>
+				<Chinesesimp>位置模式</Chinesesimp>
+				<Chinese>位置模式</Chinese>
+				<Czech>Režim pozice</Czech>
+				<French>Mode de position</French>
+				<German>Positionsmodus</German>
+				<Italian>Modalità posizione</Italian>
+				<Japanese>位置モード</Japanese>
+				<Korean>위치 모드</Korean>
+				<Polish>Tryb pozycji</Polish>
+				<Portuguese>Modo de posição</Portuguese>
+				<Russian>Режим позиции</Russian>
+				<Spanish>Modo de posición</Spanish>
+				<Turkish>Konum modu</Turkish>
+				<Bulgarian>Режим позиция</Bulgarian>
+				<Hungarian>Pozíció mód</Hungarian>
+				<Ukrainian>Режим позиції</Ukrainian>
+				<Slovak>Režim pozície</Slovak>
+				<Latin>Modus positionis</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_PosVector">
+				<Original>Vector [x,y,z]</Original>
+				<English>Vector [x,y,z]</English>
+				<Chinesesimp>向量 [x,y,z]</Chinesesimp>
+				<Chinese>向量 [x,y,z]</Chinese>
+				<Czech>Vektor [x,y,z]</Czech>
+				<French>Vecteur [x,y,z]</French>
+				<German>Vektor [x,y,z]</German>
+				<Italian>Vettore [x,y,z]</Italian>
+				<Japanese>ベクトル [x,y,z]</Japanese>
+				<Korean>벡터 [x,y,z]</Korean>
+				<Polish>Wektor [x,y,z]</Polish>
+				<Portuguese>Vetor [x,y,z]</Portuguese>
+				<Russian>Вектор [x,y,z]</Russian>
+				<Spanish>Vector [x,y,z]</Spanish>
+				<Turkish>Vektör [x,y,z]</Turkish>
+				<Bulgarian>Вектор [x,y,z]</Bulgarian>
+				<Hungarian>Vektor [x,y,z]</Hungarian>
+				<Ukrainian>Вектор [x,y,z]</Ukrainian>
+				<Slovak>Vektor [x,y,z]</Slovak>
+				<Latin>Vector [x,y,z]</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_Object">
+				<Original>Object</Original>
+				<English>Object</English>
+				<Chinesesimp>对象</Chinesesimp>
+				<Chinese>物件</Chinese>
+				<Czech>Objekt</Czech>
+				<French>Objet</French>
+				<German>Objekt</German>
+				<Italian>Oggetto</Italian>
+				<Japanese>オブジェクト</Japanese>
+				<Korean>오브젝트</Korean>
+				<Polish>Obiekt</Polish>
+				<Portuguese>Objeto</Portuguese>
+				<Russian>Объект</Russian>
+				<Spanish>Objeto</Spanish>
+				<Turkish>Nesne</Turkish>
+				<Bulgarian>Обект</Bulgarian>
+				<Hungarian>Objektum</Hungarian>
+				<Ukrainian>Об&apos;єкт</Ukrainian>
+				<Slovak>Objekt</Slovak>
+				<Latin>Objectum</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_Selection">
+				<Original>Selection</Original>
+				<English>Selection</English>
+				<Chinesesimp>选择集</Chinesesimp>
+				<Chinese>選擇集</Chinese>
+				<Czech>Výběr</Czech>
+				<French>Sélection</French>
+				<German>Selektion</German>
+				<Italian>Selezione</Italian>
+				<Japanese>セレクション</Japanese>
+				<Korean>선택</Korean>
+				<Polish>Selekcja</Polish>
+				<Portuguese>Seleção</Portuguese>
+				<Russian>Селекция</Russian>
+				<Spanish>Selección</Spanish>
+				<Turkish>Seçim</Turkish>
+				<Bulgarian>Селекция</Bulgarian>
+				<Hungarian>Kiválasztás</Hungarian>
+				<Ukrainian>Селекція</Ukrainian>
+				<Slovak>Výber</Slovak>
+				<Latin>Selectio</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_OffsetZ">
+				<Original>Offset Z</Original>
+				<English>Offset Z</English>
+				<Chinesesimp>Z 偏移</Chinesesimp>
+				<Chinese>Z 偏移</Chinese>
+				<Czech>Posun Z</Czech>
+				<French>Décalage Z</French>
+				<German>Offset Z</German>
+				<Italian>Offset Z</Italian>
+				<Japanese>Z オフセット</Japanese>
+				<Korean>Z 오프셋</Korean>
+				<Polish>Przesunięcie Z</Polish>
+				<Portuguese>Offset Z</Portuguese>
+				<Russian>Смещение Z</Russian>
+				<Spanish>Desplazamiento Z</Spanish>
+				<Turkish>Z ofseti</Turkish>
+				<Bulgarian>Отместване Z</Bulgarian>
+				<Hungarian>Z eltolás</Hungarian>
+				<Ukrainian>Зсув Z</Ukrainian>
+				<Slovak>Posun Z</Slovak>
+				<Latin>Offset Z</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_Lod">
+				<Original>LOD</Original>
+				<English>LOD</English>
+				<Chinesesimp>LOD</Chinesesimp>
+				<Chinese>LOD</Chinese>
+				<Czech>LOD</Czech>
+				<French>LOD</French>
+				<German>LOD</German>
+				<Italian>LOD</Italian>
+				<Japanese>LOD</Japanese>
+				<Korean>LOD</Korean>
+				<Polish>LOD</Polish>
+				<Portuguese>LOD</Portuguese>
+				<Russian>LOD</Russian>
+				<Spanish>LOD</Spanish>
+				<Turkish>LOD</Turkish>
+				<Bulgarian>LOD</Bulgarian>
+				<Hungarian>LOD</Hungarian>
+				<Ukrainian>LOD</Ukrainian>
+				<Slovak>LOD</Slovak>
+				<Latin>LOD</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_Texture">
+				<Original>Texture</Original>
+				<English>Texture</English>
+				<Chinesesimp>纹理</Chinesesimp>
+				<Chinese>材質</Chinese>
+				<Czech>Textura</Czech>
+				<French>Texture</French>
+				<German>Textur</German>
+				<Italian>Texture</Italian>
+				<Japanese>テクスチャ</Japanese>
+				<Korean>텍스처</Korean>
+				<Polish>Tekstura</Polish>
+				<Portuguese>Textura</Portuguese>
+				<Russian>Текстура</Russian>
+				<Spanish>Textura</Spanish>
+				<Turkish>Doku</Turkish>
+				<Bulgarian>Текстура</Bulgarian>
+				<Hungarian>Textúra</Hungarian>
+				<Ukrainian>Текстура</Ukrainian>
+				<Slovak>Textúra</Slovak>
+				<Latin>Textura</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_Size">
+				<Original>Size</Original>
+				<English>Size</English>
+				<Chinesesimp>大小</Chinesesimp>
+				<Chinese>大小</Chinese>
+				<Czech>Velikost</Czech>
+				<French>Taille</French>
+				<German>Größe</German>
+				<Italian>Dimensione</Italian>
+				<Japanese>サイズ</Japanese>
+				<Korean>크기</Korean>
+				<Polish>Rozmiar</Polish>
+				<Portuguese>Tamanho</Portuguese>
+				<Russian>Размер</Russian>
+				<Spanish>Tamaño</Spanish>
+				<Turkish>Boyut</Turkish>
+				<Bulgarian>Размер</Bulgarian>
+				<Hungarian>Méret</Hungarian>
+				<Ukrainian>Розмір</Ukrainian>
+				<Slovak>Veľkosť</Slovak>
+				<Latin>Magnitudo</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_Font">
+				<Original>Font</Original>
+				<English>Font</English>
+				<Chinesesimp>字体</Chinesesimp>
+				<Chinese>字型</Chinese>
+				<Czech>Písmo</Czech>
+				<French>Police</French>
+				<German>Schriftart</German>
+				<Italian>Font</Italian>
+				<Japanese>フォント</Japanese>
+				<Korean>글꼴</Korean>
+				<Polish>Czcionka</Polish>
+				<Portuguese>Fonte</Portuguese>
+				<Russian>Шрифт</Russian>
+				<Spanish>Fuente</Spanish>
+				<Turkish>Yazı tipi</Turkish>
+				<Bulgarian>Шрифт</Bulgarian>
+				<Hungarian>Betűtípus</Hungarian>
+				<Ukrainian>Шрифт</Ukrainian>
+				<Slovak>Písmo</Slovak>
+				<Latin>Forma litterarum</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_Shadow">
+				<Original>Shadow</Original>
+				<English>Shadow</English>
+				<Chinesesimp>阴影</Chinesesimp>
+				<Chinese>陰影</Chinese>
+				<Czech>Stín</Czech>
+				<French>Ombre</French>
+				<German>Schatten</German>
+				<Italian>Ombra</Italian>
+				<Japanese>影</Japanese>
+				<Korean>그림자</Korean>
+				<Polish>Cień</Polish>
+				<Portuguese>Sombra</Portuguese>
+				<Russian>Тень</Russian>
+				<Spanish>Sombra</Spanish>
+				<Turkish>Gölge</Turkish>
+				<Bulgarian>Сянка</Bulgarian>
+				<Hungarian>Árnyék</Hungarian>
+				<Ukrainian>Тінь</Ukrainian>
+				<Slovak>Tieň</Slovak>
+				<Latin>Umbra</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_Fade">
+				<Original>Fade [min,max]</Original>
+				<English>Fade [min,max]</English>
+				<Chinesesimp>淡化 [最小,最大]</Chinesesimp>
+				<Chinese>淡化 [最小,最大]</Chinese>
+				<Czech>Útlum [min,max]</Czech>
+				<French>Fondu [min,max]</French>
+				<German>Ausblenden [min,max]</German>
+				<Italian>Dissolvenza [min,max]</Italian>
+				<Japanese>フェード [min,max]</Japanese>
+				<Korean>페이드 [min,max]</Korean>
+				<Polish>Zanikanie [min,max]</Polish>
+				<Portuguese>Fade [min,max]</Portuguese>
+				<Russian>Затухание [min,max]</Russian>
+				<Spanish>Desvanecer [min,max]</Spanish>
+				<Turkish>Sönme [min,max]</Turkish>
+				<Bulgarian>Затихване [min,max]</Bulgarian>
+				<Hungarian>Halványítás [min,max]</Hungarian>
+				<Ukrainian>Згасання [min,max]</Ukrainian>
+				<Slovak>Útlm [min,max]</Slovak>
+				<Latin>Exstinctio [min,max]</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_Dynamic">
+				<Original>Dynamic</Original>
+				<English>Dynamic</English>
+				<Chinesesimp>动态</Chinesesimp>
+				<Chinese>動態</Chinese>
+				<Czech>Dynamické</Czech>
+				<French>Dynamique</French>
+				<German>Dynamisch</German>
+				<Italian>Dinamico</Italian>
+				<Japanese>動的</Japanese>
+				<Korean>동적</Korean>
+				<Polish>Dynamiczne</Polish>
+				<Portuguese>Dinâmico</Portuguese>
+				<Russian>Динамический</Russian>
+				<Spanish>Dinámico</Spanish>
+				<Turkish>Dinamik</Turkish>
+				<Bulgarian>Динамично</Bulgarian>
+				<Hungarian>Dinamikus</Hungarian>
+				<Ukrainian>Динамічний</Ukrainian>
+				<Slovak>Dynamické</Slovak>
+				<Latin>Dynamicus</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_CheckVisibility">
+				<Original>Check Visibility</Original>
+				<English>Check Visibility</English>
+				<Chinesesimp>检测可见性</Chinesesimp>
+				<Chinese>檢查可見性</Chinese>
+				<Czech>Kontrola viditelnosti</Czech>
+				<French>Vérifier la visibilité</French>
+				<German>Sichtbarkeit prüfen</German>
+				<Italian>Controlla visibilità</Italian>
+				<Japanese>視認性チェック</Japanese>
+				<Korean>가시성 확인</Korean>
+				<Polish>Sprawdź widoczność</Polish>
+				<Portuguese>Verificar visibilidade</Portuguese>
+				<Russian>Проверять видимость</Russian>
+				<Spanish>Comprobar visibilidad</Spanish>
+				<Turkish>Görünürlüğü kontrol et</Turkish>
+				<Bulgarian>Провери видимост</Bulgarian>
+				<Hungarian>Láthatóság ellenőrzése</Hungarian>
+				<Ukrainian>Перевіряти видимість</Ukrainian>
+				<Slovak>Kontrola viditeľnosti</Slovak>
+				<Latin>Visibilitatem probare</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_OffsetX">
+				<Original>Offset X</Original>
+				<English>Offset X</English>
+				<Chinesesimp>X 偏移</Chinesesimp>
+				<Chinese>X 偏移</Chinese>
+				<Czech>Posun X</Czech>
+				<French>Décalage X</French>
+				<German>Offset X</German>
+				<Italian>Offset X</Italian>
+				<Japanese>X オフセット</Japanese>
+				<Korean>X 오프셋</Korean>
+				<Polish>Przesunięcie X</Polish>
+				<Portuguese>Offset X</Portuguese>
+				<Russian>Смещение X</Russian>
+				<Spanish>Desplazamiento X</Spanish>
+				<Turkish>X ofseti</Turkish>
+				<Bulgarian>Отместване X</Bulgarian>
+				<Hungarian>X eltolás</Hungarian>
+				<Ukrainian>Зсув X</Ukrainian>
+				<Slovak>Posun X</Slovak>
+				<Latin>Offset X</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_OffsetY">
+				<Original>Offset Y</Original>
+				<English>Offset Y</English>
+				<Chinesesimp>Y 偏移</Chinesesimp>
+				<Chinese>Y 偏移</Chinese>
+				<Czech>Posun Y</Czech>
+				<French>Décalage Y</French>
+				<German>Offset Y</German>
+				<Italian>Offset Y</Italian>
+				<Japanese>Y オフセット</Japanese>
+				<Korean>Y 오프셋</Korean>
+				<Polish>Przesunięcie Y</Polish>
+				<Portuguese>Offset Y</Portuguese>
+				<Russian>Смещение Y</Russian>
+				<Spanish>Desplazamiento Y</Spanish>
+				<Turkish>Y ofseti</Turkish>
+				<Bulgarian>Отместване Y</Bulgarian>
+				<Hungarian>Y eltolás</Hungarian>
+				<Ukrainian>Зсув Y</Ukrainian>
+				<Slovak>Posun Y</Slovak>
+				<Latin>Offset Y</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_HardAlpha">
+				<Original>Hard Alpha</Original>
+				<English>Hard Alpha</English>
+				<Chinesesimp>硬 Alpha</Chinesesimp>
+				<Chinese>硬 Alpha</Chinese>
+				<Czech>Tvrdá alfa</Czech>
+				<French>Alpha forcé</French>
+				<German>Harte Alpha</German>
+				<Italian>Alpha rigido</Italian>
+				<Japanese>ハードアルファ</Japanese>
+				<Korean>하드 알파</Korean>
+				<Polish>Twarda alfa</Polish>
+				<Portuguese>Alfa rígido</Portuguese>
+				<Russian>Жесткая альфа</Russian>
+				<Spanish>Alfa fijo</Spanish>
+				<Turkish>Sabit alfa</Turkish>
+				<Bulgarian>Твърда алфа</Bulgarian>
+				<Hungarian>Fix alfa</Hungarian>
+				<Ukrainian>Жорстка альфа</Ukrainian>
+				<Slovak>Tvrdá alfa</Slovak>
+				<Latin>Alpha dura</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_DrawArrows">
+				<Original>Draw Arrows</Original>
+				<English>Draw Arrows</English>
+				<Chinesesimp>绘制箭头</Chinesesimp>
+				<Chinese>繪製箭頭</Chinese>
+				<Czech>Vykreslit šipky</Czech>
+				<French>Dessiner les flèches</French>
+				<German>Pfeile zeichnen</German>
+				<Italian>Disegna frecce</Italian>
+				<Japanese>矢印を描画</Japanese>
+				<Korean>화살표 그리기</Korean>
+				<Polish>Rysuj strzałki</Polish>
+				<Portuguese>Desenhar setas</Portuguese>
+				<Russian>Рисовать стрелки</Russian>
+				<Spanish>Dibujar flechas</Spanish>
+				<Turkish>Okları çiz</Turkish>
+				<Bulgarian>Рисувай стрелки</Bulgarian>
+				<Hungarian>Nyilak rajzolása</Hungarian>
+				<Ukrainian>Малювати стрілки</Ukrainian>
+				<Slovak>Vykresliť šípky</Slovak>
+				<Latin>Sagittas depingere</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_ArrowSize">
+				<Original>Arrow Size</Original>
+				<English>Arrow Size</English>
+				<Chinesesimp>箭头大小</Chinesesimp>
+				<Chinese>箭頭大小</Chinese>
+				<Czech>Velikost šipky</Czech>
+				<French>Taille des flèches</French>
+				<German>Pfeilgröße</German>
+				<Italian>Dimensione freccia</Italian>
+				<Japanese>矢印サイズ</Japanese>
+				<Korean>화살표 크기</Korean>
+				<Polish>Rozmiar strzałki</Polish>
+				<Portuguese>Tamanho da seta</Portuguese>
+				<Russian>Размер стрелки</Russian>
+				<Spanish>Tamaño de flecha</Spanish>
+				<Turkish>Ok boyutu</Turkish>
+				<Bulgarian>Размер на стрелка</Bulgarian>
+				<Hungarian>Nyíl mérete</Hungarian>
+				<Ukrainian>Розмір стрілки</Ukrainian>
+				<Slovak>Veľkosť šípky</Slovak>
+				<Latin>Magnitudo sagittae</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_ArrowText">
+				<Original>Arrow Text</Original>
+				<English>Arrow Text</English>
+				<Chinesesimp>箭头文本</Chinesesimp>
+				<Chinese>箭頭文字</Chinese>
+				<Czech>Text šipky</Czech>
+				<French>Texte des flèches</French>
+				<German>Pfeiltext</German>
+				<Italian>Testo freccia</Italian>
+				<Japanese>矢印テキスト</Japanese>
+				<Korean>화살표 텍스트</Korean>
+				<Polish>Tekst strzałki</Polish>
+				<Portuguese>Texto da seta</Portuguese>
+				<Russian>Текст стрелки</Russian>
+				<Spanish>Texto de flecha</Spanish>
+				<Turkish>Ok metni</Turkish>
+				<Bulgarian>Текст на стрелка</Bulgarian>
+				<Hungarian>Nyílszöveg</Hungarian>
+				<Ukrainian>Текст стрілки</Ukrainian>
+				<Slovak>Text šípky</Slovak>
+				<Latin>Textus sagittae</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_ArrowTextParams">
+				<Original>Text size / X / Y</Original>
+				<English>Text size / X / Y</English>
+				<Chinesesimp>文本大小 / X / Y</Chinesesimp>
+				<Chinese>文字大小 / X / Y</Chinese>
+				<Czech>Velikost textu / X / Y</Czech>
+				<French>Taille texte / X / Y</French>
+				<German>Textgröße / X / Y</German>
+				<Italian>Dimensione testo / X / Y</Italian>
+				<Japanese>テキストサイズ / X / Y</Japanese>
+				<Korean>텍스트 크기 / X / Y</Korean>
+				<Polish>Rozmiar tekstu / X / Y</Polish>
+				<Portuguese>Tamanho texto / X / Y</Portuguese>
+				<Russian>Размер текста / X / Y</Russian>
+				<Spanish>Tamaño texto / X / Y</Spanish>
+				<Turkish>Metin boyutu / X / Y</Turkish>
+				<Bulgarian>Размер текст / X / Y</Bulgarian>
+				<Hungarian>Szövegméret / X / Y</Hungarian>
+				<Ukrainian>Розмір тексту / X / Y</Ukrainian>
+				<Slovak>Veľkosť textu / X / Y</Slovak>
+				<Latin>Magnitudo textus / X / Y</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_TextsArray">
+				<Original>Texts Array</Original>
+				<English>Texts Array</English>
+				<Chinesesimp>文本数组</Chinesesimp>
+				<Chinese>文字陣列</Chinese>
+				<Czech>Pole textů</Czech>
+				<French>Tableau de textes</French>
+				<German>Text-Array</German>
+				<Italian>Array testi</Italian>
+				<Japanese>テキスト配列</Japanese>
+				<Korean>텍스트 배열</Korean>
+				<Polish>Tablica tekstów</Polish>
+				<Portuguese>Array de textos</Portuguese>
+				<Russian>Массив текстов</Russian>
+				<Spanish>Arreglo de textos</Spanish>
+				<Turkish>Metin dizisi</Turkish>
+				<Bulgarian>Масив от текстове</Bulgarian>
+				<Hungarian>Szöveg tömb</Hungarian>
+				<Ukrainian>Масив текстів</Ukrainian>
+				<Slovak>Pole textov</Slovak>
+				<Latin>Series textuum</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_ProgressArray">
+				<Original>Progress Array</Original>
+				<English>Progress Array</English>
+				<Chinesesimp>进度数组</Chinesesimp>
+				<Chinese>進度陣列</Chinese>
+				<Czech>Pole průběhu</Czech>
+				<French>Tableau de progression</French>
+				<German>Fortschritts-Array</German>
+				<Italian>Array progresso</Italian>
+				<Japanese>進捗配列</Japanese>
+				<Korean>진행 배열</Korean>
+				<Polish>Tablica postępu</Polish>
+				<Portuguese>Array de progresso</Portuguese>
+				<Russian>Массив прогресса</Russian>
+				<Spanish>Arreglo de progreso</Spanish>
+				<Turkish>İlerleme dizisi</Turkish>
+				<Bulgarian>Масив за напредък</Bulgarian>
+				<Hungarian>Haladás tömb</Hungarian>
+				<Ukrainian>Масив прогресу</Ukrainian>
+				<Slovak>Pole priebehu</Slovak>
+				<Latin>Series progressus</Latin>
+			</Key>
+			<Key ID="STR_SQFLAB_DrawIcon3D_Label_ProgressValue">
+				<Original>Progress Value</Original>
+				<English>Progress Value</English>
+				<Chinesesimp>进度值</Chinesesimp>
+				<Chinese>進度值</Chinese>
+				<Czech>Hodnota průběhu</Czech>
+				<French>Valeur de progression</French>
+				<German>Fortschrittswert</German>
+				<Italian>Valore progresso</Italian>
+				<Japanese>進捗値</Japanese>
+				<Korean>진행 값</Korean>
+				<Polish>Wartość postępu</Polish>
+				<Portuguese>Valor de progresso</Portuguese>
+				<Russian>Значение прогресса</Russian>
+				<Spanish>Valor de progreso</Spanish>
+				<Turkish>İlerleme değeri</Turkish>
+				<Bulgarian>Стойност на напредък</Bulgarian>
+				<Hungarian>Haladás értéke</Hungarian>
+				<Ukrainian>Значення прогресу</Ukrainian>
+				<Slovak>Hodnota priebehu</Slovak>
+				<Latin>Valor progressus</Latin>
+			</Key>
 		</Container>
 		<Container name="Particles">
 			<Key ID="STR_SQFLAB_Particles_Title">
