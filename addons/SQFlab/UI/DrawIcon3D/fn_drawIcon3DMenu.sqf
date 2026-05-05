@@ -14,7 +14,7 @@ if !(isPlayer player) exitWith {
 };
 
 private _buildType = productVersion param [4, "", [""]];
-if (_buildType == "Development") exitWith {
+if (_buildType != "Development") exitWith {
 	diag_log format ["[SQFLab] DrawIcon3D editor blocked for buildType '%1' (requires Development)", _buildType];
 	systemChat "SQF Lab DrawIcon3D editor is temporarily only available on Development build.";
 };
