@@ -31,7 +31,7 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: hemtt
-          key: hemtt-${{ runner.os }}-x64-${{ env.HEMTT_VERSION }}
+          key: hemtt-${{ runner.os }}-x64-${{ vars.HEMTT_VERSION }}
           enableCrossOsArchive: false
         env:
           SEGMENT_DOWNLOAD_TIMEOUT_MINS: 1
@@ -45,7 +45,7 @@ jobs:
         if: steps.hemtt-cache.outputs.cache-hit != 'true'
         uses: arma-actions/hemtt@v1
         with:
-          version: ${{ env.HEMTT_VERSION }}
+          version: ${{ vars.HEMTT_VERSION }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -57,7 +57,7 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: hemtt
-          key: hemtt-${{ runner.os }}-x64-${{ env.HEMTT_VERSION }}
+          key: hemtt-${{ runner.os }}-x64-${{ vars.HEMTT_VERSION }}
 
       - name: Adjust PboPrefix
         shell: pwsh
