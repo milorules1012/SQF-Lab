@@ -10,6 +10,10 @@ if (isNull _display) exitWith {
 	systemChat (localize "STR_SQFLAB_Err_ParticlesMenuNotFound");
 };
 
+private _applyParticleColor = cbChecked (_display displayCtrl SQFLAB_IDC_CHK_APPLY_PARTICLE_COLOR);
+private _applyEmissive = cbChecked (_display displayCtrl SQFLAB_IDC_CHK_APPLY_EMISSIVE);
+private _applyRandomColor = cbChecked (_display displayCtrl SQFLAB_IDC_CHK_APPLY_RANDOM_COLOR);
+
 private _size = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_SIZE);
 private _lifeTime = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_LIFETIME);
 private _interval = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_INTERVAL);
@@ -26,6 +30,10 @@ private _randomColorR = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_R
 private _randomColorG = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_RANDOM_COLOR_G);
 private _randomColorB = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_RANDOM_COLOR_B);
 private _randomColorA = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_RANDOM_COLOR_A);
+private _emissiveR = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_EMISSIVE_R);
+private _emissiveG = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_EMISSIVE_G);
+private _emissiveB = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_EMISSIVE_B);
+private _emissiveA = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_EMISSIVE_A);
 private _preset = uiNamespace getVariable ["SQFLab_particles_previewType", "fire"];
 
 private _shape = ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_PARTICLE_SHAPE);
@@ -73,6 +81,14 @@ private _colorStages = _defaultColors;
 if (([_colorStagesText] call SQFLab_fnc_trimSpaces) != "[]" && {_colorStagesText != ""}) then {
 	_colorStages = [_colorStagesText, _defaultColors] call SQFLab_fnc_parseArrayOrFallback;
 };
+private _emRval = (_baseRGB select 0) * _emissiveR;
+private _emGval = (_baseRGB select 1) * _emissiveG;
+private _emBval = (_baseRGB select 2) * _emissiveB;
+private _emissiveStages = [
+	[_emRval, _emGval, _emBval, _emissiveA],
+	[_emRval, _emGval, _emBval, _emissiveA * 0.6],
+	[_emRval, _emGval, _emBval, 0]
+];
 private _animationSpeed = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_ANIM_SPEED), [0.08]] call SQFLab_fnc_parseArrayOrFallback;
 private _randomDirectionPeriod = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_DIR_PERIOD), 0.1] call SQFLab_fnc_parseNumberOrFallback;
 private _randomDirectionIntensity = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_DIR_INTENSITY), 0.05] call SQFLab_fnc_parseNumberOrFallback;
@@ -93,6 +109,10 @@ private _randomBounceVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDO
 private _onTimerScript = "";
 private _beforeDestroyScript = "";
 
+private _colorExportStr = if (_applyParticleColor) then { str _colorStages } else { str [[1, 1, 1, 1]] };
+private _emissiveExportStr = if (_applyEmissive) then { str _emissiveStages } else { str [[0, 0, 0, 0]] };
+private _randomColorExportStr = if (_applyRandomColor) then { str _randomColorVar } else { str [0, 0, 0, 0] };
+
 private _lines = [
 	"// SQF Lab - particle effect export",
 	format ["// Preset: %1", _preset],
@@ -108,14 +128,14 @@ private _lines = [
 		str _randomMoveVar,
 		_randomRotVar,
 		_randomSizeVar,
-		str _randomColorVar,
+		_randomColorExportStr,
 		_randomDirPeriodVar,
 		_randomDirIntensityVar,
 		_randomAngleVar,
 		_randomBounceVar
 	],
 	format [
-		"_ps setParticleParams [[%1, %2, %3, %4, %5], %6, %7, %8, %9, %10, %11, %12, %13, %14, %15, %16, %17, %18, %19, %20, %21, %22, _attachTo];",
+		"_ps setParticleParams [[%1, %2, %3, %4, %5], %6, %7, %8, %9, %10, %11, %12, %13, %14, %15, %16, %17, %18, %19, %20, %21, %22, _attachTo, 0, false, 0, %23];",
 		str _shape,
 		_fsNtieth, _fsIndex, _fsFrameCount, _fsLoop,
 		str _animName,
@@ -129,12 +149,13 @@ private _lines = [
 		_volume,
 		_rubbing,
 		str _sizeOverLife,
-		str _colorStages,
+		_colorExportStr,
 		str _animationSpeed,
 		_randomDirectionPeriod,
 		_randomDirectionIntensity,
 		str _onTimerScript,
-		str _beforeDestroyScript
+		str _beforeDestroyScript,
+		_emissiveExportStr
 	],
 	format ["_ps setDropInterval %1;", _interval],
 	"// deleteVehicle _ps; // when done"

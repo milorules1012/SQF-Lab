@@ -25,7 +25,11 @@ private _pairs = [
 	[SQFLAB_IDC_SLIDER_RANDOM_COLOR_R, SQFLAB_IDC_VALUE_RANDOM_COLOR_R],
 	[SQFLAB_IDC_SLIDER_RANDOM_COLOR_G, SQFLAB_IDC_VALUE_RANDOM_COLOR_G],
 	[SQFLAB_IDC_SLIDER_RANDOM_COLOR_B, SQFLAB_IDC_VALUE_RANDOM_COLOR_B],
-	[SQFLAB_IDC_SLIDER_RANDOM_COLOR_A, SQFLAB_IDC_VALUE_RANDOM_COLOR_A]
+	[SQFLAB_IDC_SLIDER_RANDOM_COLOR_A, SQFLAB_IDC_VALUE_RANDOM_COLOR_A],
+	[SQFLAB_IDC_SLIDER_EMISSIVE_R, SQFLAB_IDC_VALUE_EMISSIVE_R],
+	[SQFLAB_IDC_SLIDER_EMISSIVE_G, SQFLAB_IDC_VALUE_EMISSIVE_G],
+	[SQFLAB_IDC_SLIDER_EMISSIVE_B, SQFLAB_IDC_VALUE_EMISSIVE_B],
+	[SQFLAB_IDC_SLIDER_EMISSIVE_A, SQFLAB_IDC_VALUE_EMISSIVE_A]
 ];
 {
 	_x params ["_sliderIdc", "_valueIdc"];
@@ -46,6 +50,49 @@ private _randomG = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_RANDOM
 private _randomB = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_RANDOM_COLOR_B);
 private _randomA = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_RANDOM_COLOR_A);
 _randomPreview ctrlSetBackgroundColor [_randomR, _randomG, _randomB, _randomA];
+
+private _emissivePreview = _display displayCtrl SQFLAB_IDC_EMISSIVE_COLOR_PREVIEW;
+private _emR = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_EMISSIVE_R);
+private _emG = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_EMISSIVE_G);
+private _emB = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_EMISSIVE_B);
+private _emA = sliderPosition (_display displayCtrl SQFLAB_IDC_SLIDER_EMISSIVE_A);
+_emissivePreview ctrlSetBackgroundColor [_emR, _emG, _emB, _emA];
+
+private _applyParticleColor = cbChecked (_display displayCtrl SQFLAB_IDC_CHK_APPLY_PARTICLE_COLOR);
+private _applyEmissive = cbChecked (_display displayCtrl SQFLAB_IDC_CHK_APPLY_EMISSIVE);
+private _applyRandomColor = cbChecked (_display displayCtrl SQFLAB_IDC_CHK_APPLY_RANDOM_COLOR);
+{
+	(_display displayCtrl (_x # 0)) ctrlEnable (_x # 1);
+} forEach [
+	[SQFLAB_IDC_COLOR_PREVIEW, _applyParticleColor],
+	[SQFLAB_IDC_SLIDER_COLOR_R, _applyParticleColor],
+	[SQFLAB_IDC_SLIDER_COLOR_G, _applyParticleColor],
+	[SQFLAB_IDC_SLIDER_COLOR_B, _applyParticleColor],
+	[SQFLAB_IDC_SLIDER_COLOR_A, _applyParticleColor],
+	[SQFLAB_IDC_VALUE_COLOR_R, _applyParticleColor],
+	[SQFLAB_IDC_VALUE_COLOR_G, _applyParticleColor],
+	[SQFLAB_IDC_VALUE_COLOR_B, _applyParticleColor],
+	[SQFLAB_IDC_VALUE_COLOR_A, _applyParticleColor],
+	[SQFLAB_IDC_EDIT_COLOR_STAGES, _applyParticleColor],
+	[SQFLAB_IDC_EMISSIVE_COLOR_PREVIEW, _applyEmissive],
+	[SQFLAB_IDC_SLIDER_EMISSIVE_R, _applyEmissive],
+	[SQFLAB_IDC_SLIDER_EMISSIVE_G, _applyEmissive],
+	[SQFLAB_IDC_SLIDER_EMISSIVE_B, _applyEmissive],
+	[SQFLAB_IDC_SLIDER_EMISSIVE_A, _applyEmissive],
+	[SQFLAB_IDC_VALUE_EMISSIVE_R, _applyEmissive],
+	[SQFLAB_IDC_VALUE_EMISSIVE_G, _applyEmissive],
+	[SQFLAB_IDC_VALUE_EMISSIVE_B, _applyEmissive],
+	[SQFLAB_IDC_VALUE_EMISSIVE_A, _applyEmissive],
+	[SQFLAB_IDC_RANDOM_COLOR_PREVIEW, _applyRandomColor],
+	[SQFLAB_IDC_SLIDER_RANDOM_COLOR_R, _applyRandomColor],
+	[SQFLAB_IDC_SLIDER_RANDOM_COLOR_G, _applyRandomColor],
+	[SQFLAB_IDC_SLIDER_RANDOM_COLOR_B, _applyRandomColor],
+	[SQFLAB_IDC_SLIDER_RANDOM_COLOR_A, _applyRandomColor],
+	[SQFLAB_IDC_VALUE_RANDOM_COLOR_R, _applyRandomColor],
+	[SQFLAB_IDC_VALUE_RANDOM_COLOR_G, _applyRandomColor],
+	[SQFLAB_IDC_VALUE_RANDOM_COLOR_B, _applyRandomColor],
+	[SQFLAB_IDC_VALUE_RANDOM_COLOR_A, _applyRandomColor]
+];
 
 private _source = uiNamespace getVariable ["SQFLab_particles_previewSource", objNull];
 private _anchor = uiNamespace getVariable ["SQFLab_particles_previewAnchor", objNull];
@@ -108,6 +155,14 @@ if (!isNull _anchor && !isNull _source) then {
 	if (([_colorStagesText] call SQFLab_fnc_trimSpaces) != "[]" && {_colorStagesText != ""}) then {
 		_colorStages = [_colorStagesText, _defaultColors] call SQFLab_fnc_parseArrayOrFallback;
 	};
+	private _emRval = (_baseRGB # 0) * _emR;
+	private _emGval = (_baseRGB # 1) * _emG;
+	private _emBval = (_baseRGB # 2) * _emB;
+	private _emissiveStages = [
+		[_emRval, _emGval, _emBval, _emA],
+		[_emRval, _emGval, _emBval, _emA * 0.6],
+		[_emRval, _emGval, _emBval, 0]
+	];
 	private _animationSpeed = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_ANIM_SPEED), [0.08]] call SQFLab_fnc_parseArrayOrFallback;
 	private _randomDirectionPeriod = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_DIR_PERIOD), 0.1] call SQFLab_fnc_parseNumberOrFallback;
 	private _randomDirectionIntensity = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_DIR_INTENSITY), 0.05] call SQFLab_fnc_parseNumberOrFallback;
@@ -122,6 +177,7 @@ if (!isNull _anchor && !isNull _source) then {
 	private _randomRotVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_ROTATION_VELOCITY_VAR), _rotVel * 0.1] call SQFLab_fnc_parseNumberOrFallback;
 	private _randomSizeVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_SIZE_VAR), 0.05] call SQFLab_fnc_parseNumberOrFallback;
 	private _randomColorVar = [_randomR, _randomG, _randomB, _randomA];
+	private _randomColorForCmd = if (_applyRandomColor) then { _randomColorVar } else { [0, 0, 0, 0] };
 	private _randomDirPeriodVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_DIR_PERIOD_VAR), 0.05] call SQFLab_fnc_parseNumberOrFallback;
 	private _randomDirIntensityVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_DIR_INTENSITY_VAR), 0] call SQFLab_fnc_parseNumberOrFallback;
 	private _randomAngleVar = [ctrlText (_display displayCtrl SQFLAB_IDC_EDIT_RANDOM_ANGLE_VAR), 0] call SQFLab_fnc_parseNumberOrFallback;
@@ -133,13 +189,15 @@ if (!isNull _anchor && !isNull _source) then {
 		_randomMoveVar,
 		_randomRotVar,
 		_randomSizeVar,
-		_randomColorVar,
+		_randomColorForCmd,
 		_randomDirPeriodVar,
 		_randomDirIntensityVar,
 		_randomAngleVar,
 		_randomBounceVar
 	];
 
+	private _colorForParams = if (_applyParticleColor) then { _colorStages } else { [[1, 1, 1, 1]] };
+	private _emissiveForParams = if (_applyEmissive) then { _emissiveStages } else { [[0, 0, 0, 0]] };
 	private _params = [
 		[_shape, _fsNtieth, _fsIndex, _fsFrameCount, _fsLoop],
 		_animName,
@@ -153,13 +211,17 @@ if (!isNull _anchor && !isNull _source) then {
 		_volume,
 		_rubbing,
 		_sizeOverLife,
-		_colorStages,
+		_colorForParams,
 		_animationSpeed,
 		_randomDirectionPeriod,
 		_randomDirectionIntensity,
 		"",
 		"",
-		_anchor
+		_anchor,
+		0,
+		false,
+		0,
+		_emissiveForParams
 	];
 
 	_source setParticleParams _params;

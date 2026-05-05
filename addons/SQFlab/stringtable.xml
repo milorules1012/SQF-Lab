@@ -668,6 +668,74 @@
 				<Slovak>Farby častíc</Slovak>
 				<Latin>Colores particularum</Latin>
 			</Key>
+			<Key ID="STR_SQFLAB_Particles_EmissiveTitle">
+				<Original>Emissive color</Original>
+				<English>Emissive color</English>
+				<Chinesesimp>自发光颜色</Chinesesimp>
+				<Chinese>自發光顏色</Chinese>
+				<Czech>Emisivní barva</Czech>
+				<French>Couleur émissive</French>
+				<German>Emissive Farbe</German>
+				<Italian>Colore emissivo</Italian>
+				<Japanese>エミッシブ色</Japanese>
+				<Korean>발광 색</Korean>
+				<Polish>Kolor emisyjny</Polish>
+				<Portuguese>Cor emissiva</Portuguese>
+				<Russian>Эмиссивный цвет</Russian>
+				<Spanish>Color emisivo</Spanish>
+				<Turkish>Emisif renk</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_ApplyColorChk_Tooltip">
+				<Original>When checked, applies color[] via setParticleParams. When unchecked, uses [[1,1,1,1]] (neutral tint; commands reject nil).</Original>
+				<English>When checked, applies color[] via setParticleParams. When unchecked, uses [[1,1,1,1]] (neutral tint; commands reject nil).</English>
+				<Chinesesimp>勾选时通过 setParticleParams 应用 color[]。未勾选时使用 [[1,1,1,1]]（中性色调；命令不接受 nil）。</Chinesesimp>
+				<Chinese>勾選時透過 setParticleParams 套用 color[]。未勾選時使用 [[1,1,1,1]]（中性色調；命令不接受 nil）。</Chinese>
+				<Czech>Zaškrtnuto: aplikuje color[] přes setParticleParams. Nezaškrtnuto: použije [[1,1,1,1]] (neutrální tónování; příkazy nepřijímají nil).</Czech>
+				<French>Coché : applique color[] via setParticleParams. Décoché : utilise [[1,1,1,1]] (teinte neutre ; nil refusé par les commandes).</French>
+				<German>Aktiviert: wendet color[] per setParticleParams an. Deaktiviert: nutzt [[1,1,1,1]] (neutrales Toning; Befehle akzeptieren kein nil).</German>
+				<Italian>Selezionato: applica color[] con setParticleParams. Deselezionato: usa [[1,1,1,1]] (tinta neutra; i comandi rifiutano nil).</Italian>
+				<Japanese>オン: setParticleParams で color[] を適用。オフ: [[1,1,1,1]]（ニュートラルな色調；コマンドは nil を受け付けません）。</Japanese>
+				<Korean>체크 시 setParticleParams로 color[] 적용. 해제 시 [[1,1,1,1]] 사용(중성 톤; 명령은 nil 불가).</Korean>
+				<Polish>Zaznaczone: stosuje color[] przez setParticleParams. Odznaczone: używa [[1,1,1,1]] (neutralna barwa; polecenia odrzucają nil).</Polish>
+				<Portuguese>Marcado: aplica color[] via setParticleParams. Desmarcado: usa [[1,1,1,1]] (tom neutro; comandos rejeitam nil).</Portuguese>
+				<Russian>Если включено: применяет color[] через setParticleParams. Если выключено: [[1,1,1,1]] (нейтральный оттенок; nil команды не принимают).</Russian>
+				<Spanish>Marcado: aplica color[] con setParticleParams. Sin marcar: usa [[1,1,1,1]] (tinte neutro; los comandos rechazan nil).</Spanish>
+				<Turkish>İşaretli: setParticleParams ile color[] uygular. İşaretsiz: [[1,1,1,1]] kullanır (nötr ton; komutlar nil kabul etmez).</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_ApplyEmissiveChk_Tooltip">
+				<Original>When checked, applies emissiveColor via setParticleParams. When unchecked, uses [[0,0,0,0]] (no emissive; BIS ParticleArray example).</Original>
+				<English>When checked, applies emissiveColor via setParticleParams. When unchecked, uses [[0,0,0,0]] (no emissive; BIS ParticleArray example).</English>
+				<Chinesesimp>勾选时通过 setParticleParams 应用 emissiveColor。未勾选时使用 [[0,0,0,0]]（无自发光；BIS ParticleArray 示例）。</Chinesesimp>
+				<Chinese>勾選時透過 setParticleParams 套用 emissiveColor。未勾選時使用 [[0,0,0,0]]（無自發光；BIS ParticleArray 範例）。</Chinese>
+				<Czech>Zaškrtnuto: aplikuje emissiveColor přes setParticleParams. Nezaškrtnuto: [[0,0,0,0]] (bez emise; příklad BIS ParticleArray).</Czech>
+				<French>Coché : applique emissiveColor via setParticleParams. Décoché : [[0,0,0,0]] (aucun émissif ; exemple BIS ParticleArray).</French>
+				<German>Aktiviert: wendet emissiveColor per setParticleParams an. Deaktiviert: [[0,0,0,0]] (kein Emissive; BIS-ParticleArray-Beispiel).</German>
+				<Italian>Selezionato: applica emissiveColor con setParticleParams. Deselezionato: [[0,0,0,0]] (nessuna emissione; esempio BIS ParticleArray).</Italian>
+				<Japanese>オン: setParticleParams で emissiveColor を適用。オフ: [[0,0,0,0]]（エミッシブなし；BIS ParticleArray の例）。</Japanese>
+				<Korean>체크 시 setParticleParams로 emissiveColor 적용. 해제 시 [[0,0,0,0]](발광 없음; BIS ParticleArray 예).</Korean>
+				<Polish>Zaznaczone: stosuje emissiveColor przez setParticleParams. Odznaczone: [[0,0,0,0]] (bez emisji; przykład BIS ParticleArray).</Polish>
+				<Portuguese>Marcado: aplica emissiveColor via setParticleParams. Desmarcado: [[0,0,0,0]] (sem emissivo; exemplo BIS ParticleArray).</Portuguese>
+				<Russian>Включено: emissiveColor через setParticleParams. Выключено: [[0,0,0,0]] (без эмиссии; пример BIS ParticleArray).</Russian>
+				<Spanish>Marcado: aplica emissiveColor con setParticleParams. Sin marcar: [[0,0,0,0]] (sin emisivo; ejemplo BIS ParticleArray).</Spanish>
+				<Turkish>İşaretli: setParticleParams ile emissiveColor uygular. İşaretsiz: [[0,0,0,0]] (emisif yok; BIS ParticleArray örneği).</Turkish>
+			</Key>
+			<Key ID="STR_SQFLAB_Particles_ApplyRandomColorChk_Tooltip">
+				<Original>When checked, applies color variance (6th arg) via setParticleRandom. When unchecked, uses [0,0,0,0] (no variance; BIS example).</Original>
+				<English>When checked, applies color variance (6th arg) via setParticleRandom. When unchecked, uses [0,0,0,0] (no variance; BIS example).</English>
+				<Chinesesimp>勾选时通过 setParticleRandom 应用第 6 参数颜色随机。未勾选时使用 [0,0,0,0]（无随机；BIS 示例）。</Chinesesimp>
+				<Chinese>勾選時透過 setParticleRandom 套用第 6 參數顏色隨機。未勾選時使用 [0,0,0,0]（無隨機；BIS 範例）。</Chinese>
+				<Czech>Zaškrtnuto: aplikuje rozptyl barvy (6. argument) přes setParticleRandom. Nezaškrtnuto: [0,0,0,0] (bez variance; příklad BIS).</Czech>
+				<French>Coché : variance de couleur (6e arg.) via setParticleRandom. Décoché : [0,0,0,0] (pas de variance ; exemple BIS).</French>
+				<German>Aktiviert: Farbvarianz (6. Argument) per setParticleRandom. Deaktiviert: [0,0,0,0] (keine Varianz; BIS-Beispiel).</German>
+				<Italian>Selezionato: varianza colore (6° argomento) con setParticleRandom. Deselezionato: [0,0,0,0] (nessuna varianza; esempio BIS).</Italian>
+				<Japanese>オン: setParticleRandom の第 6 引数で色のばらつきを適用。オフ: [0,0,0,0]（ばらつきなし；BIS の例）。</Japanese>
+				<Korean>체크 시 setParticleRandom 6번째 인수로 색 분산 적용. 해제 시 [0,0,0,0](분산 없음; BIS 예).</Korean>
+				<Polish>Zaznaczone: wariancja koloru (6. argument) przez setParticleRandom. Odznaczone: [0,0,0,0] (brak wariancji; przykład BIS).</Polish>
+				<Portuguese>Marcado: variância de cor (6.º arg.) via setParticleRandom. Desmarcado: [0,0,0,0] (sem variância; exemplo BIS).</Portuguese>
+				<Russian>Включено: разброс цвета (6-й аргумент) через setParticleRandom. Выключено: [0,0,0,0] (без разброса; пример BIS).</Russian>
+				<Spanish>Marcado: varianza de color (6.º arg.) con setParticleRandom. Sin marcar: [0,0,0,0] (sin varianza; ejemplo BIS).</Spanish>
+				<Turkish>İşaretli: setParticleRandom ile renk sapması (6. argüman). İşaretsiz: [0,0,0,0] (sapma yok; BIS örneği).</Turkish>
+			</Key>
 			<Key ID="STR_SQFLAB_Particles_Size">
 				<Original>Particle size</Original>
 				<English>Particle size</English>
