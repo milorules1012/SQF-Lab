@@ -13,10 +13,17 @@ if !(isPlayer player) exitWith {
 	systemChat (localize "STR_SQFLAB_Err_FeatureRequiresPlayer");
 };
 
+private _buildType = productVersion param [4, "", [""]];
+if (_buildType == "Development") exitWith {
+	diag_log format ["[SQFLab] DrawIcon3D editor blocked for buildType '%1' (requires Development)", _buildType];
+	systemChat "SQF Lab DrawIcon3D editor is temporarily only available on Development build.";
+};
+
 private _idd = getNumber (_cfg >> "idd");
 private _display = findDisplay _idd;
 if (!isNull _display) exitWith {
 	_display closeDisplay 2;
 };
 
+player switchCamera "EXTERNAL";
 createDialog "SQFLab_DrawIcon3DMenu";
