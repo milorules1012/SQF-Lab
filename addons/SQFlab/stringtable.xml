@@ -18,6 +18,11 @@
 				<Russian>Просмотр</Russian>
 				<Spanish>Vista previa</Spanish>
 				<Turkish>Önizleme</Turkish>
+				<Bulgarian>Преглед</Bulgarian>
+				<Hungarian>Előnézet</Hungarian>
+				<Ukrainian>Перегляд</Ukrainian>
+				<Slovak>Náhľad</Slovak>
+				<Latin>Praevisio</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Common_Close">
 				<Original>Close</Original>
@@ -35,6 +40,11 @@
 				<Russian>Закрыть</Russian>
 				<Spanish>Cerrar</Spanish>
 				<Turkish>Kapat</Turkish>
+				<Bulgarian>Затвори</Bulgarian>
+				<Hungarian>Bezárás</Hungarian>
+				<Ukrainian>Закрити</Ukrainian>
+				<Slovak>Zavrieť</Slovak>
+				<Latin>Claudere</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Common_Export">
 				<Original>Export</Original>
@@ -52,6 +62,11 @@
 				<Russian>Экспорт</Russian>
 				<Spanish>Exportar</Spanish>
 				<Turkish>Dışa aktar</Turkish>
+				<Bulgarian>Експорт</Bulgarian>
+				<Hungarian>Exportálás</Hungarian>
+				<Ukrainian>Експорт</Ukrainian>
+				<Slovak>Exportovať</Slovak>
+				<Latin>Exportare</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Common_HideUI">
 				<Original>Hide UI</Original>
@@ -69,6 +84,11 @@
 				<Russian>Скрыть интерфейс</Russian>
 				<Spanish>Ocultar interfaz</Spanish>
 				<Turkish>Arayüzü gizle</Turkish>
+				<Bulgarian>Скрий интерфейса</Bulgarian>
+				<Hungarian>Felület elrejtése</Hungarian>
+				<Ukrainian>Приховати інтерфейс</Ukrainian>
+				<Slovak>Skryť rozhranie</Slovak>
+				<Latin>Occultare interfaciem</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Common_ShowUI">
 				<Original>Show UI</Original>
@@ -86,6 +106,11 @@
 				<Russian>Показать интерфейс</Russian>
 				<Spanish>Mostrar interfaz</Spanish>
 				<Turkish>Arayüzü göster</Turkish>
+				<Bulgarian>Покажи интерфейса</Bulgarian>
+				<Hungarian>Felület megjelenítése</Hungarian>
+				<Ukrainian>Показати інтерфейс</Ukrainian>
+				<Slovak>Zobraziť rozhranie</Slovak>
+				<Latin>Monstrare interfaciem</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Common_ColorR">
 				<Original>Color R</Original>
@@ -103,6 +128,11 @@
 				<Russian>Цвет R</Russian>
 				<Spanish>Color R</Spanish>
 				<Turkish>Renk R</Turkish>
+				<Bulgarian>Цвят R</Bulgarian>
+				<Hungarian>Szín R</Hungarian>
+				<Ukrainian>Колір R</Ukrainian>
+				<Slovak>Farba R</Slovak>
+				<Latin>Color R</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Common_ColorG">
 				<Original>Color G</Original>
@@ -120,6 +150,11 @@
 				<Russian>Цвет G</Russian>
 				<Spanish>Color G</Spanish>
 				<Turkish>Renk G</Turkish>
+				<Bulgarian>Цвят G</Bulgarian>
+				<Hungarian>Szín G</Hungarian>
+				<Ukrainian>Колір G</Ukrainian>
+				<Slovak>Farba G</Slovak>
+				<Latin>Color G</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Common_ColorB">
 				<Original>Color B</Original>
@@ -137,6 +172,11 @@
 				<Russian>Цвет B</Russian>
 				<Spanish>Color B</Spanish>
 				<Turkish>Renk B</Turkish>
+				<Bulgarian>Цвят B</Bulgarian>
+				<Hungarian>Szín B</Hungarian>
+				<Ukrainian>Колір B</Ukrainian>
+				<Slovak>Farba B</Slovak>
+				<Latin>Color B</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Common_ColorA">
 				<Original>Color A</Original>
@@ -154,6 +194,11 @@
 				<Russian>Цвет A</Russian>
 				<Spanish>Color A</Spanish>
 				<Turkish>Renk A</Turkish>
+				<Bulgarian>Цвят A</Bulgarian>
+				<Hungarian>Szín A</Hungarian>
+				<Ukrainian>Колір A</Ukrainian>
+				<Slovak>Farba A</Slovak>
+				<Latin>Color A</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Common_ColorPreview">
 				<Original>Color preview</Original>
@@ -171,6 +216,11 @@
 				<Russian>Предпросмотр цвета</Russian>
 				<Spanish>Vista previa del color</Spanish>
 				<Turkish>Renk önizlemesi</Turkish>
+				<Bulgarian>Предварителен преглед на цвета</Bulgarian>
+				<Hungarian>Szín előnézet</Hungarian>
+				<Ukrainian>Перегляд кольору</Ukrainian>
+				<Slovak>Ukážka farby</Slovak>
+				<Latin>Praevisio coloris</Latin>
 			</Key>
 		</Container>
 		<Container name="Keybinds">
@@ -190,6 +240,11 @@
 				<Russian>SQF Lab</Russian>
 				<Spanish>SQF Lab</Spanish>
 				<Turkish>SQF Lab</Turkish>
+				<Bulgarian>SQF Lab</Bulgarian>
+				<Hungarian>SQF Lab</Hungarian>
+				<Ukrainian>SQF Lab</Ukrainian>
+				<Slovak>SQF Lab</Slovak>
+				<Latin>SQF Lab</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Keybind_MainMenu">
 				<Original>Open Main Menu</Original>
@@ -207,6 +262,11 @@
 				<Russian>Открыть главное меню</Russian>
 				<Spanish>Abrir menú principal</Spanish>
 				<Turkish>Ana menüyü aç</Turkish>
+				<Bulgarian>Отвори главното меню</Bulgarian>
+				<Hungarian>Főmenü megnyitása</Hungarian>
+				<Ukrainian>Відкрити головне меню</Ukrainian>
+				<Slovak>Otvoriť hlavné menu</Slovak>
+				<Latin>Aperire menu principale</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Keybind_MainMenu_Tooltip">
 				<Original>Open or close the SQF Lab main menu</Original>
@@ -224,6 +284,11 @@
 				<Russian>Открыть или закрыть главное меню SQF Lab</Russian>
 				<Spanish>Abrir o cerrar el menú principal de SQF Lab</Spanish>
 				<Turkish>SQF Lab ana menüsünü aç veya kapat</Turkish>
+				<Bulgarian>Отвори или затвори главното меню на SQF Lab</Bulgarian>
+				<Hungarian>SQF Lab főmenü megnyitása vagy bezárása</Hungarian>
+				<Ukrainian>Відкрити або закрити головне меню SQF Lab</Ukrainian>
+				<Slovak>Otvoriť alebo zavrieť hlavné menu SQF Lab</Slovak>
+				<Latin>Aperire aut claudere menu principale SQF Lab</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Keybind_Lights">
 				<Original>Open Light Sources Editor</Original>
@@ -241,6 +306,11 @@
 				<Russian>Открыть редактор источников света</Russian>
 				<Spanish>Abrir editor de fuentes de luz</Spanish>
 				<Turkish>Işık kaynakları düzenleyicisini aç</Turkish>
+				<Bulgarian>Отвори редактора на източници на светлина</Bulgarian>
+				<Hungarian>Fényforrás-szerkesztő megnyitása</Hungarian>
+				<Ukrainian>Відкрити редактор джерел світла</Ukrainian>
+				<Slovak>Otvoriť editor zdrojov svetla</Slovak>
+				<Latin>Aperire editorem fontium luminis</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Keybind_Lights_Tooltip">
 				<Original>Open or close the SQF Lab light sources editor</Original>
@@ -258,6 +328,11 @@
 				<Russian>Открыть или закрыть редактор света SQF Lab</Russian>
 				<Spanish>Abrir o cerrar el editor de luces de SQF Lab</Spanish>
 				<Turkish>SQF Lab ışık düzenleyicisini aç veya kapat</Turkish>
+				<Bulgarian>Отвори или затвори редактора на светлина на SQF Lab</Bulgarian>
+				<Hungarian>SQF Lab fényszerkesztő megnyitása vagy bezárása</Hungarian>
+				<Ukrainian>Відкрити або закрити редактор світла SQF Lab</Ukrainian>
+				<Slovak>Otvoriť alebo zavrieť editor svetla SQF Lab</Slovak>
+				<Latin>Aperire aut claudere editorem luminis SQF Lab</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Keybind_Markers">
 				<Original>Open Markers Editor</Original>
@@ -275,6 +350,11 @@
 				<Russian>Открыть редактор маркеров</Russian>
 				<Spanish>Abrir editor de marcadores</Spanish>
 				<Turkish>İşaretçi düzenleyicisini aç</Turkish>
+				<Bulgarian>Отвори редактора на маркери</Bulgarian>
+				<Hungarian>Jelölő-szerkesztő megnyitása</Hungarian>
+				<Ukrainian>Відкрити редактор маркерів</Ukrainian>
+				<Slovak>Otvoriť editor značiek</Slovak>
+				<Latin>Aperire editorem notarum</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Keybind_Markers_Tooltip">
 				<Original>Open or close the SQF Lab markers editor</Original>
@@ -292,6 +372,11 @@
 				<Russian>Открыть или закрыть редактор маркеров SQF Lab</Russian>
 				<Spanish>Abrir o cerrar el editor de marcadores de SQF Lab</Spanish>
 				<Turkish>SQF Lab işaretçi düzenleyicisini aç veya kapat</Turkish>
+				<Bulgarian>Отвори или затвори редактора на маркери на SQF Lab</Bulgarian>
+				<Hungarian>SQF Lab jelölő-szerkesztő megnyitása vagy bezárása</Hungarian>
+				<Ukrainian>Відкрити або закрити редактор маркерів SQF Lab</Ukrainian>
+				<Slovak>Otvoriť alebo zavrieť editor značiek SQF Lab</Slovak>
+				<Latin>Aperire aut claudere editorem notarum SQF Lab</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Keybind_Particles">
 				<Original>Open Particles Editor</Original>
@@ -309,6 +394,11 @@
 				<Russian>Открыть редактор частиц</Russian>
 				<Spanish>Abrir editor de partículas</Spanish>
 				<Turkish>Parçacık düzenleyicisini aç</Turkish>
+				<Bulgarian>Отвори редактора на частици</Bulgarian>
+				<Hungarian>Részecske-szerkesztő megnyitása</Hungarian>
+				<Ukrainian>Відкрити редактор частинок</Ukrainian>
+				<Slovak>Otvoriť editor častíc</Slovak>
+				<Latin>Aperire editorem particularum</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Keybind_Particles_Tooltip">
 				<Original>Open or close the SQF Lab particles editor</Original>
@@ -326,6 +416,11 @@
 				<Russian>Открыть или закрыть редактор частиц SQF Lab</Russian>
 				<Spanish>Abrir o cerrar el editor de partículas de SQF Lab</Spanish>
 				<Turkish>SQF Lab parçacık düzenleyicisini aç veya kapat</Turkish>
+				<Bulgarian>Отвори или затвори редактора на частици на SQF Lab</Bulgarian>
+				<Hungarian>SQF Lab részecske-szerkesztő megnyitása vagy bezárása</Hungarian>
+				<Ukrainian>Відкрити або закрити редактор частинок SQF Lab</Ukrainian>
+				<Slovak>Otvoriť alebo zavrieť editor častíc SQF Lab</Slovak>
+				<Latin>Aperire aut claudere editorem particularum SQF Lab</Latin>
 			</Key>
 		</Container>
 		<Container name="MainMenu">
@@ -345,6 +440,11 @@
 				<Russian>SQF Lab</Russian>
 				<Spanish>SQF Lab</Spanish>
 				<Turkish>SQF Lab</Turkish>
+				<Bulgarian>SQF Lab</Bulgarian>
+				<Hungarian>SQF Lab</Hungarian>
+				<Ukrainian>SQF Lab</Ukrainian>
+				<Slovak>SQF Lab</Slovak>
+				<Latin>SQF Lab</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Main_LightSources">
 				<Original>Light sources</Original>
@@ -362,6 +462,11 @@
 				<Russian>Источники света</Russian>
 				<Spanish>Fuentes de luz</Spanish>
 				<Turkish>Işık kaynakları</Turkish>
+				<Bulgarian>Източници на светлина</Bulgarian>
+				<Hungarian>Fényforrások</Hungarian>
+				<Ukrainian>Джерела світла</Ukrainian>
+				<Slovak>Zdroje svetla</Slovak>
+				<Latin>Fontes luminis</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Main_Markers">
 				<Original>Markers</Original>
@@ -379,6 +484,11 @@
 				<Russian>Маркеры</Russian>
 				<Spanish>Marcadores</Spanish>
 				<Turkish>İşaretçiler</Turkish>
+				<Bulgarian>Маркери</Bulgarian>
+				<Hungarian>Jelölők</Hungarian>
+				<Ukrainian>Маркери</Ukrainian>
+				<Slovak>Značky</Slovak>
+				<Latin>Notae</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Main_Particles">
 				<Original>Particles</Original>
@@ -396,6 +506,11 @@
 				<Russian>Частицы</Russian>
 				<Spanish>Partículas</Spanish>
 				<Turkish>Parçacıklar</Turkish>
+				<Bulgarian>Частици</Bulgarian>
+				<Hungarian>Részecskék</Hungarian>
+				<Ukrainian>Частинки</Ukrainian>
+				<Slovak>Častice</Slovak>
+				<Latin>Particulae</Latin>
 			</Key>
 		</Container>
 		<Container name="Particles">
@@ -415,6 +530,11 @@
 				<Russian>Частицы</Russian>
 				<Spanish>Partículas</Spanish>
 				<Turkish>Parçacıklar</Turkish>
+				<Bulgarian>Частици</Bulgarian>
+				<Hungarian>Részecskék</Hungarian>
+				<Ukrainian>Частинки</Ukrainian>
+				<Slovak>Častice</Slovak>
+				<Latin>Particulae</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_Fire">
 				<Original>Fire</Original>
@@ -432,6 +552,11 @@
 				<Russian>Огонь</Russian>
 				<Spanish>Fuego</Spanish>
 				<Turkish>Ateş</Turkish>
+				<Bulgarian>Огън</Bulgarian>
+				<Hungarian>Tűz</Hungarian>
+				<Ukrainian>Вогонь</Ukrainian>
+				<Slovak>Oheň</Slovak>
+				<Latin>Ignis</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_Smoke">
 				<Original>Smoke</Original>
@@ -449,6 +574,11 @@
 				<Russian>Дым</Russian>
 				<Spanish>Humo</Spanish>
 				<Turkish>Duman</Turkish>
+				<Bulgarian>Дим</Bulgarian>
+				<Hungarian>Füst</Hungarian>
+				<Ukrainian>Дим</Ukrainian>
+				<Slovak>Dym</Slovak>
+				<Latin>Fumus</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_Drop">
 				<Original>Drop</Original>
@@ -466,6 +596,11 @@
 				<Russian>Капля</Russian>
 				<Spanish>Gota</Spanish>
 				<Turkish>Damla</Turkish>
+				<Bulgarian>Капка</Bulgarian>
+				<Hungarian>Csepp</Hungarian>
+				<Ukrainian>Крапля</Ukrainian>
+				<Slovak>Kvapka</Slovak>
+				<Latin>Gutta</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_TypeTitle">
 				<Original>Particle type</Original>
@@ -483,6 +618,11 @@
 				<Russian>Тип частицы</Russian>
 				<Spanish>Tipo de partícula</Spanish>
 				<Turkish>Parçacık türü</Turkish>
+				<Bulgarian>Тип частици</Bulgarian>
+				<Hungarian>Részecske típus</Hungarian>
+				<Ukrainian>Тип частинки</Ukrainian>
+				<Slovak>Typ častice</Slovak>
+				<Latin>Genus particularum</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_ParamsTitle">
 				<Original>Particle params</Original>
@@ -500,6 +640,11 @@
 				<Russian>Параметры частиц</Russian>
 				<Spanish>Parámetros de partículas</Spanish>
 				<Turkish>Parçacık parametreleri</Turkish>
+				<Bulgarian>Параметри на частици</Bulgarian>
+				<Hungarian>Részecske-paraméterek</Hungarian>
+				<Ukrainian>Параметри частинок</Ukrainian>
+				<Slovak>Parametre častíc</Slovak>
+				<Latin>Parametra particularum</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_ColorsTitle">
 				<Original>Particle colors</Original>
@@ -517,6 +662,11 @@
 				<Russian>Цвета частиц</Russian>
 				<Spanish>Colores de partículas</Spanish>
 				<Turkish>Parçacık renkleri</Turkish>
+				<Bulgarian>Цветове на частици</Bulgarian>
+				<Hungarian>Részecske színek</Hungarian>
+				<Ukrainian>Кольори частинок</Ukrainian>
+				<Slovak>Farby častíc</Slovak>
+				<Latin>Colores particularum</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_EmissiveTitle">
 				<Original>Emissive color</Original>
@@ -602,6 +752,11 @@
 				<Russian>Размер частицы</Russian>
 				<Spanish>Tamaño de partícula</Spanish>
 				<Turkish>Parçacık boyutu</Turkish>
+				<Bulgarian>Размер на частица</Bulgarian>
+				<Hungarian>Részecske méret</Hungarian>
+				<Ukrainian>Розмір частинки</Ukrainian>
+				<Slovak>Veľkosť častice</Slovak>
+				<Latin>Magnitudo particularum</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_LifeTime">
 				<Original>Life time</Original>
@@ -619,6 +774,11 @@
 				<Russian>Время жизни</Russian>
 				<Spanish>Tiempo de vida</Spanish>
 				<Turkish>Ömür süresi</Turkish>
+				<Bulgarian>Продължителност на живот</Bulgarian>
+				<Hungarian>Élettartam</Hungarian>
+				<Ukrainian>Тривалість життя</Ukrainian>
+				<Slovak>Životnosť</Slovak>
+				<Latin>Tempus vitae</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_SpawnInterval">
 				<Original>Spawn interval</Original>
@@ -636,6 +796,11 @@
 				<Russian>Интервал появления</Russian>
 				<Spanish>Intervalo de aparición</Spanish>
 				<Turkish>Oluşum aralığı</Turkish>
+				<Bulgarian>Интервал на появяване</Bulgarian>
+				<Hungarian>Megjelenési időköz</Hungarian>
+				<Ukrainian>Інтервал появи</Ukrainian>
+				<Slovak>Interval vzniku</Slovak>
+				<Latin>Intervallum ortus</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_MoveVelocity">
 				<Original>Move velocity</Original>
@@ -653,6 +818,11 @@
 				<Russian>Скорость движения</Russian>
 				<Spanish>Velocidad de movimiento</Spanish>
 				<Turkish>Hareket hızı</Turkish>
+				<Bulgarian>Скорост на движение</Bulgarian>
+				<Hungarian>Mozgási sebesség</Hungarian>
+				<Ukrainian>Швидкість руху</Ukrainian>
+				<Slovak>Rýchlosť pohybu</Slovak>
+				<Latin>Velocitas motus</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_RotationVelocity">
 				<Original>Rotation velocity</Original>
@@ -670,6 +840,11 @@
 				<Russian>Скорость вращения</Russian>
 				<Spanish>Velocidad de rotación</Spanish>
 				<Turkish>Dönüş hızı</Turkish>
+				<Bulgarian>Скорост на въртене</Bulgarian>
+				<Hungarian>Forgási sebesség</Hungarian>
+				<Ukrainian>Швидкість обертання</Ukrainian>
+				<Slovak>Rýchlosť otáčania</Slovak>
+				<Latin>Velocitas rotationis</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_Weight">
 				<Original>Weight</Original>
@@ -687,6 +862,11 @@
 				<Russian>Вес</Russian>
 				<Spanish>Peso</Spanish>
 				<Turkish>Ağırlık</Turkish>
+				<Bulgarian>Тегло</Bulgarian>
+				<Hungarian>Súly</Hungarian>
+				<Ukrainian>Вага</Ukrainian>
+				<Slovak>Hmotnosť</Slovak>
+				<Latin>Pondus</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_Volume">
 				<Original>Volume</Original>
@@ -704,6 +884,11 @@
 				<Russian>Объём</Russian>
 				<Spanish>Volumen</Spanish>
 				<Turkish>Hacim</Turkish>
+				<Bulgarian>Обем</Bulgarian>
+				<Hungarian>Térfogat</Hungarian>
+				<Ukrainian>Об'єм</Ukrainian>
+				<Slovak>Objem</Slovak>
+				<Latin>Volumen</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_Rubbing">
 				<Original>Rubbing</Original>
@@ -721,6 +906,11 @@
 				<Russian>Трение</Russian>
 				<Spanish>Rozamiento</Spanish>
 				<Turkish>Sürtünme</Turkish>
+				<Bulgarian>Триене</Bulgarian>
+				<Hungarian>Súrlódás</Hungarian>
+				<Ukrainian>Тертя</Ukrainian>
+				<Slovak>Trenie</Slovak>
+				<Latin>Attritus</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_ParticleShape">
 				<Original>Particle shape</Original>
@@ -738,6 +928,11 @@
 				<Russian>Форма частицы</Russian>
 				<Spanish>Forma de partícula</Spanish>
 				<Turkish>Parçacık şekli</Turkish>
+				<Bulgarian>Форма на частица</Bulgarian>
+				<Hungarian>Részecske alak</Hungarian>
+				<Ukrainian>Форма частинки</Ukrainian>
+				<Slovak>Tvar častice</Slovak>
+				<Latin>Forma particularum</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_ParticleType">
 				<Original>Particle type</Original>
@@ -755,6 +950,11 @@
 				<Russian>Тип частицы</Russian>
 				<Spanish>Tipo de partícula</Spanish>
 				<Turkish>Parçacık türü</Turkish>
+				<Bulgarian>Тип частици</Bulgarian>
+				<Hungarian>Részecske típus</Hungarian>
+				<Ukrainian>Тип частинки</Ukrainian>
+				<Slovak>Typ častice</Slovak>
+				<Latin>Genus particularum</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_AnimationName">
 				<Original>Animation name</Original>
@@ -772,6 +972,11 @@
 				<Russian>Имя анимации</Russian>
 				<Spanish>Nombre de animación</Spanish>
 				<Turkish>Animasyon adı</Turkish>
+				<Bulgarian>Име на анимация</Bulgarian>
+				<Hungarian>Animáció neve</Hungarian>
+				<Ukrainian>Назва анімації</Ukrainian>
+				<Slovak>Názov animácie</Slovak>
+				<Latin>Nomen animationis</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_TimerPeriod">
 				<Original>Timer period</Original>
@@ -789,6 +994,11 @@
 				<Russian>Период таймера</Russian>
 				<Spanish>Período del temporizador</Spanish>
 				<Turkish>Zamanlayıcı periyodu</Turkish>
+				<Bulgarian>Период на таймера</Bulgarian>
+				<Hungarian>Időzítő periódusa</Hungarian>
+				<Ukrainian>Період таймера</Ukrainian>
+				<Slovak>Perióda časovača</Slovak>
+				<Latin>Periodus horologii</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_ParticleFSNtieth">
 				<Original>FS ntieth</Original>
@@ -806,6 +1016,11 @@
 				<Russian>FS n-часть</Russian>
 				<Spanish>FS n-ésimo</Spanish>
 				<Turkish>FS n'inci</Turkish>
+				<Bulgarian>FS n-та част</Bulgarian>
+				<Hungarian>FS n-edik</Hungarian>
+				<Ukrainian>FS n-та частина</Ukrainian>
+				<Slovak>FS n-tá časť</Slovak>
+				<Latin>FS pars n</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_ParticleFSIndex">
 				<Original>FS index</Original>
@@ -823,6 +1038,11 @@
 				<Russian>Индекс FS</Russian>
 				<Spanish>Índice FS</Spanish>
 				<Turkish>FS indeksi</Turkish>
+				<Bulgarian>FS индекс</Bulgarian>
+				<Hungarian>FS index</Hungarian>
+				<Ukrainian>Індекс FS</Ukrainian>
+				<Slovak>Index FS</Slovak>
+				<Latin>Index FS</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_ParticleFSFrameCount">
 				<Original>FS frame count</Original>
@@ -840,6 +1060,11 @@
 				<Russian>Количество кадров FS</Russian>
 				<Spanish>Cantidad de fotogramas FS</Spanish>
 				<Turkish>FS kare sayısı</Turkish>
+				<Bulgarian>FS брой кадри</Bulgarian>
+				<Hungarian>FS képkockák száma</Hungarian>
+				<Ukrainian>Кількість кадрів FS</Ukrainian>
+				<Slovak>Počet snímok FS</Slovak>
+				<Latin>Numerus imaginum FS</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_ParticleFSLoop">
 				<Original>FS loop</Original>
@@ -857,6 +1082,11 @@
 				<Russian>Цикл FS</Russian>
 				<Spanish>Bucle FS</Spanish>
 				<Turkish>FS döngüsü</Turkish>
+				<Bulgarian>FS цикъл</Bulgarian>
+				<Hungarian>FS ciklus</Hungarian>
+				<Ukrainian>Цикл FS</Ukrainian>
+				<Slovak>Smyčka FS</Slovak>
+				<Latin>Circulus FS</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_Pos3D">
 				<Original>Position 3D</Original>
@@ -874,6 +1104,11 @@
 				<Russian>Позиция 3D</Russian>
 				<Spanish>Posición 3D</Spanish>
 				<Turkish>3B konum</Turkish>
+				<Bulgarian>Позиция 3D</Bulgarian>
+				<Hungarian>3D pozíció</Hungarian>
+				<Ukrainian>Позиція 3D</Ukrainian>
+				<Slovak>Pozícia 3D</Slovak>
+				<Latin>Positio 3D</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_MoveVelocityVec">
 				<Original>Move velocity (vec)</Original>
@@ -891,6 +1126,11 @@
 				<Russian>Скорость движения (вектор)</Russian>
 				<Spanish>Velocidad de movimiento (vector)</Spanish>
 				<Turkish>Hareket hızı (vektör)</Turkish>
+				<Bulgarian>Скорост на движение (вектор)</Bulgarian>
+				<Hungarian>Mozgási sebesség (vektor)</Hungarian>
+				<Ukrainian>Швидкість руху (вектор)</Ukrainian>
+				<Slovak>Rýchlosť pohybu (vektor)</Slovak>
+				<Latin>Velocitas motus (vector)</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_SizeOverLifetime">
 				<Original>Size over lifetime</Original>
@@ -908,6 +1148,11 @@
 				<Russian>Размер в течение жизни</Russian>
 				<Spanish>Tamaño durante la vida</Spanish>
 				<Turkish>Ömür boyunca boyut</Turkish>
+				<Bulgarian>Размер през живота</Bulgarian>
+				<Hungarian>Méret az élettartam alatt</Hungarian>
+				<Ukrainian>Розмір протягом життя</Ukrainian>
+				<Slovak>Veľkosť počas života</Slovak>
+				<Latin>Magnitudo per vitam</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_ColorStages">
 				<Original>Color stages</Original>
@@ -925,6 +1170,11 @@
 				<Russian>Этапы цвета</Russian>
 				<Spanish>Etapas de color</Spanish>
 				<Turkish>Renk aşamaları</Turkish>
+				<Bulgarian>Етапи на цвета</Bulgarian>
+				<Hungarian>Színfokozatok</Hungarian>
+				<Ukrainian>Етапи кольору</Ukrainian>
+				<Slovak>Fázy farby</Slovak>
+				<Latin>Gradus coloris</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_AnimationSpeed">
 				<Original>Animation speed</Original>
@@ -942,6 +1192,11 @@
 				<Russian>Скорость анимации</Russian>
 				<Spanish>Velocidad de animación</Spanish>
 				<Turkish>Animasyon hızı</Turkish>
+				<Bulgarian>Скорост на анимация</Bulgarian>
+				<Hungarian>Animáció sebessége</Hungarian>
+				<Ukrainian>Швидкість анімації</Ukrainian>
+				<Slovak>Rýchlosť animácie</Slovak>
+				<Latin>Velocitas animationis</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_RandomDirectionPeriod">
 				<Original>Random dir period</Original>
@@ -959,6 +1214,11 @@
 				<Russian>Период случайного направления</Russian>
 				<Spanish>Período de dirección aleatoria</Spanish>
 				<Turkish>Rastgele yön periyodu</Turkish>
+				<Bulgarian>Период на случайна посока</Bulgarian>
+				<Hungarian>Véletlen irány periódusa</Hungarian>
+				<Ukrainian>Період випадкового напрямку</Ukrainian>
+				<Slovak>Perióda náhodného smeru</Slovak>
+				<Latin>Periodus directionis fortuitae</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_RandomDirectionIntensity">
 				<Original>Random dir intensity</Original>
@@ -976,6 +1236,11 @@
 				<Russian>Интенсивность случайного направления</Russian>
 				<Spanish>Intensidad de dirección aleatoria</Spanish>
 				<Turkish>Rastgele yön yoğunluğu</Turkish>
+				<Bulgarian>Интензивност на случайна посока</Bulgarian>
+				<Hungarian>Véletlen irány intenzitása</Hungarian>
+				<Ukrainian>Інтенсивність випадкового напрямку</Ukrainian>
+				<Slovak>Intenzita náhodného smeru</Slovak>
+				<Latin>Intensitas directionis fortuitae</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_CoreSliders">
 				<Original>Core sliders</Original>
@@ -993,6 +1258,11 @@
 				<Russian>Основные ползунки</Russian>
 				<Spanish>Deslizadores principales</Spanish>
 				<Turkish>Ana kaydırıcılar</Turkish>
+				<Bulgarian>Основни плъзгачи</Bulgarian>
+				<Hungarian>Alap csúszkák</Hungarian>
+				<Ukrainian>Основні повзунки</Ukrainian>
+				<Slovak>Hlavné posuvníky</Slovak>
+				<Latin>Reguli principales</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_OnTimerScript">
 				<Original>On timer script</Original>
@@ -1010,6 +1280,11 @@
 				<Russian>Скрипт по таймеру</Russian>
 				<Spanish>Script en temporizador</Spanish>
 				<Turkish>Zamanlayıcı komutu</Turkish>
+				<Bulgarian>Скрипт при таймер</Bulgarian>
+				<Hungarian>Időzítő parancsfájl</Hungarian>
+				<Ukrainian>Скрипт за таймером</Ukrainian>
+				<Slovak>Skript časovača</Slovak>
+				<Latin>Scriptum in horologio</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_BeforeDestroyScript">
 				<Original>Before destroy script</Original>
@@ -1027,6 +1302,11 @@
 				<Russian>Скрипт перед удалением</Russian>
 				<Spanish>Script antes de destruir</Spanish>
 				<Turkish>Yok etmeden önce komut</Turkish>
+				<Bulgarian>Скрипт преди унищожаване</Bulgarian>
+				<Hungarian>Parancsfájl megsemmisítés előtt</Hungarian>
+				<Ukrainian>Скрипт перед знищенням</Ukrainian>
+				<Slovak>Skript pred zničením</Slovak>
+				<Latin>Scriptum ante destructionem</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_CircleTitle">
 				<Original>Particle circle</Original>
@@ -1044,6 +1324,11 @@
 				<Russian>Круг частиц</Russian>
 				<Spanish>Círculo de partículas</Spanish>
 				<Turkish>Parçacık çemberi</Turkish>
+				<Bulgarian>Кръг от частици</Bulgarian>
+				<Hungarian>Részecske kör</Hungarian>
+				<Ukrainian>Коло частинок</Ukrainian>
+				<Slovak>Kruh častíc</Slovak>
+				<Latin>Circulus particularum</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_CircleRadius">
 				<Original>Circle radius</Original>
@@ -1061,6 +1346,11 @@
 				<Russian>Радиус круга</Russian>
 				<Spanish>Radio del círculo</Spanish>
 				<Turkish>Çember yarıçapı</Turkish>
+				<Bulgarian>Радиус на кръга</Bulgarian>
+				<Hungarian>Kör sugara</Hungarian>
+				<Ukrainian>Радіус кола</Ukrainian>
+				<Slovak>Polomer kruhu</Slovak>
+				<Latin>Radius circuli</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_CircleVelocity">
 				<Original>Circle velocity</Original>
@@ -1078,6 +1368,11 @@
 				<Russian>Скорость круга</Russian>
 				<Spanish>Velocidad del círculo</Spanish>
 				<Turkish>Çember hızı</Turkish>
+				<Bulgarian>Скорост на кръга</Bulgarian>
+				<Hungarian>Kör sebessége</Hungarian>
+				<Ukrainian>Швидкість кола</Ukrainian>
+				<Slovak>Rýchlosť kruhu</Slovak>
+				<Latin>Velocitas circuli</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_RandomTitle">
 				<Original>Particle random</Original>
@@ -1095,6 +1390,11 @@
 				<Russian>Случайность частиц</Russian>
 				<Spanish>Aleatoriedad de partículas</Spanish>
 				<Turkish>Parçacık rastgelelik</Turkish>
+				<Bulgarian>Случайност на частици</Bulgarian>
+				<Hungarian>Részecske véletlenszerűség</Hungarian>
+				<Ukrainian>Випадковість частинок</Ukrainian>
+				<Slovak>Náhodnosť častíc</Slovak>
+				<Latin>Aleatorietas particularum</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_RandomLifetimeVar">
 				<Original>Lifetime var</Original>
@@ -1112,6 +1412,11 @@
 				<Russian>Переменная времени жизни</Russian>
 				<Spanish>Variable de tiempo de vida</Spanish>
 				<Turkish>Ömür değişkeni</Turkish>
+				<Bulgarian>Променлива за продължителност</Bulgarian>
+				<Hungarian>Élettartam változó</Hungarian>
+				<Ukrainian>Змінна тривалості життя</Ukrainian>
+				<Slovak>Premenná životnosti</Slovak>
+				<Latin>Variabilis temporis vitae</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_RandomPositionVar">
 				<Original>Position var</Original>
@@ -1129,6 +1434,11 @@
 				<Russian>Переменная позиции</Russian>
 				<Spanish>Variable de posición</Spanish>
 				<Turkish>Konum değişkeni</Turkish>
+				<Bulgarian>Променлива за позиция</Bulgarian>
+				<Hungarian>Pozíció változó</Hungarian>
+				<Ukrainian>Змінна позиції</Ukrainian>
+				<Slovak>Premenná pozície</Slovak>
+				<Latin>Variabilis positionis</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_RandomMoveVelocityVar">
 				<Original>Move velocity var</Original>
@@ -1146,6 +1456,11 @@
 				<Russian>Переменная скорости движения</Russian>
 				<Spanish>Variable de velocidad de movimiento</Spanish>
 				<Turkish>Hareket hızı değişkeni</Turkish>
+				<Bulgarian>Променлива за скорост на движение</Bulgarian>
+				<Hungarian>Mozgási sebesség változó</Hungarian>
+				<Ukrainian>Змінна швидкості руху</Ukrainian>
+				<Slovak>Premenná rýchlosti pohybu</Slovak>
+				<Latin>Variabilis velocitatis motus</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_RandomRotationVelocityVar">
 				<Original>Rotation velocity var</Original>
@@ -1163,6 +1478,11 @@
 				<Russian>Переменная скорости вращения</Russian>
 				<Spanish>Variable de velocidad de rotación</Spanish>
 				<Turkish>Dönüş hızı değişkeni</Turkish>
+				<Bulgarian>Променлива за скорост на въртене</Bulgarian>
+				<Hungarian>Forgási sebesség változó</Hungarian>
+				<Ukrainian>Змінна швидкості обертання</Ukrainian>
+				<Slovak>Premenná rýchlosti otáčania</Slovak>
+				<Latin>Variabilis velocitatis rotationis</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_RandomSizeVar">
 				<Original>Size var</Original>
@@ -1180,6 +1500,11 @@
 				<Russian>Переменная размера</Russian>
 				<Spanish>Variable de tamaño</Spanish>
 				<Turkish>Boyut değişkeni</Turkish>
+				<Bulgarian>Променлива за размер</Bulgarian>
+				<Hungarian>Méret változó</Hungarian>
+				<Ukrainian>Змінна розміру</Ukrainian>
+				<Slovak>Premenná veľkosti</Slovak>
+				<Latin>Variabilis magnitudinis</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_RandomColorVar">
 				<Original>Random colors</Original>
@@ -1197,6 +1522,11 @@
 				<Russian>Случайные цвета</Russian>
 				<Spanish>Colores aleatorios</Spanish>
 				<Turkish>Rastgele renkler</Turkish>
+				<Bulgarian>Случайни цветове</Bulgarian>
+				<Hungarian>Véletlen színek</Hungarian>
+				<Ukrainian>Випадкові кольори</Ukrainian>
+				<Slovak>Náhodné farby</Slovak>
+				<Latin>Colores fortuiti</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_RandomDirPeriodVar">
 				<Original>Direction period var</Original>
@@ -1214,6 +1544,11 @@
 				<Russian>Переменная периода направления</Russian>
 				<Spanish>Variable de período de dirección</Spanish>
 				<Turkish>Yön periyodu değişkeni</Turkish>
+				<Bulgarian>Променлива за период на посока</Bulgarian>
+				<Hungarian>Irányperiódus változó</Hungarian>
+				<Ukrainian>Змінна періоду напрямку</Ukrainian>
+				<Slovak>Premenná periody smeru</Slovak>
+				<Latin>Variabilis periodi directionis</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_RandomDirIntensityVar">
 				<Original>Direction intensity var</Original>
@@ -1231,6 +1566,11 @@
 				<Russian>Переменная интенсивности направления</Russian>
 				<Spanish>Variable de intensidad de dirección</Spanish>
 				<Turkish>Yön yoğunluğu değişkeni</Turkish>
+				<Bulgarian>Променлива за интензивност на посока</Bulgarian>
+				<Hungarian>Irányintenzitás változó</Hungarian>
+				<Ukrainian>Змінна інтенсивності напрямку</Ukrainian>
+				<Slovak>Premenná intenzity smeru</Slovak>
+				<Latin>Variabilis intensitatis directionis</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_RandomAngleVar">
 				<Original>Angle var</Original>
@@ -1248,6 +1588,11 @@
 				<Russian>Переменная угла</Russian>
 				<Spanish>Variable de ángulo</Spanish>
 				<Turkish>Açı değişkeni</Turkish>
+				<Bulgarian>Променлива за ъгъл</Bulgarian>
+				<Hungarian>Szög változó</Hungarian>
+				<Ukrainian>Змінна кута</Ukrainian>
+				<Slovak>Premenná uhla</Slovak>
+				<Latin>Variabilis anguli</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_RandomBounceOnSurfaceVar">
 				<Original>Bounce var</Original>
@@ -1265,6 +1610,11 @@
 				<Russian>Переменная отскока</Russian>
 				<Spanish>Variable de rebote</Spanish>
 				<Turkish>Sekme değişkeni</Turkish>
+				<Bulgarian>Променлива за отскок</Bulgarian>
+				<Hungarian>Visszapattanás változó</Hungarian>
+				<Ukrainian>Змінна відскоку</Ukrainian>
+				<Slovak>Premenná odrazu</Slovak>
+				<Latin>Variabilis resilii</Latin>
 			</Key>
 		</Container>
 		<Container name="Lights">
@@ -1284,6 +1634,11 @@
 				<Russian>Источники света</Russian>
 				<Spanish>Fuentes de luz</Spanish>
 				<Turkish>Işık kaynakları</Turkish>
+				<Bulgarian>Източници на светлина</Bulgarian>
+				<Hungarian>Fényforrások</Hungarian>
+				<Ukrainian>Джерела світла</Ukrainian>
+				<Slovak>Zdroje svetla</Slovak>
+				<Latin>Fontes luminis</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_LightType">
 				<Original>Light type</Original>
@@ -1301,6 +1656,11 @@
 				<Russian>Тип света</Russian>
 				<Spanish>Tipo de luz</Spanish>
 				<Turkish>Işık türü</Turkish>
+				<Bulgarian>Тип светлина</Bulgarian>
+				<Hungarian>Fény típusa</Hungarian>
+				<Ukrainian>Тип світла</Ukrainian>
+				<Slovak>Typ svetla</Slovak>
+				<Latin>Genus luminis</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_Point">
 				<Original>Point</Original>
@@ -1318,6 +1678,11 @@
 				<Russian>Точка</Russian>
 				<Spanish>Punto</Spanish>
 				<Turkish>Nokta</Turkish>
+				<Bulgarian>Точка</Bulgarian>
+				<Hungarian>Pont</Hungarian>
+				<Ukrainian>Точка</Ukrainian>
+				<Slovak>Bod</Slovak>
+				<Latin>Punctum</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_Reflector">
 				<Original>Reflector</Original>
@@ -1335,6 +1700,11 @@
 				<Russian>Прожектор</Russian>
 				<Spanish>Reflector</Spanish>
 				<Turkish>Reflektör</Turkish>
+				<Bulgarian>Рефлектор</Bulgarian>
+				<Hungarian>Reflektor</Hungarian>
+				<Ukrainian>Прожектор</Ukrainian>
+				<Slovak>Reflektor</Slovak>
+				<Latin>Reflector</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_Transform">
 				<Original>Transform</Original>
@@ -1352,6 +1722,11 @@
 				<Russian>Преобразование</Russian>
 				<Spanish>Transformación</Spanish>
 				<Turkish>Dönüşüm</Turkish>
+				<Bulgarian>Трансформация</Bulgarian>
+				<Hungarian>Transzformáció</Hungarian>
+				<Ukrainian>Перетворення</Ukrainian>
+				<Slovak>Transformácia</Slovak>
+				<Latin>Transformatio</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_Transform_Tooltip">
 				<Original>ATL position; Dir/Up aim the reflector via setVectorDirAndUp.</Original>
@@ -1369,6 +1744,11 @@
 				<Russian>Позиция ATL; Dir/Up наводят прожектор через setVectorDirAndUp.</Russian>
 				<Spanish>Posición ATL; Dir/Up orientan el reflector con setVectorDirAndUp.</Spanish>
 				<Turkish>ATL konumu; Dir/Up reflektörü setVectorDirAndUp ile hizalar.</Turkish>
+				<Bulgarian>Позиция ATL; Dir/Up насочват рефлектора чрез setVectorDirAndUp.</Bulgarian>
+				<Hungarian>ATL pozíció; Dir/Up a reflektort setVectorDirAndUp-pal irányítja.</Hungarian>
+				<Ukrainian>Позиція ATL; Dir/Up наводять прожектор через setVectorDirAndUp.</Ukrainian>
+				<Slovak>Pozícia ATL; Dir/Up mieri reflektor cez setVectorDirAndUp.</Slovak>
+				<Latin>Positio ATL; Dir/Up reflectorem dirigunt per setVectorDirAndUp.</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_Position">
 				<Original>Position</Original>
@@ -1386,6 +1766,11 @@
 				<Russian>Позиция</Russian>
 				<Spanish>Posición</Spanish>
 				<Turkish>Konum</Turkish>
+				<Bulgarian>Позиция</Bulgarian>
+				<Hungarian>Pozíció</Hungarian>
+				<Ukrainian>Позиція</Ukrainian>
+				<Slovak>Pozícia</Slovak>
+				<Latin>Positio</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_Dir">
 				<Original>Dir</Original>
@@ -1403,6 +1788,11 @@
 				<Russian>Направление</Russian>
 				<Spanish>Dir</Spanish>
 				<Turkish>Yön</Turkish>
+				<Bulgarian>Посока</Bulgarian>
+				<Hungarian>Irány</Hungarian>
+				<Ukrainian>Напрямок</Ukrainian>
+				<Slovak>Smer</Slovak>
+				<Latin>Directio</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_Up">
 				<Original>Up</Original>
@@ -1420,6 +1810,11 @@
 				<Russian>Вверх</Russian>
 				<Spanish>Arriba</Spanish>
 				<Turkish>Yukarı</Turkish>
+				<Bulgarian>Нагоре</Bulgarian>
+				<Hungarian>Fel</Hungarian>
+				<Ukrainian>Вгору</Ukrainian>
+				<Slovak>Hore</Slovak>
+				<Latin>Sursum</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_Color">
 				<Original>Color</Original>
@@ -1437,6 +1832,11 @@
 				<Russian>Цвет</Russian>
 				<Spanish>Color</Spanish>
 				<Turkish>Renk</Turkish>
+				<Bulgarian>Цвят</Bulgarian>
+				<Hungarian>Szín</Hungarian>
+				<Ukrainian>Колір</Ukrainian>
+				<Slovak>Farba</Slovak>
+				<Latin>Color</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_LightColorPreview">
 				<Original>Light color preview</Original>
@@ -1454,6 +1854,11 @@
 				<Russian>Предпросмотр цвета света</Russian>
 				<Spanish>Vista previa del color de la luz</Spanish>
 				<Turkish>Işık rengi önizlemesi</Turkish>
+				<Bulgarian>Предварителен преглед на цвета на светлината</Bulgarian>
+				<Hungarian>Fényszín előnézet</Hungarian>
+				<Ukrainian>Перегляд кольору світла</Ukrainian>
+				<Slovak>Ukážka farby svetla</Slovak>
+				<Latin>Praevisio coloris luminis</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_LightR">
 				<Original>Light R</Original>
@@ -1471,6 +1876,11 @@
 				<Russian>Свет R</Russian>
 				<Spanish>Luz R</Spanish>
 				<Turkish>Işık R</Turkish>
+				<Bulgarian>Светлина R</Bulgarian>
+				<Hungarian>Fény R</Hungarian>
+				<Ukrainian>Світло R</Ukrainian>
+				<Slovak>Svetlo R</Slovak>
+				<Latin>Lux R</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_LightG">
 				<Original>Light G</Original>
@@ -1488,6 +1898,11 @@
 				<Russian>Свет G</Russian>
 				<Spanish>Luz G</Spanish>
 				<Turkish>Işık G</Turkish>
+				<Bulgarian>Светлина G</Bulgarian>
+				<Hungarian>Fény G</Hungarian>
+				<Ukrainian>Світло G</Ukrainian>
+				<Slovak>Svetlo G</Slovak>
+				<Latin>Lux G</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_LightB">
 				<Original>Light B</Original>
@@ -1505,6 +1920,11 @@
 				<Russian>Свет B</Russian>
 				<Spanish>Luz B</Spanish>
 				<Turkish>Işık B</Turkish>
+				<Bulgarian>Светлина B</Bulgarian>
+				<Hungarian>Fény B</Hungarian>
+				<Ukrainian>Світло B</Ukrainian>
+				<Slovak>Svetlo B</Slovak>
+				<Latin>Lux B</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_AmbientR">
 				<Original>Ambient R</Original>
@@ -1522,6 +1942,11 @@
 				<Russian>Окружение R</Russian>
 				<Spanish>Ambiente R</Spanish>
 				<Turkish>Ortam R</Turkish>
+				<Bulgarian>Околна светлина R</Bulgarian>
+				<Hungarian>Környezeti R</Hungarian>
+				<Ukrainian>Навколишнє R</Ukrainian>
+				<Slovak>Okolité R</Slovak>
+				<Latin>Ambiens R</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_AmbientG">
 				<Original>Ambient G</Original>
@@ -1539,6 +1964,11 @@
 				<Russian>Окружение G</Russian>
 				<Spanish>Ambiente G</Spanish>
 				<Turkish>Ortam G</Turkish>
+				<Bulgarian>Околна светлина G</Bulgarian>
+				<Hungarian>Környezeti G</Hungarian>
+				<Ukrainian>Навколишнє G</Ukrainian>
+				<Slovak>Okolité G</Slovak>
+				<Latin>Ambiens G</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_AmbientB">
 				<Original>Ambient B</Original>
@@ -1556,6 +1986,11 @@
 				<Russian>Окружение B</Russian>
 				<Spanish>Ambiente B</Spanish>
 				<Turkish>Ortam B</Turkish>
+				<Bulgarian>Околна светлина B</Bulgarian>
+				<Hungarian>Környezeti B</Hungarian>
+				<Ukrainian>Навколишнє B</Ukrainian>
+				<Slovak>Okolité B</Slovak>
+				<Latin>Ambiens B</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_Power">
 				<Original>Power</Original>
@@ -1573,6 +2008,11 @@
 				<Russian>Мощность</Russian>
 				<Spanish>Potencia</Spanish>
 				<Turkish>Güç</Turkish>
+				<Bulgarian>Мощност</Bulgarian>
+				<Hungarian>Erősség</Hungarian>
+				<Ukrainian>Потужність</Ukrainian>
+				<Slovak>Výkon</Slovak>
+				<Latin>Vis</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_Power_Tooltip">
 				<Original>Point: setLightBrightness. Reflector: setLightIntensity.</Original>
@@ -1590,6 +2030,11 @@
 				<Russian>Точка: setLightBrightness. Прожектор: setLightIntensity.</Russian>
 				<Spanish>Punto: setLightBrightness. Reflector: setLightIntensity.</Spanish>
 				<Turkish>Nokta: setLightBrightness. Reflektör: setLightIntensity.</Turkish>
+				<Bulgarian>Точка: setLightBrightness. Рефлектор: setLightIntensity.</Bulgarian>
+				<Hungarian>Pont: setLightBrightness. Reflektor: setLightIntensity.</Hungarian>
+				<Ukrainian>Точка: setLightBrightness. Прожектор: setLightIntensity.</Ukrainian>
+				<Slovak>Bod: setLightBrightness. Reflektor: setLightIntensity.</Slovak>
+				<Latin>Punctum: setLightBrightness. Reflector: setLightIntensity.</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_FlareTitle">
 				<Original>Flare (point)</Original>
@@ -1607,6 +2052,11 @@
 				<Russian>Блик (точка)</Russian>
 				<Spanish>Destello (punto)</Spanish>
 				<Turkish>Parlama (nokta)</Turkish>
+				<Bulgarian>Блясък (точка)</Bulgarian>
+				<Hungarian>Fénykitörés (pont)</Hungarian>
+				<Ukrainian>Блік (точка)</Ukrainian>
+				<Slovak>Lesk (bod)</Slovak>
+				<Latin>Flamma (punctum)</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_UseFlare">
 				<Original>Use flare</Original>
@@ -1624,6 +2074,11 @@
 				<Russian>Использовать блик</Russian>
 				<Spanish>Usar destello</Spanish>
 				<Turkish>Parlama kullan</Turkish>
+				<Bulgarian>Използвай блясък</Bulgarian>
+				<Hungarian>Fénykitörés használata</Hungarian>
+				<Ukrainian>Використовувати блік</Ukrainian>
+				<Slovak>Použiť lesk</Slovak>
+				<Latin>Ut flare</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_FlareSize">
 				<Original>Flare size (m)</Original>
@@ -1641,6 +2096,11 @@
 				<Russian>Размер блика (м)</Russian>
 				<Spanish>Tamaño del destello (m)</Spanish>
 				<Turkish>Parlama boyutu (m)</Turkish>
+				<Bulgarian>Размер на блясъка (м)</Bulgarian>
+				<Hungarian>Fénykitörés mérete (m)</Hungarian>
+				<Ukrainian>Розмір бліка (м)</Ukrainian>
+				<Slovak>Veľkosť lesku (m)</Slovak>
+				<Latin>Magnitudo flammae (m)</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_FlareMaxDist">
 				<Original>Flare max dist</Original>
@@ -1658,6 +2118,11 @@
 				<Russian>Макс. дистанция блика</Russian>
 				<Spanish>Dist. máx. destello</Spanish>
 				<Turkish>Maks. parlama mesafesi</Turkish>
+				<Bulgarian>Макс. разстояние на блясъка</Bulgarian>
+				<Hungarian>Max. fénykitörés távolság</Hungarian>
+				<Ukrainian>Макс. відстань бліка</Ukrainian>
+				<Slovak>Max. vzdialenosť lesku</Slovak>
+				<Latin>Max. distantia flammae</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_PreviewTime">
 				<Original>Preview time</Original>
@@ -1675,6 +2140,11 @@
 				<Russian>Время предпросмотра</Russian>
 				<Spanish>Hora de vista previa</Spanish>
 				<Turkish>Önizleme zamanı</Turkish>
+				<Bulgarian>Време за преглед</Bulgarian>
+				<Hungarian>Előnézet ideje</Hungarian>
+				<Ukrainian>Час перегляду</Ukrainian>
+				<Slovak>Čas náhľadu</Slovak>
+				<Latin>Tempus praevisionis</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_PreviewTime_Tooltip">
 				<Original>Sets mission date/time for the world (and PiP). Restored when you close this dialog.</Original>
@@ -1692,6 +2162,11 @@
 				<Russian>Задаёт дату/время миссии для мира (и PiP). Восстанавливается при закрытии.</Russian>
 				<Spanish>Establece fecha/hora de la misión para el mundo (y PiP). Se restaura al cerrar.</Spanish>
 				<Turkish>Görev dünyası tarih/saatini (ve PiP) ayarlar. Kapatınca geri yüklenir.</Turkish>
+				<Bulgarian>Задава дата/час на мисията за света (и PiP). Възстановява се при затваряне.</Bulgarian>
+				<Hungarian>Beállítja a küldetés világának dátumát/idejét (és PiP). Bezáráskor visszaáll.</Hungarian>
+				<Ukrainian>Встановлює дату/час місії для світу (і PiP). Відновлюється при закритті.</Ukrainian>
+				<Slovak>Nastaví dátum/čas misie pre svet (a PiP). Po zatvorení obnovené.</Slovak>
+				<Latin>Statuit diem/tempus missionis mundo (et PiP). Clauso restituitur.</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_Day">
 				<Original>Day</Original>
@@ -1709,6 +2184,11 @@
 				<Russian>День</Russian>
 				<Spanish>Día</Spanish>
 				<Turkish>Gündüz</Turkish>
+				<Bulgarian>Ден</Bulgarian>
+				<Hungarian>Nappal</Hungarian>
+				<Ukrainian>День</Ukrainian>
+				<Slovak>Deň</Slovak>
+				<Latin>Dies</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_Day_Tooltip">
 				<Original>setDate - Morning</Original>
@@ -1726,6 +2206,11 @@
 				<Russian>setDate - утро</Russian>
 				<Spanish>setDate - Mañana</Spanish>
 				<Turkish>setDate - Sabah</Turkish>
+				<Bulgarian>setDate - сутрин</Bulgarian>
+				<Hungarian>setDate - reggel</Hungarian>
+				<Ukrainian>setDate - ранок</Ukrainian>
+				<Slovak>setDate - ráno</Slovak>
+				<Latin>setDate - mane</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_Night">
 				<Original>Night</Original>
@@ -1743,6 +2228,11 @@
 				<Russian>Ночь</Russian>
 				<Spanish>Noche</Spanish>
 				<Turkish>Gece</Turkish>
+				<Bulgarian>Нощ</Bulgarian>
+				<Hungarian>Éjszaka</Hungarian>
+				<Ukrainian>Ніч</Ukrainian>
+				<Slovak>Noc</Slovak>
+				<Latin>Nox</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_Night_Tooltip">
 				<Original>setDate - Night</Original>
@@ -1760,6 +2250,11 @@
 				<Russian>setDate - ночь</Russian>
 				<Spanish>setDate - Noche</Spanish>
 				<Turkish>setDate - Gece</Turkish>
+				<Bulgarian>setDate - нощ</Bulgarian>
+				<Hungarian>setDate - éjszaka</Hungarian>
+				<Ukrainian>setDate - ніч</Ukrainian>
+				<Slovak>setDate - noc</Slovak>
+				<Latin>setDate - nox</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_ReflectorCone">
 				<Original>Reflector cone</Original>
@@ -1777,6 +2272,11 @@
 				<Russian>Конус прожектора</Russian>
 				<Spanish>Cono del reflector</Spanish>
 				<Turkish>Reflektör konisi</Turkish>
+				<Bulgarian>Конус на рефлектора</Bulgarian>
+				<Hungarian>Reflektor kúpja</Hungarian>
+				<Ukrainian>Конус прожектора</Ukrainian>
+				<Slovak>Kužel reflektora</Slovak>
+				<Latin>Conus reflectoris</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_ReflectorCone_Tooltip">
 				<Original>setLightConePars [outer, inner, coef]. Ignored for point lights.</Original>
@@ -1794,6 +2294,11 @@
 				<Russian>setLightConePars [outer, inner, coef]. Для точечного света не используется.</Russian>
 				<Spanish>setLightConePars [outer, inner, coef]. Ignorado en luz puntual.</Spanish>
 				<Turkish>setLightConePars [outer, inner, coef]. Nokta ışığında yok sayılır.</Turkish>
+				<Bulgarian>setLightConePars [outer, inner, coef]. Игнорира се за точкова светлина.</Bulgarian>
+				<Hungarian>setLightConePars [outer, inner, coef]. Pontfénynél mellőzött.</Hungarian>
+				<Ukrainian>setLightConePars [outer, inner, coef]. Ігнорується для точкового світла.</Ukrainian>
+				<Slovak>setLightConePars [outer, inner, coef]. Ignorované pri bodovom svetle.</Slovak>
+				<Latin>setLightConePars [outer, inner, coef]. Ignoratur in lumine punctali.</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_ConeOuter">
 				<Original>Cone outer</Original>
@@ -1811,6 +2316,11 @@
 				<Russian>Внешний конус</Russian>
 				<Spanish>Cono exterior</Spanish>
 				<Turkish>Dış konu</Turkish>
+				<Bulgarian>Външен конус</Bulgarian>
+				<Hungarian>Külső kúp</Hungarian>
+				<Ukrainian>Зовнішній конус</Ukrainian>
+				<Slovak>Vonkajší kužeľ</Slovak>
+				<Latin>Conus externus</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_ConeInner">
 				<Original>Cone inner</Original>
@@ -1828,6 +2338,11 @@
 				<Russian>Внутренний конус</Russian>
 				<Spanish>Cono interior</Spanish>
 				<Turkish>İç konu</Turkish>
+				<Bulgarian>Вътрешен конус</Bulgarian>
+				<Hungarian>Belső kúp</Hungarian>
+				<Ukrainian>Внутрішній конус</Ukrainian>
+				<Slovak>Vnútorný kužeľ</Slovak>
+				<Latin>Conus internus</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Lights_ConeCoef">
 				<Original>Cone coef</Original>
@@ -1845,6 +2360,11 @@
 				<Russian>Коэфф. конуса</Russian>
 				<Spanish>Coef. del cono</Spanish>
 				<Turkish>Konu katsayısı</Turkish>
+				<Bulgarian>Коеф. на конуса</Bulgarian>
+				<Hungarian>Kúp együttható</Hungarian>
+				<Ukrainian>Коеф. конуса</Ukrainian>
+				<Slovak>Koef. kužela</Slovak>
+				<Latin>Coeff. coni</Latin>
 			</Key>
 		</Container>
 		<Container name="Markers">
@@ -1864,6 +2384,11 @@
 				<Russian>Карта</Russian>
 				<Spanish>Mapa</Spanish>
 				<Turkish>Harita</Turkish>
+				<Bulgarian>Карта</Bulgarian>
+				<Hungarian>Térkép</Hungarian>
+				<Ukrainian>Карта</Ukrainian>
+				<Slovak>Mapa</Slovak>
+				<Latin>Mappa</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_Title">
 				<Original>Markers</Original>
@@ -1881,6 +2406,11 @@
 				<Russian>Маркеры</Russian>
 				<Spanish>Marcadores</Spanish>
 				<Turkish>İşaretçiler</Turkish>
+				<Bulgarian>Маркери</Bulgarian>
+				<Hungarian>Jelölők</Hungarian>
+				<Ukrainian>Маркери</Ukrainian>
+				<Slovak>Značky</Slovak>
+				<Latin>Signa</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_Identity">
 				<Original>Identity</Original>
@@ -1898,6 +2428,11 @@
 				<Russian>Идентификация</Russian>
 				<Spanish>Identidad</Spanish>
 				<Turkish>Kimlik</Turkish>
+				<Bulgarian>Идентичност</Bulgarian>
+				<Hungarian>Azonosság</Hungarian>
+				<Ukrainian>Ідентичність</Ukrainian>
+				<Slovak>Identita</Slovak>
+				<Latin>Identitas</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_Identity_Tooltip">
 				<Original>Marker name and display text.</Original>
@@ -1915,6 +2450,11 @@
 				<Russian>Имя маркера и отображаемый текст.</Russian>
 				<Spanish>Nombre del marcador y texto mostrado.</Spanish>
 				<Turkish>İşaretçi adı ve görünen metin.</Turkish>
+				<Bulgarian>Име на маркер и показан текст.</Bulgarian>
+				<Hungarian>A jelölő neve és megjelenő szövege.</Hungarian>
+				<Ukrainian>Назва маркера та текст відображення.</Ukrainian>
+				<Slovak>Názov značky a zobrazený text.</Slovak>
+				<Latin>Nomen indicis et textus ostensus.</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_Name">
 				<Original>Name</Original>
@@ -1932,6 +2472,11 @@
 				<Russian>Имя</Russian>
 				<Spanish>Nombre</Spanish>
 				<Turkish>Ad</Turkish>
+				<Bulgarian>Име</Bulgarian>
+				<Hungarian>Név</Hungarian>
+				<Ukrainian>Назва</Ukrainian>
+				<Slovak>Názov</Slovak>
+				<Latin>Nomen</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_Text">
 				<Original>Text</Original>
@@ -1949,6 +2494,11 @@
 				<Russian>Текст</Russian>
 				<Spanish>Texto</Spanish>
 				<Turkish>Metin</Turkish>
+				<Bulgarian>Текст</Bulgarian>
+				<Hungarian>Szöveg</Hungarian>
+				<Ukrainian>Текст</Ukrainian>
+				<Slovak>Text</Slovak>
+				<Latin>Textus</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_Scope">
 				<Original>Scope</Original>
@@ -1966,6 +2516,11 @@
 				<Russian>Область</Russian>
 				<Spanish>Ámbito</Spanish>
 				<Turkish>Kapsam</Turkish>
+				<Bulgarian>Обхват</Bulgarian>
+				<Hungarian>Hatókör</Hungarian>
+				<Ukrainian>Область застосування</Ukrainian>
+				<Slovak>Rozsah</Slovak>
+				<Latin>Ambitus</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_Scope_Tooltip">
 				<Original>Global marker APIs vs local (*Local) variants when scripting.</Original>
@@ -1983,6 +2538,11 @@
 				<Russian>Глобальные API маркеров и локальные варианты (*Local) в скриптах.</Russian>
 				<Spanish>API globales de marcador frente a variantes locales (*Local) al scriptear.</Spanish>
 				<Turkish>Betikte genel işaretçi API&apos;leri ile yerel (*Local) sürümler.</Turkish>
+				<Bulgarian>Глобални API за маркери срещу локални (*Local) варианти при скриптиране.</Bulgarian>
+				<Hungarian>Globális jelölő API-k és helyi (*Local) változatok szkripteléskor.</Hungarian>
+				<Ukrainian>Глобальні API маркерів проти локальних варіантів (*Local) у скриптах.</Ukrainian>
+				<Slovak>Globálne API značiek oproti lokálnym variantom (*Local) v skriptoch.</Slovak>
+				<Latin>API indicum globalia et locorum (*Local) variæ in scriptis.</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_Global">
 				<Original>Global</Original>
@@ -2000,6 +2560,11 @@
 				<Russian>Глобальный</Russian>
 				<Spanish>Global</Spanish>
 				<Turkish>Küresel</Turkish>
+				<Bulgarian>Глобален</Bulgarian>
+				<Hungarian>Globális</Hungarian>
+				<Ukrainian>Глобальний</Ukrainian>
+				<Slovak>Globálny</Slovak>
+				<Latin>Globalis</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_Global_Label_Tooltip">
 				<Original>When checked, scripting uses createMarker / setMarker* (global). Unchecked: *Local variants.</Original>
@@ -2017,6 +2582,11 @@
 				<Russian>Вкл.: createMarker / setMarker* (глобально). Выкл.: варианты *Local.</Russian>
 				<Spanish>Marcado: createMarker / setMarker* (global). Sin marcar: *Local.</Spanish>
 				<Turkish>İşaretli: createMarker / setMarker* (genel). Değil: *Local sürümleri.</Turkish>
+				<Bulgarian>При отметка: createMarker / setMarker* (глобално). Без отметка: *Local варианти.</Bulgarian>
+				<Hungarian>Bejelölve: createMarker / setMarker* (globális). Üresen: *Local változatok.</Hungarian>
+				<Ukrainian>Якщо позначено: createMarker / setMarker* (глобально). Якщо ні: варіанти *Local.</Ukrainian>
+				<Slovak>Zaškrtnuté: createMarker / setMarker* (globálne). Bez: varianty *Local.</Slovak>
+				<Latin>Si notatum: createMarker / setMarker* (globale). Sine: variantes *Local.</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_Global_Chk_Tooltip">
 				<Original>Unchecked: createMarkerLocal / setMarker*Local. Checked: createMarker / setMarker*.</Original>
@@ -2034,6 +2604,11 @@
 				<Russian>Выкл.: createMarkerLocal / setMarker*Local. Вкл.: createMarker / setMarker*.</Russian>
 				<Spanish>Sin marcar: createMarkerLocal / setMarker*Local. Marcado: createMarker / setMarker*.</Spanish>
 				<Turkish>İşaretsiz: createMarkerLocal / setMarker*Local. İşaretli: createMarker / setMarker*.</Turkish>
+				<Bulgarian>Без отметка: createMarkerLocal / setMarker*Local. С отметка: createMarker / setMarker*.</Bulgarian>
+				<Hungarian>Üresen: createMarkerLocal / setMarker*Local. Bejelölve: createMarker / setMarker*.</Hungarian>
+				<Ukrainian>Без позначки: createMarkerLocal / setMarker*Local. З позначкою: createMarker / setMarker*.</Ukrainian>
+				<Slovak>Nezaškrtnuté: createMarkerLocal / setMarker*Local. Zaškrtnuté: createMarker / setMarker*.</Slovak>
+				<Latin>Sine nota: createMarkerLocal / setMarker*Local. Notatum: createMarker / setMarker*.</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_Channel">
 				<Original>Channel</Original>
@@ -2051,6 +2626,11 @@
 				<Russian>Канал</Russian>
 				<Spanish>Canal</Spanish>
 				<Turkish>Kanal</Turkish>
+				<Bulgarian>Канал</Bulgarian>
+				<Hungarian>Csatorna</Hungarian>
+				<Ukrainian>Канал</Ukrainian>
+				<Slovak>Kanál</Slovak>
+				<Latin>Canalis</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_Channel_Tooltip">
 				<Original>createMarker / createMarkerLocal channel: who can see the marker (see wiki).</Original>
@@ -2068,6 +2648,11 @@
 				<Russian>Канал createMarker / createMarkerLocal: кто видит маркер (см. wiki).</Russian>
 				<Spanish>Canal createMarker / createMarkerLocal: quién ve el marcador (ver wiki).</Spanish>
 				<Turkish>createMarker / createMarkerLocal kanalı: işaretçiyi kim görür (wiki).</Turkish>
+				<Bulgarian>Канал на createMarker / createMarkerLocal: кой вижда маркера (виж wiki).</Bulgarian>
+				<Hungarian>createMarker / createMarkerLocal csatorna: ki látja a jelölőt (lásd wiki).</Hungarian>
+				<Ukrainian>Канал createMarker / createMarkerLocal: хто бачить маркер (див. wiki).</Ukrainian>
+				<Slovak>Kanál createMarker / createMarkerLocal: kto vidí značku (pozri wiki).</Slovak>
+				<Latin>Canalis createMarker / createMarkerLocal: quis indicem videt (vide wiki).</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_ChannelDefault">
 				<Original>Default</Original>
@@ -2085,6 +2670,11 @@
 				<Russian>По умолчанию</Russian>
 				<Spanish>Predeterminado</Spanish>
 				<Turkish>Varsayılan</Turkish>
+				<Bulgarian>По подразбиране</Bulgarian>
+				<Hungarian>Alapértelmezett</Hungarian>
+				<Ukrainian>За замовчуванням</Ukrainian>
+				<Slovak>Predvolené</Slovak>
+				<Latin>Praedefinitum</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_ChannelGlobal">
 				<Original>Global</Original>
@@ -2102,6 +2692,11 @@
 				<Russian>Глобальный</Russian>
 				<Spanish>Global</Spanish>
 				<Turkish>Küresel</Turkish>
+				<Bulgarian>Глобален</Bulgarian>
+				<Hungarian>Globális</Hungarian>
+				<Ukrainian>Глобальний</Ukrainian>
+				<Slovak>Globálny</Slovak>
+				<Latin>Globalis</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_ChannelSide">
 				<Original>Side</Original>
@@ -2119,6 +2714,11 @@
 				<Russian>Сторона</Russian>
 				<Spanish>Lado</Spanish>
 				<Turkish>Taraf</Turkish>
+				<Bulgarian>Страна</Bulgarian>
+				<Hungarian>Oldal</Hungarian>
+				<Ukrainian>Сторона</Ukrainian>
+				<Slovak>Strana</Slovak>
+				<Latin>Pars</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_ChannelCommand">
 				<Original>Command</Original>
@@ -2136,6 +2736,11 @@
 				<Russian>Командование</Russian>
 				<Spanish>Mando</Spanish>
 				<Turkish>Komuta</Turkish>
+				<Bulgarian>Командване</Bulgarian>
+				<Hungarian>Parancsnokság</Hungarian>
+				<Ukrainian>Командування</Ukrainian>
+				<Slovak>Velenie</Slovak>
+				<Latin>Imperium</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_ChannelGroup">
 				<Original>Group</Original>
@@ -2153,6 +2758,11 @@
 				<Russian>Группа</Russian>
 				<Spanish>Grupo</Spanish>
 				<Turkish>Grup</Turkish>
+				<Bulgarian>Група</Bulgarian>
+				<Hungarian>Csoport</Hungarian>
+				<Ukrainian>Група</Ukrainian>
+				<Slovak>Skupina</Slovak>
+				<Latin>Cohors</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_ChannelVehicle">
 				<Original>Vehicle</Original>
@@ -2170,6 +2780,11 @@
 				<Russian>Транспорт</Russian>
 				<Spanish>Vehículo</Spanish>
 				<Turkish>Araç</Turkish>
+				<Bulgarian>Превозно средство</Bulgarian>
+				<Hungarian>Jármű</Hungarian>
+				<Ukrainian>Транспорт</Ukrainian>
+				<Slovak>Vozidlo</Slovak>
+				<Latin>Vehiculum</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_ChannelDirect">
 				<Original>Direct</Original>
@@ -2187,6 +2802,11 @@
 				<Russian>Прямой</Russian>
 				<Spanish>Directo</Spanish>
 				<Turkish>Doğrudan</Turkish>
+				<Bulgarian>Директен</Bulgarian>
+				<Hungarian>Közvetlen</Hungarian>
+				<Ukrainian>Прямий</Ukrainian>
+				<Slovak>Priamy</Slovak>
+				<Latin>Directus</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_TypeTitle">
 				<Original>Marker type (CfgMarkers)</Original>
@@ -2204,6 +2824,11 @@
 				<Russian>Тип маркера (CfgMarkers)</Russian>
 				<Spanish>Tipo de marcador (CfgMarkers)</Spanish>
 				<Turkish>İşaretçi türü (CfgMarkers)</Turkish>
+				<Bulgarian>Тип маркер (CfgMarkers)</Bulgarian>
+				<Hungarian>Jelölő típusa (CfgMarkers)</Hungarian>
+				<Ukrainian>Тип маркера (CfgMarkers)</Ukrainian>
+				<Slovak>Typ značky (CfgMarkers)</Slovak>
+				<Latin>Typus indicis (CfgMarkers)</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_ColorsTitle">
 				<Original>Color preview (RGBA)</Original>
@@ -2221,6 +2846,11 @@
 				<Russian>Предпросмотр цвета (RGBA)</Russian>
 				<Spanish>Vista previa de color (RGBA)</Spanish>
 				<Turkish>Renk önizlemesi (RGBA)</Turkish>
+				<Bulgarian>Преглед на цвят (RGBA)</Bulgarian>
+				<Hungarian>Szín előnézet (RGBA)</Hungarian>
+				<Ukrainian>Попередній перегляд кольору (RGBA)</Ukrainian>
+				<Slovak>Náhľad farby (RGBA)</Slovak>
+				<Latin>Praevisio coloris (RGBA)</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_ColorsTitle_Tooltip">
 				<Original>setMarkerColorLocal with direct RGBA string #(r,g,b,a), values 0..1 (see wiki).</Original>
@@ -2238,6 +2868,11 @@
 				<Russian>setMarkerColorLocal со строкой RGBA #(r,g,b,a), значения 0..1 (см. wiki).</Russian>
 				<Spanish>setMarkerColorLocal con cadena RGBA directa #(r,g,b,a), valores 0..1 (ver wiki).</Spanish>
 				<Turkish>setMarkerColorLocal ve doğrudan RGBA #(r,g,b,a), 0..1 değerleri (wiki).</Turkish>
+				<Bulgarian>setMarkerColorLocal с директен RGBA низ #(r,g,b,a), стойности 0..1 (виж wiki).</Bulgarian>
+				<Hungarian>setMarkerColorLocal közvetlen RGBA sztringgel #(r,g,b,a), értékek 0..1 (lásd wiki).</Hungarian>
+				<Ukrainian>setMarkerColorLocal із прямим рядком RGBA #(r,g,b,a), значення 0..1 (див. wiki).</Ukrainian>
+				<Slovak>setMarkerColorLocal s priamym reťazcom RGBA #(r,g,b,a), hodnoty 0..1 (pozri wiki).</Slovak>
+				<Latin>setMarkerColorLocal cum serie RGBA directa #(r,g,b,a), valores 0..1 (vide wiki).</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_PosTitle">
 				<Original>Position (setMarkerPos)</Original>
@@ -2255,6 +2890,11 @@
 				<Russian>Позиция (setMarkerPos)</Russian>
 				<Spanish>Posición (setMarkerPos)</Spanish>
 				<Turkish>Konum (setMarkerPos)</Turkish>
+				<Bulgarian>Позиция (setMarkerPos)</Bulgarian>
+				<Hungarian>Pozíció (setMarkerPos)</Hungarian>
+				<Ukrainian>Позиція (setMarkerPos)</Ukrainian>
+				<Slovak>Pozícia (setMarkerPos)</Slovak>
+				<Latin>Positio (setMarkerPos)</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_Position">
 				<Original>Position</Original>
@@ -2272,6 +2912,11 @@
 				<Russian>Позиция</Russian>
 				<Spanish>Posición</Spanish>
 				<Turkish>Konum</Turkish>
+				<Bulgarian>Позиция</Bulgarian>
+				<Hungarian>Pozíció</Hungarian>
+				<Ukrainian>Позиція</Ukrainian>
+				<Slovak>Pozícia</Slovak>
+				<Latin>Positio</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_Position_Tooltip">
 				<Original>World position as an array, e.g. [x, y] or [x, y, z].</Original>
@@ -2289,6 +2934,11 @@
 				<Russian>Мировая позиция массивом, напр. [x, y] или [x, y, z].</Russian>
 				<Spanish>Posición mundial como matriz, p. ej. [x, y] o [x, y, z].</Spanish>
 				<Turkish>Dünya konumu dizi olarak, örn. [x, y] veya [x, y, z].</Turkish>
+				<Bulgarian>Световна позиция като масив, напр. [x, y] или [x, y, z].</Bulgarian>
+				<Hungarian>Világ pozíció tömbként, pl. [x, y] vagy [x, y, z].</Hungarian>
+				<Ukrainian>Світова позиція масивом, напр. [x, y] або [x, y, z].</Ukrainian>
+				<Slovak>Svetová pozícia ako pole, napr. [x, y] alebo [x, y, z].</Slovak>
+				<Latin>Positio mundana ut ordinatio, e.g. [x, y] vel [x, y, z].</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_NorthOffset">
 				<Original>North offset</Original>
@@ -2306,6 +2956,11 @@
 				<Russian>Смещение на север</Russian>
 				<Spanish>Desplazamiento norte</Spanish>
 				<Turkish>Kuzey ofseti</Turkish>
+				<Bulgarian>Отместване на север</Bulgarian>
+				<Hungarian>Északi eltolás</Hungarian>
+				<Ukrainian>Зміщення на північ</Ukrainian>
+				<Slovak>Posun na sever</Slovak>
+				<Latin>Declinatio septentrionalis</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_NorthOffset_Tooltip">
 				<Original>When enabled, the default position is placed north of you so the map marker does not sit on top of your player icon (easier to see the preview).</Original>
@@ -2323,6 +2978,11 @@
 				<Russian>Вкл.: позиция по умолчанию севернее вас, чтобы маркер не перекрывал иконку игрока.</Russian>
 				<Spanish>Activo: la posición por defecto queda al norte para no tapar tu icono.</Spanish>
 				<Turkish>Açık: varsayılan konum kuzeyde; işaretçi oyuncu simgenin üstüne binmez.</Turkish>
+				<Bulgarian>Включено: подразбиращата позиция е на север, за да не покрива маркерът иконата на играча (по-лесен преглед).</Bulgarian>
+				<Hungarian>Bekapcsolva: az alapértelmezett pozíció északra kerül, így a jelölő nem takarja a játékos ikonját (könnyebb előnézet).</Hungarian>
+				<Ukrainian>Увімкнено: типова позиція північніше від вас, щоб маркер не перекривав іконку гравця (зручніший перегляд).</Ukrainian>
+				<Slovak>Zapnuté: predvolená pozícia je severne od vás, aby značka neprekrývala ikonu hráča (lepší náhľad).</Slovak>
+				<Latin>Activatum: positio praedefinita ad septentrionem tibi ponitur, ne indicem super iconem lusoris premat (facilius praevidere).</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_ShapeTitle">
 				<Original>Shape, size, direction</Original>
@@ -2340,6 +3000,11 @@
 				<Russian>Форма, размер, направление</Russian>
 				<Spanish>Forma, tamaño, dirección</Spanish>
 				<Turkish>Şekil, boyut, yön</Turkish>
+				<Bulgarian>Форма, размер, посока</Bulgarian>
+				<Hungarian>Alak, méret, irány</Hungarian>
+				<Ukrainian>Форма, розмір, напрямок</Ukrainian>
+				<Slovak>Tvar, veľkosť, smer</Slovak>
+				<Latin>Forma, magnitudo, directio</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_Shape">
 				<Original>Shape</Original>
@@ -2357,6 +3022,11 @@
 				<Russian>Форма</Russian>
 				<Spanish>Forma</Spanish>
 				<Turkish>Şekil</Turkish>
+				<Bulgarian>Форма</Bulgarian>
+				<Hungarian>Alak</Hungarian>
+				<Ukrainian>Форма</Ukrainian>
+				<Slovak>Tvar</Slovak>
+				<Latin>Forma</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_ShapeIcon">
 				<Original>Icon</Original>
@@ -2374,6 +3044,11 @@
 				<Russian>Значок</Russian>
 				<Spanish>Icono</Spanish>
 				<Turkish>Simge</Turkish>
+				<Bulgarian>Икона</Bulgarian>
+				<Hungarian>Ikona</Hungarian>
+				<Ukrainian>Значок</Ukrainian>
+				<Slovak>Ikona</Slovak>
+				<Latin>Insigne</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_ShapeRectangle">
 				<Original>Rectangle</Original>
@@ -2391,6 +3066,11 @@
 				<Russian>Прямоугольник</Russian>
 				<Spanish>Rectángulo</Spanish>
 				<Turkish>Dikdörtgen</Turkish>
+				<Bulgarian>Правоъгълник</Bulgarian>
+				<Hungarian>Téglalap</Hungarian>
+				<Ukrainian>Прямокутник</Ukrainian>
+				<Slovak>Obdĺžnik</Slovak>
+				<Latin>Rectangulum</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_ShapeEllipse">
 				<Original>Ellipse</Original>
@@ -2408,6 +3088,11 @@
 				<Russian>Эллипс</Russian>
 				<Spanish>Elipse</Spanish>
 				<Turkish>Elips</Turkish>
+				<Bulgarian>Елипса</Bulgarian>
+				<Hungarian>Ellipszis</Hungarian>
+				<Ukrainian>Еліпс</Ukrainian>
+				<Slovak>Elipsa</Slovak>
+				<Latin>Ellipsis</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_SizeA">
 				<Original>Size A</Original>
@@ -2425,6 +3110,11 @@
 				<Russian>Размер A</Russian>
 				<Spanish>Tamaño A</Spanish>
 				<Turkish>Boyut A</Turkish>
+				<Bulgarian>Размер A</Bulgarian>
+				<Hungarian>Méret A</Hungarian>
+				<Ukrainian>Розмір A</Ukrainian>
+				<Slovak>Veľkosť A</Slovak>
+				<Latin>Magnitudo A</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_SizeB">
 				<Original>Size B</Original>
@@ -2442,6 +3132,11 @@
 				<Russian>Размер B</Russian>
 				<Spanish>Tamaño B</Spanish>
 				<Turkish>Boyut B</Turkish>
+				<Bulgarian>Размер B</Bulgarian>
+				<Hungarian>Méret B</Hungarian>
+				<Ukrainian>Розмір B</Ukrainian>
+				<Slovak>Veľkosť B</Slovak>
+				<Latin>Magnitudo B</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_Direction">
 				<Original>Direction</Original>
@@ -2459,6 +3154,11 @@
 				<Russian>Направление</Russian>
 				<Spanish>Dirección</Spanish>
 				<Turkish>Yön</Turkish>
+				<Bulgarian>Посока</Bulgarian>
+				<Hungarian>Irány</Hungarian>
+				<Ukrainian>Напрямок</Ukrainian>
+				<Slovak>Smer</Slovak>
+				<Latin>Directio</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_BrushTitle">
 				<Original>Brush (setMarkerBrush)</Original>
@@ -2476,6 +3176,11 @@
 				<Russian>Заливка (setMarkerBrush)</Russian>
 				<Spanish>Relleno (setMarkerBrush)</Spanish>
 				<Turkish>Fırça (setMarkerBrush)</Turkish>
+				<Bulgarian>Четка (setMarkerBrush)</Bulgarian>
+				<Hungarian>Ecset (setMarkerBrush)</Hungarian>
+				<Ukrainian>Пензель (setMarkerBrush)</Ukrainian>
+				<Slovak>Štetec (setMarkerBrush)</Slovak>
+				<Latin>Pincellum (setMarkerBrush)</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_Brush">
 				<Original>Brush</Original>
@@ -2493,6 +3198,11 @@
 				<Russian>Заливка</Russian>
 				<Spanish>Relleno</Spanish>
 				<Turkish>Fırça</Turkish>
+				<Bulgarian>Четка</Bulgarian>
+				<Hungarian>Ecset</Hungarian>
+				<Ukrainian>Пензель</Ukrainian>
+				<Slovak>Štetec</Slovak>
+				<Latin>Pincellum</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_BrushSolid">
 				<Original>Solid</Original>
@@ -2510,6 +3220,11 @@
 				<Russian>Сплошная</Russian>
 				<Spanish>Sólido</Spanish>
 				<Turkish>Dolu</Turkish>
+				<Bulgarian>Плътен</Bulgarian>
+				<Hungarian>Kitöltött</Hungarian>
+				<Ukrainian>Суцільний</Ukrainian>
+				<Slovak>Plný</Slovak>
+				<Latin>Solidus</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_BrushBorder">
 				<Original>Border</Original>
@@ -2527,6 +3242,11 @@
 				<Russian>Контур</Russian>
 				<Spanish>Borde</Spanish>
 				<Turkish>Kenar</Turkish>
+				<Bulgarian>Контур</Bulgarian>
+				<Hungarian>Szegély</Hungarian>
+				<Ukrainian>Контур</Ukrainian>
+				<Slovak>Okraj</Slovak>
+				<Latin>Limen</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_BrushGrid">
 				<Original>Grid</Original>
@@ -2544,6 +3264,11 @@
 				<Russian>Сетка</Russian>
 				<Spanish>Cuadrícula</Spanish>
 				<Turkish>Izgara</Turkish>
+				<Bulgarian>Решетка</Bulgarian>
+				<Hungarian>Rács</Hungarian>
+				<Ukrainian>Сітка</Ukrainian>
+				<Slovak>Mriežka</Slovak>
+				<Latin>Cancelli</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_BrushFDiagonal">
 				<Original>FDiagonal</Original>
@@ -2561,6 +3286,11 @@
 				<Russian>FDiagonal</Russian>
 				<Spanish>FDiagonal</Spanish>
 				<Turkish>FDiagonal</Turkish>
+				<Bulgarian>FDiagonal</Bulgarian>
+				<Hungarian>FDiagonal</Hungarian>
+				<Ukrainian>FDiagonal</Ukrainian>
+				<Slovak>FDiagonal</Slovak>
+				<Latin>FDiagonal</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_BrushBDiagonal">
 				<Original>BDiagonal</Original>
@@ -2578,6 +3308,11 @@
 				<Russian>BDiagonal</Russian>
 				<Spanish>BDiagonal</Spanish>
 				<Turkish>BDiagonal</Turkish>
+				<Bulgarian>BDiagonal</Bulgarian>
+				<Hungarian>BDiagonal</Hungarian>
+				<Ukrainian>BDiagonal</Ukrainian>
+				<Slovak>BDiagonal</Slovak>
+				<Latin>BDiagonal</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_BrushCross">
 				<Original>Cross</Original>
@@ -2595,6 +3330,11 @@
 				<Russian>Крест</Russian>
 				<Spanish>Cruz</Spanish>
 				<Turkish>Çapraz</Turkish>
+				<Bulgarian>Кръст</Bulgarian>
+				<Hungarian>Kereszt</Hungarian>
+				<Ukrainian>Хрест</Ukrainian>
+				<Slovak>Kríž</Slovak>
+				<Latin>Crux</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_BrushDiagGrid">
 				<Original>DiagGrid</Original>
@@ -2612,6 +3352,11 @@
 				<Russian>DiagGrid</Russian>
 				<Spanish>DiagGrid</Spanish>
 				<Turkish>DiagGrid</Turkish>
+				<Bulgarian>DiagGrid</Bulgarian>
+				<Hungarian>DiagGrid</Hungarian>
+				<Ukrainian>DiagGrid</Ukrainian>
+				<Slovak>DiagGrid</Slovak>
+				<Latin>DiagGrid</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_ShadowTitle">
 				<Original>Shadow</Original>
@@ -2629,6 +3374,11 @@
 				<Russian>Тень</Russian>
 				<Spanish>Sombra</Spanish>
 				<Turkish>Gölge</Turkish>
+				<Bulgarian>Сянка</Bulgarian>
+				<Hungarian>Árnyék</Hungarian>
+				<Ukrainian>Тінь</Ukrainian>
+				<Slovak>Tieň</Slovak>
+				<Latin>Umbra</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_Shadow">
 				<Original>Shadow</Original>
@@ -2646,6 +3396,11 @@
 				<Russian>Тень</Russian>
 				<Spanish>Sombra</Spanish>
 				<Turkish>Gölge</Turkish>
+				<Bulgarian>Сянка</Bulgarian>
+				<Hungarian>Árnyék</Hungarian>
+				<Ukrainian>Тінь</Ukrainian>
+				<Slovak>Tieň</Slovak>
+				<Latin>Umbra</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_ShadowOff">
 				<Original>Off</Original>
@@ -2663,6 +3418,11 @@
 				<Russian>Выкл.</Russian>
 				<Spanish>Apagado</Spanish>
 				<Turkish>Kapalı</Turkish>
+				<Bulgarian>Изкл.</Bulgarian>
+				<Hungarian>Ki</Hungarian>
+				<Ukrainian>Вимк.</Ukrainian>
+				<Slovak>Vyp.</Slovak>
+				<Latin>Exstinctum</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_ShadowOn">
 				<Original>On</Original>
@@ -2680,6 +3440,11 @@
 				<Russian>Вкл.</Russian>
 				<Spanish>Encendido</Spanish>
 				<Turkish>Açık</Turkish>
+				<Bulgarian>Вкл.</Bulgarian>
+				<Hungarian>Be</Hungarian>
+				<Ukrainian>Увімк.</Ukrainian>
+				<Slovak>Zap.</Slovak>
+				<Latin>Activatum</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_Export_Tooltip">
 				<Original>Copy marker setup as SQF to clipboard (RPT fallback if unavailable).</Original>
@@ -2697,6 +3462,11 @@
 				<Russian>Копировать настройки маркера как SQF в буфер (иначе RPT).</Russian>
 				<Spanish>Copiar configuración del marcador como SQF al portapapeles (si no, RPT).</Spanish>
 				<Turkish>İşaretçi kurulumunu SQF olarak panoya kopyala (yoksa RPT).</Turkish>
+				<Bulgarian>Копирай настройката на маркера като SQF в клипборда (иначе RPT).</Bulgarian>
+				<Hungarian>A jelölő beállításának másolása SQF-ként a vágólapra (ha nem megy, RPT).</Hungarian>
+				<Ukrainian>Скопіювати налаштування маркера як SQF у буфер (інакше RPT).</Ukrainian>
+				<Slovak>Kopírovať nastavenie značky ako SQF do schránky (inak RPT).</Slovak>
+				<Latin>Configuratio indicis ut SQF in tabulam rescriptoriam (sin minus RPT).</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Markers_ValueCommit_Tooltip">
 				<Original>Type a value and click away (or Tab) to apply to the slider.</Original>
@@ -2714,6 +3484,11 @@
 				<Russian>Введите значение и кликните в сторону (или Tab), чтобы применить к ползунку.</Russian>
 				<Spanish>Escribe un valor y haz clic fuera (o Tab) para aplicar al deslizador.</Spanish>
 				<Turkish>Değer yazıp başka yere tıklayın (veya Tab) kaydırmaya uygulayın.</Turkish>
+				<Bulgarian>Въведете стойност и кликнете извън полето (или Tab), за да я приложите към плъзгача.</Bulgarian>
+				<Hungarian>Írjon be értéket, majd kattintson máshová (vagy Tab), hogy a csúszkára alkalmazza.</Hungarian>
+				<Ukrainian>Введіть значення й клікніть поза полем (або Tab), щоб застосувати до повзунка.</Ukrainian>
+				<Slovak>Zadajte hodnotu a kliknite mimo (alebo Tab), aby ste ju použili na posúvač.</Slovak>
+				<Latin>Valorem scribe et alibi clic (vel Tab) ad regulam trahentem applicandum.</Latin>
 			</Key>
 		</Container>
 		<Container name="Errors">
@@ -2733,6 +3508,11 @@
 				<Russian>Класс отображения главного меню SQF Lab отсутствует в конфиге</Russian>
 				<Spanish>Falta la clase de visualización del menú principal de SQF Lab en la config</Spanish>
 				<Turkish>SQF Lab ana menü görüntü sınıfı yapılandırmada yok</Turkish>
+				<Bulgarian>Липсва класът за показване на главното меню на SQF Lab в конфигурацията</Bulgarian>
+				<Hungarian>Hiányzik az SQF Lab főmenü megjelenítési osztálya a konfigurációból</Hungarian>
+				<Ukrainian>Відсутній клас відображення головного меню SQF Lab у конфігурації</Ukrainian>
+				<Slovak>Chýba trieda zobrazenia hlavnej ponuky SQF Lab v konfigurácii</Slovak>
+				<Latin>Classis ostensionis menu principalis SQF Lab in configuratione deest</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Err_FeatureRequiresPlayer">
 				<Original>This feature does not work where you are not a player</Original>
@@ -2750,6 +3530,11 @@
 				<Russian>Эта функция не работает, если вы не игрок</Russian>
 				<Spanish>Esta función no funciona si no eres un jugador</Spanish>
 				<Turkish>Oyuncu değilseniz bu özellik çalışmaz</Turkish>
+				<Bulgarian>Тази функция не работи, ако не сте играч</Bulgarian>
+				<Hungarian>Ez a funkció nem működik, ha nem játékos</Hungarian>
+				<Ukrainian>Ця функція не працює, якщо ви не гравець</Ukrainian>
+				<Slovak>Táto funkcia nefunguje, ak nie ste hráč</Slovak>
+				<Latin>Haec functio non operatur ubi lusor non es</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Err_LightsDisplayMissing">
 				<Original>SQF Lab light sources display missing from config</Original>
@@ -2767,6 +3552,11 @@
 				<Russian>Отображение источников света SQF Lab отсутствует в конфиге</Russian>
 				<Spanish>Falta la visualización de fuentes de luz de SQF Lab en la config</Spanish>
 				<Turkish>SQF Lab ışık kaynağı görüntüsü yapılandırmada yok</Turkish>
+				<Bulgarian>Липсва показването на източници на светлина на SQF Lab в конфигурацията</Bulgarian>
+				<Hungarian>Hiányzik az SQF Lab fényforrás megjelenítés a konfigurációból</Hungarian>
+				<Ukrainian>Відсутнє відображення джерел світла SQF Lab у конфігурації</Ukrainian>
+				<Slovak>Chýba zobrazenie svetelných zdrojov SQF Lab v konfigurácii</Slovak>
+				<Latin>Ostensio fontium luminis SQF Lab in configuratione deest</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Err_ParticlesDisplayMissing">
 				<Original>SQF Lab particles menu display class missing from config</Original>
@@ -2784,6 +3574,11 @@
 				<Russian>Класс отображения меню частиц SQF Lab отсутствует в конфиге</Russian>
 				<Spanish>Falta la clase de visualización del menú de partículas de SQF Lab en la config</Spanish>
 				<Turkish>SQF Lab parçacık menüsü görüntü sınıfı yapılandırmada yok</Turkish>
+				<Bulgarian>Липсва класът за показване на менюто за частици на SQF Lab в конфигурацията</Bulgarian>
+				<Hungarian>Hiányzik az SQF Lab részecske menü megjelenítési osztálya a konfigurációból</Hungarian>
+				<Ukrainian>Відсутній клас відображення меню частинок SQF Lab у конфігурації</Ukrainian>
+				<Slovak>Chýba trieda zobrazenia menu častíc SQF Lab v konfigurácii</Slovak>
+				<Latin>Classis ostensionis menu particularum SQF Lab in configuratione deest</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Err_MarkersDisplayMissing">
 				<Original>SQF Lab markers menu display class missing from config</Original>
@@ -2801,6 +3596,11 @@
 				<Russian>Класс отображения меню маркеров SQF Lab отсутствует в конфиге</Russian>
 				<Spanish>Falta la clase de visualización del menú de marcadores de SQF Lab en la config</Spanish>
 				<Turkish>SQF Lab işaretçi menüsü görüntü sınıfı yapılandırmada yok</Turkish>
+				<Bulgarian>Липсва класът за показване на менюто за маркери на SQF Lab в конфигурацията</Bulgarian>
+				<Hungarian>Hiányzik az SQF Lab jelölő menü megjelenítési osztálya a konfigurációból</Hungarian>
+				<Ukrainian>Відсутній клас відображення меню маркерів SQF Lab у конфігурації</Ukrainian>
+				<Slovak>Chýba trieda zobrazenia menu značiek SQF Lab v konfigurácii</Slovak>
+				<Latin>Classis ostensionis menu signorum SQF Lab in configuratione deest</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Err_ParticlesMenuNotFound">
 				<Original>SQF Lab particles menu could not be found</Original>
@@ -2818,6 +3618,11 @@
 				<Russian>Меню частиц SQF Lab не найдено</Russian>
 				<Spanish>No se encontró el menú de partículas de SQF Lab</Spanish>
 				<Turkish>SQF Lab parçacık menüsü bulunamadı</Turkish>
+				<Bulgarian>Менюто за частици на SQF Lab не беше намерено</Bulgarian>
+				<Hungarian>Az SQF Lab részecske menü nem található</Hungarian>
+				<Ukrainian>Меню частинок SQF Lab не знайдено</Ukrainian>
+				<Slovak>Menu častíc SQF Lab sa nenašlo</Slovak>
+				<Latin>Menu particularum SQF Lab inventum non est</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Err_MarkersMenuNotFound">
 				<Original>SQF Lab markers menu could not be found</Original>
@@ -2835,6 +3640,11 @@
 				<Russian>Меню маркеров SQF Lab не найдено</Russian>
 				<Spanish>No se encontró el menú de marcadores de SQF Lab</Spanish>
 				<Turkish>SQF Lab işaretçi menüsü bulunamadı</Turkish>
+				<Bulgarian>Менюто за маркери на SQF Lab не беше намерено</Bulgarian>
+				<Hungarian>Az SQF Lab jelölő menü nem található</Hungarian>
+				<Ukrainian>Меню маркерів SQF Lab не знайдено</Ukrainian>
+				<Slovak>Menu značiek SQF Lab sa nenašlo</Slovak>
+				<Latin>Menu signorum SQF Lab inventum non est</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Err_MarkersScrollMissing">
 				<Original>SQF Lab markers scroll group could not be found</Original>
@@ -2852,6 +3662,11 @@
 				<Russian>Группа прокрутки маркеров SQF Lab не найдена</Russian>
 				<Spanish>No se encontró el grupo de desplazamiento de marcadores de SQF Lab</Spanish>
 				<Turkish>SQF Lab işaretçi kaydırma grubu bulunamadı</Turkish>
+				<Bulgarian>Групата за превъртане на маркери на SQF Lab не беше намерена</Bulgarian>
+				<Hungarian>Az SQF Lab jelölő görgető csoport nem található</Hungarian>
+				<Ukrainian>Групу прокрутки маркерів SQF Lab не знайдено</Ukrainian>
+				<Slovak>Skupina posúvania značiek SQF Lab sa nenašla</Slovak>
+				<Latin>Coetus volvendi signorum SQF Lab inventus non est</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Err_LightsMenuNotFound">
 				<Original>SQF Lab lights menu could not be found</Original>
@@ -2869,6 +3684,11 @@
 				<Russian>Меню света SQF Lab не найдено</Russian>
 				<Spanish>No se encontró el menú de luces de SQF Lab</Spanish>
 				<Turkish>SQF Lab ışık menüsü bulunamadı</Turkish>
+				<Bulgarian>Менюто за светлина на SQF Lab не беше намерено</Bulgarian>
+				<Hungarian>Az SQF Lab fény menü nem található</Hungarian>
+				<Ukrainian>Меню освітлення SQF Lab не знайдено</Ukrainian>
+				<Slovak>Menu svetiel SQF Lab sa nenašlo</Slovak>
+				<Latin>Menu luminum SQF Lab inventum non est</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Err_MarkerNameDuplicate">
 				<Original>SQF Lab: a marker with that name already exists. Choose another name.</Original>
@@ -2886,6 +3706,11 @@
 				<Russian>SQF Lab: маркер с таким именем уже есть. Выберите другое имя.</Russian>
 				<Spanish>SQF Lab: ya existe un marcador con ese nombre. Elija otro.</Spanish>
 				<Turkish>SQF Lab: bu isimde bir işaretçi zaten var. Başka bir ad seçin.</Turkish>
+				<Bulgarian>SQF Lab: вече съществува маркер с това име. Изберете друго име.</Bulgarian>
+				<Hungarian>SQF Lab: már létezik jelölő ezzel a névvel. Válasszon másik nevet.</Hungarian>
+				<Ukrainian>SQF Lab: маркер із такою назвою вже існує. Оберіть іншу назву.</Ukrainian>
+				<Slovak>SQF Lab: značka s týmto názvom už existuje. Zvoľte iný názov.</Slovak>
+				<Latin>SQF Lab: indicator hoc nomine iam est. Aliud nomen elige.</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Err_MarkerNameEmpty">
 				<Original>SQF Lab: marker name is empty; nothing exported.</Original>
@@ -2903,6 +3728,11 @@
 				<Russian>SQF Lab: имя маркера пусто; экспорт не выполнен.</Russian>
 				<Spanish>SQF Lab: el nombre del marcador está vacío; no se exportó nada.</Spanish>
 				<Turkish>SQF Lab: işaretçi adı boş; dışa aktarılmadı.</Turkish>
+				<Bulgarian>SQF Lab: името на маркера е празно; нищо не беше експортирано.</Bulgarian>
+				<Hungarian>SQF Lab: a jelölő neve üres; semmi sem exportálódott.</Hungarian>
+				<Ukrainian>SQF Lab: назва маркера порожня; нічого не експортовано.</Ukrainian>
+				<Slovak>SQF Lab: názov značky je prázdny; nič sa neexportovalo.</Slovak>
+				<Latin>SQF Lab: nomen indicis vacuum est; nihil exportatum.</Latin>
 			</Key>
 		</Container>
 		<Container name="Hints">
@@ -2922,6 +3752,11 @@
 				<Russian>SQF маркера экспортирован в буфер обмена.</Russian>
 				<Spanish>SQF del marcador exportado al portapapeles.</Spanish>
 				<Turkish>İşaretçi SQF panoya aktarıldı.</Turkish>
+				<Bulgarian>Маркер SQF е експортиран в клипборда.</Bulgarian>
+				<Hungarian>A jelölő SQF a vágólapra exportálva.</Hungarian>
+				<Ukrainian>Маркер SQF експортовано в буфер обміну.</Ukrainian>
+				<Slovak>SQF značky exportované do schránky.</Slovak>
+				<Latin>Index SQF in tabulam rescriptoriam exportatus.</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Hint_MarkerExportRpt">
 				<Original>Marker SQF written to RPT as clipboard is not supported in this environment.</Original>
@@ -2939,6 +3774,11 @@
 				<Russian>SQF маркера записан в RPT: буфер обмена здесь не поддерживается.</Russian>
 				<Spanish>SQF del marcador escrito en RPT; el portapapeles no está disponible aquí.</Spanish>
 				<Turkish>İşaretçi SQF RPT&apos;ye yazıldı; bu ortamda pano desteklenmiyor.</Turkish>
+				<Bulgarian>Маркер SQF е записан в RPT; клипбордът не се поддържа в тази среда.</Bulgarian>
+				<Hungarian>A jelölő SQF az RPT-be íródott; a vágólap nem támogatott ebben a környezetben.</Hungarian>
+				<Ukrainian>Маркер SQF записано в RPT; буфер обміну не підтримується в цьому середовищі.</Ukrainian>
+				<Slovak>SQF značky zapísané do RPT; schránka v tomto prostredí nie je podporovaná.</Slovak>
+				<Latin>Index SQF in RPT scriptus; tabula rescriptoria hoc in ambitu non sustinetur.</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Hint_ParticleExportClipboard">
 				<Original>Particle SQF exported to clipboard.</Original>
@@ -2956,6 +3796,11 @@
 				<Russian>SQF частиц экспортирован в буфер обмена.</Russian>
 				<Spanish>SQF de partículas exportado al portapapeles.</Spanish>
 				<Turkish>Parçacık SQF panoya aktarıldı.</Turkish>
+				<Bulgarian>Частици SQF са експортирани в клипборда.</Bulgarian>
+				<Hungarian>Részecske SQF a vágólapra exportálva.</Hungarian>
+				<Ukrainian>Частинки SQF експортовано в буфер обміну.</Ukrainian>
+				<Slovak>SQF častíc exportované do schránky.</Slovak>
+				<Latin>Particulae SQF in tabulam rescriptoriam exportatae.</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Hint_ParticleExportRpt">
 				<Original>Particle SQF written to RPT as clipboard is not supported in this environment.</Original>
@@ -2973,6 +3818,11 @@
 				<Russian>SQF частиц записан в RPT: буфер обмена не поддерживается.</Russian>
 				<Spanish>SQF de partículas escrito en RPT; portapapeles no disponible.</Spanish>
 				<Turkish>Parçacık SQF RPT&apos;ye yazıldı; pano desteklenmiyor.</Turkish>
+				<Bulgarian>Частици SQF са записани в RPT; клипбордът не се поддържа.</Bulgarian>
+				<Hungarian>Részecske SQF az RPT-be íródott; a vágólap nem támogatott.</Hungarian>
+				<Ukrainian>Частинки SQF записано в RPT; буфер обміну не підтримується.</Ukrainian>
+				<Slovak>SQF častíc zapísané do RPT; schránka nie je podporovaná.</Slovak>
+				<Latin>Particulae SQF in RPT scriptae; tabula rescriptoria non sustinetur.</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Hint_LightExportClipboard">
 				<Original>Light SQF exported to clipboard.</Original>
@@ -2990,6 +3840,11 @@
 				<Russian>SQF света экспортирован в буфер обмена.</Russian>
 				<Spanish>SQF de luz exportado al portapapeles.</Spanish>
 				<Turkish>Işık SQF panoya aktarıldı.</Turkish>
+				<Bulgarian>Светлина SQF е експортирана в клипборда.</Bulgarian>
+				<Hungarian>Fény SQF a vágólapra exportálva.</Hungarian>
+				<Ukrainian>Світло SQF експортовано в буфер обміну.</Ukrainian>
+				<Slovak>Svetlo SQF exportované do schránky.</Slovak>
+				<Latin>Lux SQF in tabulam rescriptoriam exportata.</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Hint_LightExportRpt">
 				<Original>Light SQF written to RPT as clipboard is not supported in this environment.</Original>
@@ -3007,6 +3862,11 @@
 				<Russian>SQF света записан в RPT: буфер обмена не поддерживается.</Russian>
 				<Spanish>SQF de luz escrito en RPT; portapapeles no disponible.</Spanish>
 				<Turkish>Işık SQF RPT&apos;ye yazıldı; pano desteklenmiyor.</Turkish>
+				<Bulgarian>Светлина SQF е записана в RPT; клипбордът не се поддържа.</Bulgarian>
+				<Hungarian>Fény SQF az RPT-be íródott; a vágólap nem támogatott.</Hungarian>
+				<Ukrainian>Світло SQF записано в RPT; буфер обміну не підтримується.</Ukrainian>
+				<Slovak>Svetlo SQF zapísané do RPT; schránka nie je podporovaná.</Slovak>
+				<Latin>Lux SQF in RPT scripta; tabula rescriptoria non sustinetur.</Latin>
 			</Key>
 		</Container>
 	</Package>
