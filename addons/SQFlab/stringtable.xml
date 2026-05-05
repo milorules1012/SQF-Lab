@@ -684,6 +684,11 @@
 				<Russian>Эмиссивный цвет</Russian>
 				<Spanish>Color emisivo</Spanish>
 				<Turkish>Emisif renk</Turkish>
+				<Bulgarian>Емисивен цвят</Bulgarian>
+				<Hungarian>Emisszív szín</Hungarian>
+				<Ukrainian>Емісивний колір</Ukrainian>
+				<Slovak>Emisívna farba</Slovak>
+				<Latin>Color emissivus</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_ApplyColorChk_Tooltip">
 				<Original>When checked, applies color[] via setParticleParams. When unchecked, uses [[1,1,1,1]] (neutral tint; commands reject nil).</Original>
@@ -701,6 +706,11 @@
 				<Russian>Если включено: применяет color[] через setParticleParams. Если выключено: [[1,1,1,1]] (нейтральный оттенок; nil команды не принимают).</Russian>
 				<Spanish>Marcado: aplica color[] con setParticleParams. Sin marcar: usa [[1,1,1,1]] (tinte neutro; los comandos rechazan nil).</Spanish>
 				<Turkish>İşaretli: setParticleParams ile color[] uygular. İşaretsiz: [[1,1,1,1]] kullanır (nötr ton; komutlar nil kabul etmez).</Turkish>
+				<Bulgarian>Отметнато: прилага color[] чрез setParticleParams. Неотметнато: използва [[1,1,1,1]] (неутрален оттенък; командите не приемат nil).</Bulgarian>
+				<Hungarian>Bejelölve: a color[] értéket setParticleParams-szal alkalmazza. Kijelölés nélkül: [[1,1,1,1]] (semleges árnyalat; a parancsok a nil értéket elutasítják).</Hungarian>
+				<Ukrainian>Якщо увімкнено: застосовує color[] через setParticleParams. Якщо вимкнено: використовує [[1,1,1,1]] (нейтральний відтінок; команди відхиляють nil).</Ukrainian>
+				<Slovak>Zaškrtnuté: aplikuje color[] cez setParticleParams. Nezaškrtnuté: použije [[1,1,1,1]] (neutrálny odtieň; príkazy odmietajú nil).</Slovak>
+				<Latin>Si signatum est, color[] per setParticleParams applicatur. Si non signatum est, [[1,1,1,1]] adhibetur (tinctura neutra; mandata nil recusant).</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_ApplyEmissiveChk_Tooltip">
 				<Original>When checked, applies emissiveColor via setParticleParams. When unchecked, uses [[0,0,0,0]] (no emissive; BIS ParticleArray example).</Original>
@@ -718,6 +728,11 @@
 				<Russian>Включено: emissiveColor через setParticleParams. Выключено: [[0,0,0,0]] (без эмиссии; пример BIS ParticleArray).</Russian>
 				<Spanish>Marcado: aplica emissiveColor con setParticleParams. Sin marcar: [[0,0,0,0]] (sin emisivo; ejemplo BIS ParticleArray).</Spanish>
 				<Turkish>İşaretli: setParticleParams ile emissiveColor uygular. İşaretsiz: [[0,0,0,0]] (emisif yok; BIS ParticleArray örneği).</Turkish>
+				<Bulgarian>Отметнато: прилага emissiveColor чрез setParticleParams. Неотметнато: [[0,0,0,0]] (без емисивност; пример от BIS ParticleArray).</Bulgarian>
+				<Hungarian>Bejelölve: az emissiveColor értéket setParticleParams-szal alkalmazza. Kijelölés nélkül: [[0,0,0,0]] (nincs emisszív fény; BIS ParticleArray példa).</Hungarian>
+				<Ukrainian>Якщо увімкнено: застосовує emissiveColor через setParticleParams. Якщо вимкнено: [[0,0,0,0]] (без емісивності; приклад BIS ParticleArray).</Ukrainian>
+				<Slovak>Zaškrtnuté: aplikuje emissiveColor cez setParticleParams. Nezaškrtnuté: [[0,0,0,0]] (bez emisie; príklad BIS ParticleArray).</Slovak>
+				<Latin>Si signatum est, emissiveColor per setParticleParams applicatur. Si non signatum est, [[0,0,0,0]] adhibetur (sine emissione; exemplum BIS ParticleArray).</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_ApplyRandomColorChk_Tooltip">
 				<Original>When checked, applies color variance (6th arg) via setParticleRandom. When unchecked, uses [0,0,0,0] (no variance; BIS example).</Original>
@@ -735,6 +750,11 @@
 				<Russian>Включено: разброс цвета (6-й аргумент) через setParticleRandom. Выключено: [0,0,0,0] (без разброса; пример BIS).</Russian>
 				<Spanish>Marcado: varianza de color (6.º arg.) con setParticleRandom. Sin marcar: [0,0,0,0] (sin varianza; ejemplo BIS).</Spanish>
 				<Turkish>İşaretli: setParticleRandom ile renk sapması (6. argüman). İşaretsiz: [0,0,0,0] (sapma yok; BIS örneği).</Turkish>
+				<Bulgarian>Отметнато: прилага цветова вариация (6-и аргумент) чрез setParticleRandom. Неотметнато: [0,0,0,0] (без вариация; пример от BIS).</Bulgarian>
+				<Hungarian>Bejelölve: színvarianciát (6. argumentum) alkalmaz setParticleRandom segítségével. Kijelölés nélkül: [0,0,0,0] (nincs variancia; BIS példa).</Hungarian>
+				<Ukrainian>Якщо увімкнено: застосовує варіацію кольору (6-й аргумент) через setParticleRandom. Якщо вимкнено: [0,0,0,0] (без варіації; приклад BIS).</Ukrainian>
+				<Slovak>Zaškrtnuté: aplikuje variáciu farby (6. argument) cez setParticleRandom. Nezaškrtnuté: [0,0,0,0] (bez variácie; príklad BIS).</Slovak>
+				<Latin>Si signatum est, variatio coloris (argumentum sextum) per setParticleRandom applicatur. Si non signatum est, [0,0,0,0] adhibetur (sine variatione; exemplum BIS).</Latin>
 			</Key>
 			<Key ID="STR_SQFLAB_Particles_Size">
 				<Original>Particle size</Original>
