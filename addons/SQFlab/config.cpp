@@ -35,6 +35,7 @@ class RscCheckBox;
 #include "\SQFLab\UI\Particles\ui_particles.hpp"
 #include "\SQFLab\UI\Markers\ui_markers.hpp"
 #include "\SQFLab\UI\Lights\ui_lights.hpp"
+#include "\SQFLab\UI\DrawIcon3D\ui_drawIcon3D.hpp"
 
 class CfgFunctions
 {
@@ -94,6 +95,18 @@ class CfgFunctions
 			class lightsSetTimeNight {};
 			class lightsToggleUi {};
 		};
+		class DrawIcon3D
+		{
+			file = "\SQFLab\UI\DrawIcon3D";
+			class drawIcon3DApplyPreview {};
+			class drawIcon3DCleanup {};
+			class drawIcon3DCollectUi {};
+			class drawIcon3DDrawEH {};
+			class drawIcon3DExport {};
+			class drawIcon3DInit {};
+			class drawIcon3DMenu {};
+			class drawIcon3DOnSlider {};
+		};
 		class Config
 		{
 			file = "\SQFLab\Config";
@@ -139,6 +152,13 @@ class CfgUserActions
 		onActivate = "if (_this) then { [] spawn SQFLab_fnc_particlesMenu }";
 		modifierBlocking = 1;
 	};
+	class SQFLab_OpenDrawIcon3D
+	{
+		displayName = $STR_SQFLAB_Keybind_DrawIcon3D;
+		tooltip = $STR_SQFLAB_Keybind_DrawIcon3D_Tooltip;
+		onActivate = "if (_this) then { [] spawn SQFLab_fnc_drawIcon3DMenu }";
+		modifierBlocking = 1;
+	};
 };
 
 class UserActionGroups
@@ -147,6 +167,6 @@ class UserActionGroups
 	{
 		name = $STR_SQFLAB_Keybind_Group;
 		isAddon = 1;
-		group[] = { "SQFLab_OpenMainMenu", "SQFLab_OpenLights", "SQFLab_OpenMarkers", "SQFLab_OpenParticles" };
+		group[] = { "SQFLab_OpenMainMenu", "SQFLab_OpenLights", "SQFLab_OpenMarkers", "SQFLab_OpenParticles", "SQFLab_OpenDrawIcon3D" };
 	};
 };
