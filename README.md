@@ -67,6 +67,27 @@ Adjust particle type, colors, motion, and related parameters, then export partic
 - **Particle params** — size, lifetime, spawn interval, move velocity, rotation velocity, weight, volume, and rubbing; etc.
 - **Live preview** — picture-in-picture next to the panel so you see the effect while moving sliders.
 
+## DrawIcon3D editor
+
+Build and preview `drawIcon3D` payloads in real time, then export a ready-to-run Draw3D snippet.
+
+<p align="center">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td align="center" valign="top"><img src="https://i.gyazo.com/550d877551be1c1544c1ac22c1636859.jpg" alt="DrawIcon3D editor — in-world preview" width="470" /></td>
+      <td align="center" valign="top"><img src="https://i.gyazo.com/12bedf3b62b596047c5c42308fa99616.jpg" alt="DrawIcon3D editor — export result preview" width="470" /></td>
+    </tr>
+  </table>
+</p>
+
+- **Position modes** — place the icon by direct vector, object + Z offset, or object selection + optional LOD.
+- **Core icon fields** — texture, size, font, color RGBA, shadow, fade, dynamic mode, screen offsets, hard alpha, and visibility checks.
+- **Arrow block** — toggle directional arrows with separate texture, size, color, and optional arrow label settings.
+- **Overlay blocks** — configure optional text and progress bar overlays with independent color and layout controls.
+- **Live world preview** — changes are rendered through a `Draw3D` mission event handler while the menu is open.
+- **Export** — generates a `createHashMapFromArray` icon definition plus `Draw3D` handler scaffolding.
+- **Current limitation** — this editor is temporarily available only on Arma 3 Development build (sorry).
+
 # Usage
 Bind the menu in your Arma 3 Settings.
 

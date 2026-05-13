@@ -11,7 +11,7 @@
 
 /* Panel placement (safe zone coordinates) */
 #define SQFLAB_MM_PANEL_W 0.38
-#define SQFLAB_MM_PANEL_H 0.28
+#define SQFLAB_MM_PANEL_H 0.34
 #define SQFLAB_MM_PANEL_X (safeZoneX + (safeZoneW - SQFLAB_MM_PANEL_W) * 0.5)
 #define SQFLAB_MM_PANEL_Y (safeZoneY + (safeZoneH - SQFLAB_MM_PANEL_H) * 0.5)
 
@@ -28,6 +28,7 @@
 #define SQFLAB_MM_Y_LIGHTSOURCES SQFLAB_MM_Y_FIRST_BTN
 #define SQFLAB_MM_Y_MARKERS (SQFLAB_MM_Y_LIGHTSOURCES + SQFLAB_MM_BTN_H + SQFLAB_MM_BTN_GAP)
 #define SQFLAB_MM_Y_PARTICLES (SQFLAB_MM_Y_MARKERS + SQFLAB_MM_BTN_H + SQFLAB_MM_BTN_GAP)
+#define SQFLAB_MM_Y_DRAWICON3D (SQFLAB_MM_Y_PARTICLES + SQFLAB_MM_BTN_H + SQFLAB_MM_BTN_GAP)
 
 class SQFLab_MainMenu
 {
@@ -102,6 +103,13 @@ class SQFLab_MainMenu
 			y = SQFLAB_MM_Y_PARTICLES;
 			text = $STR_SQFLAB_Main_Particles;
 			action = "[] call SQFLab_fnc_particlesMenu";
+		};
+		class BtnDrawIcon3D: BtnLightSources
+		{
+			idc = SQFLAB_MM_IDC_BTN_DRAWICON3D;
+			y = SQFLAB_MM_Y_DRAWICON3D;
+			text = $STR_SQFLAB_Main_DrawIcon3D;
+			action = "[] call SQFLab_fnc_drawIcon3DMenu";
 		};
 	};
 };
