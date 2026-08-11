@@ -80,7 +80,7 @@ createHashMapFromArray [
 		sliderPosition (_group controlsGroupCtrl SQFLAB_DI3D_IDC_SLIDER_COLOR_B),
 		sliderPosition (_group controlsGroupCtrl SQFLAB_DI3D_IDC_SLIDER_COLOR_A)
 	]],
-	["@shadow", cbChecked (_group controlsGroupCtrl SQFLAB_DI3D_IDC_CHK_SHADOW)],
+	["@shadow", [0, 1] select (cbChecked (_group controlsGroupCtrl SQFLAB_DI3D_IDC_CHK_SHADOW))],
 	["@fade", [ctrlText (_group controlsGroupCtrl SQFLAB_DI3D_IDC_EDIT_FADE), [-1, -1]] call SQFLab_fnc_parseArrayOrFallback],
 	["@dynamic", _dynamic],
 	["@offsetX", sliderPosition (_group controlsGroupCtrl SQFLAB_DI3D_IDC_SLIDER_OFFSET_X)],

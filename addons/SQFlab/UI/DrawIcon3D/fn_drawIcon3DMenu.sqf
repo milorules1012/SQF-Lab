@@ -13,10 +13,9 @@ if !(isPlayer player) exitWith {
 	systemChat (localize "STR_SQFLAB_Err_FeatureRequiresPlayer");
 };
 
-private _buildType = productVersion param [4, "", [""]];
-if (_buildType != "Development") exitWith {
-	diag_log format ["[SQFLab] DrawIcon3D editor blocked for buildType '%1' (requires Development)", _buildType];
-	systemChat "SQF Lab DrawIcon3D editor is temporarily only available on Development build.";
+if ((productVersion param [2, 220]) < 222) exitWith {
+	diag_log "[SQFLab] DrawIcon3D editor is only available in Arma version 2.22 and later";
+	systemChat "[SQFLab] DrawIcon3D editor is only available in Arma version 2.22 and later";
 };
 
 private _idd = getNumber (_cfg >> "idd");
