@@ -11,8 +11,8 @@ Tune point and reflector lights (color, power, cone, flare, preview time, etc.) 
 <p align="center">
   <table border="0" cellspacing="0" cellpadding="0">
     <tr>
-      <td align="center" valign="top"><img src="https://i.gyazo.com/a03759b52422a5f5f8d0508edf42f98b.jpg" alt="Light sources editor — in-world preview" width="470" /></td>
-      <td align="center" valign="top"><img src="https://i.gyazo.com/648af91bcbd2cc547696ecef6d1e6a55.jpg" alt="Light sources editor — UI panel" width="470" /></td>
+      <td align="center" valign="top"><img src="https://images.steamusercontent.com/ugc/14201715434627435796/9E9CBA0CDBE53210A33B1844BC7067F4BA883153/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="Light sources editor — in-world preview" width="470" /></td>
+      <td align="center" valign="top"><img src="https://images.steamusercontent.com/ugc/9422597684703172656/D18726F02327E01972F165A5EEA783BD902C1873/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="Light sources editor — UI panel" width="470" /></td>
     </tr>
   </table>
 </p>
@@ -33,8 +33,8 @@ Configure marker identity, channel, shape, brush, color (RGBA), position, and re
 <p align="center">
   <table border="0" cellspacing="0" cellpadding="0">
     <tr>
-      <td align="center" valign="top"><img src="https://i.gyazo.com/4d7b2784919450861296194fff9e3ea3.jpg" alt="Markers editor — map preview" width="470" /></td>
-      <td align="center" valign="top"><img src="https://i.gyazo.com/103eb99ccdbe7ff92a0e5e516e53313a.jpg" alt="Markers editor — UI panel" width="470" /></td>
+      <td align="center" valign="top"><img src="https://images.steamusercontent.com/ugc/10472742808075756170/22BFF0A10C1843E8C7F7022C78C1AEA585AA4260/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="Markers editor — map preview" width="470" /></td>
+      <td align="center" valign="top"><img src="https://images.steamusercontent.com/ugc/10365813461409619382/639C613B2188FFB28482609EB7E925BBC618C5BD/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="Markers editor — UI panel" width="470" /></td>
     </tr>
   </table>
 </p>
@@ -56,8 +56,8 @@ Adjust particle type, colors, motion, and related parameters, then export partic
 <p align="center">
   <table border="0" cellspacing="0" cellpadding="0">
     <tr>
-      <td align="center" valign="top"><img src="https://i.gyazo.com/ea994531cd1b218a8b6ab82e07d99e87.jpg" alt="Particles editor — in-world preview" width="470" /></td>
-      <td align="center" valign="top"><img src="https://i.gyazo.com/a169ce9cf7132f942fc00f1a337781df.jpg" alt="Particles editor — UI panel" width="470" /></td>
+      <td align="center" valign="top"><img src="https://images.steamusercontent.com/ugc/13695614413253223818/0742302BB10E3008D35BFF58F5A9305AAD545D1D/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="Particles editor — in-world preview" width="470" /></td>
+      <td align="center" valign="top"><img src="https://images.steamusercontent.com/ugc/12447255737539556952/1F4B0578D286D90D29B1F3AA7E7474C490B3D12F/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="Particles editor — UI panel" width="470" /></td>
     </tr>
   </table>
 </p>
@@ -74,8 +74,8 @@ Build and preview `drawIcon3D` payloads in real time, then export a ready-to-run
 <p align="center">
   <table border="0" cellspacing="0" cellpadding="0">
     <tr>
-      <td align="center" valign="top"><img src="https://i.gyazo.com/550d877551be1c1544c1ac22c1636859.jpg" alt="DrawIcon3D editor — in-world preview" width="470" /></td>
-      <td align="center" valign="top"><img src="https://i.gyazo.com/12bedf3b62b596047c5c42308fa99616.jpg" alt="DrawIcon3D editor — export result preview" width="470" /></td>
+      <td align="center" valign="top"><img src="https://images.steamusercontent.com/ugc/13593164696727906443/2D1AD46A1F5B1EA52C3EDD79E8F44973C4758376/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="DrawIcon3D editor — in-world preview" width="470" /></td>
+      <td align="center" valign="top"><img src="https://images.steamusercontent.com/ugc/18101135485976749788/F6012A0EA2CE656CA8A3BA06BBFC337623291FE3/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="DrawIcon3D editor — export result preview" width="470" /></td>
     </tr>
   </table>
 </p>
@@ -91,6 +91,6 @@ Build and preview `drawIcon3D` payloads in real time, then export a ready-to-run
 # Usage
 Bind the menu in your Arma 3 Settings.
 
-![SQF Lab usage binding menu](https://i.gyazo.com/4808ad88a5aae47a5dc6a7986a38bf82.jpg)
+![SQF Lab usage binding menu](https://images.steamusercontent.com/ugc/15861013107902507457/381BDA3B6017BBD33A22FB337BB5BA38D45C1D78/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
 
 
