@@ -1,5 +1,8 @@
 # SQF Lab
 
+> [!NOTE]  
+> This mod was created with AI and with a pretty crappy model. The way the code is written is pretty unhinged, my least favorite being how functions return large hashmaps needlessly. While the practical usage of this mod is good, the code isn't. The rest of the `README.md` below is AI written.
+
 SQF Lab is an Arma 3 addon aimed at making **mission and mod development easier**. The addon provides multiple previews like the **3D scene**, the **map** where relevant, and **picture-in-picture** for features that use it—so you can judge colors, placement, and behaviour before exporting. Exporting produces ready-to-paste SQF code. Output goes to the clipboard when supported; otherwise it is written to the RPT log so you can still copy it with convenience.
 
 # Features
